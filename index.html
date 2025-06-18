@@ -8,682 +8,1019 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- 顶部标题 -->
-    <div class="app-header">
-        <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
+<!-- 顶部标题 -->
+<div class="app-header">
+    <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="header-content">
+        <h1><i class="fas fa-gamepad"></i> 新创Test Tools</h1>
+        <p>整理一些常用到的小工具，方便日常使用</p>
+    </div>
+</div>
+
+<!-- 遮罩层 -->
+<div class="overlay"></div>
+
+<!-- 主容器 -->
+<div class="main-container">
+    <!-- 左侧导航栏 -->
+    <div class="sidebar">
+        <div class="sidebar-section">
+            <div class="sidebar-title">
+                <i class="fas fa-tools"></i> 常用工具
+            </div>
+            <div class="sidebar-section-content">
+                <div class="tool-nav-item active" data-tool="welcome">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="tool-nav-title">首页概览</div>
+                </div>
+                <div class="tool-nav-item" data-tool="deepseek-ai">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="tool-nav-title">Super Test AI助手</div>
+                </div>
+                <div class="tool-nav-item" data-tool="remainder-calculator">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="tool-nav-title">余数计算器</div>
+                </div>
+                <div class="tool-nav-item" data-tool="timestamp-converter">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="tool-nav-title">时间戳转换</div>
+                </div>
+                <div class="tool-nav-item" data-tool="cd-converter">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-hourglass-half"></i>
+                    </div>
+                    <div class="tool-nav-title">CD转换工具</div>
+                </div>
+                <div class="tool-nav-item" data-tool="currency-converter">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div class="tool-nav-title">汇率转换</div>
+                </div>
+                <div class="tool-nav-item" data-tool="network-simulator">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="tool-nav-title">模拟弱网工具</div>
+                </div>
+                <div class="tool-nav-item" data-tool="screenshot-translation">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="tool-nav-title">截屏翻译</div>
+                </div>
+            </div>
         </div>
-        <div class="header-content">
-            <h1><i class="fas fa-gamepad"></i> 新创Test Tools</h1>
-            <p>整理一些常用到的小工具，方便日常使用</p>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">
+                <i class="fa fa-link"></i> 常用链接
+            </div>
+            <div class="sidebar-section-content">
+                <div class="tool-nav-item" data-tool="zentao-link">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <div class="tool-nav-title">禅道缺陷管理</div>
+                </div>
+                <div class="tool-nav-item" data-tool="package-download">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="tool-nav-title">安装包下载</div>
+                </div>
+                <div class="tool-nav-item" data-tool="bugly-link">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <div class="tool-nav-title">Bugly异常监测</div>
+                </div>
+                <div class="tool-nav-item" data-tool="APPstore-link">
+                    <div class="tool-nav-icon">
+                        <i class="fa fa-key"></i>
+                    </div>
+                    <div class="tool-nav-title">APP Store外区账号</div>
+                </div>
+                <div class="tool-nav-item" data-tool="iPhone-link">
+                    <div class="tool-nav-icon">
+                        <i class="fa fa-mobile"></i>
+                    </div>
+                    <div class="tool-nav-title">国外接码/短信平台</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">
+                <i class="fa fa-comments"></i> 常见问题
+            </div>
+            <div class="sidebar-section-content">
+                <div class="tool-nav-item" data-tool="faq-1">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="tool-nav-title">如何报告游戏Bug？</div>
+                </div>
+                <div class="tool-nav-item" data-tool="faq-2">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="tool-nav-title">常见报错指南</div>
+                </div>
+                <div class="tool-nav-item" data-tool="faq-3">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="tool-nav-title">弱网模拟设置指南</div>
+                </div>
+                <div class="tool-nav-item" data-tool="faq-4">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="tool-nav-title">翻译工具使用说明</div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- 遮罩层 -->
-    <div class="overlay"></div>
+    <!-- 右侧工具区 -->
+    <div class="tools-container">
+        <!-- 欢迎界面（首页概览） -->
+        <div class="tool-content active" id="welcome">
+            <div class="welcome-message">
+                <i class="fas fa-gamepad"></i>
+                <h2>欢迎使用测试小工具盒</h2>
+                <p>请从左侧导航栏选择您所需，有好用的网页工具记得及时分享哦，会及时收纳到我们的小工具页签呀</p>
 
-    <!-- 主容器 -->
-    <div class="main-container">
-        <!-- 左侧导航栏 -->
-        <div class="sidebar">
-            <div class="sidebar-section">
-                <div class="sidebar-title">
-                    <i class="fas fa-tools"></i> 常用工具
+                <!-- 时钟小组件 - 优化版 -->
+                <div class="clock-widget">
+                    <div class="clock-time" id="clock-time">00:00:00</div>
+                    <div class="clock-date" id="clock-date">2023年7月15日 星期五</div>
+                    <div class="clock-seconds" id="clock-seconds">00秒</div>
                 </div>
-                <div class="sidebar-section-content">
-                    <div class="tool-nav-item active" data-tool="welcome">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-home"></i>
-                        </div>
-                        <div class="tool-nav-title">首页概览</div>
+
+                <!-- 自定义图片区域 -->
+                <div class="custom-image-container">
+                    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                         alt="努力上班，赚钱钱"
+                         class="custom-image">
+                </div>
+            </div>
+
+            <!-- 天气和星座运势卡片 -->
+            <div class="info-cards-container">
+                <!-- 天气卡片 -->
+                <div class="info-card">
+                    <div class="info-card-header">
+                        <i class="fas fa-sun"></i>
+                        <h3>今日天气</h3>
                     </div>
-                    <div class="tool-nav-item" data-tool="deepseek-ai">
-                        <div class="tool-nav-icon">
+                    <div class="weather-container">
+                        <div class="weather-icon sunny" id="weather-icon">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <div class="weather-details">
+                            <div class="weather-temp" id="weather-temp">26°C</div>
+                            <div class="weather-location">
+                                <i class="fas fa-map-marker-alt"></i> <span id="weather-location">北京</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="current-date">
+                        <i class="far fa-calendar-alt"></i> <span id="weather-date">2023年7月15日 星期五</span>
+                    </div>
+                </div>
+
+                <!-- 星座运势卡片 -->
+                <div class="info-card">
+                    <div class="info-card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>今日星座运势</h3>
+                    </div>
+                    <div class="horoscope-container">
+                        <ul class="horoscope-list" id="horoscope-list">
+                            <li class="horoscope-item">
+                                <div class="horoscope-content">
+                                    <span class="horoscope-sign">白羊座 (3.21-4.19):</span>
+                                    <span class="horoscope-score">★★★★☆</span>
+                                    <div>今天工作上有突破性进展，抓住机会展示你的能力。</div>
+                                </div>
+                            </li>
+                            <li class="horoscope-item">
+                                <div class="horoscope-content">
+                                    <span class="horoscope-sign">金牛座 (4.20-5.20):</span>
+                                    <span class="horoscope-score">★★★☆☆</span>
+                                    <div>财务方面需要谨慎，避免冲动消费。</div>
+                                </div>
+                            </li>
+                            <li class="horoscope-item">
+                                <div class="horoscope-content">
+                                    <span class="horoscope-sign">双子座 (5.21-6.21):</span>
+                                    <span class="horoscope-score">★★★★★</span>
+                                    <div>社交运极佳，适合拓展人脉和团队合作。</div>
+                                </div>
+                            </li>
+                            <li class="horoscope-item">
+                                <div class="horoscope-content">
+                                    <span class="horoscope-sign">巨蟹座 (6.22-7.22):</span>
+                                    <span class="horoscope-score">★★★☆☆</span>
+                                    <div>情绪波动较大，需要自我调节。</div>
+                                </div>
+                            </li>
+                            <li class="horoscope-item">
+                                <div class="horoscope-content">
+                                    <span class="horoscope-sign">狮子座 (7.23-8.22):</span>
+                                    <span class="horoscope-score">★★★★☆</span>
+                                    <div>领导能力凸显，适合主导项目。</div>
+                                </div>
+                            </li>
+                            <li class="horoscope-item">
+                                <div class="horoscope-content">
+                                    <span class="horoscope-sign">处女座 (8.23-9.22):</span>
+                                    <span class="horoscope-score">★★★☆☆</span>
+                                    <div>细节决定成败，注意检查工作。</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-hint">
+                <i class="fas fa-info-circle"></i> 提示：点击左上角菜单按钮查看更多工具
+            </div>
+        </div>
+
+        <!-- Super Test AI助手 -->
+        <div class="tool-content" id="deepseek-ai">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="tool-header-title">Super Test AI助手</div>
+            </div>
+
+            <div class="ai-suggestions">
+                <div class="ai-suggestion" data-question="如何优化游戏性能？">
+                    <i class="fas fa-bolt"></i> 性能优化
+                </div>
+                <div class="ai-suggestion" data-question="如何编写测试用例？">
+                    <i class="fas fa-file-alt"></i> 测试用例
+                </div>
+                <div class="ai-suggestion" data-question="如何模拟弱网环境？">
+                    <i class="fas fa-wifi"></i> 弱网模拟
+                </div>
+                <div class="ai-suggestion" data-question="如何处理内存泄漏？">
+                    <i class="fas fa-memory"></i> 内存管理
+                </div>
+            </div>
+
+            <div class="ai-messages" id="ai-messages">
+                <div class="message ai-message">
+                    <div class="message-header">
+                        <div class="message-icon">
                             <i class="fas fa-robot"></i>
                         </div>
-                        <div class="tool-nav-title">Super Test AI助手</div>
+                        <strong>Super Test AI助手</strong>
                     </div>
-                    <div class="tool-nav-item" data-tool="remainder-calculator">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-calculator"></i>
-                        </div>
-                        <div class="tool-nav-title">余数计算器</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="timestamp-converter">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="tool-nav-title">时间戳转换</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="cd-converter">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-hourglass-half"></i>
-                        </div>
-                        <div class="tool-nav-title">CD转换工具</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="network-simulator">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-wifi"></i>
-                        </div>
-                        <div class="tool-nav-title">模拟弱网工具</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="screenshot-translation">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-language"></i>
-                        </div>
-                        <div class="tool-nav-title">截屏翻译</div>
+                    <div class="message-content">
+                        您好！我是Super Test AI助手助手，我可以帮助您解决测试相关的问题。请告诉我您需要什么帮助？
                     </div>
                 </div>
             </div>
 
-            <div class="sidebar-section">
-                <div class="sidebar-title">
-                    <i class="fa fa-link"></i> 常用链接
-                </div>
-                <div class="sidebar-section-content">
-                    <div class="tool-nav-item" data-tool="zentao-link">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-bug"></i>
-                        </div>
-                        <div class="tool-nav-title">禅道缺陷管理</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="package-download">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-download"></i>
-                        </div>
-                        <div class="tool-nav-title">安装包下载</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="bugly-link">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-cog"></i>
-                        </div>
-                        <div class="tool-nav-title">Bugly异常监测</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="APPstore-link">
-                        <div class="tool-nav-icon">
-                            <i class="fa fa-key"></i>
-                        </div>
-                        <div class="tool-nav-title">APP Store外区账号</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="iPhone-link">
-                        <div class="tool-nav-icon">
-                            <i class="fa fa-mobile"></i>
-                        </div>
-                        <div class="tool-nav-title">国外接码/短信平台</div>
-                    </div>
-                </div>
+            <div class="input-group">
+                <textarea id="ai-question" rows="3" placeholder="请输入您的问题，例如：如何优化游戏性能？"></textarea>
             </div>
 
-            <div class="sidebar-section">
-                <div class="sidebar-title">
-                    <i class="fa fa-comments"></i> 常见问题
+            <div class="flex-row">
+                <button class="btn btn-ai" id="send-ai-question">
+                    <i class="fas fa-paper-plane"></i> 发送问题
+                </button>
+                <button class="btn btn-danger" id="clear-ai-chat">
+                    <i class="fas fa-trash-alt"></i> 清空对话
+                </button>
+            </div>
+        </div>
+
+        <!-- 余数计算器 -->
+        <div class="tool-content" id="remainder-calculator">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-calculator"></i>
                 </div>
-                <div class="sidebar-section-content">
-                    <div class="tool-nav-item" data-tool="faq-1">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-question-circle"></i>
-                        </div>
-                        <div class="tool-nav-title">如何报告游戏Bug？</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="faq-2">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-question-circle"></i>
-                        </div>
-                        <div class="tool-nav-title">游戏安装包无法下载</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="faq-3">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-question-circle"></i>
-                        </div>
-                        <div class="tool-nav-title">弱网模拟设置指南</div>
-                    </div>
-                    <div class="tool-nav-item" data-tool="faq-4">
-                        <div class="tool-nav-icon">
-                            <i class="fas fa-question-circle"></i>
-                        </div>
-                        <div class="tool-nav-title">翻译工具使用说明</div>
-                    </div>
+                <div class="tool-header-title">余数计算器</div>
+            </div>
+
+            <div class="input-group">
+                <label>被除数</label>
+                <input type="number" id="dividend" placeholder="输入被除数" value="100">
+            </div>
+
+            <div class="input-group">
+                <label>除数</label>
+                <input type="number" id="divisor" placeholder="输入除数" value="7">
+            </div>
+
+            <button class="btn" id="calculate-remainder">
+                <i class="fas fa-calculate"></i> 计算余数
+            </button>
+
+            <div class="result-box" id="remainder-result">
+                <div style="text-align: center; color: #718096; padding: 10px;">
+                    点击计算按钮获取结果
                 </div>
             </div>
         </div>
 
-        <!-- 右侧工具区 -->
-        <div class="tools-container">
-            <!-- 欢迎界面（首页概览） -->
-            <div class="tool-content active" id="welcome">
-                <div class="welcome-message">
-                    <i class="fas fa-gamepad"></i>
-                    <h2>欢迎使用测试小工具盒</h2>
-                    <p>请从左侧导航栏选择您所需，有好用的网页工具记得及时分享哦，会及时收纳到我们的小工具页签呀</p>
-
-                    <!-- 时钟小组件 - 优化版 -->
-                    <div class="clock-widget">
-                        <div class="clock-time" id="clock-time">00:00:00</div>
-                        <div class="clock-date" id="clock-date">2023年7月15日 星期五</div>
-                        <div class="clock-seconds" id="clock-seconds">00秒</div>
-                    </div>
-
-                    <!-- 自定义图片区域 -->
-                    <div class="custom-image-container">
-                        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
-                            alt="努力上班，赚钱钱"
-                            class="custom-image">
-                    </div>
+        <!-- 时间戳转换 - 新增天转换功能 -->
+        <div class="tool-content" id="timestamp-converter">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-clock"></i>
                 </div>
-
-                <!-- 天气和星座运势卡片 -->
-                <div class="info-cards-container">
-                    <!-- 天气卡片 -->
-                    <div class="info-card">
-                        <div class="info-card-header">
-                            <i class="fas fa-sun"></i>
-                            <h3>今日天气</h3>
-                        </div>
-                        <div class="weather-container">
-                            <div class="weather-icon sunny" id="weather-icon">
-                                <i class="fas fa-sun"></i>
-                            </div>
-                            <div class="weather-details">
-                                <div class="weather-temp" id="weather-temp">26°C</div>
-                                <div class="weather-location">
-                                    <i class="fas fa-map-marker-alt"></i> <span id="weather-location">北京</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="current-date">
-                            <i class="far fa-calendar-alt"></i> <span id="weather-date">2023年7月15日 星期五</span>
-                        </div>
-                    </div>
-
-                    <!-- 星座运势卡片 -->
-                    <div class="info-card">
-                        <div class="info-card-header">
-                            <i class="fas fa-star"></i>
-                            <h3>今日星座运势</h3>
-                        </div>
-                        <div class="horoscope-container">
-                            <ul class="horoscope-list" id="horoscope-list">
-                                <li class="horoscope-item">
-                                    <div class="horoscope-content">
-                                        <span class="horoscope-sign">白羊座 (3.21-4.19):</span>
-                                        <span class="horoscope-score">★★★★☆</span>
-                                        <div>今天工作上有突破性进展，抓住机会展示你的能力。</div>
-                                    </div>
-                                </li>
-                                <li class="horoscope-item">
-                                    <div class="horoscope-content">
-                                        <span class="horoscope-sign">金牛座 (4.20-5.20):</span>
-                                        <span class="horoscope-score">★★★☆☆</span>
-                                        <div>财务方面需要谨慎，避免冲动消费。</div>
-                                    </div>
-                                </li>
-                                <li class="horoscope-item">
-                                    <div class="horoscope-content">
-                                        <span class="horoscope-sign">双子座 (5.21-6.21):</span>
-                                        <span class="horoscope-score">★★★★★</span>
-                                        <div>社交运极佳，适合拓展人脉和团队合作。</div>
-                                    </div>
-                                </li>
-                                <li class="horoscope-item">
-                                    <div class="horoscope-content">
-                                        <span class="horoscope-sign">巨蟹座 (6.22-7.22):</span>
-                                        <span class="horoscope-score">★★★☆☆</span>
-                                        <div>情绪波动较大，需要自我调节。</div>
-                                    </div>
-                                </li>
-                                <li class="horoscope-item">
-                                    <div class="horoscope-content">
-                                        <span class="horoscope-sign">狮子座 (7.23-8.22):</span>
-                                        <span class="horoscope-score">★★★★☆</span>
-                                        <div>领导能力凸显，适合主导项目。</div>
-                                    </div>
-                                </li>
-                                <li class="horoscope-item">
-                                    <div class="horoscope-content">
-                                        <span class="horoscope-sign">处女座 (8.23-9.22):</span>
-                                        <span class="horoscope-score">★★★☆☆</span>
-                                        <div>细节决定成败，注意检查工作。</div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mobile-hint">
-                    <i class="fas fa-info-circle"></i> 提示：点击左上角菜单按钮查看更多工具
-                </div>
+                <div class="tool-header-title">时间戳转换</div>
             </div>
 
-            <!-- Super Test AI助手 -->
-            <div class="tool-content" id="deepseek-ai">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <div class="tool-header-title">Super Test AI助手</div>
-                </div>
+            <div class="timestamp-container">
+                <div class="timestamp-row">
+                    <div>
+                        <div class="input-group">
+                            <label>时间戳</label>
+                            <input type="number" id="timestamp-input" placeholder="输入时间戳" value="">
 
-                <div class="ai-suggestions">
-                    <div class="ai-suggestion" data-question="如何优化游戏性能？">
-                        <i class="fas fa-bolt"></i> 性能优化
-                    </div>
-                    <div class="ai-suggestion" data-question="如何编写测试用例？">
-                        <i class="fas fa-file-alt"></i> 测试用例
-                    </div>
-                    <div class="ai-suggestion" data-question="如何模拟弱网环境？">
-                        <i class="fas fa-wifi"></i> 弱网模拟
-                    </div>
-                    <div class="ai-suggestion" data-question="如何处理内存泄漏？">
-                        <i class="fas fa-memory"></i> 内存管理
-                    </div>
-                </div>
-
-                <div class="ai-messages" id="ai-messages">
-                    <div class="message ai-message">
-                        <div class="message-header">
-                            <div class="message-icon">
-                                <i class="fas fa-robot"></i>
+                            <!-- 时间戳单位选择 -->
+                            <div class="timestamp-unit-select">
+                                <div class="timestamp-unit-option active" data-unit="seconds">秒</div>
+                                <div class="timestamp-unit-option" data-unit="milliseconds">毫秒</div>
                             </div>
-                            <strong>Super Test AI助手</strong>
-                        </div>
-                        <div class="message-content">
-                            您好！我是Super Test AI助手助手，我可以帮助您解决测试相关的问题。请告诉我您需要什么帮助？
-                        </div>
-                    </div>
-                </div>
 
-                <div class="input-group">
-                    <textarea id="ai-question" rows="3" placeholder="请输入您的问题，例如：如何优化游戏性能？"></textarea>
-                </div>
-
-                <div class="flex-row">
-                    <button class="btn btn-ai" id="send-ai-question">
-                        <i class="fas fa-paper-plane"></i> 发送问题
-                    </button>
-                    <button class="btn btn-danger" id="clear-ai-chat">
-                        <i class="fas fa-trash-alt"></i> 清空对话
-                    </button>
-                </div>
-            </div>
-
-            <!-- 余数计算器 -->
-            <div class="tool-content" id="remainder-calculator">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-calculator"></i>
-                    </div>
-                    <div class="tool-header-title">余数计算器</div>
-                </div>
-
-                <div class="input-group">
-                    <label>被除数</label>
-                    <input type="number" id="dividend" placeholder="输入被除数" value="100">
-                </div>
-
-                <div class="input-group">
-                    <label>除数</label>
-                    <input type="number" id="divisor" placeholder="输入除数" value="7">
-                </div>
-
-                <button class="btn" id="calculate-remainder">
-                    <i class="fas fa-calculate"></i> 计算余数
-                </button>
-
-                <div class="result-box" id="remainder-result">
-                    <div style="text-align: center; color: #718096; padding: 10px;">
-                        点击计算按钮获取结果
-                    </div>
-                </div>
-            </div>
-
-            <!-- 时间戳转换 - 新增天转换功能 -->
-            <div class="tool-content" id="timestamp-converter">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <div class="tool-header-title">时间戳转换</div>
-                </div>
-
-                <div class="timestamp-container">
-                    <div class="timestamp-row">
-                        <div>
-                            <div class="input-group">
-                                <label>时间戳</label>
-                                <input type="number" id="timestamp-input" placeholder="输入时间戳" value="">
-
-                                <!-- 时间戳单位选择 -->
-                                <div class="timestamp-unit-select">
-                                    <div class="timestamp-unit-option active" data-unit="seconds">秒</div>
-                                    <div class="timestamp-unit-option" data-unit="milliseconds">毫秒</div>
-                                </div>
-
-                                <!-- 转换按钮组 -->
-                                <div class="timestamp-actions">
-                                    <button class="btn" id="convert-to-date">
-                                        <i class="fas fa-calendar"></i> 转日期
-                                    </button>
-                                    <button class="btn btn-purple" id="convert-to-days">
-                                        <i class="fas fa-calendar-day"></i> 转天数
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="input-group">
-                                <label>日期时间</label>
-                                <input type="datetime-local" id="datetime-input" placeholder="选择日期时间">
-                                <button class="btn" id="convert-to-timestamp" style="margin-top: 10px;">
-                                    <i class="fas fa-clock"></i> 转时间戳
+                            <!-- 转换按钮组 -->
+                            <div class="timestamp-actions">
+                                <button class="btn" id="convert-to-date">
+                                    <i class="fas fa-calendar"></i> 转日期
+                                </button>
+                                <button class="btn btn-purple" id="convert-to-days">
+                                    <i class="fas fa-calendar-day"></i> 转天数
                                 </button>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="timestamp-result" id="timestamp-result">
-                    <div style="text-align: center; color: #718096; padding: 10px;">
-                        转换结果将显示在这里
-                    </div>
-                </div>
-
-                <!-- 新增天数转换结果区域 -->
-                <div class="days-conversion-result" id="days-result" style="display: none;">
-                    <div style="text-align: center; font-weight: bold; margin-bottom: 10px;">
-                        <i class="fas fa-calendar-day"></i> 天数转换结果
-                    </div>
-                    <div class="days-result-value" id="days-value">0</div>
-                    <div style="text-align: center; color: #a0aec0; font-size: 0.9rem;">
-                        1天 = 86400秒 = 86400000毫秒
-                    </div>
-                </div>
-            </div>
-
-            <!-- 优化后的CD转换工具 -->
-            <div class="tool-content" id="cd-converter">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-hourglass-half"></i>
-                    </div>
-                    <div class="tool-header-title">CD时间转换工具</div>
-                </div>
-
-                <div class="input-group">
-                    <label>输入CD时间</label>
-                    <input type="number" id="cd-value" placeholder="输入时间值" value="1">
-
-                    <div class="unit-selector">
-                        <div class="unit-option active" data-unit="milliseconds">毫秒</div>
-                        <div class="unit-option" data-unit="seconds">秒</div>
-                        <div class="unit-option" data-unit="minutes">分钟</div>
-                        <div class="unit-option" data-unit="hours">小时</div>
-                        <div class="unit-option" data-unit="days">天</div>
-                    </div>
-
-                    <div class="cd-examples">
-                        <div class="cd-example" data-value="1000" data-unit="milliseconds">1秒 (1000ms)</div>
-                        <div class="cd-example" data-value="60000" data-unit="milliseconds">1分钟 (60000ms)</div>
-                        <div class="cd-example" data-value="86400000" data-unit="milliseconds">1天 (86400000ms)</div>
-                        <div class="cd-example" data-value="604800000" data-unit="milliseconds">7天 (604800000ms)</div>
-                    </div>
-                </div>
-
-                <button class="btn" id="convert-cd">
-                    <i class="fas fa-sync-alt"></i> 转换时间
-                </button>
-
-                <div class="result-box" id="cd-result">
-                    <div style="text-align: center; color: #718096; padding: 10px;">
-                        点击转换按钮获取结果
-                    </div>
-                </div>
-
-                <div class="cd-result" id="cd-units">
-                    <div class="cd-unit">
-                        <div class="cd-value">0</div>
-                        <div class="cd-label">天</div>
-                    </div>
-                    <div class="cd-unit">
-                        <div class="cd-value">0</div>
-                        <div class="cd-label">小时</div>
-                    </div>
-                    <div class="cd-unit">
-                        <div class="cd-value">0</div>
-                        <div class="cd-label">分钟</div>
-                    </div>
-                    <div class="cd-unit">
-                        <div class="cd-value">0</div>
-                        <div class="cd-label">秒</div>
-                    </div>
-                    <div class="cd-unit">
-                        <div class="cd-value">0</div>
-                        <div class="cd-label">毫秒</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 模拟弱网工具 -->
-            <div class="tool-content" id="network-simulator">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-wifi"></i>
-                    </div>
-                    <div class="tool-header-title">模拟弱网工具</div>
-                </div>
-
-                <div class="input-group">
-                    <label>网络延迟 (ms)</label>
-                    <div class="slider-container">
-                        <input type="range" id="latency" min="0" max="1000" value="50">
-                        <span class="slider-value" id="latency-value">50ms</span>
-                    </div>
-                </div>
-
-                <div class="input-group">
-                    <label>丢包率 (%)</label>
-                    <div class="slider-container">
-                        <input type="range" id="packet-loss" min="0" max="50" value="0">
-                        <span class="slider-value" id="loss-value">0%</span>
-                    </div>
-                </div>
-
-                <div class="network-status">
-                    <div class="network-item network-good" id="network-good">
-                        <div class="network-indicator"></div>
-                        <div>
-                            <h4>良好网络</h4>
-                            <p>延迟: 0-50ms, 丢包: 0%</p>
-                        </div>
-                    </div>
-
-                    <div class="network-item network-medium" id="network-medium">
-                        <div class="network-indicator"></div>
-                        <div>
-                            <h4>中等网络</h4>
-                            <p>延迟: 100-300ms, 丢包: 5-10%</p>
-                        </div>
-                    </div>
-
-                    <div class="network-item network-poor" id="network-poor">
-                        <div class="network-indicator"></div>
-                        <div>
-                            <h4>弱网环境</h4>
-                            <p>延迟: 500-1000ms, 丢包: 20-50%</p>
+                    <div>
+                        <div class="input-group">
+                            <label>日期时间</label>
+                            <input type="datetime-local" id="datetime-input" placeholder="选择日期时间">
+                            <button class="btn" id="convert-to-timestamp" style="margin-top: 10px;">
+                                <i class="fas fa-clock"></i> 转时间戳
+                            </button>
                         </div>
                     </div>
                 </div>
-
-                <button class="btn" id="apply-network">
-                    <i class="fas fa-plug"></i> 应用网络设置
-                </button>
             </div>
 
-            <!-- 截屏翻译 -->
-            <div class="tool-content" id="screenshot-translation">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-language"></i>
-                    </div>
-                    <div class="tool-header-title">截屏翻译</div>
-                </div>
-
-                <div class="screenshot-area" id="screenshot-area">
-                    <i class="fas fa-camera"></i>
-                    <p>点击捕获屏幕或上传图片</p>
-                    <small>支持PNG、JPG格式</small>
-                    <input type="file" id="screenshot-upload" accept="image/*" style="display: none">
-                </div>
-
-                <img id="screenshot-preview" alt="截图预览">
-
-                <div class="input-group">
-                    <label>目标语言</label>
-                    <select id="target-language">
-                        <option value="en">英语</option>
-                        <option value="ja">日语</option>
-                        <option value="ko">韩语</option>
-                        <option value="fr">法语</option>
-                        <option value="de">德语</option>
-                        <option value="es">西班牙语</option>
-                    </select>
-                </div>
-
-                <button class="btn" id="translate-screenshot">
-                    <i class="fas fa-language"></i> 翻译截图
-                </button>
-
-                <div class="translation-result" id="translation-result">
-                    <div style="text-align: center; color: #718096; padding: 20px 0;">
-                        翻译结果将显示在这里
-                    </div>
+            <div class="timestamp-result" id="timestamp-result">
+                <div style="text-align: center; color: #718096; padding: 10px;">
+                    转换结果将显示在这里
                 </div>
             </div>
 
-            <!-- 禅道链接 -->
-            <div class="tool-content" id="zentao-link">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-bug"></i>
-                    </div>
-                    <div class="tool-header-title">禅道缺陷管理</div>
+            <!-- 新增天数转换结果区域 -->
+            <div class="days-conversion-result" id="days-result" style="display: none;">
+                <div style="text-align: center; font-weight: bold; margin-bottom: 10px;">
+                    <i class="fas fa-calendar-day"></i> 天数转换结果
                 </div>
-
-                <div class="link-card">
-                    <i class="fas fa-external-link-alt"></i>
-                    <h3>禅道缺陷管理系统</h3>
-                    <p>访问禅道系统查看和提交缺陷报告，跟踪问题解决进度</p>
-                    <button class="btn btn-link"
-                            id="zentao-link-btn">
-                        <i class="fas fa-external-link-alt"></i> 访问禅道系统
-                    </button>
-                </div>
-            </div>
-
-            <!-- 安装包链接 -->
-            <div class="tool-content" id="package-download">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-download"></i>
-                    </div>
-                    <div class="tool-header-title">安装包下载</div>
-                </div>
-
-                <div class="link-card">
-                    <i class="fas fa-cloud-download-alt"></i>
-                    <h3>游戏安装包下载</h3>
-                    <p>获取最新的游戏测试版本安装包，包含PC、Android和iOS平台</p>
-                    <button class="btn btn-link" id="package-download-btn">
-                        <i class="fas fa-download"></i> 下载安装包
-                    </button>
-                </div>
-            </div>
-
-
-            <!-- bugly链接 -->
-            <div class="tool-content" id="bugly-link">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-cog"></i>
-                    </div>
-                    <div class="tool-header-title">Bugly监测</div>
-                </div>
-
-                <div class="link-card">
-                    <i class="fas fa-external-link-alt"></i>
-                    <h3>Bugly异常上报</h3>
-                    <p>监测双端平台奔溃以及异常情况</p>
-                    <button class="btn btn-link" id="bugly-link-btn">
-                        <i class="fas fa-external-link-alt"></i> 访问bugly页面
-                    </button>
-                </div>
-            </div>
-
-            <!-- APP Store账号 -->
-            <div class="tool-content" id="APPstore-link">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fa fa-key"></i>
-                    </div>
-                    <div class="tool-header-title">APP store账号</div>
-                </div>
-
-                <div class="link-card">
-                    <i class="fa fa-key"></i>
-                    <h3>APP Store外区账号</h3>
-                    <p>可用于登录APP store下载更新游戏版本，使用时请看注意网页账号上面的使用详情！！</p>
-                    <button class="btn btn-link" id="appstore-link-btn">
-                        <i class="fa fa-key"></i> 获取账号密码
-                    </button>
-                </div>
-            </div>
-
-            <!-- 国外接码平台 -->
-            <div class="tool-content" id="iPhone-link">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fa fa-mobile"></i>
-                    </div>
-                    <div class="tool-header-title">国外手机接码平台</div>
-                </div>
-
-                <div class="link-card">
-                    <i class="fa fa-mobile"></i>
-                    <h3>国外手机/短信接码平台</h3>
-                    <p>可用于接收国外手机验证码/短信，注意选取号码时点进去看下最近接码时间，尽量找近1分钟内的</p>
-                    <button class="btn btn-link" id="iphone-link-btn">
-                        <i class="fa fa-mobile"></i> 直达接码平台
-                    </button>
-                </div>
-            </div>
-
-            <!-- 常见问题页面 -->
-            <div class="tool-content" id="faq-1">
-                <div class="tool-header">
-                    <div class="tool-header-icon">
-                        <i class="fas fa-question-circle"></i>
-                    </div>
-                    <div class="tool-header-title">如何报告游戏Bug？</div>
-                </div>
-                <div class="info-card">
-                    <h3>报告Bug的步骤：</h3>
-                    <ol style="padding-left: 20px; margin-top: 15px;">
-                        <li>登录禅道缺陷管理系统</li>
-                        <li>点击"提交Bug"按钮</li>
-                        <li>填写Bug标题（简洁明了描述问题）</li>
-                        <li>选择影响版本、Bug类型和严重程度</li>
-                        <li>详细描述问题现象和重现步骤</li>
-                        <li>上传截图或视频附件</li>
-                        <li>提交Bug并分配给对应开发人员</li>
-                    </ol>
-                    <button class="btn" id="go-to-zen-tao" style="margin-top: 20px;">前往禅道系统</button>
+                <div class="days-result-value" id="days-value">0</div>
+                <div style="text-align: center; color: #a0aec0; font-size: 0.9rem;">
+                    1天 = 86400秒 = 86400000毫秒
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="script.js"></script>
+        <!-- 优化后的CD转换工具 -->
+        <div class="tool-content" id="cd-converter">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-hourglass-half"></i>
+                </div>
+                <div class="tool-header-title">CD时间转换工具</div>
+            </div>
+
+            <div class="input-group">
+                <label>输入CD时间</label>
+                <input type="number" id="cd-value" placeholder="输入时间值" value="1">
+
+                <div class="unit-selector">
+                    <div class="unit-option active" data-unit="milliseconds">毫秒</div>
+                    <div class="unit-option" data-unit="seconds">秒</div>
+                    <div class="unit-option" data-unit="minutes">分钟</div>
+                    <div class="unit-option" data-unit="hours">小时</div>
+                    <div class="unit-option" data-unit="days">天</div>
+                </div>
+
+                <div class="cd-examples">
+                    <div class="cd-example" data-value="1000" data-unit="milliseconds">1秒 (1000ms)</div>
+                    <div class="cd-example" data-value="60000" data-unit="milliseconds">1分钟 (60000ms)</div>
+                    <div class="cd-example" data-value="86400000" data-unit="milliseconds">1天 (86400000ms)</div>
+                    <div class="cd-example" data-value="604800000" data-unit="milliseconds">7天 (604800000ms)</div>
+                </div>
+            </div>
+
+            <button class="btn" id="convert-cd">
+                <i class="fas fa-sync-alt"></i> 转换时间
+            </button>
+
+            <div class="result-box" id="cd-result">
+                <div style="text-align: center; color: #718096; padding: 10px;">
+                    点击转换按钮获取结果
+                </div>
+            </div>
+
+            <div class="cd-result" id="cd-units">
+                <div class="cd-unit">
+                    <div class="cd-value">0</div>
+                    <div class="cd-label">天</div>
+                </div>
+                <div class="cd-unit">
+                    <div class="cd-value">0</div>
+                    <div class="cd-label">小时</div>
+                </div>
+                <div class="cd-unit">
+                    <div class="cd-value">0</div>
+                    <div class="cd-label">分钟</div>
+                </div>
+                <div class="cd-unit">
+                    <div class="cd-value">0</div>
+                    <div class="cd-label">秒</div>
+                </div>
+                <div class="cd-unit">
+                    <div class="cd-value">0</div>
+                    <div class="cd-label">毫秒</div>
+                </div>
+            </div>
+        </div>
+        <!-- 汇率转换工具 -->
+        <div class="tool-content" id="currency-converter">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <div class="tool-header-title">汇率转换工具</div>
+            </div>
+
+            <div class="input-group">
+                <label>输入金额</label>
+                <input type="number" id="currency-amount" placeholder="输入要转换的金额" value="100">
+            </div>
+
+            <div class="input-group">
+                <label>原始货币</label>
+                <select id="source-currency">
+                    <option value="CNY">人民币 (CNY)</option>
+                    <option value="USD">美元 (USD)</option>
+                    <option value="EUR">欧元 (EUR)</option>
+                    <option value="JPY">日元 (JPY)</option>
+                    <option value="GBP">英镑 (GBP)</option>
+                    <option value="HKD">港币 (HKD)</option>
+                    <option value="KRW">韩元 (KRW)</option>
+                    <option value="AUD">澳元 (AUD)</option>
+                    <option value="CAD">加元 (CAD)</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>目标货币</label>
+                <div class="currency-selector" id="target-currencies">
+                    <div class="currency-option active" data-currency="CNY">
+                        <div class="currency-flag">🇨🇳</div>
+                        <span>人民币</span>
+                    </div>
+                    <div class="currency-option" data-currency="USD">
+                        <div class="currency-flag">🇺🇸</div>
+                        <span>美元</span>
+                    </div>
+                    <div class="currency-option" data-currency="EUR">
+                        <div class="currency-flag">🇪🇺</div>
+                        <span>欧元</span>
+                    </div>
+                    <div class="currency-option" data-currency="JPY">
+                        <div class="currency-flag">🇯🇵</div>
+                        <span>日元</span>
+                    </div>
+                    <div class="currency-option" data-currency="GBP">
+                        <div class="currency-flag">🇬🇧</div>
+                        <span>英镑</span>
+                    </div>
+                    <div class="currency-option" data-currency="HKD">
+                        <div class="currency-flag">🇭🇰</div>
+                        <span>港币</span>
+                    </div>
+                    <div class="currency-option" data-currency="KRW">
+                        <div class="currency-flag">🇰🇷</div>
+                        <span>韩元</span>
+                    </div>
+                    <div class="currency-option" data-currency="AUD">
+                        <div class="currency-flag">🇦🇺</div>
+                        <span>澳元</span>
+                    </div>
+                    <div class="currency-option" data-currency="CAD">
+                        <div class="currency-flag">🇨🇦</div>
+                        <span>加元</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn" id="convert-currency">
+                <i class="fas fa-exchange-alt"></i> 转换汇率
+            </button>
+
+            <div class="currency-result-grid" id="currency-results">
+                <!-- 汇率转换结果将在这里显示 -->
+                <div class="currency-result-item">
+                    <div class="currency-flag-lg">🇨🇳</div>
+                    <div class="currency-value">100.00</div>
+                    <div class="currency-name">人民币 (CNY)</div>
+                </div>
+                <div class="currency-result-item">
+                    <div class="currency-flag-lg">🇺🇸</div>
+                    <div class="currency-value">13.75</div>
+                    <div class="currency-name">美元 (USD)</div>
+                </div>
+                <div class="currency-result-item">
+                    <div class="currency-flag-lg">🇪🇺</div>
+                    <div class="currency-value">12.80</div>
+                    <div class="currency-name">欧元 (EUR)</div>
+                </div>
+            </div>
+
+            <div class="last-update">
+                <i class="fas fa-sync-alt"></i> 汇率更新时间: <span
+                    id="currency-update-time">2023年10月15日 15:30:21</span>
+            </div>
+        </div>
+
+        <!-- 模拟弱网工具 -->
+        <div class="tool-content" id="network-simulator">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <div class="tool-header-title">模拟弱网工具</div>
+            </div>
+
+            <div class="input-group">
+                <label>网络延迟 (ms)</label>
+                <div class="slider-container">
+                    <input type="range" id="latency" min="0" max="1000" value="50">
+                    <span class="slider-value" id="latency-value">50ms</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>丢包率 (%)</label>
+                <div class="slider-container">
+                    <input type="range" id="packet-loss" min="0" max="50" value="0">
+                    <span class="slider-value" id="loss-value">0%</span>
+                </div>
+            </div>
+
+            <div class="network-status">
+                <div class="network-item network-good" id="network-good">
+                    <div class="network-indicator"></div>
+                    <div>
+                        <h4>良好网络</h4>
+                        <p>延迟: 0-50ms, 丢包: 0%</p>
+                    </div>
+                </div>
+
+                <div class="network-item network-medium" id="network-medium">
+                    <div class="network-indicator"></div>
+                    <div>
+                        <h4>中等网络</h4>
+                        <p>延迟: 100-300ms, 丢包: 5-10%</p>
+                    </div>
+                </div>
+
+                <div class="network-item network-poor" id="network-poor">
+                    <div class="network-indicator"></div>
+                    <div>
+                        <h4>弱网环境</h4>
+                        <p>延迟: 500-1000ms, 丢包: 20-50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn" id="apply-network">
+                <i class="fas fa-plug"></i> 应用网络设置
+            </button>
+        </div>
+
+        <!-- 截屏翻译 -->
+        <div class="tool-content" id="screenshot-translation">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <div class="tool-header-title">截屏翻译</div>
+            </div>
+
+            <div class="screenshot-area" id="screenshot-area">
+                <i class="fas fa-camera"></i>
+                <p>点击捕获屏幕或上传图片</p>
+                <small>支持PNG、JPG格式</small>
+                <input type="file" id="screenshot-upload" accept="image/*" style="display: none">
+            </div>
+
+            <img id="screenshot-preview" alt="截图预览">
+
+            <div class="input-group">
+                <label>目标语言</label>
+                <select id="target-language">
+                    <option value="en">英语</option>
+                    <option value="ja">日语</option>
+                    <option value="ko">韩语</option>
+                    <option value="fr">法语</option>
+                    <option value="de">德语</option>
+                    <option value="es">西班牙语</option>
+                </select>
+            </div>
+
+            <button class="btn" id="translate-screenshot">
+                <i class="fas fa-language"></i> 翻译截图
+            </button>
+
+            <div class="translation-result" id="translation-result">
+                <div style="text-align: center; color: #718096; padding: 20px 0;">
+                    翻译结果将显示在这里
+                </div>
+            </div>
+        </div>
+
+        <!-- 禅道链接 -->
+        <div class="tool-content" id="zentao-link">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-bug"></i>
+                </div>
+                <div class="tool-header-title">禅道缺陷管理</div>
+            </div>
+
+            <div class="link-card">
+                <i class="fas fa-external-link-alt"></i>
+                <h3>禅道缺陷管理系统</h3>
+                <p>访问禅道系统查看和提交缺陷报告，跟踪问题解决进度</p>
+                <button class="btn btn-link"
+                        id="zentao-link-btn">
+                    <i class="fas fa-external-link-alt"></i> 访问禅道系统
+                </button>
+            </div>
+        </div>
+
+        <!-- 安装包链接 -->
+        <div class="tool-content" id="package-download">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-download"></i>
+                </div>
+                <div class="tool-header-title">安装包下载</div>
+            </div>
+
+            <div class="link-card">
+                <i class="fas fa-cloud-download-alt"></i>
+                <h3>游戏安装包下载</h3>
+                <p>获取最新的游戏测试版本安装包，包含PC、Android和iOS平台</p>
+                <button class="btn btn-link" id="package-download-btn">
+                    <i class="fas fa-download"></i> 下载安装包
+                </button>
+            </div>
+        </div>
+
+
+        <!-- bugly链接 -->
+        <div class="tool-content" id="bugly-link">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="tool-header-title">Bugly监测</div>
+            </div>
+
+            <div class="link-card">
+                <i class="fas fa-external-link-alt"></i>
+                <h3>Bugly异常上报</h3>
+                <p>监测双端平台奔溃以及异常情况</p>
+                <button class="btn btn-link" id="bugly-link-btn">
+                    <i class="fas fa-external-link-alt"></i> 访问bugly页面
+                </button>
+            </div>
+        </div>
+
+        <!-- APP Store账号 -->
+        <div class="tool-content" id="APPstore-link">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fa fa-key"></i>
+                </div>
+                <div class="tool-header-title">APP store账号</div>
+            </div>
+
+            <div class="link-card">
+                <i class="fa fa-key"></i>
+                <h3>APP Store外区账号</h3>
+                <p>可用于登录APP store下载更新游戏版本，使用时请看注意网页账号上面的使用详情！！</p>
+                <button class="btn btn-link" id="appstore-link-btn">
+                    <i class="fa fa-key"></i> 获取账号密码
+                </button>
+            </div>
+        </div>
+
+        <!-- 国外接码平台 -->
+        <div class="tool-content" id="iPhone-link">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fa fa-mobile"></i>
+                </div>
+                <div class="tool-header-title">国外手机接码平台</div>
+            </div>
+
+            <div class="link-card">
+                <i class="fa fa-mobile"></i>
+                <h3>国外手机/短信接码平台</h3>
+                <p>可用于接收国外手机验证码/短信，注意选取号码时点进去看下最近接码时间，尽量找近1分钟内的</p>
+                <button class="btn btn-link" id="iphone-link-btn">
+                    <i class="fa fa-mobile"></i> 直达接码平台
+                </button>
+            </div>
+        </div>
+
+        <!-- 常见问题页面 -->
+        <div class="tool-content" id="faq-1">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <div class="tool-header-title">如何报告游戏Bug？</div>
+            </div>
+            <div class="info-card">
+                <h3>报告Bug的步骤：</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>登录禅道缺陷管理系统</li>
+                    <li>点击"提交Bug"按钮</li>
+                    <li>填写Bug标题（简洁明了描述问题）</li>
+                    <li>选择影响版本、Bug类型和严重程度</li>
+                    <li>详细描述问题现象和重现步骤</li>
+                    <li>上传截图或视频附件</li>
+                    <li>提交Bug并分配给对应开发人员</li>
+                </ol>
+                <button class="btn" id="go-to-zen-tao" style="margin-top: 20px;">前往禅道系统</button>
+            </div>
+        </div>
+        <!--常见报错 -->
+        <div class="tool-content" id="faq-2">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <div class="tool-header-title">常见报错导致的无法登录游戏指南</div>
+            </div>
+            <div class="info-card">
+                <h3>活动：组队打boss：</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>Login Error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        EXCEPTIONS:{java.lang.NullPointerException=2}
+                        ERRORS:2
+                        java.lang.NullPointerException
+                        at
+                        com.xcyy.support.business.service.impl.DragonChallengeServiceImpl.calcBoosTotalHp(DragonChallengeServiceImpl.java:1223)
+                    </li>
+
+                </ol>
+                <h3>问题原因：同步下来的号，只同步了组队打boss的数据，但没有同步龙的血量导致的报错</h3>
+                <h3>解决方法：删除组队打boss数据</h3>
+            </div>
+            <div class="info-card">
+                <h3>关卡大数：</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        udid:a1567eba-6dbb-3500-8a81-fa4a85aceb22:SlotNewCashLink
+                        java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+                        at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：关卡大数导致，押注bet美刀超过金币档位索引9999999上限</h3>
+                <h3>解决方法：删下spin数据跟storeData</h3>
+            </div>
+            <div class="info-card">
+                <h3>活动：四选三</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● Login Error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        EXCEPTIONS:{java.lang.NullPointerException=2}
+                        ERRORS:2
+                        java.lang.NullPointerException
+                        at
+                        com.xcyy.support.business.service.impl.OptionalTaskServiceImpl.handMissionActivityParam(OptionalTaskServiceImpl.java:598)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：四选三任务开着，但没开大活动导致的</h3>
+                <h3>解决方法：开下大活动或者关闭四选三</h3>
+            </div>
+            <div class="info-card">
+                <h3>python部署重启</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● CashLink Spin Exception:
+                        HOST:192.168.1.70
+                        ENV:test70
+                        UDID: 5bc65c19-1d18-3280-b212-79b000d7d1c5:SlotNewCashLink
+                        Level: 4294
+                        Game: BankCraze
+                        RequestId: c200b01f-c8d0-44af-ac2b-85a104880d48
+                        Restored: null
+                        c200b01f-c8d0-44af-ac2b-85a104880d48
+                        java.lang.NullPointerException
+                        at rpc.SlotRpcClient.call(SlotRpcClient.java:121)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：python部署重启导致的报错</h3>
+                <h3>解决方法：不用管，等服务器重启完</h3>
+            </div>
+            <div class="info-card">
+                <h3>服务器更新</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        udid:31733542-72F6-4567-B667-1CD234916F7E:SlotNewCashLink
+                        org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name
+                        'mvpChatPlayerDao': Singleton bean creation not allowed while singletons of this factory are in
+                        destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：服务器更新导致的报错</h3>
+                <h3>解决方法：不用管，等服务器重启完</h3>
+            </div>
+            <div class="info-card">
+                <h3>系统：公会</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.62
+                        ENV:test62
+                        udid:35eb8bf9-ea46-3581-a6e3-16f7430c7cf8:SlotNewCashLink
+                        java.lang.NullPointerException
+                        at
+                        com.xcyy.support.business.service.impl.ClanServiceImpl.updateClanLeader(ClanServiceImpl.java:3690)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：所在公会会长删号了，登录，找不到公会leader</h3>
+                <h3>解决方法：删下自己的公会数据即可</h3>
+            </div>
+            <div class="info-card">
+                <h3>活动：接水管</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        udid:5bc65c19-1d18-3280-b212-79b000d7d1c5:SlotNewCashLink
+                        java.lang.NullPointerException
+                        at
+                        com.xcyy.support.business.service.impl.PipeConnectServiceImpl.collectEnergy(PipeConnectServiceImpl.java:1504)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：接水管同步线上号下来后， 线上分组跟70分组不一致导致的</h3>
+                <h3>解决方法：删下接水管数据就可以</h3>
+            </div>
+            <div class="info-card">
+                <h3>系统：竞技场</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        udid:A37F093B-D37C-4E3A-A022-35244172DEBB:SlotNewCashLink
+                        java.lang.NullPointerException
+                        at java.math.BigDecimal.(BigDecimal.java:809)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：竞技场报错</h3>
+                <h3>解决方法：删下竞技场数据</h3>
+            </div>
+            <div class="info-card">
+                <h3>系统：乐透</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        udid:A37F093B-D37C-4E3A-A022-35244172DEBB:SlotNewCashLink
+                        java.lang.NullPointerException
+                        at
+                        com.xcyy.support.business.service.impl.LotteryServiceImpl.matchControl(LotteryServiceImpl.java:684)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：乐透数据报错</h3>
+                <h3>解决方法：删下乐透数据</h3>
+            </div>
+            <div class="info-card">
+                <h3>系统：删号</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        udid:A37F093B-D37C-4E3A-A022-35244172DEBB:SlotNewCashLink
+                        java.lang.RuntimeException: getUserInfoByToken userInfo is null!!!
+                        token=06529849-5580-43f2-a86b-f22c743e6454
+                        at
+                        com.xcyy.support.business.service.impl.UserInfoServiceImpl.getUserInfoByToken(UserInfoServiceImpl.java:284)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：删号之后报错</h3>
+                <h3>解决方法：重登建个新号</h3>
+            </div>
+            <div class="info-card">
+                <h3>系统：分组</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● CashLink Spin Exception:
+                        HOST:192.168.1.70
+                        ENV:test70
+                        UDID: 5bc65c19-1d18-3280-b212-79b000d7d1c5:SlotNewCashLink
+                        Level: 4296
+                        Game: PiggyLegendPirate
+                        RequestId: 465375ac-b208-4fc6-90bd-cdc9534040dd
+                        Restored: null
+                        465375ac-b208-4fc6-90bd-cdc9534040dd
+                        java.lang.NullPointerException
+                        at
+                        com.xcyy.support.business.service.impl.QuestServiceImpl.refreshSkipItemNumsBySpin(QuestServiceImpl.java:973)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：线上跟70的分组不一致导致</h3>
+                <h3>解决方法：删下quest数据</h3>
+            </div>
+            <div class="info-card">
+                <h3>系统：分组</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>● BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.167
+                        ENV:test
+                        udid:82F7BB78-B7DD-48DC-ACA6-CCFFDE7A5AC6:SlotNewCashLink
+                        java.lang.NullPointerException
+                        at
+                        com.xcyy.support.business.service.impl.FriendServiceImpl.getRecommendFriends(FriendServiceImpl.java:455)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：同步线上的号，公会推荐的好友找不到数据了</h3>
+                <h3>解决方法：删下公会数据</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

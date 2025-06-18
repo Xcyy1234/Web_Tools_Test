@@ -73,6 +73,19 @@ let aiConversation = [];
 // DeepSeek API密钥
 const DEEPSEEK_API_KEY = "sk-8790cdaaee5b44b09db701f7b79d10ae";
 
+// 汇率数据
+const exchangeRates = {
+    CNY: { name: "人民币", rate: 1, flag: "🇨🇳" },
+    USD: { name: "美元", rate: 7.27, flag: "🇺🇸" },
+    EUR: { name: "欧元", rate: 7.81, flag: "🇪🇺" },
+    JPY: { name: "日元", rate: 0.049, flag: "🇯🇵" },
+    GBP: { name: "英镑", rate: 8.91, flag: "🇬🇧" },
+    HKD: { name: "港币", rate: 0.93, flag: "🇭🇰" },
+    KRW: { name: "韩元", rate: 0.0055, flag: "🇰🇷" },
+    AUD: { name: "澳元", rate: 4.71, flag: "🇦🇺" },
+    CAD: { name: "加元", rate: 5.36, flag: "🇨🇦" }
+};
+
 // 初始化函数
 function init() {
     // 初始化滑块值显示
@@ -252,6 +265,9 @@ function init() {
 
     // 初始化截屏功能
     initScreenshot();
+
+    // 初始化汇率转换工具
+    initCurrencyConverter();
 
     // 为常见问题部分添加点击事件
     document.querySelectorAll('[data-tool^="faq"]').forEach(item => {
@@ -824,6 +840,86 @@ function hideTypingIndicator() {
 function scrollToBottom() {
     const messagesContainer = document.getElementById('ai-messages');
     messagesContainer.scrollTop = messagesContainer.scrollHeight;
+}
+
+// 汇率转换功能
+function initCurrencyConverter() {
+    // 获取DOM元素
+    const amountInput = document.getElementById('currency-amount');
+    const sourceCurrency = document.getElementById('source-currency');
+    const targetCurrencyOptions = document.querySelectorAll('.currency-option');
+    const convertBtn = document.getElementById('convert-currency');
+    const resultsContainer = document.getElementById('currency-results');
+    const updateTime = document.getElementById('currency-update-time');
+
+    // 设置更新时间
+    updateTime.textContent = new Date().toLocaleString('zh-CN');
+
+    // 目标货币选择器
+    targetCurrencyOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            // 移除所有active类
+            targetCurrencyOptions.forEach(opt => opt.classList.remove('active'));
+            // 添加active类到当前选项
+            this.classList.add('active');
+            // 触发转换
+            convertCurrency();
+        });
+    });
+
+    // 转换按钮事件
+    convertBtn.addEventListener('click', convertCurrency);
+
+    // 初始转换
+    convertCurrency();
+
+    // 输入框和下拉菜单变化时自动转换
+    amountInput.addEventListener('input', convertCurrency);
+    sourceCurrency.addEventListener('change', convertCurrency);
+
+    function convertCurrency() {
+        const amount = parseFloat(amountInput.value) || 0;
+        const source = sourceCurrency.value;
+        const activeTarget = document.querySelector('.currency-option.active');
+        const target = activeTarget ? activeTarget.dataset.currency : 'CNY';
+
+        // 清空结果容器
+        resultsContainer.innerHTML = '';
+
+        // 获取选中的目标货币
+        const targetCurrencies = [target];
+
+        // 添加其他主要货币作为参考
+        if (target !== 'CNY') targetCurrencies.push('CNY');
+        if (target !== 'USD') targetCurrencies.push('USD');
+        if (target !== 'EUR') targetCurrencies.push('EUR');
+
+        // 计算并显示结果
+        targetCurrencies.forEach(currency => {
+            const convertedAmount = calculateConversion(amount, source, currency);
+            const currencyData = exchangeRates[currency];
+
+            const resultItem = document.createElement('div');
+            resultItem.className = 'currency-result-item';
+            resultItem.innerHTML = `
+                <div class="currency-flag-lg">${currencyData.flag}</div>
+                <div class="currency-value">${convertedAmount.toFixed(2)}</div>
+                <div class="currency-name">${currencyData.name} (${currency})</div>
+            `;
+
+            resultsContainer.appendChild(resultItem);
+        });
+
+        // 更新显示时间
+        updateTime.textContent = new Date().toLocaleString('zh-CN');
+    }
+
+    function calculateConversion(amount, from, to) {
+        // 转换为人民币
+        const cnyAmount = amount / exchangeRates[from].rate;
+        // 转换为目标货币
+        return cnyAmount * exchangeRates[to].rate;
+    }
 }
 
 // DOM加载完成后初始化

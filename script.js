@@ -269,6 +269,9 @@ function init() {
     // 初始化汇率转换工具
     initCurrencyConverter();
 
+    // 初始化COIN金币计算器
+    calculateCoin();
+
     // 为常见问题部分添加点击事件
     document.querySelectorAll('[data-tool^="faq"]').forEach(item => {
         item.addEventListener('click', function() {
@@ -921,6 +924,96 @@ function initCurrencyConverter() {
         return cnyAmount * exchangeRates[to].rate;
     }
 }
+// COIN金币计算器功能
+    function calculateCoin() {
+        // 获取输入值
+        const usdBase = parseFloat(document.getElementById('usd-base').value) || 0;
+        const vipInflation = parseFloat(document.getElementById('vip-inflation').value) || 0;
+        const levelInflation = parseFloat(document.getElementById('level-inflation').value) || 0;
+        const petInflation = parseFloat(document.getElementById('pet-inflation').value) || 0;
+        const coinFactor = parseFloat(document.getElementById('coin-factor').value) || 1;
+        const otherParam = parseFloat(document.getElementById('other-param').value) || 0;
+
+        // 获取操作符
+        const vipOperator = document.getElementById('vip-operator').value;
+        const levelOperator = document.getElementById('level-operator').value;
+        const petOperator = document.getElementById('pet-operator').value;
+        const factorOperator = document.getElementById('factor-operator').value;
+        const otherOperator = document.getElementById('other-operator').value;
+
+        // 初始化计算公式
+        let formula = `(${usdBase})`;
+        let result = usdBase;
+
+        // 处理VIP膨胀
+        result = applyOperation(result, vipOperator, vipInflation);
+        formula += ` ${getSymbol(vipOperator)} ${vipInflation}`;
+
+        // 处理等级膨胀
+        result = applyOperation(result, levelOperator, levelInflation);
+        formula += ` ${getSymbol(levelOperator)} ${levelInflation}`;
+
+        // 处理宠物膨胀
+        result = applyOperation(result, petOperator, petInflation);
+        formula += ` ${getSymbol(petOperator)} ${petInflation}`;
+
+        // 处理金币系数
+        result = applyOperation(result, factorOperator, coinFactor);
+        formula += ` ${getSymbol(factorOperator)} ${coinFactor}`;
+
+        // 处理其他参数
+        result = applyOperation(result, otherOperator, otherParam);
+        formula += ` ${getSymbol(otherOperator)} ${otherParam}`;
+
+        // 显示结果
+        const coinValue = document.querySelector('.coin-value');
+        coinValue.textContent = result.toFixed(2);
+
+        // 显示计算公式
+        const coinFormula = document.querySelector('.coin-formula');
+        coinFormula.textContent = `计算公式: ${formula} = ${result.toFixed(2)}`;
+    }
+
+    // 应用运算
+    function applyOperation(value, operator, operand) {
+        switch(operator) {
+            case '+': return value + operand;
+            case '-': return value - operand;
+            case '*': return value * operand;
+            case '/': return operand !== 0 ? value / operand : value;
+            default: return value;
+        }
+    }
+
+    // 获取操作符符号
+    function getSymbol(operator) {
+        switch(operator) {
+            case '+': return '+';
+            case '-': return '-';
+            case '*': return '×';
+            case '/': return '÷';
+            default: return '';
+        }
+    }
+
+
+
 
 // DOM加载完成后初始化
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', init{
+// 预防使用开发者工具查看源代码
+(function detectDevTools() {
+      const element = new Image();
+
+      Object.defineProperty(element, 'id', {
+        get: () => {
+          // 当开发者工具打开时触发
+          document.body.innerHTML = '<h1 style="color:red">禁止检查源代码</h1>';
+          // 可选：阻止后续操作
+          window.stop();
+        }
+      });
+
+      console.log(element);
+    })();});
+

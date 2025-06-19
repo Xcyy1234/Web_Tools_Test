@@ -1312,3 +1312,178 @@ input:focus, select:focus, textarea:focus {
         padding: 8px 10px;
     }
 }
+
+/* COIN金币计算器样式 */
+.coin-param-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.coin-param-row .operator {
+    width: 60px;
+}
+
+.coin-param-row input {
+    flex: 1;
+}
+
+.coin-result {
+    background: linear-gradient(135deg, #ffd700, #ffb700);
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 215, 0, 0.5);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.coin-value {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.coin-formula {
+    font-size: 0.9rem;
+    color: #444;
+    margin-top: 10px;
+    font-family: monospace;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.coin-legend {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+.coin-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.coin-legend-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.legend-base { background: #6a11cb; }
+.legend-vip { background: #2575fc; }
+.legend-level { background: #00c853; }
+.legend-pet { background: #ff1744; }
+.legend-factor { background: #ffab00; }
+.legend-other { background: #9b59b6; }
+
+/* 响应式设计 */
+@media (max-width: 767px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .sidebar {
+        width: 85%;
+        max-width: 320px;
+        height: 100%;
+        padding-top: 80px;
+    }
+
+    .tools-container {
+        min-height: calc(100vh - 90px);
+    }
+
+    .timestamp-unit-select {
+        flex-direction: row;
+    }
+
+    .coin-param-row {
+        flex-direction: column;
+    }
+
+    .coin-param-row .operator {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .app-header {
+        padding: 20px;
+    }
+
+    .app-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .app-header p {
+        font-size: 1rem;
+    }
+
+    .main-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+    .sidebar {
+        position: relative;
+        left: 0;
+        width: 280px;
+        height: calc(100vh - 120px);
+        padding-top: 0;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        overflow-y: auto;
+        top: 20px;
+        flex-shrink: 0;
+    }
+
+    .tools-container {
+        flex: 1;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        min-height: 600px;
+        height: calc(100vh - 120px);
+        margin-top: 20px;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .timestamp-row {
+        flex-direction: row;
+    }
+
+    .btn {
+        width: auto;
+        padding: 12px 20px;
+    }
+
+    .info-cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .app-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .tool-header-title {
+        font-size: 1.8rem;
+    }
+}

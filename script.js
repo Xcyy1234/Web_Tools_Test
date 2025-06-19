@@ -204,13 +204,7 @@ function init() {
     document.getElementById('bugly-link-btn').addEventListener('click', () => window.open('https://bugly.qq.com/v2/', '_blank'));
     document.getElementById('appstore-link-btn').addEventListener('click', () => window.open('https://appid.naitu.cc/share/nice', '_blank'));
     document.getElementById('iphone-link-btn').addEventListener('click', () => window.open('https://yunduanxin.net/', '_blank'));
-    document.getElementById('go-to-zen-tao').addEventListener('click', () => {
-        document.querySelectorAll('.tool-nav-item').forEach(item => {
-            if(item.getAttribute('data-tool') === 'zentao-link') {
-                item.click();
-            }
-        });
-    });
+
 
     // AI建议
     document.querySelectorAll('.ai-suggestion').forEach(suggestion => {
@@ -725,7 +719,7 @@ async function getAIResponse(question) {
         return data.choices[0]?.message?.content || '未能获取回答';
     } catch (error) {
         console.error('API调用错误:', error);
-        return '没充钱，如果你想使用的话，微信、支付宝可给我转账！！';
+        return '调用api需要付费，没钱，功能暂时不开放，等找到合适的api接口后续在开放';
     }
 }
 

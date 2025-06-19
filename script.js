@@ -783,7 +783,7 @@ function addAIMessage(sender, content) {
             <div class="message-icon">
                 <i class="fas fa-robot"></i>
             </div>
-            <strong>DeepSeek AI助手</strong>
+            <strong>super Test AI助手</strong>
         `;
     }
 

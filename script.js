@@ -367,9 +367,7 @@ function translateScreenshot() {
         </div>
     `;
 }
-
-
-// 时间戳转换功能
+// 时间戳转换
 function convertTimestampToDate() {
     const timestamp = document.getElementById('timestamp-input').value;
     if (!timestamp) {
@@ -394,6 +392,21 @@ function convertTimestampToDate() {
     document.getElementById('days-result').style.display = 'none';
     resultBox.style.display = 'block';
 
+    // 计算时区差
+    const localOffset = -date.getTimezoneOffset(); // 本地与UTC的分钟差（东区为正）
+    const utcMinus8Offset = -480; // 西八区固定偏移（UTC-8）
+    const hourDiff = (localOffset - utcMinus8Offset) / 60; // 转换为小时差
+
+    // 格式化时间差描述
+    let diffDescription;
+    if (hourDiff > 0) {
+        diffDescription = `${hourDiff} 小时`;
+    } else if (hourDiff < 0) {
+        diffDescription = `${-hourDiff} 小时`;
+    } else {
+        diffDescription = "本地时间与西八区相同";
+    }
+
     // 美国时区转换
     const options = {
         timeZone: 'America/New_York',
@@ -406,18 +419,19 @@ function convertTimestampToDate() {
         hour12: false
     };
 
+    // 西八区时间计算
+    const utcMinus8Date = new Date(milliseconds - 8 * 3600000);
+    const utcMinus8Time = utcMinus8Date.toISOString().replace('T', ' ').substring(0, 19) + " (UTC-8)";
+
     const etTime = date.toLocaleString('zh-CN', { ...options, timeZone: 'America/New_York' });
-    const ptTime = date.toLocaleString('zh-CN', { ...options, timeZone: 'America/Los_Angeles' });
-    const ctTime = date.toLocaleString('zh-CN', { ...options, timeZone: 'America/Chicago' });
+
 
     resultBox.innerHTML = `
         <div><strong>转换结果 (${unit === 'seconds' ? '秒' : '毫秒'} 转日期):</strong></div>
-        <div>本地时间: ${date.toLocaleString()}</div>
+        <div>北京时间: ${date.toLocaleString()}</div>
         <div>美国东部时间(ET): ${etTime}</div>
-        <div>美国太平洋时间(PT): ${ptTime}</div>
-        <div>美国中部时间(CT): ${ctTime}</div>
-        <div>UTC时间: ${date.toUTCString()}</div>
-        <div>ISO格式: ${date.toISOString()}</div>
+        <div>西八区时间(UTC-8): ${utcMinus8Time}</div>
+        <div>北京与西八区时差: ${diffDescription}</div>
     `;
 }
 

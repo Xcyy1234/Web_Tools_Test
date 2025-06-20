@@ -100,6 +100,90 @@ body::before {
     line-height: 1.4;
 }
 
+/* 新增公告区域样式 - 与现有设计风格一致 */
+.announcement-box {
+    background: rgba(30, 35, 48, 0.7);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+.announcement-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.announcement-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: var(--neon-blue);
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(106, 17, 203, 0.3);
+}
+
+.announcement-header i {
+    margin-right: 10px;
+    font-size: 0.8rem;
+    color: var(--neon-purple);
+}
+
+.announcement-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--neon-purple), var(--neon-blue));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 0.5px;
+}
+@media (max-width: 768px) {
+    .announcement-header h3 {
+        font-size: 1rem;
+    }
+}
+
+.announcement-content {
+    padding: 5px 0;
+}
+
+.announcement-content p {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #cbd5e0;
+}
+
+.announcement-content i {
+    margin-right: 8px;
+    color: var(--neon-purple);
+    font-size: 0.9em;
+    min-width: 20px;
+    text-align: center;
+}
+
+/* 响应式调整 */
+@media (max-width: 767px) {
+    .announcement-box {
+        margin: 15px 0;
+        padding: 12px;
+    }
+
+    .announcement-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .announcement-content p {
+        font-size: 0.9rem;
+    }
+}
+
 /* 汉堡菜单按钮 */
 .menu-toggle {
     width: 40px;

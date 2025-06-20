@@ -1,3 +1,20 @@
+// 开发者工具检测函数（新增）
+function detectDevTools() {
+    const element = new Image();
+
+    Object.defineProperty(element, 'id', {
+        get: () => {
+            // 当开发者工具打开时触发
+            document.body.innerHTML = '<h1 style="color:red;text-align:center;margin-top:100px;">禁止检查源代码</h1>';
+            // 阻止后续操作
+            window.stop();
+        }
+    });
+
+    // 触发检测
+    console.log(element);
+}
+
 // 星座运势数据
 const horoscopeData = {
     '白羊座': {
@@ -88,6 +105,10 @@ const exchangeRates = {
 
 // 初始化函数
 function init() {
+    //初始化开发者拦截函数
+     detectDevTools();
+
+
     // 初始化滑块值显示
     document.getElementById('latency').addEventListener('input', function() {
         document.getElementById('latency-value').textContent = this.value + 'ms';
@@ -339,15 +360,14 @@ function translateScreenshot() {
             <strong>翻译结果 (${languages[language]}):</strong>
         </div>
         <div style="line-height: 1.6;">
-            <p>"欢迎来到艾泽拉斯世界！"</p>
-            <p>"在这片神秘的土地上，你将开始一段史诗般的冒险旅程。"</p>
-            <p>"选择你的阵营：联盟或部落，为荣誉而战！"</p>
+            <p>"功能暂时无法使用！"</p>
         </div>
         <div style="margin-top: 15px; color: #a0aec0; font-size: 0.9rem;">
             翻译完成时间: ${new Date().toLocaleTimeString()}
         </div>
     `;
 }
+
 
 // 时间戳转换功能
 function convertTimestampToDate() {
@@ -374,9 +394,28 @@ function convertTimestampToDate() {
     document.getElementById('days-result').style.display = 'none';
     resultBox.style.display = 'block';
 
+    // 美国时区转换
+    const options = {
+        timeZone: 'America/New_York',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+    };
+
+    const etTime = date.toLocaleString('zh-CN', { ...options, timeZone: 'America/New_York' });
+    const ptTime = date.toLocaleString('zh-CN', { ...options, timeZone: 'America/Los_Angeles' });
+    const ctTime = date.toLocaleString('zh-CN', { ...options, timeZone: 'America/Chicago' });
+
     resultBox.innerHTML = `
         <div><strong>转换结果 (${unit === 'seconds' ? '秒' : '毫秒'} 转日期):</strong></div>
         <div>本地时间: ${date.toLocaleString()}</div>
+        <div>美国东部时间(ET): ${etTime}</div>
+        <div>美国太平洋时间(PT): ${ptTime}</div>
+        <div>美国中部时间(CT): ${ctTime}</div>
         <div>UTC时间: ${date.toUTCString()}</div>
         <div>ISO格式: ${date.toISOString()}</div>
     `;
@@ -995,19 +1034,5 @@ function getSymbol(operator) {
 
 // DOM加载完成后初始化
 document.addEventListener('DOMContentLoaded', init)
-//// 预防使用开发者工具查看源代码
-//(function detectDevTools() {
-//      const element = new Image();
-//
-//      Object.defineProperty(element, 'id', {
-//        get: () => {
-//          // 当开发者工具打开时触发
-//          document.body.innerHTML = '<h1 style="color:red">禁止检查源代码</h1>';
-//          // 可选：阻止后续操作
-//          window.stop();
-//        }
-//      });
-//
-//      console.log(element);
-//    })();});
+
 

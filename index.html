@@ -14,6 +14,7 @@
 <body oncontextmenu="return false;">
 <script>
   document.addEventListener('contextmenu', e => e.preventDefault());
+
 </script>
 <!-- 顶部标题 -->
 <div class="app-header">
@@ -23,7 +24,7 @@
         <span></span>
     </div>
     <div class="header-content">
-        <h1><img src="Title.png" alt="Test Tools Icon" class="custom-icon"> 新创Test Tools</h1>
+        <h1><img src="Title.png" alt="Test Tools Icon" class="custom-icon"> 新创Test Tools v1.0</h1>
         <p>整理一些常用到的小工具，方便日常使用</p>
     </div>
 </div>
@@ -146,24 +147,24 @@
                     </div>
                     <div class="tool-nav-title">常见报错指南</div>
                 </div>
-<!--                <div class="tool-nav-item" data-tool="faq-2">-->
-<!--                    <div class="tool-nav-icon">-->
-<!--                        <i class="fas fa-question-circle"></i>-->
-<!--                    </div>-->
-<!--                    <div class="tool-nav-title">如何正确提交bug</div>-->
-<!--                </div>-->
-<!--                <div class="tool-nav-item" data-tool="faq-3">-->
-<!--                    <div class="tool-nav-icon">-->
-<!--                        <i class="fas fa-question-circle"></i>-->
-<!--                    </div>-->
-<!--                    <div class="tool-nav-title">弱网模拟设置指南</div>-->
-<!--                </div>-->
-<!--                <div class="tool-nav-item" data-tool="faq-4">-->
-<!--                    <div class="tool-nav-icon">-->
-<!--                        <i class="fas fa-question-circle"></i>-->
-<!--                    </div>-->
-<!--                    <div class="tool-nav-title">翻译工具使用说明</div>-->
-<!--                </div>-->
+                <!--                <div class="tool-nav-item" data-tool="faq-2">-->
+                <!--                    <div class="tool-nav-icon">-->
+                <!--                        <i class="fas fa-question-circle"></i>-->
+                <!--                    </div>-->
+                <!--                    <div class="tool-nav-title">如何正确提交bug</div>-->
+                <!--                </div>-->
+                <!--                <div class="tool-nav-item" data-tool="faq-3">-->
+                <!--                    <div class="tool-nav-icon">-->
+                <!--                        <i class="fas fa-question-circle"></i>-->
+                <!--                    </div>-->
+                <!--                    <div class="tool-nav-title">弱网模拟设置指南</div>-->
+                <!--                </div>-->
+                <!--                <div class="tool-nav-item" data-tool="faq-4">-->
+                <!--                    <div class="tool-nav-icon">-->
+                <!--                        <i class="fas fa-question-circle"></i>-->
+                <!--                    </div>-->
+                <!--                    <div class="tool-nav-title">翻译工具使用说明</div>-->
+                <!--                </div>-->
             </div>
         </div>
     </div>
@@ -177,12 +178,26 @@
                 <h2>欢迎使用测试小工具盒</h2>
                 <p>请从左侧导航栏选择您所需，有好用的网页工具记得及时分享哦，会及时收纳到我们的小工具页签呀</p>
 
+                <!-- 新增公告区域 -->
+                <div class="announcement-box">
+                    <div class="announcement-header">
+                        <h3>更新公告</h3>
+                    </div>
+                    <div class="announcement-content">
+                        <p></i> 1、时间戳转换工具已添加美国主要时区支持 (PST/EST/CST/MST)
+                        </p>
+                        <p></i> 更新时间: 2025年6月20日</p>
+                    </div>
+                </div>
+
                 <!-- 时钟小组件 - 优化版 -->
                 <div class="clock-widget">
                     <div class="clock-time" id="clock-time">00:00:00</div>
                     <div class="clock-date" id="clock-date">2023年7月15日 星期五</div>
                     <div class="clock-seconds" id="clock-seconds">00秒</div>
                 </div>
+
+                
 
                 <!-- 自定义图片区域 -->
                 <div class="custom-image-container">

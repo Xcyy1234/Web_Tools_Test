@@ -109,12 +109,6 @@
                     </div>
                     <div class="tool-nav-title">禅道缺陷管理</div>
                 </div>
-                <div class="tool-nav-item" data-tool="package-download">
-                    <div class="tool-nav-icon">
-                        <i class="fas fa-download"></i>
-                    </div>
-                    <div class="tool-nav-title">安装包下载</div>
-                </div>
                 <div class="tool-nav-item" data-tool="bugly-link">
                     <div class="tool-nav-icon">
                         <i class="fas fa-cog"></i>
@@ -138,33 +132,52 @@
 
         <div class="sidebar-section">
             <div class="sidebar-title">
-                <i class="fa fa-comments"></i> 常见问题
+                <i class="fa-solid fa-city"></i> CT项目
             </div>
+            <div class="tool-nav-item" data-tool="activity-ct">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-nav-title">活动查询</div>
+                </div>
+                <div class="tool-nav-item" data-tool="package-download-ct">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <div class="tool-nav-title">安装包下载</div>
+                </div>
             <div class="sidebar-section-content">
-                <div class="tool-nav-item" data-tool="faq-1">
+                <div class="tool-nav-item" data-tool="error-ct">
                     <div class="tool-nav-icon">
                         <i class="fas fa-question-circle"></i>
                     </div>
                     <div class="tool-nav-title">常见报错指南</div>
                 </div>
-                <!--                <div class="tool-nav-item" data-tool="faq-2">-->
-                <!--                    <div class="tool-nav-icon">-->
-                <!--                        <i class="fas fa-question-circle"></i>-->
-                <!--                    </div>-->
-                <!--                    <div class="tool-nav-title">如何正确提交bug</div>-->
-                <!--                </div>-->
-                <!--                <div class="tool-nav-item" data-tool="faq-3">-->
-                <!--                    <div class="tool-nav-icon">-->
-                <!--                        <i class="fas fa-question-circle"></i>-->
-                <!--                    </div>-->
-                <!--                    <div class="tool-nav-title">弱网模拟设置指南</div>-->
-                <!--                </div>-->
-                <!--                <div class="tool-nav-item" data-tool="faq-4">-->
-                <!--                    <div class="tool-nav-icon">-->
-                <!--                        <i class="fas fa-question-circle"></i>-->
-                <!--                    </div>-->
-                <!--                    <div class="tool-nav-title">翻译工具使用说明</div>-->
-                <!--                </div>-->
+            </div>
+        </div>
+        <div class="sidebar-section">
+            <div class="sidebar-title">
+                <i class="fa-solid fa-city"></i> JMS项目
+            </div>
+        </div>
+        <div class="sidebar-section">
+            <div class="sidebar-title">
+                <i class="fa-solid fa-city"></i> JFS项目
+            </div>
+        </div>
+        <div class="sidebar-section">
+            <div class="sidebar-title">
+                <i class="fa-solid fa-city"></i> ST项目
+            </div>
+        </div>
+        <div class="sidebar-section">
+            <div class="sidebar-title">
+                <i class="fa-solid fa-city"></i> CM项目
+            </div>
+        </div>
+        <div class="sidebar-section">
+            <div class="sidebar-title">
+                <i class="fa-solid fa-city"></i> MG项目
             </div>
         </div>
     </div>
@@ -184,10 +197,10 @@
                         <h3>更新公告</h3>
                     </div>
                     <div class="announcement-content">
-                        <p></i> 1、时间戳只保留美区当前时间</p>
-                        <p></i> 2、时间戳新增西八区时间</p>
-                        <p></i> 3、增加北京和西八时间差</p>
-                        <p></i> 更新时间: 2025年6月20日</p>
+                        <p></i> 1、添加项目分组</p>
+                        <p></i> 2、CT增加活动查询功能</p>
+                        <p></i> 3、页签更改分组</p>
+                        <p></i> 更新时间: 2025年6月23日</p>
                     </div>
                 </div>
 
@@ -289,6 +302,48 @@
 
             <div class="mobile-hint">
                 <i class="fas fa-info-circle"></i> 提示：点击左上角菜单按钮查看更多工具
+            </div>
+        </div>
+        <!-- 新增活动查询工具 -->
+        <div class="tool-content" id="activity-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="tool-header-title">活动查询工具</div>
+            </div>
+
+            <div class="input-group activity-search-container">
+                <label>活动搜索</label>
+                <input type="text" id="activity-search" placeholder="输入活动描述关键字">
+                <div class="activity-search-results" id="activity-results"></div>
+            </div>
+
+            <div class="activity-detail" id="activity-detail" style="display: none;">
+                <div class="detail-row">
+                    <div class="detail-label">活动名称:</div>
+                    <div class="detail-value" id="detail-name"></div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">活动描述:</div>
+                    <div class="detail-value" id="detail-description"></div>
+                </div>
+<!--                <div class="detail-row">-->
+<!--                    <div class="detail-label">活动类型:</div>-->
+<!--                    <div class="detail-value" id="detail-type"></div>-->
+<!--                </div>-->
+<!--                <div class="detail-row">-->
+<!--                    <div class="detail-label">活动状态:</div>-->
+<!--                    <div class="detail-value" id="detail-status"></div>-->
+<!--                </div>-->
+<!--                <div class="detail-row">-->
+<!--                    <div class="detail-label">开始时间:</div>-->
+<!--                    <div class="detail-value" id="detail-start"></div>-->
+<!--                </div>-->
+<!--                <div class="detail-row">-->
+<!--                    <div class="detail-label">结束时间:</div>-->
+<!--                    <div class="detail-value" id="detail-end"></div>-->
+<!--                </div>-->
             </div>
         </div>
 
@@ -833,7 +888,7 @@
         </div>
 
         <!-- 安装包链接 -->
-        <div class="tool-content" id="package-download">
+        <div class="tool-content" id="package-download-ct">
             <div class="tool-header">
                 <div class="tool-header-icon">
                     <i class="fas fa-download"></i>
@@ -911,7 +966,7 @@
 
         <!-- 常见问题页面 -->
         <!--常见报错 -->
-        <div class="tool-content" id="faq-1">
+        <div class="tool-content" id="error-ct">
             <div class="tool-header">
                 <div class="tool-header-icon">
                     <i class="fas fa-question-circle"></i>
@@ -1145,6 +1200,6 @@
     </div>
 </div>
 
-<script src="script.js"></script>
+<script type="module" src="script.js"></script>
 </body>
 </html>

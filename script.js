@@ -90,6 +90,9 @@ let aiConversation = [];
 // DeepSeek API密钥
 const DEEPSEEK_API_KEY = "sk-8790cdaaee5b44b09db701f7b79d10ae";
 
+//活动查询获取数据
+import { activityData } from './Activity.js';
+
 // 汇率数据
 const exchangeRates = {
     CNY: { name: "人民币", rate: 1, flag: "🇨🇳" },
@@ -286,6 +289,9 @@ function init() {
 
     // 初始化COIN金币计算器
     calculateCoin();
+
+    // 初始化活动查询功能
+    initActivitySearch();
 
     // 为常见问题部分添加点击事件
     document.querySelectorAll('[data-tool^="faq"]').forEach(item => {
@@ -1041,6 +1047,80 @@ function getSymbol(operator) {
         case '/': return '÷';
         default: return '';
     }
+}
+
+// 活动查询功能
+function initActivitySearch() {
+    const searchInput = document.getElementById('activity-search');
+    const resultsContainer = document.getElementById('activity-results');
+    const detailContainer = document.getElementById('activity-detail');
+
+    // 输入事件处理
+    searchInput.addEventListener('input', function() {
+        const keyword = this.value.trim();
+        resultsContainer.innerHTML = '';
+
+        if (keyword.length === 0) {
+            resultsContainer.style.display = 'none';
+            detailContainer.style.display = 'none';
+            return;
+        }
+
+        // 模糊搜索匹配
+        const matchedActivities = activityData.filter(activity =>
+            activity.description.includes(keyword) ||
+            activity.activity_name.toLowerCase().includes(keyword.toLowerCase())
+        );
+
+        if (matchedActivities.length > 0) {
+            resultsContainer.style.display = 'block';
+
+            matchedActivities.forEach(activity => {
+                const item = document.createElement('div');
+                item.className = 'activity-item';
+                item.innerHTML = `
+                    <div class="activity-name">${activity.activity_name}</div>
+                    <div class="activity-description">${activity.description}</div>
+                `;
+
+                item.addEventListener('click', function() {
+                    showActivityDetail(activity);
+                    resultsContainer.style.display = 'none';
+                });
+
+                resultsContainer.appendChild(item);
+            });
+        } else {
+            resultsContainer.style.display = 'block';
+            resultsContainer.innerHTML = `
+                <div class="activity-item">
+                    <div style="text-align: center; padding: 15px; color: #a0aec0;">
+                        未找到匹配的活动
+                    </div>
+                </div>
+            `;
+        }
+    });
+
+    // 点击页面其他区域关闭搜索结果
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.activity-search-container')) {
+            resultsContainer.style.display = 'none';
+        }
+    });
+}
+
+// 显示活动详情
+function showActivityDetail(activity) {
+    const detailContainer = document.getElementById('activity-detail');
+    document.getElementById('detail-name').textContent = activity.activity_name;
+    document.getElementById('detail-description').textContent = activity.description;
+//    document.getElementById('detail-type').textContent = activity.type;
+//    document.getElementById('detail-status').textContent = activity.status;
+//    document.getElementById('detail-start').textContent = activity.start_date;
+//    document.getElementById('detail-end').textContent = activity.end_date;
+
+    detailContainer.style.display = 'block';
 }
 
 

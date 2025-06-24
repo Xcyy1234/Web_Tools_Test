@@ -2,7 +2,7 @@
 function detectDevTools() {
     const element = new Image();
 
-    Object.defineProperty(element, 'id', {
+    Object.defineProperty(element, 'id',{
         get: () => {
             // 当开发者工具打开时触发
             document.body.innerHTML = '<h1 style="color:red;text-align:center;margin-top:100px;">禁止检查源代码</h1>';
@@ -92,6 +92,9 @@ const OPENROUTER_API_KEY = "sk-or-v1-2fe8d20c7c6996e381c2d02451013924fe9a7a99d1d
 
 //活动查询获取数据
 import { activityData } from './Activity.js';
+
+//读取模块数据
+import { ModelData } from './model.js';
 
 // 汇率数据
 const exchangeRates = {
@@ -292,6 +295,9 @@ function init() {
 
     // 初始化活动查询功能
     initActivitySearch();
+
+    //初始化模块数据查询功能
+    initModelSearch();
 
     // 为常见问题部分添加点击事件
     document.querySelectorAll('[data-tool^="faq"]').forEach(item => {
@@ -1131,6 +1137,84 @@ function showActivityDetail(activity) {
     detailContainer.style.display = 'block';
 }
 
+//新增数据模块查询功能
+function initModelSearch() {
+    const searchInput = document.getElementById('model-search');
+    const resultsContainer = document.getElementById('model-results');
+    const detailContainer = document.getElementById('model-detail');
+
+    // 初始隐藏详情容器
+    detailContainer.style.display = 'none';
+
+    searchInput.addEventListener('input', function() {
+        const keyword = this.value.trim();
+        resultsContainer.innerHTML = '';
+
+        if (keyword.length === 0) {
+            resultsContainer.style.display = 'none';
+            detailContainer.style.display = 'none';
+            return;
+        }
+
+        // 模糊搜索匹配
+        const matchedModels = ModelData.filter(model =>
+            model.model_key.includes(keyword) ||
+            model.model_value.toLowerCase().includes(keyword.toLowerCase())
+        );
+
+        if (matchedModels.length > 0) {
+            resultsContainer.style.display = 'block';
+
+            matchedModels.forEach(model => {
+                const item = document.createElement('div');
+                item.className = 'model-item';
+
+                // 更安全的HTML插入方式
+                const name = document.createElement('div');
+                name.className = 'model-name';
+                name.textContent = model.model_value;
+
+                const desc = document.createElement('div');
+                desc.className = 'model-description';
+                desc.textContent = model.model_key;
+
+                item.appendChild(name);
+                item.appendChild(desc);
+
+                item.addEventListener('click', function() {
+                    showModelDetail(model);
+                    resultsContainer.style.display = 'none';
+                });
+
+                resultsContainer.appendChild(item);
+            });
+        } else {
+            resultsContainer.style.display = 'block';
+            const noResult = document.createElement('div');
+            noResult.className = 'model-item';
+            noResult.innerHTML = `
+                <div style="text-align: center; padding: 15px; color: #a0aec0;">
+                    未找到匹配的模型
+                </div>
+            `;
+            resultsContainer.appendChild(noResult);
+        }
+    });
+
+    // 改进的点击关闭逻辑
+    document.addEventListener('click', function(e) {
+        if (!resultsContainer.contains(e.target) && e.target !== searchInput) {
+            resultsContainer.style.display = 'none';
+        }
+    });
+}
+
+function showModelDetail(model) {
+    const detailContainer = document.getElementById('model-detail');
+    document.getElementById('model-name').textContent = model.model_value;
+    document.getElementById('model-description').textContent = model.model_key;
+    detailContainer.style.display = 'block';
+}
 
 
 

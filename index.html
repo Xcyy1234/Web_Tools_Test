@@ -138,7 +138,13 @@
                     <div class="tool-nav-icon">
                         <i class="fas fa-search"></i>
                     </div>
-                    <div class="tool-nav-title">活动查询</div>
+                    <div class="tool-nav-title">活动名称查询</div>
+                </div>
+            <div class="tool-nav-item" data-tool="model-ct">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="tool-nav-title">数据模块查询</div>
                 </div>
                 <div class="tool-nav-item" data-tool="package-download-ct">
                     <div class="tool-nav-icon">
@@ -305,6 +311,7 @@
                 <i class="fas fa-info-circle"></i> 提示：点击左上角菜单按钮查看更多工具
             </div>
         </div>
+
         <!-- 新增活动查询工具 -->
         <div class="tool-content" id="activity-ct">
             <div class="tool-header">
@@ -328,6 +335,49 @@
                 <div class="detail-row">
                     <div class="detail-label">活动描述:</div>
                     <div class="detail-value" id="detail-description"></div>
+                </div>
+<!--                <div class="detail-row">-->
+<!--                    <div class="detail-label">活动类型:</div>-->
+<!--                    <div class="detail-value" id="detail-type"></div>-->
+<!--                </div>-->
+<!--                <div class="detail-row">-->
+<!--                    <div class="detail-label">活动状态:</div>-->
+<!--                    <div class="detail-value" id="detail-status"></div>-->
+<!--                </div>-->
+<!--                <div class="detail-row">-->
+<!--                    <div class="detail-label">开始时间:</div>-->
+<!--                    <div class="detail-value" id="detail-start"></div>-->
+<!--                </div>-->
+<!--                <div class="detail-row">-->
+<!--                    <div class="detail-label">结束时间:</div>-->
+<!--                    <div class="detail-value" id="detail-end"></div>-->
+<!--                </div>-->
+            </div>
+        </div>
+
+        <!-- 新增活动模块查询工具 -->
+        <div class="tool-content" id="model-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="tool-header-title">模块数据查询工具</div>
+            </div>
+
+            <div class="input-group model-search-container">
+                <label>模块搜索</label>
+                <input type="text" id="model-search" placeholder="输入模块数据关键字">
+                <div class="model-search-results" id="model-results"></div>
+            </div>
+
+            <div class="model-detail" id="model-detail" style="display: none;">
+                <div class="detail-row">
+                    <div class="detail-label">活动模块名称:</div>
+                    <div class="detail-value" id="model-name"></div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">模块数据字段:</div>
+                    <div class="detail-value" id="model-description"></div>
                 </div>
 <!--                <div class="detail-row">-->
 <!--                    <div class="detail-label">活动类型:</div>-->

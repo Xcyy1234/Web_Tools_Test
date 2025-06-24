@@ -88,7 +88,7 @@ const weatherData = [
 let aiConversation = [];
 
 // DeepSeek API密钥
-const DEEPSEEK_API_KEY = "sk-8790cdaaee5b44b09db701f7b79d10ae";
+const OPENROUTER_API_KEY = "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";
 
 //活动查询获取数据
 import { activityData } from './Activity.js';
@@ -753,14 +753,16 @@ function clearAIChat() {
 // 调用Super Test AI助手
 async function getAIResponse(question) {
     try {
-        const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+        const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': `Bearer ${DEEPSEEK_API_KEY}`
+                'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+                'HTTP-Referer': 'https://xcyy1234.github.io/Web_Tools_Test/',
+                'X-Title': 'NewTestTool' // 使用纯英文标题
             },
             body: JSON.stringify({
-                model: 'deepseek-chat',
+                model: 'mistralai/mistral-7b-instruct:free', // 改用免费模型
                 messages: [
                     { role: 'system', content: '你是一个专业的游戏测试助手，帮助测试人员解决各种技术问题' },
                     ...aiConversation.map(msg => ({
@@ -774,11 +776,17 @@ async function getAIResponse(question) {
             })
         });
 
+        // 检查HTTP状态
+        if (!response.ok) {
+            const errorData = await response.json();
+            return `API错误: ${response.status} - ${errorData.error?.message || '未知错误'}`;
+        }
+
         const data = await response.json();
         return data.choices[0]?.message?.content || '未能获取回答';
     } catch (error) {
         console.error('API调用错误:', error);
-        return '调用api需要付费，没钱，功能暂时不开放，等找到合适的api接口后续在开放';
+        return '服务暂时不可用，请稍后再试';
     }
 }
 
@@ -873,7 +881,7 @@ function showTypingIndicator() {
             <i class="fas fa-robot"></i>
         </div>
         <div>
-            <strong>DeepSeek AI助手</strong> 正在思考...
+            <strong>Super Test AI助手</strong> 正在思考...
             <div style="margin-top: 5px;">
                 <span></span>
                 <span></span>

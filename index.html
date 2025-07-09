@@ -170,6 +170,12 @@
             <div class="sidebar-title">
                 <i class="fa-solid fa-city"></i> JMS项目
             </div>
+            <div class="tool-nav-item" data-tool="package-download-jms">
+                <div class="tool-nav-icon">
+                    <i class="fas fa-download"></i>
+                </div>
+                <div class="tool-nav-title">安装包下载</div>
+            </div>
         </div>
         <div class="sidebar-section">
             <div class="sidebar-title">
@@ -208,10 +214,10 @@
                         <h3>更新公告</h3>
                     </div>
                     <div class="announcement-content">
-                        <p></i> 1、优化弱网模拟工具，添加部分场景</p>
-                        <p></i> 2、新增星球大战查询模块</p>
-                        <p></i> 3、去除星座运势</p>
-                        <p></i> 4、添加抽签解压小工具</p>
+                        <p></i> 1、优化弱网模拟工具</p>
+                        <p></i> 2、新增新版本活动模块查询</p>
+                        <p></i> 3、优化主页页签</p>
+                        <p></i> 4、添加jms项目安装包</p>
                         <p></i> 更新时间: 2025年7月09日</p>
                     </div>
                 </div>
@@ -256,7 +262,7 @@
                     </div>
                 </div>
 
-                <!-- 修改：星座运势卡片替换为抽签卡片 -->
+                <!-- 抽签 -->
                 <div class="info-card">
                     <div class="info-card-header">
                         <i class="fas fa-star"></i>
@@ -288,91 +294,7 @@
             </div>
         </div>
 
-        <!-- 新增活动查询工具 -->
-        <div class="tool-content" id="activity-ct">
-            <div class="tool-header">
-                <div class="tool-header-icon">
-                    <i class="fas fa-search"></i>
-                </div>
-                <div class="tool-header-title">活动查询工具</div>
-            </div>
 
-            <div class="input-group activity-search-container">
-                <label>活动搜索</label>
-                <input type="text" id="activity-search" placeholder="输入活动描述关键字">
-                <div class="activity-search-results" id="activity-results"></div>
-            </div>
-
-            <div class="activity-detail" id="activity-detail" style="display: none;">
-                <div class="detail-row">
-                    <div class="detail-label">活动名称:</div>
-                    <div class="detail-value" id="detail-name"></div>
-                </div>
-                <div class="detail-row">
-                    <div class="detail-label">活动描述:</div>
-                    <div class="detail-value" id="detail-description"></div>
-                </div>
-                <!--                <div class="detail-row">-->
-                <!--                    <div class="detail-label">活动类型:</div>-->
-                <!--                    <div class="detail-value" id="detail-type"></div>-->
-                <!--                </div>-->
-                <!--                <div class="detail-row">-->
-                <!--                    <div class="detail-label">活动状态:</div>-->
-                <!--                    <div class="detail-value" id="detail-status"></div>-->
-                <!--                </div>-->
-                <!--                <div class="detail-row">-->
-                <!--                    <div class="detail-label">开始时间:</div>-->
-                <!--                    <div class="detail-value" id="detail-start"></div>-->
-                <!--                </div>-->
-                <!--                <div class="detail-row">-->
-                <!--                    <div class="detail-label">结束时间:</div>-->
-                <!--                    <div class="detail-value" id="detail-end"></div>-->
-                <!--                </div>-->
-            </div>
-        </div>
-
-        <!-- 新增活动模块查询工具 -->
-        <div class="tool-content" id="model-ct">
-            <div class="tool-header">
-                <div class="tool-header-icon">
-                    <i class="fas fa-search"></i>
-                </div>
-                <div class="tool-header-title">模块数据查询工具</div>
-            </div>
-
-            <div class="input-group model-search-container">
-                <label>模块搜索</label>
-                <input type="text" id="model-search" placeholder="输入模块数据关键字">
-                <div class="model-search-results" id="model-results"></div>
-            </div>
-
-            <div class="model-detail" id="model-detail" style="display: none;">
-                <div class="detail-row">
-                    <div class="detail-label">活动模块名称:</div>
-                    <div class="detail-value" id="model-name"></div>
-                </div>
-                <div class="detail-row">
-                    <div class="detail-label">模块数据字段:</div>
-                    <div class="detail-value" id="model-description"></div>
-                </div>
-                <!--                <div class="detail-row">-->
-                <!--                    <div class="detail-label">活动类型:</div>-->
-                <!--                    <div class="detail-value" id="detail-type"></div>-->
-                <!--                </div>-->
-                <!--                <div class="detail-row">-->
-                <!--                    <div class="detail-label">活动状态:</div>-->
-                <!--                    <div class="detail-value" id="detail-status"></div>-->
-                <!--                </div>-->
-                <!--                <div class="detail-row">-->
-                <!--                    <div class="detail-label">开始时间:</div>-->
-                <!--                    <div class="detail-value" id="detail-start"></div>-->
-                <!--                </div>-->
-                <!--                <div class="detail-row">-->
-                <!--                    <div class="detail-label">结束时间:</div>-->
-                <!--                    <div class="detail-value" id="detail-end"></div>-->
-                <!--                </div>-->
-            </div>
-        </div>
 
         <!-- Super Test AI助手 -->
         <div class="tool-content" id="deepseek-ai">
@@ -834,7 +756,7 @@
                 <div class="input-group">
                     <label>丢包率 (%)</label>
                     <div class="slider-container">
-                        <input type="range" id="packet-loss" min="0" max="50" value="0">
+                        <input type="range" id="packet-loss" min="0" max="100" value="0">
                         <span class="slider-value" id="loss-value">0%</span>
                     </div>
                 </div>
@@ -991,26 +913,6 @@
             </div>
         </div>
 
-        <!-- 安装包链接 -->
-        <div class="tool-content" id="package-download-ct">
-            <div class="tool-header">
-                <div class="tool-header-icon">
-                    <i class="fas fa-download"></i>
-                </div>
-                <div class="tool-header-title">安装包下载</div>
-            </div>
-
-            <div class="link-card">
-                <i class="fas fa-cloud-download-alt"></i>
-                <h3>游戏安装包下载</h3>
-                <p>获取最新的游戏测试版本安装包，包含PC、Android和iOS平台</p>
-                <button class="btn btn-link" id="package-download-btn">
-                    <i class="fas fa-download"></i> 下载安装包
-                </button>
-            </div>
-        </div>
-
-
         <!-- bugly链接 -->
         <div class="tool-content" id="bugly-link">
             <div class="tool-header">
@@ -1068,7 +970,115 @@
             </div>
         </div>
 
-        <!-- 常见问题页面 -->
+        <!-----------------------------------------------CT相关------------------------------------------------->
+
+        <!-- CT新增活动查询工具CT -->
+        <div class="tool-content" id="activity-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="tool-header-title">活动查询工具</div>
+            </div>
+
+            <div class="input-group activity-search-container">
+                <label>活动搜索</label>
+                <input type="text" id="activity-search" placeholder="输入活动描述关键字">
+                <div class="activity-search-results" id="activity-results"></div>
+            </div>
+
+            <div class="activity-detail" id="activity-detail" style="display: none;">
+                <div class="detail-row">
+                    <div class="detail-label">活动名称:</div>
+                    <div class="detail-value" id="detail-name"></div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">活动描述:</div>
+                    <div class="detail-value" id="detail-description"></div>
+                </div>
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">活动类型:</div>-->
+                <!--                    <div class="detail-value" id="detail-type"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">活动状态:</div>-->
+                <!--                    <div class="detail-value" id="detail-status"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">开始时间:</div>-->
+                <!--                    <div class="detail-value" id="detail-start"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">结束时间:</div>-->
+                <!--                    <div class="detail-value" id="detail-end"></div>-->
+                <!--                </div>-->
+            </div>
+        </div>
+
+        <!-- CT新增活动模块查询工具 -->
+        <div class="tool-content" id="model-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="tool-header-title">模块数据查询工具</div>
+            </div>
+
+            <div class="input-group model-search-container">
+                <label>模块搜索</label>
+                <input type="text" id="model-search" placeholder="输入模块数据关键字">
+                <div class="model-search-results" id="model-results"></div>
+            </div>
+
+            <div class="model-detail" id="model-detail" style="display: none;">
+                <div class="detail-row">
+                    <div class="detail-label">活动模块名称:</div>
+                    <div class="detail-value" id="model-name"></div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">模块数据字段:</div>
+                    <div class="detail-value" id="model-description"></div>
+                </div>
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">活动类型:</div>-->
+                <!--                    <div class="detail-value" id="detail-type"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">活动状态:</div>-->
+                <!--                    <div class="detail-value" id="detail-status"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">开始时间:</div>-->
+                <!--                    <div class="detail-value" id="detail-start"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">结束时间:</div>-->
+                <!--                    <div class="detail-value" id="detail-end"></div>-->
+                <!--                </div>-->
+            </div>
+        </div>
+
+        <!-- ct安装包链接 -->
+        <div class="tool-content" id="package-download-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-download"></i>
+                </div>
+                <div class="tool-header-title">安装包下载</div>
+            </div>
+
+            <div class="link-card">
+                <i class="fas fa-cloud-download-alt"></i>
+                <h3>游戏安装包下载</h3>
+                <p>获取最新的游戏测试版本安装包，包含PC、Android和iOS平台</p>
+                <button class="btn btn-link" id="package-download-btn-ct">
+                    <i class="fas fa-download"></i> 下载安装包
+                </button>
+            </div>
+        </div>
+
+
+        <!-- CT常见问题页面 -->
         <!--常见报错 -->
         <div class="tool-content" id="error-ct">
             <div class="tool-header">
@@ -1317,6 +1327,26 @@
                 </ol>
                 <h3>问题原因：同步线上的号，好友数据里面的公会列表线上的同步不下来</h3>
                 <h3>解决方法：删下公会数据</h3>
+            </div>
+        </div>
+
+        <!-----------------------------------------------JMS相关------------------------------------------------->
+        <!-- jms安装包链接 -->
+        <div class="tool-content" id="package-download-jms">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-download"></i>
+                </div>
+                <div class="tool-header-title">安装包下载</div>
+            </div>
+
+            <div class="link-card">
+                <i class="fas fa-cloud-download-alt"></i>
+                <h3>游戏安装包下载</h3>
+                <p>获取最新的游戏测试版本安装包，包含PC、Android和iOS平台</p>
+                <button class="btn btn-link" id="package-download-btn-jms">
+                    <i class="fas fa-download"></i> 下载安装包
+                </button>
             </div>
         </div>
     </div>

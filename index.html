@@ -13,7 +13,7 @@
 </head>
 <body oncontextmenu="return false;">
 <script>
-  document.addEventListener('contextmenu', e => e.preventDefault());
+    document.addEventListener('contextmenu', e => e.preventDefault());
 
 </script>
 <!-- 顶部标题 -->
@@ -135,23 +135,23 @@
                 <i class="fa-solid fa-city"></i> CT项目
             </div>
             <div class="tool-nav-item" data-tool="activity-ct">
-                    <div class="tool-nav-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <div class="tool-nav-title">活动名称查询</div>
+                <div class="tool-nav-icon">
+                    <i class="fas fa-search"></i>
                 </div>
+                <div class="tool-nav-title">活动名称查询</div>
+            </div>
             <div class="tool-nav-item" data-tool="model-ct">
-                    <div class="tool-nav-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <div class="tool-nav-title">数据模块查询</div>
+                <div class="tool-nav-icon">
+                    <i class="fas fa-search"></i>
                 </div>
-                <div class="tool-nav-item" data-tool="package-download-ct">
-                    <div class="tool-nav-icon">
-                        <i class="fas fa-download"></i>
-                    </div>
-                    <div class="tool-nav-title">安装包下载</div>
+                <div class="tool-nav-title">数据模块查询</div>
+            </div>
+            <div class="tool-nav-item" data-tool="package-download-ct">
+                <div class="tool-nav-icon">
+                    <i class="fas fa-download"></i>
                 </div>
+                <div class="tool-nav-title">安装包下载</div>
+            </div>
             <div class="sidebar-section-content">
                 <div class="tool-nav-item" data-tool="error-ct">
                     <div class="tool-nav-icon">
@@ -203,11 +203,11 @@
                         <h3>更新公告</h3>
                     </div>
                     <div class="announcement-content">
-                        <p></i> 1、添加项目分组</p>
-                        <p></i> 2、CT增加活动查询功能</p>
-                        <p></i> 3、页签更改分组</p>
-                        <p></i> 4、可调用super test ai 助手</p>
-                        <p></i> 更新时间: 2025年6月23日</p>
+                        <p></i> 1、优化弱网模拟工具，添加部分场景</p>
+                        <p></i> 2、新增星球大战活动模块</p>
+                        <p></i> 3、去除星座运势</p>
+                        <p></i> 4、添加抽签小工具</p>
+                        <p></i> 更新时间: 2025年7月09日</p>
                     </div>
                 </div>
 
@@ -217,7 +217,6 @@
                     <div class="clock-date" id="clock-date">2023年7月15日 星期五</div>
                     <div class="clock-seconds" id="clock-seconds">00秒</div>
                 </div>
-
 
 
                 <!-- 自定义图片区域 -->
@@ -252,61 +251,33 @@
                     </div>
                 </div>
 
-                <!-- 星座运势卡片 -->
+                <!-- 修改：星座运势卡片替换为抽签卡片 -->
                 <div class="info-card">
                     <div class="info-card-header">
                         <i class="fas fa-star"></i>
-                        <h3>今日星座运势</h3>
+                        <h3>每日一签</h3>
                     </div>
-                    <div class="horoscope-container">
-                        <ul class="horoscope-list" id="horoscope-list">
-                            <li class="horoscope-item">
-                                <div class="horoscope-content">
-                                    <span class="horoscope-sign">白羊座 (3.21-4.19):</span>
-                                    <span class="horoscope-score">★★★★☆</span>
-                                    <div>今天工作上有突破性进展，抓住机会展示你的能力。</div>
-                                </div>
-                            </li>
-                            <li class="horoscope-item">
-                                <div class="horoscope-content">
-                                    <span class="horoscope-sign">金牛座 (4.20-5.20):</span>
-                                    <span class="horoscope-score">★★★☆☆</span>
-                                    <div>财务方面需要谨慎，避免冲动消费。</div>
-                                </div>
-                            </li>
-                            <li class="horoscope-item">
-                                <div class="horoscope-content">
-                                    <span class="horoscope-sign">双子座 (5.21-6.21):</span>
-                                    <span class="horoscope-score">★★★★★</span>
-                                    <div>社交运极佳，适合拓展人脉和团队合作。</div>
-                                </div>
-                            </li>
-                            <li class="horoscope-item">
-                                <div class="horoscope-content">
-                                    <span class="horoscope-sign">巨蟹座 (6.22-7.22):</span>
-                                    <span class="horoscope-score">★★★☆☆</span>
-                                    <div>情绪波动较大，需要自我调节。</div>
-                                </div>
-                            </li>
-                            <li class="horoscope-item">
-                                <div class="horoscope-content">
-                                    <span class="horoscope-sign">狮子座 (7.23-8.22):</span>
-                                    <span class="horoscope-score">★★★★☆</span>
-                                    <div>领导能力凸显，适合主导项目。</div>
-                                </div>
-                            </li>
-                            <li class="horoscope-item">
-                                <div class="horoscope-content">
-                                    <span class="horoscope-sign">处女座 (8.23-9.22):</span>
-                                    <span class="horoscope-score">★★★☆☆</span>
-                                    <div>细节决定成败，注意检查工作。</div>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="fortune-container" id="fortune-container">
+                        <!-- 抽签按钮 -->
+                        <button class="fortune-btn" id="fortune-btn">抽个签</button>
+
+                        <!-- 抽签动画 -->
+                        <div class="fortune-animation" id="fortune-animation" style="display: none;">
+                            <i class="fas fa-spinner"></i>
+                        </div>
+
+                        <!-- 抽签结果 -->
+                        <div class="fortune-result" id="fortune-result" style="display: none;">
+                            <div class="fortune-title" id="fortune-title">上上签</div>
+                            <div class="fortune-content" id="fortune-content">今日万事如意，心想事成！</div>
+                            <div class="fortune-explanation" id="fortune-explanation">解析：这是一个非常好的兆头，表示你将会在各个方面都取得成功。</div>
+                            <button class="btn" id="fortune-close">关闭</button>
+                        </div>
                     </div>
                 </div>
             </div>
 
+            <!-- 汉堡菜单 -->
             <div class="mobile-hint">
                 <i class="fas fa-info-circle"></i> 提示：点击左上角菜单按钮查看更多工具
             </div>
@@ -336,22 +307,22 @@
                     <div class="detail-label">活动描述:</div>
                     <div class="detail-value" id="detail-description"></div>
                 </div>
-<!--                <div class="detail-row">-->
-<!--                    <div class="detail-label">活动类型:</div>-->
-<!--                    <div class="detail-value" id="detail-type"></div>-->
-<!--                </div>-->
-<!--                <div class="detail-row">-->
-<!--                    <div class="detail-label">活动状态:</div>-->
-<!--                    <div class="detail-value" id="detail-status"></div>-->
-<!--                </div>-->
-<!--                <div class="detail-row">-->
-<!--                    <div class="detail-label">开始时间:</div>-->
-<!--                    <div class="detail-value" id="detail-start"></div>-->
-<!--                </div>-->
-<!--                <div class="detail-row">-->
-<!--                    <div class="detail-label">结束时间:</div>-->
-<!--                    <div class="detail-value" id="detail-end"></div>-->
-<!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">活动类型:</div>-->
+                <!--                    <div class="detail-value" id="detail-type"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">活动状态:</div>-->
+                <!--                    <div class="detail-value" id="detail-status"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">开始时间:</div>-->
+                <!--                    <div class="detail-value" id="detail-start"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">结束时间:</div>-->
+                <!--                    <div class="detail-value" id="detail-end"></div>-->
+                <!--                </div>-->
             </div>
         </div>
 
@@ -379,22 +350,22 @@
                     <div class="detail-label">模块数据字段:</div>
                     <div class="detail-value" id="model-description"></div>
                 </div>
-<!--                <div class="detail-row">-->
-<!--                    <div class="detail-label">活动类型:</div>-->
-<!--                    <div class="detail-value" id="detail-type"></div>-->
-<!--                </div>-->
-<!--                <div class="detail-row">-->
-<!--                    <div class="detail-label">活动状态:</div>-->
-<!--                    <div class="detail-value" id="detail-status"></div>-->
-<!--                </div>-->
-<!--                <div class="detail-row">-->
-<!--                    <div class="detail-label">开始时间:</div>-->
-<!--                    <div class="detail-value" id="detail-start"></div>-->
-<!--                </div>-->
-<!--                <div class="detail-row">-->
-<!--                    <div class="detail-label">结束时间:</div>-->
-<!--                    <div class="detail-value" id="detail-end"></div>-->
-<!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">活动类型:</div>-->
+                <!--                    <div class="detail-value" id="detail-type"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">活动状态:</div>-->
+                <!--                    <div class="detail-value" id="detail-status"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">开始时间:</div>-->
+                <!--                    <div class="detail-value" id="detail-start"></div>-->
+                <!--                </div>-->
+                <!--                <div class="detail-row">-->
+                <!--                    <div class="detail-label">结束时间:</div>-->
+                <!--                    <div class="detail-value" id="detail-end"></div>-->
+                <!--                </div>-->
             </div>
         </div>
 
@@ -821,7 +792,7 @@
             </div>
         </div>
 
-        <!-- 模拟弱网工具 -->
+        <!-- 优化后的模拟弱网工具 -->
         <div class="tool-content" id="network-simulator">
             <div class="tool-header">
                 <div class="tool-header-icon">
@@ -830,51 +801,128 @@
                 <div class="tool-header-title">模拟弱网工具</div>
             </div>
 
-            <div class="input-group">
-                <label>网络延迟 (ms)</label>
-                <div class="slider-container">
-                    <input type="range" id="latency" min="0" max="1000" value="50">
-                    <span class="slider-value" id="latency-value">50ms</span>
-                </div>
-            </div>
-
-            <div class="input-group">
-                <label>丢包率 (%)</label>
-                <div class="slider-container">
-                    <input type="range" id="packet-loss" min="0" max="50" value="0">
-                    <span class="slider-value" id="loss-value">0%</span>
-                </div>
-            </div>
-
-            <div class="network-status">
-                <div class="network-item network-good" id="network-good">
-                    <div class="network-indicator"></div>
-                    <div>
-                        <h4>良好网络</h4>
-                        <p>延迟: 0-50ms, 丢包: 0%</p>
+            <div class="network-controls">
+                <div class="input-group">
+                    <label>网络延迟 (ms)</label>
+                    <div class="slider-container">
+                        <input type="range" id="latency" min="0" max="2000" value="0">
+                        <span class="slider-value" id="latency-value">0ms</span>
                     </div>
                 </div>
 
-                <div class="network-item network-medium" id="network-medium">
-                    <div class="network-indicator"></div>
-                    <div>
-                        <h4>中等网络</h4>
-                        <p>延迟: 100-300ms, 丢包: 5-10%</p>
+                <div class="input-group">
+                    <label>上行延时 (ms)</label>
+                    <div class="slider-container">
+                        <input type="range" id="upload-latency" min="0" max="2000" value="0">
+                        <span class="slider-value" id="upload-latency-value">0ms</span>
                     </div>
                 </div>
 
-                <div class="network-item network-poor" id="network-poor">
-                    <div class="network-indicator"></div>
-                    <div>
-                        <h4>弱网环境</h4>
-                        <p>延迟: 500-1000ms, 丢包: 20-50%</p>
+                <div class="input-group">
+                    <label>下行延时 (ms)</label>
+                    <div class="slider-container">
+                        <input type="range" id="download-latency" min="0" max="2000" value="0">
+                        <span class="slider-value" id="download-latency-value">0ms</span>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>丢包率 (%)</label>
+                    <div class="slider-container">
+                        <input type="range" id="packet-loss" min="0" max="50" value="0">
+                        <span class="slider-value" id="loss-value">0%</span>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label>随机丢包率 (%)</label>
+                    <div class="slider-container">
+                        <input type="range" id="random-packet-loss" min="0" max="30" value="0">
+                        <span class="slider-value" id="random-loss-value">0%</span>
                     </div>
                 </div>
             </div>
 
-            <button class="btn" id="apply-network">
-                <i class="fas fa-plug"></i> 应用网络设置
-            </button>
+            <div class="network-status-indicator">
+                <div class="network-status-label">当前网络状态</div>
+                <div class="network-status-value" id="network-status">良好</div>
+                <div id="network-stats">延迟: 0ms | 丢包: 0%</div>
+
+                <!-- 网络状态可视化 -->
+                <div class="network-visualization">
+                    <div class="network-bar">
+                        <div class="network-bar-fill" id="latency-bar"></div>
+                    </div>
+                    <div class="network-bar-label">
+                        <span>0ms</span>
+                        <span>2000ms</span>
+                    </div>
+
+                    <div class="network-bar">
+                        <div class="network-bar-fill" id="loss-bar"></div>
+                    </div>
+                    <div class="network-bar-label">
+                        <span>0%</span>
+                        <span>50%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="network-presets">
+                <label>预设场景</label>
+                <div class="preset-grid">
+                    <div class="preset-item" data-preset="elevator">
+                        <div class="preset-name"><i class="fas fa-elevator"></i> 电梯</div>
+                        <div class="preset-stats">延迟: 500-1000ms</div>
+                        <div class="preset-stats">丢包: 10-20%</div>
+                    </div>
+                    <div class="preset-item" data-preset="subway">
+                        <div class="preset-name"><i class="fas fa-subway"></i> 地铁</div>
+                        <div class="preset-stats">延迟: 300-800ms</div>
+                        <div class="preset-stats">丢包: 5-15%</div>
+                    </div>
+                    <div class="preset-item" data-preset="tunnel">
+                        <div class="preset-name"><i class="fas fa-road"></i> 隧道</div>
+                        <div class="preset-stats">延迟: 1000-1500ms</div>
+                        <div class="preset-stats">丢包: 20-30%</div>
+                    </div>
+                    <div class="preset-item" data-preset="rural">
+                        <div class="preset-name"><i class="fas fa-tree"></i> 偏远地区</div>
+                        <div class="preset-stats">延迟: 800-1200ms</div>
+                        <div class="preset-stats">丢包: 15-25%</div>
+                    </div>
+                    <div class="preset-item" data-preset="stadium">
+                        <div class="preset-name"><i class="fas fa-people-group"></i> 体育场</div>
+                        <div class="preset-stats">延迟: 200-600ms</div>
+                        <div class="preset-stats">丢包: 10-20%</div>
+                    </div>
+                    <div class="preset-item" data-preset="conference">
+                        <div class="preset-name"><i class="fas fa-users"></i> 会议中心</div>
+                        <div class="preset-stats">延迟: 150-400ms</div>
+                        <div class="preset-stats">丢包: 5-15%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="network-action-buttons">
+                <button class="btn btn-success" id="apply-settings">
+                    <i class="fas fa-plug"></i> 应用网络设置
+                </button>
+                <button class="btn btn-danger" id="reset-settings">
+                    <i class="fas fa-sync-alt"></i> 恢复网络状态
+                </button>
+            </div>
+
+            <div class="result-box" id="network-result">
+                <div style="text-align: center; color: #718096; padding: 10px;">
+                    网络设置状态将显示在这里
+                </div>
+            </div>
+
+            <!-- 网络图表 -->
+            <div class="network-graph" id="network-graph">
+                <div class="graph-line" id="latency-graph"></div>
+            </div>
         </div>
 
         <!-- 截屏翻译 -->
@@ -1245,6 +1293,24 @@
 
                 </ol>
                 <h3>问题原因：同步线上的号，公会推荐的好友找不到数据了</h3>
+                <h3>解决方法：删下公会数据</h3>
+            </div>
+            <div class="info-card">
+                <h3>系统：好友</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>BusinessExceptionHandlerV1 handleException error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        udid:2DF3D9D9-5B04-4134-973A-9C0A1C5F3A73:SlotNewCashLink
+                        java.lang.NullPointerException
+                        at com.xcyy.support.business.service.impl.FriendServiceImpl.
+                        getRecommendFriends(FriendServiceImpl.java:458)
+
+
+                    </li>
+
+                </ol>
+                <h3>问题原因：同步线上的号，好友数据里面的公会列表线上的同步不下来</h3>
                 <h3>解决方法：删下公会数据</h3>
             </div>
         </div>

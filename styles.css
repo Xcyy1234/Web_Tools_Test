@@ -560,61 +560,163 @@ input:focus, select:focus, textarea:focus {
     align-items: center;
     gap: 10px;
 }
-
-.network-status {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.network-item {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.network-item {
+/* 网络弱网 */
+.network-controls {
     background: rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid rgba(106, 17, 203, 0.3);
+}
+
+.network-status-indicator {
+    margin-top: 20px;
     padding: 15px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(106, 17, 203, 0.3);
+    text-align: center;
+}
+
+.network-status-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: var(--neon-blue);
+}
+
+.network-status-label {
+    font-size: 1rem;
+    color: #a0aec0;
+}
+
+.network-presets {
+    margin-top: 20px;
+}
+
+.preset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.preset-item {
+    padding: 12px;
+    background: rgba(106, 17, 203, 0.1);
+    border-radius: 8px;
+    text-align: center;
     cursor: pointer;
     transition: var(--transition);
 }
 
-.network-item:hover {
-    background: rgba(0, 0, 0, 0.3);
-    transform: translateX(5px);
+.preset-item:hover {
+    background: rgba(106, 17, 203, 0.2);
+    transform: translateY(-3px);
 }
 
-.network-indicator {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+.preset-item.active {
+    background: rgba(106, 17, 203, 0.3);
+    box-shadow: 0 0 0 2px var(--neon-purple);
 }
 
-.network-good .network-indicator {
+.preset-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.preset-stats {
+    font-size: 0.8rem;
+    color: #a0aec0;
+}
+
+.network-action-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.network-simulation-indicator {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 0, 0, 0.7);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    z-index: 1000;
+    display: none;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(255, 0, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106, 17, 203, 0.5);
+}
+
+.btn-success {
+    background: linear-gradient(90deg, var(--success), #00b248);
+}
+
+.btn-danger {
+    background: linear-gradient(90deg, var(--danger), #d50000);
+}
+
+/* 网络状态可视化 */
+.network-visualization {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.network-bar {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.network-bar-fill {
+    height: 100%;
+    width: 100%;
     background: var(--network-good);
-    box-shadow: 0 0 10px var(--network-good);
+    transition: width 0.5s ease;
 }
 
-.network-medium .network-indicator {
-    background: var(--network-medium);
-    box-shadow: 0 0 10px var(--network-medium);
+.network-bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: #a0aec0;
 }
 
-.network-poor .network-indicator {
-    background: var(--network-poor);
-    box-shadow: 0 0 10px var(--network-poor);
+.network-graph {
+    height: 120px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(106, 17, 203, 0.2);
 }
 
-.network-selected {
-    background: rgba(106, 17, 203, 0.2) !important;
-    border: 1px solid var(--neon-purple);
+.graph-line {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background: var(--neon-blue);
+    opacity: 0.7;
 }
 
 .translation-result {
@@ -680,7 +782,6 @@ input:focus, select:focus, textarea:focus {
     font-family: monospace;
     font-size: 0.95rem;
 }
-
 .btn {
     padding: 14px 20px;
     border-radius: 10px;
@@ -863,6 +964,76 @@ input:focus, select:focus, textarea:focus {
     font-size: 1.5rem;
     color: white;
 }
+
+/* 新增抽签样式 */
+.fortune-container {
+    text-align: center;
+    padding: 20px 0;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fortune-btn {
+    padding: 12px 30px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(106, 17, 203, 0.3);
+    transition: var(--transition);
+}
+
+.fortune-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(106, 17, 203, 0.5);
+}
+
+.fortune-animation {
+    font-size: 50px;
+    color: var(--neon-blue);
+    animation: fortuneSpin 1s infinite;
+}
+
+@keyframes fortuneSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.fortune-result {
+    padding: 10px;
+    animation: fadeIn 0.5s ease;
+}
+
+.fortune-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: var(--neon-blue);
+}
+
+.fortune-content {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.fortune-explanation {
+    color: #a0aec0;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* 签文颜色 */
+.best-fortune { color: #ffd700; }
+.good-fortune { color: #00c853; }
+.normal-fortune { color: #3498db; }
+.bad-fortune { color: #f39c12; }
+.worst-fortune { color: #e74c3c; }
 
 /* 时间戳单位选择器优化 */
 .timestamp-unit-select {

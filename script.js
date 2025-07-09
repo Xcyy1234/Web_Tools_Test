@@ -1,1 +1,1537 @@
-const _0x518cc0=_0x8278;(function(_0x19d077,_0x3e4cfe){const _0x303b67=_0x8278,_0x451e67=_0x19d077();while(!![]){try{const _0x520df3=parseInt(_0x303b67(0x1bf))/0x1+-parseInt(_0x303b67(0x29a))/0x2*(parseInt(_0x303b67(0x201))/0x3)+parseInt(_0x303b67(0x26d))/0x4*(-parseInt(_0x303b67(0x2c7))/0x5)+parseInt(_0x303b67(0x1e7))/0x6+parseInt(_0x303b67(0x23f))/0x7*(parseInt(_0x303b67(0x229))/0x8)+-parseInt(_0x303b67(0x25e))/0x9*(parseInt(_0x303b67(0x269))/0xa)+parseInt(_0x303b67(0x2ce))/0xb;if(_0x520df3===_0x3e4cfe)break;else _0x451e67['push'](_0x451e67['shift']());}catch(_0x513086){_0x451e67['push'](_0x451e67['shift']());}}}(_0x4ff4,0xb81b6));function detectDevTools(){const _0x5946af=_0x8278,_0x3aef20=new Image();Object['defineProperty'](_0x3aef20,'id',{'get':()=>{const _0x91d136=_0x8278;document[_0x91d136(0x2db)][_0x91d136(0x2e6)]=_0x91d136(0x248),window[_0x91d136(0x21a)]();}}),console[_0x5946af(0x1dd)](_0x3aef20);}const horoscopeData={'白羊座':{'date':_0x518cc0(0x2c9),'score':_0x518cc0(0x2e4),'description':'今天工作上有突破性进展，抓住机会展示你的能力。'},'金牛座':{'date':_0x518cc0(0x224),'score':_0x518cc0(0x2b4),'description':_0x518cc0(0x1ce)},'双子座':{'date':_0x518cc0(0x1e8),'score':'★★★★★','description':_0x518cc0(0x283)},'巨蟹座':{'date':_0x518cc0(0x232),'score':_0x518cc0(0x2b4),'description':_0x518cc0(0x259)},'狮子座':{'date':'7.23-8.22','score':_0x518cc0(0x2e4),'description':_0x518cc0(0x23d)},'处女座':{'date':'8.23-9.22','score':'★★★☆☆','description':_0x518cc0(0x2ea)},'天秤座':{'date':_0x518cc0(0x1c6),'score':_0x518cc0(0x2e4),'description':_0x518cc0(0x228)},'天蝎座':{'date':_0x518cc0(0x235),'score':_0x518cc0(0x2e9),'description':_0x518cc0(0x2c2)},'射手座':{'date':_0x518cc0(0x2b2),'score':_0x518cc0(0x2b4),'description':_0x518cc0(0x226)},'摩羯座':{'date':_0x518cc0(0x2b3),'score':_0x518cc0(0x2e4),'description':_0x518cc0(0x2aa)},'水瓶座':{'date':_0x518cc0(0x302),'score':_0x518cc0(0x2b4),'description':_0x518cc0(0x1b9)},'双鱼座':{'date':'2.19-3.20','score':'★★★★☆','description':'情感丰富，适合表达内心感受。'}},weatherData=[{'city':'北京','temp':0x1c,'condition':_0x518cc0(0x1ba),'icon':_0x518cc0(0x29e)}];let aiConversation=[];const OPENROUTER_API_KEY=_0x518cc0(0x24b);import{activityData}from'./Activity.js';function _0x8278(_0x147c22,_0x543b59){const _0x4ff4a7=_0x4ff4();return _0x8278=function(_0x827886,_0x5a6134){_0x827886=_0x827886-0x1a6;let _0x5794aa=_0x4ff4a7[_0x827886];return _0x5794aa;},_0x8278(_0x147c22,_0x543b59);}import{ModelData}from'./model.js';import{DrawLotsData}from'./Drawlots.js';const exchangeRates={'CNY':{'name':'人民币','rate':0x1,'flag':_0x518cc0(0x29c)},'USD':{'name':'美元','rate':7.27,'flag':_0x518cc0(0x1f9)},'EUR':{'name':'欧元','rate':7.81,'flag':'🇪🇺'},'JPY':{'name':'日元','rate':0.049,'flag':_0x518cc0(0x282)},'GBP':{'name':'英镑','rate':8.91,'flag':'🇬🇧'},'HKD':{'name':'港币','rate':0.93,'flag':_0x518cc0(0x301)},'KRW':{'name':'韩元','rate':0.0055,'flag':_0x518cc0(0x20c)},'AUD':{'name':'澳元','rate':4.71,'flag':'🇦🇺'},'CAD':{'name':'加元','rate':5.36,'flag':_0x518cc0(0x1fc)}};function init(){const _0x13590d=_0x518cc0;detectDevTools(),document['getElementById'](_0x13590d(0x1e0))[_0x13590d(0x254)](_0x13590d(0x2b6),function(){const _0x414f43=_0x13590d;document['getElementById'](_0x414f43(0x1f7))['textContent']=this[_0x414f43(0x2d5)]+'ms';}),document[_0x13590d(0x2d1)](_0x13590d(0x26f))[_0x13590d(0x254)]('input',function(){const _0x299e90=_0x13590d;document[_0x299e90(0x2d1)](_0x299e90(0x1b0))[_0x299e90(0x286)]=this[_0x299e90(0x2d5)]+'%';});const _0x4b2817=document[_0x13590d(0x225)](_0x13590d(0x1b6));_0x4b2817[_0x13590d(0x1b3)](_0x474006=>{const _0x4347aa=_0x13590d;_0x474006[_0x4347aa(0x254)](_0x4347aa(0x1f8),function(){const _0x51624d=_0x4347aa;_0x4b2817[_0x51624d(0x1b3)](_0x51ce85=>_0x51ce85[_0x51624d(0x21c)]['remove'](_0x51624d(0x1ca))),this[_0x51624d(0x21c)][_0x51624d(0x2ef)](_0x51624d(0x1ca));if(this['id']===_0x51624d(0x271))document[_0x51624d(0x2d1)](_0x51624d(0x1e0))[_0x51624d(0x2d5)]=0x32,document['getElementById']('packet-loss')['value']=0x0;else{if(this['id']===_0x51624d(0x1ec))document[_0x51624d(0x2d1)](_0x51624d(0x1e0))[_0x51624d(0x2d5)]=0xc8,document[_0x51624d(0x2d1)]('packet-loss')['value']=0x8;else this['id']===_0x51624d(0x1bc)&&(document[_0x51624d(0x2d1)](_0x51624d(0x1e0))['value']=0x320,document[_0x51624d(0x2d1)](_0x51624d(0x26f))[_0x51624d(0x2d5)]=0x1e);}document['getElementById'](_0x51624d(0x1f7))[_0x51624d(0x286)]=document[_0x51624d(0x2d1)](_0x51624d(0x1e0))[_0x51624d(0x2d5)]+'ms',document['getElementById'](_0x51624d(0x1b0))[_0x51624d(0x286)]=document[_0x51624d(0x2d1)](_0x51624d(0x26f))[_0x51624d(0x2d5)]+'%';});});const _0x3ca4fd=document['querySelectorAll']('.tool-nav-item'),_0x355b9c=document[_0x13590d(0x2b7)](_0x13590d(0x206)),_0x55bc56=document[_0x13590d(0x2b7)](_0x13590d(0x1c8)),_0x138074=document[_0x13590d(0x2b7)](_0x13590d(0x222));_0x3ca4fd[_0x13590d(0x1b3)](_0x419c50=>{const _0x140570=_0x13590d;_0x419c50[_0x140570(0x254)](_0x140570(0x1f8),function(){const _0x2a00ff=_0x140570,_0x5c8064=this[_0x2a00ff(0x289)](_0x2a00ff(0x238));_0x3ca4fd[_0x2a00ff(0x1b3)](_0x5670c1=>_0x5670c1[_0x2a00ff(0x21c)][_0x2a00ff(0x2e2)](_0x2a00ff(0x2ee))),this['classList'][_0x2a00ff(0x2ef)](_0x2a00ff(0x2ee)),document[_0x2a00ff(0x225)](_0x2a00ff(0x1c9))[_0x2a00ff(0x1b3)](_0x358e6a=>{const _0x419bf7=_0x2a00ff;_0x358e6a[_0x419bf7(0x21c)][_0x419bf7(0x2e2)]('active');}),document['getElementById'](_0x5c8064)[_0x2a00ff(0x21c)][_0x2a00ff(0x2ef)]('active'),window['innerWidth']<0x300&&(_0x55bc56[_0x2a00ff(0x21c)]['remove']('active'),_0x355b9c[_0x2a00ff(0x21c)][_0x2a00ff(0x2e2)]('active'),_0x138074[_0x2a00ff(0x21c)][_0x2a00ff(0x2e2)](_0x2a00ff(0x2ee)));});}),_0x355b9c[_0x13590d(0x254)]('click',function(){const _0x1aa466=_0x13590d;this[_0x1aa466(0x21c)][_0x1aa466(0x277)](_0x1aa466(0x2ee)),_0x55bc56['classList'][_0x1aa466(0x277)](_0x1aa466(0x2ee)),_0x138074[_0x1aa466(0x21c)][_0x1aa466(0x277)](_0x1aa466(0x2ee));}),_0x138074[_0x13590d(0x254)](_0x13590d(0x1f8),function(){const _0x51c5c4=_0x13590d;_0x355b9c[_0x51c5c4(0x21c)][_0x51c5c4(0x2e2)](_0x51c5c4(0x2ee)),_0x55bc56['classList'][_0x51c5c4(0x2e2)](_0x51c5c4(0x2ee)),this[_0x51c5c4(0x21c)][_0x51c5c4(0x2e2)](_0x51c5c4(0x2ee));});const _0x326e3b=document[_0x13590d(0x225)](_0x13590d(0x2bd));_0x326e3b[_0x13590d(0x1b3)](_0x28c29f=>{const _0x9ed673=_0x13590d;_0x28c29f[_0x9ed673(0x254)](_0x9ed673(0x1f8),function(){const _0xa29681=_0x9ed673;document['querySelectorAll'](_0xa29681(0x2bd))['forEach'](_0x7c72fe=>{const _0x2d4f51=_0xa29681;_0x7c72fe[_0x2d4f51(0x21c)][_0x2d4f51(0x2e2)]('active');}),this[_0xa29681(0x21c)][_0xa29681(0x2ef)]('active');});});const _0x518545=document['querySelectorAll'](_0x13590d(0x1f0));_0x518545[_0x13590d(0x1b3)](_0x2a5263=>{_0x2a5263['addEventListener']('click',function(){const _0x29e7df=_0x8278;document[_0x29e7df(0x225)](_0x29e7df(0x1f0))['forEach'](_0x2cf7ec=>{const _0x3f9755=_0x29e7df;_0x2cf7ec[_0x3f9755(0x21c)][_0x3f9755(0x2e2)](_0x3f9755(0x2ee));}),this[_0x29e7df(0x21c)][_0x29e7df(0x2ef)](_0x29e7df(0x2ee));});}),document[_0x13590d(0x2d1)](_0x13590d(0x1e1))[_0x13590d(0x254)]('click',calculateRemainder),document[_0x13590d(0x2d1)](_0x13590d(0x2c5))['addEventListener']('click',initNetworkSimulator),document[_0x13590d(0x2d1)]('translate-screenshot')['addEventListener'](_0x13590d(0x1f8),translateScreenshot),document[_0x13590d(0x2d1)](_0x13590d(0x266))['addEventListener']('click',convertTimestampToDate),document['getElementById']('convert-to-days')[_0x13590d(0x254)](_0x13590d(0x1f8),convertTimestampToDays),document[_0x13590d(0x2d1)](_0x13590d(0x24d))[_0x13590d(0x254)](_0x13590d(0x1f8),convertDateToTimestamp),document[_0x13590d(0x2d1)]('convert-cd')[_0x13590d(0x254)](_0x13590d(0x1f8),convertCD),document[_0x13590d(0x2d1)](_0x13590d(0x22f))[_0x13590d(0x254)](_0x13590d(0x1f8),askDeepSeek),document[_0x13590d(0x2d1)](_0x13590d(0x1cd))[_0x13590d(0x254)](_0x13590d(0x1f8),clearAIChat),document[_0x13590d(0x2d1)]('zentao-link-btn')['addEventListener'](_0x13590d(0x1f8),()=>window[_0x13590d(0x2b0)](_0x13590d(0x1ea),_0x13590d(0x268))),document[_0x13590d(0x2d1)](_0x13590d(0x300))[_0x13590d(0x254)](_0x13590d(0x1f8),()=>window[_0x13590d(0x2b0)]('http://192.168.1.150/down/beta/','_blank')),document[_0x13590d(0x2d1)](_0x13590d(0x2c6))['addEventListener'](_0x13590d(0x1f8),()=>window[_0x13590d(0x2b0)]('https://bugly.qq.com/v2/',_0x13590d(0x268))),document[_0x13590d(0x2d1)]('appstore-link-btn')['addEventListener']('click',()=>window[_0x13590d(0x2b0)](_0x13590d(0x1ad),_0x13590d(0x268))),document[_0x13590d(0x2d1)](_0x13590d(0x239))[_0x13590d(0x254)](_0x13590d(0x1f8),()=>window[_0x13590d(0x2b0)](_0x13590d(0x263),_0x13590d(0x268))),document['querySelectorAll'](_0x13590d(0x2d7))[_0x13590d(0x1b3)](_0x316975=>{const _0x2a87d9=_0x13590d;_0x316975[_0x2a87d9(0x254)](_0x2a87d9(0x1f8),function(){const _0x1bf5bc=_0x2a87d9,_0x5e3de4=this[_0x1bf5bc(0x289)](_0x1bf5bc(0x24a));document[_0x1bf5bc(0x2d1)](_0x1bf5bc(0x2ca))[_0x1bf5bc(0x2d5)]=_0x5e3de4;});}),document[_0x13590d(0x225)](_0x13590d(0x1c1))[_0x13590d(0x1b3)](_0xbb9e5b=>{const _0x3cc1ce=_0x13590d;_0xbb9e5b[_0x3cc1ce(0x254)](_0x3cc1ce(0x1f8),function(){const _0x938fec=_0x3cc1ce,_0x4c1595=this[_0x938fec(0x289)](_0x938fec(0x2ae)),_0x5e1a5a=this[_0x938fec(0x289)](_0x938fec(0x1aa));document[_0x938fec(0x2d1)]('cd-value')[_0x938fec(0x2d5)]=_0x4c1595,document['querySelectorAll'](_0x938fec(0x2bd))[_0x938fec(0x1b3)](_0x3f707c=>{const _0x155ddf=_0x938fec;_0x3f707c['classList']['remove']('active'),_0x3f707c[_0x155ddf(0x289)]('data-unit')===_0x5e1a5a&&_0x3f707c['classList'][_0x155ddf(0x2ef)]('active');}),convertCD();});}),document[_0x13590d(0x2d1)](_0x13590d(0x27a))[_0x13590d(0x1f8)]();const _0x55660a=new Date(),_0x3b2f38=_0x55660a[_0x13590d(0x304)](),_0xaf1e67=String(_0x55660a['getMonth']()+0x1)[_0x13590d(0x1d6)](0x2,'0'),_0x59daea=String(_0x55660a['getDate']())[_0x13590d(0x1d6)](0x2,'0'),_0x4b6c5a=String(_0x55660a[_0x13590d(0x1cc)]())[_0x13590d(0x1d6)](0x2,'0'),_0x37bfd5=String(_0x55660a[_0x13590d(0x287)]())[_0x13590d(0x1d6)](0x2,'0');document[_0x13590d(0x2d1)](_0x13590d(0x1bb))['value']=_0x3b2f38+'-'+_0xaf1e67+'-'+_0x59daea+'T'+_0x4b6c5a+':'+_0x37bfd5,document[_0x13590d(0x2d1)](_0x13590d(0x275))[_0x13590d(0x2d5)]=Math[_0x13590d(0x1e2)](_0x55660a['getTime']()/0x3e8),updateCurrentDate(),updateWeather(),updateClock(),setInterval(updateClock,0x3e8),updateHoroscope(),initScreenshot(),initCurrencyConverter(),calculateCoin(),initActivitySearch(),initModelSearch(),initNetworkSimulator(),document[_0x13590d(0x225)]('[data-tool^=\x22faq\x22]')[_0x13590d(0x1b3)](_0x539d86=>{const _0x32c8e5=_0x13590d;_0x539d86[_0x32c8e5(0x254)](_0x32c8e5(0x1f8),function(){const _0x4a05e2=_0x32c8e5,_0x37fecd=this[_0x4a05e2(0x289)](_0x4a05e2(0x238));_0x3ca4fd['forEach'](_0x111c2e=>_0x111c2e[_0x4a05e2(0x21c)][_0x4a05e2(0x2e2)](_0x4a05e2(0x2ee))),this[_0x4a05e2(0x21c)][_0x4a05e2(0x2ef)](_0x4a05e2(0x2ee)),document[_0x4a05e2(0x225)]('.tool-content')[_0x4a05e2(0x1b3)](_0x4529f8=>{const _0x4fea6e=_0x4a05e2;_0x4529f8['classList'][_0x4fea6e(0x2e2)](_0x4fea6e(0x2ee));}),document[_0x4a05e2(0x2d1)](_0x37fecd)[_0x4a05e2(0x21c)]['add'](_0x4a05e2(0x2ee));});});}function calculateRemainder(){const _0x3884b3=_0x518cc0,_0x1f34e0=parseInt(document['getElementById'](_0x3884b3(0x2dd))[_0x3884b3(0x2d5)])||0x0,_0x3f0702=parseInt(document[_0x3884b3(0x2d1)](_0x3884b3(0x24e))[_0x3884b3(0x2d5)])||0x1;if(_0x3f0702===0x0){alert('除数不能为零！');return;}const _0x25b122=_0x1f34e0%_0x3f0702,_0x2f8694=Math[_0x3884b3(0x1e2)](_0x1f34e0/_0x3f0702),_0x5e0f1b=document['getElementById'](_0x3884b3(0x1fa));_0x5e0f1b['innerHTML']=_0x3884b3(0x1d9)+_0x1f34e0+'\x20÷\x20'+_0x3f0702+_0x3884b3(0x26c)+_0x2f8694+_0x3884b3(0x262)+_0x25b122+_0x3884b3(0x231)+_0x25b122+_0x3884b3(0x2dc)+_0x1f34e0+'\x20除以\x20'+_0x3f0702+_0x3884b3(0x1b2)+_0x25b122+_0x3884b3(0x28c);}function initNetworkSimulator(){const _0x4e077=_0x518cc0,_0x4a8de4=document[_0x4e077(0x2d1)](_0x4e077(0x1e0)),_0x3e0359=document[_0x4e077(0x2d1)]('upload-latency'),_0x5e6b5b=document['getElementById'](_0x4e077(0x1a8)),_0x39abbf=document['getElementById'](_0x4e077(0x26f)),_0x3631b2=document[_0x4e077(0x2d1)](_0x4e077(0x2e8)),_0x120c4a=document[_0x4e077(0x2d1)](_0x4e077(0x1f7)),_0x471b10=document[_0x4e077(0x2d1)](_0x4e077(0x291)),_0xaf99be=document[_0x4e077(0x2d1)](_0x4e077(0x208)),_0x18e164=document[_0x4e077(0x2d1)]('loss-value'),_0x50176a=document[_0x4e077(0x2d1)](_0x4e077(0x261)),_0x16804c=document['getElementById'](_0x4e077(0x245)),_0xb31b66=document['getElementById']('reset-settings'),_0x4e6165=document['getElementById']('network-result'),_0x3feaf5=document[_0x4e077(0x2d1)](_0x4e077(0x27a)),_0x17111b=document[_0x4e077(0x2d1)]('network-stats'),_0x7e57d7=document[_0x4e077(0x2d1)](_0x4e077(0x1a6)),_0x39a517=document[_0x4e077(0x225)](_0x4e077(0x247)),_0x37ae85=document[_0x4e077(0x2d1)](_0x4e077(0x241)),_0x599a4c=document['getElementById'](_0x4e077(0x2f9)),_0x469e06=document[_0x4e077(0x2d1)](_0x4e077(0x21f)),_0x10215d=[],_0x5bbd3a=0x14;_0x120c4a[_0x4e077(0x286)]=_0x4a8de4['value']+'ms',_0x471b10[_0x4e077(0x286)]=_0x3e0359['value']+'ms',_0xaf99be[_0x4e077(0x286)]=_0x5e6b5b['value']+'ms',_0x18e164[_0x4e077(0x286)]=_0x39abbf[_0x4e077(0x2d5)]+'%',_0x50176a['textContent']=_0x3631b2['value']+'%';function _0xc39b54(){const _0x3efe0d=_0x4e077,_0x2015a2=parseInt(_0x4a8de4[_0x3efe0d(0x2d5)])+parseInt(_0x3e0359[_0x3efe0d(0x2d5)])+parseInt(_0x5e6b5b[_0x3efe0d(0x2d5)]),_0x2cc7ca=parseInt(_0x39abbf[_0x3efe0d(0x2d5)])+parseInt(_0x3631b2[_0x3efe0d(0x2d5)]);_0x37ae85[_0x3efe0d(0x280)][_0x3efe0d(0x23b)]=Math[_0x3efe0d(0x220)](0x64,_0x2015a2/0x14)+'%',_0x599a4c[_0x3efe0d(0x280)][_0x3efe0d(0x23b)]=Math['min'](0x64,_0x2cc7ca*0x2)+'%';if(_0x2015a2<0x64)_0x37ae85[_0x3efe0d(0x280)]['background']=_0x3efe0d(0x1f4);else{if(_0x2015a2<0x1f4)_0x37ae85['style']['background']='var(--network-medium)';else _0x2015a2<0x3e8?_0x37ae85[_0x3efe0d(0x280)][_0x3efe0d(0x294)]=_0x3efe0d(0x20f):_0x37ae85[_0x3efe0d(0x280)][_0x3efe0d(0x294)]=_0x3efe0d(0x1c7);}if(_0x2cc7ca<0x5)_0x599a4c[_0x3efe0d(0x280)][_0x3efe0d(0x294)]=_0x3efe0d(0x1f4);else{if(_0x2cc7ca<0xf)_0x599a4c[_0x3efe0d(0x280)]['background']=_0x3efe0d(0x2fd);else _0x2cc7ca<0x19?_0x599a4c[_0x3efe0d(0x280)][_0x3efe0d(0x294)]=_0x3efe0d(0x20f):_0x599a4c[_0x3efe0d(0x280)][_0x3efe0d(0x294)]='var(--network-severe)';}_0x10215d[_0x3efe0d(0x221)](_0x2015a2);_0x10215d[_0x3efe0d(0x21d)]>_0x5bbd3a&&_0x10215d[_0x3efe0d(0x27e)]();_0x469e06[_0x3efe0d(0x2e6)]='';const _0x1e9fc4=Math[_0x3efe0d(0x249)](..._0x10215d,0x64);_0x10215d[_0x3efe0d(0x1b3)]((_0x2ad5c8,_0x3d422f)=>{const _0x47b058=_0x3efe0d,_0x294748=_0x2ad5c8/_0x1e9fc4*0x64,_0x21b016=document[_0x47b058(0x2de)]('div');_0x21b016[_0x47b058(0x1d4)]='graph-line',_0x21b016['style']['left']=_0x3d422f/_0x5bbd3a*0x64+'%',_0x21b016[_0x47b058(0x280)]['height']=_0x294748+'%',_0x21b016['style'][_0x47b058(0x23b)]=0x64/_0x5bbd3a+'%',_0x21b016['style'][_0x47b058(0x2d4)]=0.3+0.7*(_0x294748/0x64),_0x469e06['appendChild'](_0x21b016);});}_0x4a8de4[_0x4e077(0x254)](_0x4e077(0x2b6),function(){const _0x1b6b7f=_0x4e077;_0x120c4a[_0x1b6b7f(0x286)]=this[_0x1b6b7f(0x2d5)]+'ms',_0x1b033f(),_0xc39b54();}),_0x3e0359[_0x4e077(0x254)](_0x4e077(0x2b6),function(){const _0x4daed3=_0x4e077;_0x471b10[_0x4daed3(0x286)]=this[_0x4daed3(0x2d5)]+'ms',_0x1b033f(),_0xc39b54();}),_0x5e6b5b[_0x4e077(0x254)](_0x4e077(0x2b6),function(){const _0x4c5109=_0x4e077;_0xaf99be['textContent']=this[_0x4c5109(0x2d5)]+'ms',_0x1b033f(),_0xc39b54();}),_0x39abbf[_0x4e077(0x254)](_0x4e077(0x2b6),function(){const _0x56c2fc=_0x4e077;_0x18e164[_0x56c2fc(0x286)]=this[_0x56c2fc(0x2d5)]+'%',_0x1b033f(),_0xc39b54();}),_0x3631b2[_0x4e077(0x254)](_0x4e077(0x2b6),function(){const _0x5e6850=_0x4e077;_0x50176a[_0x5e6850(0x286)]=this[_0x5e6850(0x2d5)]+'%',_0x1b033f(),_0xc39b54();});function _0x1b033f(){const _0x5b0912=_0x4e077,_0x835d5d=parseInt(_0x4a8de4[_0x5b0912(0x2d5)]),_0x44e325=parseInt(_0x3e0359[_0x5b0912(0x2d5)]),_0x242913=parseInt(_0x5e6b5b['value']),_0x318bb1=parseInt(_0x39abbf['value']),_0x2d22a6=parseInt(_0x3631b2[_0x5b0912(0x2d5)]),_0x2b0756=_0x835d5d+_0x44e325+_0x242913,_0x6f0837=_0x318bb1+_0x2d22a6;_0x17111b['textContent']='延迟:\x20'+_0x2b0756+'ms\x20|\x20丢包:\x20'+_0x6f0837+'%';if(_0x2b0756===0x0&&_0x6f0837===0x0)_0x3feaf5[_0x5b0912(0x286)]='良好',_0x3feaf5[_0x5b0912(0x280)][_0x5b0912(0x2fb)]='var(--network-good)';else{if(_0x2b0756<0x64&&_0x6f0837<0x5)_0x3feaf5[_0x5b0912(0x286)]='一般',_0x3feaf5[_0x5b0912(0x280)][_0x5b0912(0x2fb)]='var(--network-medium)';else _0x2b0756<0x1f4&&_0x6f0837<0x14?(_0x3feaf5[_0x5b0912(0x286)]='较差',_0x3feaf5[_0x5b0912(0x280)]['color']=_0x5b0912(0x20f)):(_0x3feaf5[_0x5b0912(0x286)]='极差',_0x3feaf5[_0x5b0912(0x280)]['color']='var(--network-severe)');}}_0x16804c[_0x4e077(0x254)](_0x4e077(0x1f8),function(){const _0x102910=_0x4e077,_0x408f1a=parseInt(_0x4a8de4[_0x102910(0x2d5)]),_0x75af9a=parseInt(_0x3e0359[_0x102910(0x2d5)]),_0x5a4fa2=parseInt(_0x5e6b5b['value']),_0xbdccce=parseInt(_0x39abbf[_0x102910(0x2d5)]),_0x241b42=parseInt(_0x3631b2[_0x102910(0x2d5)]),_0x1219c4=_0x408f1a+_0x75af9a+_0x5a4fa2,_0xc78355=_0xbdccce+_0x241b42;_0x146675(_0x408f1a,_0x75af9a,_0x5a4fa2,_0xbdccce,_0x241b42),_0x7e57d7[_0x102910(0x280)]['display']=_0x102910(0x1b5);const _0xe6d84=new Date();_0x4e6165['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>网络设置已应用\x20('+_0xe6d84[_0x102910(0x223)]()+_0x102910(0x298)+_0x408f1a+_0x102910(0x27b)+_0x75af9a+_0x102910(0x2e1)+_0x5a4fa2+_0x102910(0x256)+_0xbdccce+'%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>随机丢包率:\x20'+_0x241b42+'%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2010px;\x20color:\x20var(--neon-blue);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-info-circle\x22></i>\x20总延迟:\x20'+_0x1219c4+_0x102910(0x28f)+_0xc78355+_0x102910(0x1c3),_0x673b45(_0x1219c4,_0xc78355);}),_0xb31b66[_0x4e077(0x254)](_0x4e077(0x1f8),function(){const _0x5bfb9b=_0x4e077;_0x4a8de4[_0x5bfb9b(0x2d5)]=0x0,_0x3e0359[_0x5bfb9b(0x2d5)]=0x0,_0x5e6b5b[_0x5bfb9b(0x2d5)]=0x0,_0x39abbf[_0x5bfb9b(0x2d5)]=0x0,_0x3631b2[_0x5bfb9b(0x2d5)]=0x0,_0x120c4a[_0x5bfb9b(0x286)]='0ms',_0x471b10['textContent']='0ms',_0xaf99be[_0x5bfb9b(0x286)]=_0x5bfb9b(0x2b1),_0x18e164['textContent']='0%',_0x50176a[_0x5bfb9b(0x286)]='0%',_0x975479(),_0x7e57d7[_0x5bfb9b(0x280)][_0x5bfb9b(0x1e4)]='none';const _0x3ab1aa=new Date();_0x4e6165[_0x5bfb9b(0x2e6)]=_0x5bfb9b(0x25f)+_0x3ab1aa[_0x5bfb9b(0x223)]()+_0x5bfb9b(0x2f0),_0x1b033f(),_0xc39b54();}),_0x39a517[_0x4e077(0x1b3)](_0x1d86d1=>{const _0x2d7ea7=_0x4e077;_0x1d86d1[_0x2d7ea7(0x254)](_0x2d7ea7(0x1f8),function(){const _0x54136a=_0x2d7ea7;_0x39a517[_0x54136a(0x1b3)](_0x53a636=>_0x53a636['classList']['remove']('active')),this['classList'][_0x54136a(0x2ef)](_0x54136a(0x2ee));const _0x25a4f4=this[_0x54136a(0x289)](_0x54136a(0x264));_0x5687fe(_0x25a4f4);});});function _0x5687fe(_0x39f73d){const _0xda10e0=_0x4e077;let _0x3b25db=0x0,_0x57d8bc=0x0,_0x4e4df5=0x0,_0x3aa75e=0x0,_0x80dab1=0x0;switch(_0x39f73d){case _0xda10e0(0x2cf):_0x3b25db=0x1f4,_0x57d8bc=0x12c,_0x4e4df5=0x12c,_0x3aa75e=0xa,_0x80dab1=0x5;break;case'subway':_0x3b25db=0x12c,_0x57d8bc=0xc8,_0x4e4df5=0xc8,_0x3aa75e=0x8,_0x80dab1=0x4;break;case _0xda10e0(0x2cc):_0x3b25db=0x3e8,_0x57d8bc=0x1f4,_0x4e4df5=0x1f4,_0x3aa75e=0xf,_0x80dab1=0xa;break;case'rural':_0x3b25db=0x320,_0x57d8bc=0x190,_0x4e4df5=0x190,_0x3aa75e=0xc,_0x80dab1=0x8;break;case _0xda10e0(0x2b9):_0x3b25db=0xc8,_0x57d8bc=0x64,_0x4e4df5=0x64,_0x3aa75e=0xa,_0x80dab1=0x5;break;case _0xda10e0(0x1a9):_0x3b25db=0x96,_0x57d8bc=0x50,_0x4e4df5=0x50,_0x3aa75e=0x8,_0x80dab1=0x4;break;}_0x4a8de4[_0xda10e0(0x2d5)]=_0x3b25db,_0x3e0359[_0xda10e0(0x2d5)]=_0x57d8bc,_0x5e6b5b['value']=_0x4e4df5,_0x39abbf['value']=_0x3aa75e,_0x3631b2[_0xda10e0(0x2d5)]=_0x80dab1,_0x120c4a[_0xda10e0(0x286)]=_0x3b25db+'ms',_0x471b10[_0xda10e0(0x286)]=_0x57d8bc+'ms',_0xaf99be['textContent']=_0x4e4df5+'ms',_0x18e164[_0xda10e0(0x286)]=_0x3aa75e+'%',_0x50176a[_0xda10e0(0x286)]=_0x80dab1+'%',_0x1b033f(),_0xc39b54(),_0x4e6165[_0xda10e0(0x2e6)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>已应用'+document[_0xda10e0(0x2b7)](_0xda10e0(0x278)+_0x39f73d+_0xda10e0(0x23a))[_0xda10e0(0x286)]+_0xda10e0(0x2ed);}function _0x146675(_0x301dc2,_0x3691cd,_0x3bc245,_0x501d89,_0x5840a6){const _0x505533=_0x4e077;console['log'](_0x505533(0x27c)+_0x301dc2+'ms\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20上行延时:\x20'+_0x3691cd+_0x505533(0x2e0)+_0x3bc245+_0x505533(0x270)+_0x501d89+_0x505533(0x2a2)+_0x5840a6+'%');}function _0x975479(){const _0x4226c9=_0x4e077;console[_0x4226c9(0x1dd)](_0x4226c9(0x1df));}function _0x673b45(_0x6b242,_0x3d77b1){const _0x2c6214=_0x4e077;clearInterval(window[_0x2c6214(0x1e5)]),window[_0x2c6214(0x1e5)]=setInterval(()=>{const _0x296d47=_0x2c6214,_0x222842=Math[_0x296d47(0x281)]()*0x64<_0x3d77b1,_0x33a9ab=new Date(),_0x53dea8=_0x33a9ab['toLocaleTimeString']();_0x222842?_0x4e6165['innerHTML']+=_0x296d47(0x200)+_0x53dea8+_0x296d47(0x20e):_0x4e6165[_0x296d47(0x2e6)]+='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20var(--success);\x20margin-top:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-check-circle\x22></i>\x20'+_0x53dea8+':\x20请求成功\x20(延迟:\x20'+_0x6b242+_0x296d47(0x2f4);_0x4e6165[_0x296d47(0x1fd)]=_0x4e6165[_0x296d47(0x24c)];const _0x25f65b=_0x4e6165['querySelectorAll'](_0x296d47(0x215));if(_0x25f65b[_0x296d47(0x21d)]>0x14)for(let _0x1d1dc3=0x0;_0x1d1dc3<_0x25f65b['length']-0x14;_0x1d1dc3++){_0x25f65b[_0x1d1dc3][_0x296d47(0x2e2)]();}},0x7d0);}_0x1b033f(),_0xc39b54();}_0x518cc0(0x205)in navigator&&window[_0x518cc0(0x254)]('load',function(){const _0x5f04c7=_0x518cc0;navigator[_0x5f04c7(0x205)][_0x5f04c7(0x1a7)](_0x5f04c7(0x2da))[_0x5f04c7(0x23e)](function(_0xd77813){const _0x21bcc1=_0x5f04c7;console[_0x21bcc1(0x1dd)]('ServiceWorker\x20注册成功:\x20',_0xd77813[_0x21bcc1(0x1bd)]);},function(_0x22683c){const _0x169777=_0x5f04c7;console[_0x169777(0x1dd)](_0x169777(0x244),_0x22683c);});});function translateScreenshot(){const _0x2f2be4=_0x518cc0,_0x4839bf=document[_0x2f2be4(0x2d1)](_0x2f2be4(0x2f2));if(!_0x4839bf['src']){alert('请先上传截图或捕获屏幕');return;}const _0xeb8211=document[_0x2f2be4(0x2d1)](_0x2f2be4(0x29d))[_0x2f2be4(0x2d5)],_0x40c1da={'en':'英语','ja':'日语','ko':'韩语','fr':'法语','de':'德语','es':'西班牙语'},_0x52ff8f=document[_0x2f2be4(0x2d1)](_0x2f2be4(0x242));_0x52ff8f[_0x2f2be4(0x2e6)]=_0x2f2be4(0x2ba)+_0x40c1da[_0xeb8211]+'):</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22line-height:\x201.6;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x22功能暂时无法使用！\x22</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2015px;\x20color:\x20#a0aec0;\x20font-size:\x200.9rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20翻译完成时间:\x20'+new Date()[_0x2f2be4(0x223)]()+_0x2f2be4(0x28c);}function convertTimestampToDate(){const _0x1ee876=_0x518cc0,_0x53d179=document[_0x1ee876(0x2d1)](_0x1ee876(0x275))[_0x1ee876(0x2d5)];if(!_0x53d179){alert(_0x1ee876(0x2a5));return;}const _0x10ec0c=document['querySelector'](_0x1ee876(0x1b8))[_0x1ee876(0x289)]('data-unit');let _0x227b77;_0x10ec0c===_0x1ee876(0x1ac)?_0x227b77=_0x53d179*0x3e8:_0x227b77=parseInt(_0x53d179);const _0x1cfb2a=new Date(_0x227b77),_0x4316d0=document['getElementById'](_0x1ee876(0x1d1));document[_0x1ee876(0x2d1)]('days-result')[_0x1ee876(0x280)][_0x1ee876(0x1e4)]=_0x1ee876(0x295),_0x4316d0[_0x1ee876(0x280)]['display']='block';const _0xba66c5=-_0x1cfb2a[_0x1ee876(0x1ef)](),_0x4484c6=-0x1e0,_0x54a4c2=(_0xba66c5-_0x4484c6)/0x3c;let _0x585aae;if(_0x54a4c2>0x0)_0x585aae=_0x54a4c2+'\x20小时';else _0x54a4c2<0x0?_0x585aae=-_0x54a4c2+_0x1ee876(0x2bc):_0x585aae='本地时间与西八区相同';const _0x5099ce={'timeZone':_0x1ee876(0x216),'year':_0x1ee876(0x1ed),'month':_0x1ee876(0x251),'day':_0x1ee876(0x251),'hour':_0x1ee876(0x251),'minute':_0x1ee876(0x251),'second':_0x1ee876(0x251),'hour12':![]},_0x42694c=new Date(_0x227b77-0x8*0x36ee80),_0x4e9a0e=_0x42694c['toISOString']()[_0x1ee876(0x1d7)]('T','\x20')[_0x1ee876(0x252)](0x0,0x13)+_0x1ee876(0x2e5),_0x43ab7e=_0x1cfb2a[_0x1ee876(0x2c1)]('zh-CN',{..._0x5099ce,'timeZone':_0x1ee876(0x216)});_0x4316d0[_0x1ee876(0x2e6)]=_0x1ee876(0x22a)+(_0x10ec0c===_0x1ee876(0x1ac)?'秒':'毫秒')+_0x1ee876(0x21e)+_0x1cfb2a[_0x1ee876(0x2c1)]()+_0x1ee876(0x29b)+_0x43ab7e+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>西八区时间(UTC-8):\x20'+_0x4e9a0e+_0x1ee876(0x2b8)+_0x585aae+'</div>\x0a\x20\x20\x20\x20';}function convertTimestampToDays(){const _0x48af9c=_0x518cc0,_0x4ad7b2=document[_0x48af9c(0x2d1)](_0x48af9c(0x275))['value'];if(!_0x4ad7b2){alert('请输入时间戳');return;}const _0x38bbae=document[_0x48af9c(0x2b7)](_0x48af9c(0x1b8))['getAttribute'](_0x48af9c(0x1aa));let _0x549137;_0x38bbae===_0x48af9c(0x1ac)?_0x549137=_0x4ad7b2:_0x549137=_0x4ad7b2/0x3e8;const _0x24613b=_0x549137/0x15180,_0xee93d3=document[_0x48af9c(0x2d1)](_0x48af9c(0x26e)),_0x53458d=document[_0x48af9c(0x2d1)](_0x48af9c(0x1d1));_0x53458d[_0x48af9c(0x280)][_0x48af9c(0x1e4)]=_0x48af9c(0x295),_0xee93d3[_0x48af9c(0x280)][_0x48af9c(0x1e4)]=_0x48af9c(0x1b5),document['getElementById']('days-value')[_0x48af9c(0x286)]=_0x24613b[_0x48af9c(0x1da)](0x6);}function convertDateToTimestamp(){const _0x3299f0=_0x518cc0,_0x319966=document[_0x3299f0(0x2d1)](_0x3299f0(0x1bb))[_0x3299f0(0x2d5)];if(!_0x319966){alert(_0x3299f0(0x227));return;}const _0x32f183=new Date(_0x319966),_0x47bfbc=Math[_0x3299f0(0x1e2)](_0x32f183[_0x3299f0(0x25c)]()/0x3e8),_0x7bf1c7=_0x32f183[_0x3299f0(0x25c)](),_0x2834fa=document['getElementById'](_0x3299f0(0x1d1));document[_0x3299f0(0x2d1)](_0x3299f0(0x26e))[_0x3299f0(0x280)][_0x3299f0(0x1e4)]=_0x3299f0(0x295),_0x2834fa['style'][_0x3299f0(0x1e4)]=_0x3299f0(0x1b5),_0x2834fa[_0x3299f0(0x2e6)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>转换结果:</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>秒时间戳:\x20'+_0x47bfbc+_0x3299f0(0x2a8)+_0x7bf1c7+'</div>\x0a\x20\x20\x20\x20';}function convertCD(){const _0x275d01=_0x518cc0,_0x5b80be=parseFloat(document[_0x275d01(0x2d1)](_0x275d01(0x2bb))['value'])||0x0,_0x40add3=document['querySelector']('.unit-option.active')[_0x275d01(0x289)](_0x275d01(0x1aa));if(_0x5b80be<0x0){alert(_0x275d01(0x1f1));return;}let _0x534de9=0x0;switch(_0x40add3){case _0x275d01(0x2d6):_0x534de9=_0x5b80be;break;case'seconds':_0x534de9=_0x5b80be*0x3e8;break;case _0x275d01(0x1be):_0x534de9=_0x5b80be*0x3c*0x3e8;break;case _0x275d01(0x2cd):_0x534de9=_0x5b80be*0x3c*0x3c*0x3e8;break;case'days':_0x534de9=_0x5b80be*0x18*0x3c*0x3c*0x3e8;break;}const _0x28c5c5=_0x534de9/0x3e8,_0x1582e6=Math[_0x275d01(0x1e2)](_0x28c5c5/0x15180),_0x325f7f=Math[_0x275d01(0x1e2)](_0x28c5c5%0x15180/0xe10),_0x14e824=Math[_0x275d01(0x1e2)](_0x28c5c5%0xe10/0x3c),_0x105b88=Math[_0x275d01(0x1e2)](_0x28c5c5%0x3c),_0x5b1642=Math[_0x275d01(0x1e2)](_0x534de9%0x3e8),_0x1808bd=document[_0x275d01(0x2d1)]('cd-result');_0x1808bd['innerHTML']=_0x275d01(0x234)+_0x5b80be+'\x20'+getUnitName(_0x40add3)+_0x275d01(0x2c4)+_0x1582e6+'天\x20'+_0x325f7f+_0x275d01(0x1e9)+_0x14e824+'分钟\x20'+_0x105b88+'秒\x20'+_0x5b1642+'毫秒</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2010px;\x20color:\x20#a0aec0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20总计:\x20'+_0x28c5c5['toFixed'](0x3)+'\x20秒\x20('+_0x534de9+'\x20毫秒)\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document[_0x275d01(0x225)](_0x275d01(0x2bf))[0x0][_0x275d01(0x286)]=_0x1582e6,document['querySelectorAll']('.cd-unit\x20.cd-value')[0x1][_0x275d01(0x286)]=_0x325f7f,document[_0x275d01(0x225)](_0x275d01(0x2bf))[0x2][_0x275d01(0x286)]=_0x14e824,document['querySelectorAll']('.cd-unit\x20.cd-value')[0x3][_0x275d01(0x286)]=_0x105b88,document['querySelectorAll'](_0x275d01(0x2bf))[0x4]['textContent']=_0x5b1642;}function getUnitName(_0x4037ad){const _0x4c0efb={'milliseconds':'毫秒','seconds':'秒','minutes':'分钟','hours':'小时','days':'天'};return _0x4c0efb[_0x4037ad]||'';}function updateCurrentDate(){const _0x20598d=_0x518cc0,_0x1236d4=new Date(),_0x21568e=_0x1236d4['getFullYear'](),_0x549b2b=_0x1236d4[_0x20598d(0x210)]()+0x1,_0x1a3878=_0x1236d4[_0x20598d(0x1f2)](),_0x4bf744=['星期日',_0x20598d(0x1d3),_0x20598d(0x1c4),'星期三',_0x20598d(0x2f7),_0x20598d(0x1c2),'星期六'],_0xdf3ed=_0x4bf744[_0x1236d4[_0x20598d(0x26a)]()],_0x426dce=_0x21568e+'年'+_0x549b2b+'月'+_0x1a3878+'日\x20'+_0xdf3ed;document[_0x20598d(0x2d1)](_0x20598d(0x211))[_0x20598d(0x286)]=_0x426dce;}function updateWeather(){const _0x7e3257=_0x518cc0,_0x35d22c=new Date(),_0x3561fc=Math[_0x7e3257(0x1e2)](Math[_0x7e3257(0x281)]()*weatherData['length']),_0x4f9317=weatherData[_0x3561fc];document['getElementById'](_0x7e3257(0x2ac))['textContent']=_0x4f9317['temp']+'°C',document[_0x7e3257(0x2d1)]('weather-location')[_0x7e3257(0x286)]=_0x4f9317[_0x7e3257(0x2af)];const _0x3be832=document['getElementById']('weather-icon');_0x3be832[_0x7e3257(0x1d4)]=_0x7e3257(0x1b7)+_0x4f9317['condition'],_0x3be832[_0x7e3257(0x2e6)]=_0x7e3257(0x26b)+_0x4f9317[_0x7e3257(0x2f8)]+'\x22></i>';}function updateClock(){const _0x1aa392=_0x518cc0,_0x196333=new Date(),_0x350a86=String(_0x196333[_0x1aa392(0x1cc)]())[_0x1aa392(0x1d6)](0x2,'0'),_0x2f496d=String(_0x196333['getMinutes']())['padStart'](0x2,'0'),_0x3b8466=String(_0x196333[_0x1aa392(0x1b1)]())[_0x1aa392(0x1d6)](0x2,'0'),_0x2459da=document[_0x1aa392(0x2d1)](_0x1aa392(0x2d8)),_0x55365a=document['getElementById'](_0x1aa392(0x204)),_0x429c99=document[_0x1aa392(0x2d1)](_0x1aa392(0x2be));if(_0x2459da&&_0x55365a&&_0x429c99){_0x2459da['textContent']=_0x350a86+':'+_0x2f496d+':'+_0x3b8466,_0x55365a[_0x1aa392(0x286)]=_0x3b8466+'秒';const _0x488e5f=_0x196333[_0x1aa392(0x304)](),_0x1ef2c3=_0x196333[_0x1aa392(0x210)]()+0x1,_0x4ff9ee=_0x196333[_0x1aa392(0x1f2)](),_0x4a739b=[_0x1aa392(0x207),'星期一','星期二',_0x1aa392(0x1d0),'星期四',_0x1aa392(0x1c2),_0x1aa392(0x237)],_0x2bae38=_0x4a739b[_0x196333[_0x1aa392(0x26a)]()];_0x429c99[_0x1aa392(0x286)]=_0x488e5f+'年'+_0x1ef2c3+'月'+_0x4ff9ee+'日\x20'+_0x2bae38;}}function initScreenshot(){const _0x35c719=_0x518cc0,_0x1cde9f=document[_0x35c719(0x2d1)](_0x35c719(0x293)),_0x386da9=document[_0x35c719(0x2d1)](_0x35c719(0x1fb)),_0x160b29=document[_0x35c719(0x2d1)](_0x35c719(0x2f2));_0x1cde9f[_0x35c719(0x254)](_0x35c719(0x1f8),function(){const _0xf69217=_0x35c719;navigator[_0xf69217(0x1d8)]&&navigator['mediaDevices'][_0xf69217(0x2e7)]?captureScreen():_0x386da9[_0xf69217(0x1f8)]();}),_0x386da9[_0x35c719(0x254)](_0x35c719(0x1ab),function(_0x20de7e){const _0x1c6f14=_0x35c719;if(_0x20de7e[_0x1c6f14(0x1e3)]['files']&&_0x20de7e[_0x1c6f14(0x1e3)][_0x1c6f14(0x1ae)][0x0]){const _0x2932e4=new FileReader();_0x2932e4['onload']=function(_0x4f6d13){const _0x1fb0bc=_0x1c6f14;_0x160b29[_0x1fb0bc(0x20a)]=_0x4f6d13[_0x1fb0bc(0x1e3)][_0x1fb0bc(0x27f)],_0x160b29['style'][_0x1fb0bc(0x1e4)]=_0x1fb0bc(0x1b5);},_0x2932e4[_0x1c6f14(0x246)](_0x20de7e[_0x1c6f14(0x1e3)][_0x1c6f14(0x1ae)][0x0]);}});}function _0x4ff4(){const _0x21ae70=['var(--network-severe)','.sidebar','.tool-content','network-selected','.coin-value','getHours','clear-ai-chat','财务方面需要谨慎，避免冲动消费。','未能获取回答','星期三','timestamp-result','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-robot\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>super\x20Test\x20AI助手</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','星期一','className','other-param','padStart','replace','mediaDevices','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2010px;\x22>','toFixed','model-detail','drawImage','log','title','网络设置已重置','latency','calculate-remainder','floor','target','display','simulationInterval','usd-base','7570170sPoSoF','5.21-6.21','小时\x20','http://192.168.1.52/zentao/bug-browse-1--assigntome.html','zh-CN','network-medium','numeric','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22activity-description\x22>','getTimezoneOffset','.timestamp-unit-option','请输入有效的数值','getDate','dataset','var(--network-good)','.currency-option','https://xcyy1234.github.io/Web_Tools_Test/','latency-value','click','🇺🇸','remainder-result','screenshot-upload','🇨🇦','scrollTop','getTracks','POST','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20var(--danger);\x20margin-top:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times-circle\x22></i>\x20','865899RFYVlh','appendChild','message-content','clock-seconds','serviceWorker','.menu-toggle','星期日','download-latency-value','detail-name','src','user-message','🇰🇷','includes',':\x20网络请求失败\x20(丢包)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','var(--network-poor)','getMonth','weather-date','status','pet-inflation','请求AI服务时出错：','div','America/New_York','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-icon\x22\x20style=\x22background:\x20var(--neon-purple);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>您</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','ai-message','API调用错误:','stop','other-operator','classList','length','\x20转日期):</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>北京时间:\x20','latency-graph','min','push','.overlay','toLocaleTimeString','4.20-5.20','querySelectorAll','旅行运佳，适合外出放松。','请选择日期时间','人际关系和谐，适合解决矛盾。','8iyUMFK','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>转换结果\x20(','Bearer\x20','\x20-\x20','未知错误','videoWidth','send-ai-question','message\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>计算结果:\x20<strong>','6.22-7.22','https://openrouter.ai/api/v1/chat/completions','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>转换结果:</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>','10.24-11.22','assistant','星期六','data-tool','iphone-link-btn','\x22]\x20.preset-name','width','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20padding:\x2015px;\x20color:\x20#a0aec0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20未找到匹配的模型\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','领导能力凸显，适合主导项目。','then','9537626FMNXAl','fortune-result','latency-bar','translation-result','model_value','ServiceWorker\x20注册失败:\x20','apply-settings','readAsDataURL','.preset-item','<h1\x20style=\x22color:red;text-align:center;margin-top:100px;\x22>禁止检查源代码</h1>','max','data-question','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','scrollHeight','convert-to-timestamp','divisor','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message\x20ai-message\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-robot\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Super\x20Test\x20AI助手</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20您好！我是Super\x20Test\x20AI助手助手，我可以帮助您解决测试相关的问题。请告诉我您需要什么帮助？\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','level-operator','2-digit','substring','closest','addEventListener','height','ms</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>丢包率:\x20','getContext','play','情绪波动较大，需要自我调节。','pet-operator','coin-factor','getTime','NewTestTool','3722877PnNPtZ','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>网络设置已恢复\x20(','ai-messages','random-loss-value','\x20...\x20','https://yunduanxin.net/','data-preset','fortune-title','convert-to-date','stringify','_blank','10AFMGHa','getDay','<i\x20class=\x22fas\x20','\x20=\x20','452vDWQNy','days-result','packet-loss','ms\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20丢包率:\x20','network-good','fortune-content','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22currency-flag-lg\x22>','message-header','timestamp-input','currency-results','toggle','[data-preset=\x22','flag','network-status','ms</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>上行延时:\x20','应用网络设置:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20基本延迟:\x20','CNY','shift','result','style','random','🇯🇵','社交运极佳，适合拓展人脉和团队合作。','USD','filter','textContent','getMinutes','fortune-explanation','getAttribute','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22currency-name\x22>','屏幕捕获失败:','\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','error','vip-inflation','ms\x20|\x20总丢包率:\x20','服务暂时不可用，请稍后再试','upload-latency-value','activity-detail','screenshot-area','background','none','map','onloadedmetadata','):</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>基本延迟:\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22currency-value\x22>','8LzhOfS','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>美国东部时间(ET):\x20','🇨🇳','target-language','fa-sun','detail-description','DOMContentLoaded','model_key','%\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20随机丢包率:\x20','.coin-formula','你是一个专业的游戏测试助手，帮助测试人员解决各种技术问题','请输入时间戳','factor-operator','flex','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>毫秒时间戳:\x20','application/json','事业运上升，努力会有回报。','level-inflation','weather-temp','activity_name','data-value','city','open','0ms','11.23-12.21','12.22-1.19','★★★☆☆','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22activity-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20padding:\x2015px;\x20color:\x20#a0aec0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20未找到匹配的活动\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','input','querySelector','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>北京与西八区时差:\x20','stadium','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>翻译结果\x20(','cd-value','\x20小时','.unit-option','clock-date','.cd-unit\x20.cd-value','EUR','toLocaleString','直觉敏锐，适合做重要决定。','fortune-btn','\x20=\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>','network-simulator','bugly-link-btn','60245gCSNRS','choices','3.21-4.19','ai-question','toLowerCase','tunnel','hours','1179981bbDPyo','elevator','canvas','getElementById','fortune-title\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','opacity','value','milliseconds','.ai-suggestion','clock-time','.currency-option.active','/sw.js','body','</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2010px;\x20color:\x20#a0aec0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','dividend','createElement','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22activity-name\x22>','ms\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20下行延时:\x20','ms</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>下行延时:\x20','remove','message','★★★★☆','\x20(UTC-8)','innerHTML','getDisplayMedia','random-packet-loss','★★★★★','细节决定成败，注意检查工作。','user','fortune-close','\x20预设</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>点击\x22应用网络设置\x22按钮启用此配置</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','active','add','):</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20var(--network-good);\x20margin-top:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-check-circle\x22></i>\x20网络状态已恢复正常\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','currency','screenshot-preview','rate','ms)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','description','toDataURL','星期四','icon','loss-bar','sender','color','API错误:\x20','var(--network-medium)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-robot\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Super\x20Test\x20AI助手</strong>\x20正在思考...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','image/png','package-download-btn','🇭🇰','1.20-2.18','typing-indicator','getFullYear','name','network-simulation-indicator','register','download-latency','conference','data-unit','change','seconds','https://appid.naitu.cc/share/nice','files',')</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','loss-value','getSeconds','\x20的余数是\x20','forEach','trim','block','.network-item','weather-icon\x20','.timestamp-unit-option.active','创意灵感丰富，适合头脑风暴。','sunny','datetime-input','network-poor','scope','minutes','952340vLmtfB','system','.cd-example','星期五','%\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','星期二','json','9.23-10.23'];_0x4ff4=function(){return _0x21ae70;};return _0x4ff4();}async function captureScreen(){const _0xc907f=_0x518cc0;try{const _0x315e28=await navigator[_0xc907f(0x1d8)][_0xc907f(0x2e7)]({'video':!![]}),_0x10fd3d=document[_0xc907f(0x2de)]('video');_0x10fd3d['srcObject']=_0x315e28,_0x10fd3d[_0xc907f(0x297)]=()=>{const _0x1ba388=_0xc907f;_0x10fd3d[_0x1ba388(0x258)]();const _0x504a32=document[_0x1ba388(0x2de)](_0x1ba388(0x2d0));_0x504a32[_0x1ba388(0x23b)]=_0x10fd3d[_0x1ba388(0x22e)],_0x504a32[_0x1ba388(0x255)]=_0x10fd3d['videoHeight'],setTimeout(()=>{const _0x221bde=_0x1ba388,_0x42fefb=_0x504a32[_0x221bde(0x257)]('2d');_0x42fefb[_0x221bde(0x1dc)](_0x10fd3d,0x0,0x0,_0x504a32[_0x221bde(0x23b)],_0x504a32['height']),_0x315e28[_0x221bde(0x1fe)]()[_0x221bde(0x1b3)](_0x2db0f9=>_0x2db0f9[_0x221bde(0x21a)]());const _0x458f9f=document[_0x221bde(0x2d1)](_0x221bde(0x2f2));_0x458f9f[_0x221bde(0x20a)]=_0x504a32[_0x221bde(0x2f6)](_0x221bde(0x2ff)),_0x458f9f[_0x221bde(0x280)][_0x221bde(0x1e4)]=_0x221bde(0x1b5);},0x1f4);};}catch(_0x80f66c){console[_0xc907f(0x28d)](_0xc907f(0x28b),_0x80f66c),document['getElementById'](_0xc907f(0x1fb))[_0xc907f(0x1f8)]();}}document[_0x518cc0(0x254)](_0x518cc0(0x2a0),function(){const _0x351282=_0x518cc0,_0x4e3681=document[_0x351282(0x2d1)](_0x351282(0x2c3)),_0x1dd2b3=document[_0x351282(0x2d1)]('fortune-animation'),_0x432509=document[_0x351282(0x2d1)](_0x351282(0x240)),_0x24f78e=document[_0x351282(0x2d1)](_0x351282(0x265)),_0x59719c=document[_0x351282(0x2d1)](_0x351282(0x272)),_0x2ebf05=document['getElementById'](_0x351282(0x288)),_0x2f622c=document['getElementById'](_0x351282(0x2ec));_0x4e3681[_0x351282(0x254)](_0x351282(0x1f8),function(){const _0x23ec50=_0x351282;_0x4e3681[_0x23ec50(0x280)][_0x23ec50(0x1e4)]='none',_0x1dd2b3[_0x23ec50(0x280)]['display']=_0x23ec50(0x2a7),setTimeout(function(){const _0x641fbf=_0x23ec50;_0x1dd2b3['style'][_0x641fbf(0x1e4)]='none';const _0x70be17=Math[_0x641fbf(0x1e2)](Math[_0x641fbf(0x281)]()*DrawLotsData['length']),_0x4aea04=DrawLotsData[_0x70be17];_0x24f78e[_0x641fbf(0x286)]=_0x4aea04[_0x641fbf(0x1de)],_0x24f78e['className']=_0x641fbf(0x2d2)+_0x4aea04['class'],_0x59719c[_0x641fbf(0x286)]=_0x4aea04['content'],_0x2ebf05['textContent']=_0x4aea04['explanation'],_0x432509[_0x641fbf(0x280)]['display']=_0x641fbf(0x1b5);},0xbb8);}),_0x2f622c[_0x351282(0x254)](_0x351282(0x1f8),function(){const _0x47de2d=_0x351282;_0x432509[_0x47de2d(0x280)]['display']=_0x47de2d(0x295),_0x4e3681['style'][_0x47de2d(0x1e4)]=_0x47de2d(0x1b5);});});function clearAIChat(){const _0x1a6408=_0x518cc0;aiConversation=[],document['getElementById'](_0x1a6408(0x260))[_0x1a6408(0x2e6)]=_0x1a6408(0x24f);}async function getAIResponse(_0x2e3b8f){const _0x154a43=_0x518cc0;try{const _0xa99736=await fetch(_0x154a43(0x233),{'method':_0x154a43(0x1ff),'headers':{'Content-Type':_0x154a43(0x2a9),'Authorization':_0x154a43(0x22b)+OPENROUTER_API_KEY,'HTTP-Referer':_0x154a43(0x1f6),'X-Title':_0x154a43(0x25d)},'body':JSON[_0x154a43(0x267)]({'model':'mistralai/mistral-7b-instruct:free','messages':[{'role':_0x154a43(0x1c0),'content':_0x154a43(0x2a4)},...aiConversation[_0x154a43(0x296)](_0x280a44=>({'role':_0x280a44[_0x154a43(0x2fa)]===_0x154a43(0x2eb)?_0x154a43(0x2eb):_0x154a43(0x236),'content':_0x280a44['content']})),{'role':_0x154a43(0x2eb),'content':_0x2e3b8f}],'temperature':0.7,'max_tokens':0x3e8})});if(!_0xa99736['ok']){const _0x2bfb7f=await _0xa99736[_0x154a43(0x1c5)]();return _0x154a43(0x2fc)+_0xa99736[_0x154a43(0x212)]+_0x154a43(0x22c)+(_0x2bfb7f[_0x154a43(0x28d)]?.[_0x154a43(0x2e3)]||_0x154a43(0x22d));}const _0x4ab404=await _0xa99736['json']();return _0x4ab404[_0x154a43(0x2c8)][0x0]?.[_0x154a43(0x2e3)]?.['content']||_0x154a43(0x1cf);}catch(_0x2526d0){return console['error'](_0x154a43(0x219),_0x2526d0),_0x154a43(0x290);}}async function askDeepSeek(){const _0x348f90=_0x518cc0,_0x1fb7cb=document['getElementById'](_0x348f90(0x2ca))['value'][_0x348f90(0x1b4)]();if(!_0x1fb7cb){alert('请输入问题');return;}addAIMessage(_0x348f90(0x2eb),_0x1fb7cb),aiConversation[_0x348f90(0x221)]({'sender':_0x348f90(0x2eb),'content':_0x1fb7cb}),document['getElementById'](_0x348f90(0x2ca))[_0x348f90(0x2d5)]='',showTypingIndicator();try{const _0x464636=await getAIResponse(_0x1fb7cb);addAIMessage('ai',_0x464636),aiConversation['push']({'sender':'ai','content':_0x464636});}catch(_0x3330e6){addAIMessage('ai',_0x348f90(0x214)+_0x3330e6[_0x348f90(0x2e3)]);}finally{hideTypingIndicator();}scrollToBottom();}function addAIMessage(_0xeee324,_0x2d056e){const _0x31d789=_0x518cc0,_0x445cc2=document[_0x31d789(0x2d1)](_0x31d789(0x260)),_0x47650c=document[_0x31d789(0x2de)](_0x31d789(0x215));_0x47650c[_0x31d789(0x1d4)]=_0x31d789(0x230)+(_0xeee324==='user'?_0x31d789(0x20b):_0x31d789(0x218));const _0x24eb72=document[_0x31d789(0x2de)]('div');_0x24eb72[_0x31d789(0x1d4)]=_0x31d789(0x274);_0xeee324===_0x31d789(0x2eb)?_0x24eb72['innerHTML']=_0x31d789(0x217):_0x24eb72[_0x31d789(0x2e6)]=_0x31d789(0x1d2);const _0x192865=document[_0x31d789(0x2de)]('div');_0x192865['className']=_0x31d789(0x203),_0x192865['textContent']=_0x2d056e,_0x47650c['appendChild'](_0x24eb72),_0x47650c[_0x31d789(0x202)](_0x192865),_0x445cc2['appendChild'](_0x47650c),scrollToBottom();}function showTypingIndicator(){const _0x2cf505=_0x518cc0,_0x4db73f=document[_0x2cf505(0x2d1)](_0x2cf505(0x260)),_0x37b11c=document['createElement'](_0x2cf505(0x215));_0x37b11c[_0x2cf505(0x1d4)]='ai-typing',_0x37b11c['id']=_0x2cf505(0x303),_0x37b11c[_0x2cf505(0x2e6)]=_0x2cf505(0x2fe),_0x4db73f[_0x2cf505(0x202)](_0x37b11c),scrollToBottom();}function hideTypingIndicator(){const _0x250c7f=_0x518cc0,_0x3149e1=document['getElementById'](_0x250c7f(0x303));_0x3149e1&&_0x3149e1[_0x250c7f(0x2e2)]();}function scrollToBottom(){const _0x520823=_0x518cc0,_0x4a20ee=document[_0x520823(0x2d1)]('ai-messages');_0x4a20ee[_0x520823(0x1fd)]=_0x4a20ee['scrollHeight'];}function initCurrencyConverter(){const _0x1c3539=_0x518cc0,_0x3d2ff7=document[_0x1c3539(0x2d1)]('currency-amount'),_0x4a29dc=document[_0x1c3539(0x2d1)]('source-currency'),_0x28f20e=document[_0x1c3539(0x225)](_0x1c3539(0x1f5)),_0x37ac79=document[_0x1c3539(0x2d1)]('convert-currency'),_0x29b60b=document[_0x1c3539(0x2d1)](_0x1c3539(0x276)),_0x5aee08=document[_0x1c3539(0x2d1)]('currency-update-time');_0x5aee08[_0x1c3539(0x286)]=new Date()[_0x1c3539(0x2c1)](_0x1c3539(0x1eb)),_0x28f20e[_0x1c3539(0x1b3)](_0x4190e6=>{const _0x5af836=_0x1c3539;_0x4190e6[_0x5af836(0x254)](_0x5af836(0x1f8),function(){const _0x32cb27=_0x5af836;_0x28f20e[_0x32cb27(0x1b3)](_0xc11f84=>_0xc11f84['classList'][_0x32cb27(0x2e2)](_0x32cb27(0x2ee))),this[_0x32cb27(0x21c)][_0x32cb27(0x2ef)]('active'),_0x1a5085();});}),_0x37ac79[_0x1c3539(0x254)](_0x1c3539(0x1f8),_0x1a5085),_0x1a5085(),_0x3d2ff7[_0x1c3539(0x254)]('input',_0x1a5085),_0x4a29dc[_0x1c3539(0x254)](_0x1c3539(0x1ab),_0x1a5085);function _0x1a5085(){const _0x11496f=_0x1c3539,_0x96d21f=parseFloat(_0x3d2ff7['value'])||0x0,_0x28ec9d=_0x4a29dc['value'],_0x1c4105=document[_0x11496f(0x2b7)](_0x11496f(0x2d9)),_0x3067d1=_0x1c4105?_0x1c4105[_0x11496f(0x1f3)][_0x11496f(0x2f1)]:_0x11496f(0x27d);_0x29b60b['innerHTML']='';const _0x5d8a8c=[_0x3067d1];if(_0x3067d1!==_0x11496f(0x27d))_0x5d8a8c[_0x11496f(0x221)](_0x11496f(0x27d));if(_0x3067d1!==_0x11496f(0x284))_0x5d8a8c['push']('USD');if(_0x3067d1!==_0x11496f(0x2c0))_0x5d8a8c[_0x11496f(0x221)](_0x11496f(0x2c0));_0x5d8a8c[_0x11496f(0x1b3)](_0x240586=>{const _0x5d94f0=_0x11496f,_0x17e518=_0x3c596d(_0x96d21f,_0x28ec9d,_0x240586),_0x1efffd=exchangeRates[_0x240586],_0x571443=document[_0x5d94f0(0x2de)]('div');_0x571443[_0x5d94f0(0x1d4)]='currency-result-item',_0x571443['innerHTML']=_0x5d94f0(0x273)+_0x1efffd[_0x5d94f0(0x279)]+_0x5d94f0(0x299)+_0x17e518['toFixed'](0x2)+_0x5d94f0(0x28a)+_0x1efffd[_0x5d94f0(0x305)]+'\x20('+_0x240586+_0x5d94f0(0x1af),_0x29b60b[_0x5d94f0(0x202)](_0x571443);}),_0x5aee08[_0x11496f(0x286)]=new Date()[_0x11496f(0x2c1)]('zh-CN');}function _0x3c596d(_0x125e1a,_0x33a0ca,_0x1c45b0){const _0x213a3a=_0x1c3539,_0x55bc2f=_0x125e1a/exchangeRates[_0x33a0ca][_0x213a3a(0x2f3)];return _0x55bc2f*exchangeRates[_0x1c45b0][_0x213a3a(0x2f3)];}}function calculateCoin(){const _0x368e5a=_0x518cc0,_0x41cf69=parseFloat(document[_0x368e5a(0x2d1)](_0x368e5a(0x1e6))[_0x368e5a(0x2d5)])||0x0,_0x3cc239=parseFloat(document[_0x368e5a(0x2d1)](_0x368e5a(0x28e))[_0x368e5a(0x2d5)])||0x0,_0x3176f3=parseFloat(document[_0x368e5a(0x2d1)](_0x368e5a(0x2ab))['value'])||0x0,_0x4121e5=parseFloat(document[_0x368e5a(0x2d1)](_0x368e5a(0x213))[_0x368e5a(0x2d5)])||0x0,_0x2bad2e=parseFloat(document['getElementById'](_0x368e5a(0x25b))[_0x368e5a(0x2d5)])||0x1,_0xdb9aaa=parseFloat(document[_0x368e5a(0x2d1)](_0x368e5a(0x1d5))[_0x368e5a(0x2d5)])||0x0,_0x48ec0e=document[_0x368e5a(0x2d1)]('vip-operator')[_0x368e5a(0x2d5)],_0x58ff3b=document[_0x368e5a(0x2d1)](_0x368e5a(0x250))['value'],_0x50a15b=document[_0x368e5a(0x2d1)](_0x368e5a(0x25a))[_0x368e5a(0x2d5)],_0xbd4c45=document[_0x368e5a(0x2d1)](_0x368e5a(0x2a6))['value'],_0x4f5c02=document[_0x368e5a(0x2d1)](_0x368e5a(0x21b))[_0x368e5a(0x2d5)];let _0x107f01='('+_0x41cf69+')',_0x2e91f3=_0x41cf69;_0x2e91f3=applyOperation(_0x2e91f3,_0x48ec0e,_0x3cc239),_0x107f01+='\x20'+getSymbol(_0x48ec0e)+'\x20'+_0x3cc239,_0x2e91f3=applyOperation(_0x2e91f3,_0x58ff3b,_0x3176f3),_0x107f01+='\x20'+getSymbol(_0x58ff3b)+'\x20'+_0x3176f3,_0x2e91f3=applyOperation(_0x2e91f3,_0x50a15b,_0x4121e5),_0x107f01+='\x20'+getSymbol(_0x50a15b)+'\x20'+_0x4121e5,_0x2e91f3=applyOperation(_0x2e91f3,_0xbd4c45,_0x2bad2e),_0x107f01+='\x20'+getSymbol(_0xbd4c45)+'\x20'+_0x2bad2e,_0x2e91f3=applyOperation(_0x2e91f3,_0x4f5c02,_0xdb9aaa),_0x107f01+='\x20'+getSymbol(_0x4f5c02)+'\x20'+_0xdb9aaa;const _0x5c38f5=document[_0x368e5a(0x2b7)](_0x368e5a(0x1cb));_0x5c38f5[_0x368e5a(0x286)]=_0x2e91f3[_0x368e5a(0x1da)](0x2);const _0x1e92dc=document['querySelector'](_0x368e5a(0x2a3));_0x1e92dc['textContent']='计算公式:\x20'+_0x107f01+_0x368e5a(0x26c)+_0x2e91f3[_0x368e5a(0x1da)](0x2);}function applyOperation(_0x308704,_0x5cb9af,_0x5c60bd){switch(_0x5cb9af){case'+':return _0x308704+_0x5c60bd;case'-':return _0x308704-_0x5c60bd;case'*':return _0x308704*_0x5c60bd;case'/':return _0x5c60bd!==0x0?_0x308704/_0x5c60bd:_0x308704;default:return _0x308704;}}function getSymbol(_0x3c9da5){switch(_0x3c9da5){case'+':return'+';case'-':return'-';case'*':return'×';case'/':return'÷';default:return'';}}function initActivitySearch(){const _0x259a5b=_0x518cc0,_0x48d914=document[_0x259a5b(0x2d1)]('activity-search'),_0xb5807c=document[_0x259a5b(0x2d1)]('activity-results'),_0x5995b3=document[_0x259a5b(0x2d1)](_0x259a5b(0x292));_0x48d914[_0x259a5b(0x254)](_0x259a5b(0x2b6),function(){const _0x396c93=_0x259a5b,_0x52f526=this[_0x396c93(0x2d5)][_0x396c93(0x1b4)]();_0xb5807c[_0x396c93(0x2e6)]='';if(_0x52f526[_0x396c93(0x21d)]===0x0){_0xb5807c['style'][_0x396c93(0x1e4)]=_0x396c93(0x295),_0x5995b3[_0x396c93(0x280)][_0x396c93(0x1e4)]=_0x396c93(0x295);return;}const _0x3c3540=activityData[_0x396c93(0x285)](_0x5c7929=>_0x5c7929['description']['includes'](_0x52f526)||_0x5c7929['activity_name']['toLowerCase']()[_0x396c93(0x20d)](_0x52f526[_0x396c93(0x2cb)]()));_0x3c3540[_0x396c93(0x21d)]>0x0?(_0xb5807c[_0x396c93(0x280)][_0x396c93(0x1e4)]=_0x396c93(0x1b5),_0x3c3540[_0x396c93(0x1b3)](_0x52db84=>{const _0x345433=_0x396c93,_0x5286d4=document['createElement'](_0x345433(0x215));_0x5286d4[_0x345433(0x1d4)]='activity-item',_0x5286d4[_0x345433(0x2e6)]=_0x345433(0x2df)+_0x52db84[_0x345433(0x2ad)]+_0x345433(0x1ee)+_0x52db84[_0x345433(0x2f5)]+_0x345433(0x2d3),_0x5286d4[_0x345433(0x254)](_0x345433(0x1f8),function(){const _0x3fabae=_0x345433;showActivityDetail(_0x52db84),_0xb5807c[_0x3fabae(0x280)][_0x3fabae(0x1e4)]='none';}),_0xb5807c[_0x345433(0x202)](_0x5286d4);})):(_0xb5807c[_0x396c93(0x280)][_0x396c93(0x1e4)]=_0x396c93(0x1b5),_0xb5807c[_0x396c93(0x2e6)]=_0x396c93(0x2b5));}),document[_0x259a5b(0x254)](_0x259a5b(0x1f8),function(_0x226b20){const _0x48c85f=_0x259a5b;!_0x226b20[_0x48c85f(0x1e3)][_0x48c85f(0x253)]('.activity-search-container')&&(_0xb5807c[_0x48c85f(0x280)][_0x48c85f(0x1e4)]='none');});}function showActivityDetail(_0x2f825a){const _0x5193e7=_0x518cc0,_0x5efa32=document[_0x5193e7(0x2d1)](_0x5193e7(0x292));document[_0x5193e7(0x2d1)](_0x5193e7(0x209))[_0x5193e7(0x286)]=_0x2f825a[_0x5193e7(0x2ad)],document[_0x5193e7(0x2d1)](_0x5193e7(0x29f))[_0x5193e7(0x286)]=_0x2f825a[_0x5193e7(0x2f5)],_0x5efa32[_0x5193e7(0x280)][_0x5193e7(0x1e4)]=_0x5193e7(0x1b5);}function initModelSearch(){const _0x2ca847=_0x518cc0,_0x1b8527=document[_0x2ca847(0x2d1)]('model-search'),_0x506faa=document[_0x2ca847(0x2d1)]('model-results'),_0x487cf4=document['getElementById'](_0x2ca847(0x1db));_0x487cf4[_0x2ca847(0x280)]['display']=_0x2ca847(0x295),_0x1b8527[_0x2ca847(0x254)](_0x2ca847(0x2b6),function(){const _0x42eae4=_0x2ca847,_0x1971b8=this[_0x42eae4(0x2d5)][_0x42eae4(0x1b4)]();_0x506faa[_0x42eae4(0x2e6)]='';if(_0x1971b8[_0x42eae4(0x21d)]===0x0){_0x506faa[_0x42eae4(0x280)][_0x42eae4(0x1e4)]=_0x42eae4(0x295),_0x487cf4[_0x42eae4(0x280)][_0x42eae4(0x1e4)]=_0x42eae4(0x295);return;}const _0x11e99a=ModelData['filter'](_0x57d975=>_0x57d975[_0x42eae4(0x2a1)][_0x42eae4(0x20d)](_0x1971b8)||_0x57d975[_0x42eae4(0x243)][_0x42eae4(0x2cb)]()[_0x42eae4(0x20d)](_0x1971b8[_0x42eae4(0x2cb)]()));if(_0x11e99a[_0x42eae4(0x21d)]>0x0)_0x506faa[_0x42eae4(0x280)][_0x42eae4(0x1e4)]=_0x42eae4(0x1b5),_0x11e99a[_0x42eae4(0x1b3)](_0x22df86=>{const _0x3b358f=_0x42eae4,_0x5107ec=document[_0x3b358f(0x2de)]('div');_0x5107ec[_0x3b358f(0x1d4)]='model-item';const _0x5e0014=document[_0x3b358f(0x2de)](_0x3b358f(0x215));_0x5e0014[_0x3b358f(0x1d4)]='model-name',_0x5e0014[_0x3b358f(0x286)]=_0x22df86[_0x3b358f(0x243)];const _0x24686c=document[_0x3b358f(0x2de)](_0x3b358f(0x215));_0x24686c['className']='model-description',_0x24686c[_0x3b358f(0x286)]=_0x22df86[_0x3b358f(0x2a1)],_0x5107ec[_0x3b358f(0x202)](_0x5e0014),_0x5107ec[_0x3b358f(0x202)](_0x24686c),_0x5107ec[_0x3b358f(0x254)](_0x3b358f(0x1f8),function(){const _0x4d4a40=_0x3b358f;showModelDetail(_0x22df86),_0x506faa[_0x4d4a40(0x280)][_0x4d4a40(0x1e4)]=_0x4d4a40(0x295);}),_0x506faa['appendChild'](_0x5107ec);});else{_0x506faa[_0x42eae4(0x280)][_0x42eae4(0x1e4)]=_0x42eae4(0x1b5);const _0x396926=document[_0x42eae4(0x2de)](_0x42eae4(0x215));_0x396926[_0x42eae4(0x1d4)]='model-item',_0x396926['innerHTML']=_0x42eae4(0x23c),_0x506faa[_0x42eae4(0x202)](_0x396926);}}),document[_0x2ca847(0x254)](_0x2ca847(0x1f8),function(_0x4f5b58){const _0x47e9bd=_0x2ca847;!_0x506faa['contains'](_0x4f5b58[_0x47e9bd(0x1e3)])&&_0x4f5b58[_0x47e9bd(0x1e3)]!==_0x1b8527&&(_0x506faa['style']['display']=_0x47e9bd(0x295));});}function showModelDetail(_0x29a926){const _0x439efe=_0x518cc0,_0x2e47af=document[_0x439efe(0x2d1)](_0x439efe(0x1db));document[_0x439efe(0x2d1)]('model-name')[_0x439efe(0x286)]=_0x29a926['model_key'],document['getElementById']('model-description')[_0x439efe(0x286)]=_0x29a926[_0x439efe(0x243)],_0x2e47af[_0x439efe(0x280)][_0x439efe(0x1e4)]=_0x439efe(0x1b5);}document[_0x518cc0(0x254)](_0x518cc0(0x2a0),init);
+// 开发者工具检测函数（新增）
+function detectDevTools() {
+    const element = new Image();
+
+    Object.defineProperty(element, 'id',{
+        get: () => {
+            // 当开发者工具打开时触发
+            document.body.innerHTML = '<h1 style="color:red;text-align:center;margin-top:100px;">禁止检查源代码</h1>';
+            // 阻止后续操作
+            window.stop();
+        }
+    });
+
+    // 触发检测
+    console.log(element);
+}
+
+// 天气数据
+const weatherData = [
+    { city: "北京", temp: 28, condition: "sunny", icon: "fa-sun" },
+];
+
+// AI助手相关变量
+let aiConversation = [];
+
+// DeepSeek API密钥
+const OPENROUTER_API_KEY = "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";
+
+//活动查询获取数据
+import { activityData } from './Activity.js';
+
+//读取模块数据
+import { ModelData } from './model.js';
+
+//读取抽签数据
+import { DrawLotsData } from './Drawlots.js';
+// 汇率数据
+const exchangeRates = {
+    CNY: { name: "人民币", rate: 1, flag: "🇨🇳" },
+    USD: { name: "美元", rate: 7.27, flag: "🇺🇸" },
+    EUR: { name: "欧元", rate: 7.81, flag: "🇪🇺" },
+    JPY: { name: "日元", rate: 0.049, flag: "🇯🇵" },
+    GBP: { name: "英镑", rate: 8.91, flag: "🇬🇧" },
+    HKD: { name: "港币", rate: 0.93, flag: "🇭🇰" },
+    KRW: { name: "韩元", rate: 0.0055, flag: "🇰🇷" },
+    AUD: { name: "澳元", rate: 4.71, flag: "🇦🇺" },
+    CAD: { name: "加元", rate: 5.36, flag: "🇨🇦" }
+};
+
+// 初始化函数
+function init() {
+    //初始化开发者拦截函数
+     detectDevTools();
+
+
+    // 初始化滑块值显示
+    document.getElementById('latency').addEventListener('input', function() {
+        document.getElementById('latency-value').textContent = this.value + 'ms';
+    });
+
+    document.getElementById('packet-loss').addEventListener('input', function() {
+        document.getElementById('loss-value').textContent = this.value + '%';
+    });
+
+    // 网络预设选择
+    const networkItems = document.querySelectorAll('.network-item');
+    networkItems.forEach(item => {
+        item.addEventListener('click', function() {
+            networkItems.forEach(i => i.classList.remove('network-selected'));
+            this.classList.add('network-selected');
+
+            if(this.id === 'network-good') {
+                document.getElementById('latency').value = 50;
+                document.getElementById('packet-loss').value = 0;
+            } else if(this.id === 'network-medium') {
+                document.getElementById('latency').value = 200;
+                document.getElementById('packet-loss').value = 8;
+            } else if(this.id === 'network-poor') {
+                document.getElementById('latency').value = 800;
+                document.getElementById('packet-loss').value = 30;
+            }
+
+            document.getElementById('latency-value').textContent =
+                document.getElementById('latency').value + 'ms';
+            document.getElementById('loss-value').textContent =
+                document.getElementById('packet-loss').value + '%';
+        });
+    });
+
+    // 导航功能
+    const navItems = document.querySelectorAll('.tool-nav-item');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+    const overlay = document.querySelector('.overlay');
+
+    navItems.forEach(item => {
+        item.addEventListener('click', function() {
+            const toolId = this.getAttribute('data-tool');
+
+            // 更新活动状态
+            navItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+
+            // 隐藏所有工具内容
+            document.querySelectorAll('.tool-content').forEach(tool => {
+                tool.classList.remove('active');
+            });
+
+            // 显示选中的工具内容
+            document.getElementById(toolId).classList.add('active');
+
+            // 在移动端关闭菜单
+            if (window.innerWidth < 768) {
+                sidebar.classList.remove('active');
+                menuToggle.classList.remove('active');
+                overlay.classList.remove('active');
+            }
+        });
+    });
+
+    // 菜单切换
+    menuToggle.addEventListener('click', function() {
+        this.classList.toggle('active');
+        sidebar.classList.toggle('active');
+        overlay.classList.toggle('active');
+    });
+
+    // 点击遮罩层关闭菜单
+    overlay.addEventListener('click', function() {
+        menuToggle.classList.remove('active');
+        sidebar.classList.remove('active');
+        this.classList.remove('active');
+    });
+
+    // 单位选择器
+    const unitOptions = document.querySelectorAll('.unit-option');
+    unitOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            document.querySelectorAll('.unit-option').forEach(opt => {
+                opt.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
+
+    // 时间戳单位选择器
+    const timestampUnitOptions = document.querySelectorAll('.timestamp-unit-option');
+    timestampUnitOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            document.querySelectorAll('.timestamp-unit-option').forEach(opt => {
+                opt.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
+
+    // 事件监听
+    document.getElementById('calculate-remainder').addEventListener('click', calculateRemainder);
+    document.getElementById('network-simulator').addEventListener('click', initNetworkSimulator);
+    document.getElementById('translate-screenshot').addEventListener('click', translateScreenshot);
+    document.getElementById('convert-to-date').addEventListener('click', convertTimestampToDate);
+    document.getElementById('convert-to-days').addEventListener('click', convertTimestampToDays);
+    document.getElementById('convert-to-timestamp').addEventListener('click', convertDateToTimestamp);
+    document.getElementById('convert-cd').addEventListener('click', convertCD);
+    document.getElementById('send-ai-question').addEventListener('click', askDeepSeek);
+    document.getElementById('clear-ai-chat').addEventListener('click', clearAIChat);
+    document.getElementById('zentao-link-btn').addEventListener('click', () => window.open('http://192.168.1.52/zentao/bug-browse-1--assigntome.html', '_blank'));
+    document.getElementById('package-download-btn-ct').addEventListener('click', () => window.open('http://192.168.1.150/down/beta/', '_blank'));
+    document.getElementById('package-download-btn-jms').addEventListener('click', () => window.open('http://192.168.1.119/download/', '_blank'));
+    document.getElementById('bugly-link-btn').addEventListener('click', () => window.open('https://bugly.qq.com/v2/', '_blank'));
+    document.getElementById('appstore-link-btn').addEventListener('click', () => window.open('https://appid.naitu.cc/share/nice', '_blank'));
+    document.getElementById('iphone-link-btn').addEventListener('click', () => window.open('https://yunduanxin.net/', '_blank'));
+
+
+    // AI建议
+    document.querySelectorAll('.ai-suggestion').forEach(suggestion => {
+        suggestion.addEventListener('click', function() {
+            const question = this.getAttribute('data-question');
+            document.getElementById('ai-question').value = question;
+        });
+    });
+
+    // CD示例
+    document.querySelectorAll('.cd-example').forEach(example => {
+        example.addEventListener('click', function() {
+            const value = this.getAttribute('data-value');
+            const unit = this.getAttribute('data-unit');
+            document.getElementById('cd-value').value = value;
+
+            document.querySelectorAll('.unit-option').forEach(option => {
+                option.classList.remove('active');
+                if(option.getAttribute('data-unit') === unit) {
+                    option.classList.add('active');
+                }
+            });
+            convertCD();
+        });
+    });
+
+    // 默认选择良好网络
+    document.getElementById('network-status').click();
+
+    // 设置当前时间作为默认值
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const day = String(now.getDate()).padStart(2, '0');
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    document.getElementById('datetime-input').value = `${year}-${month}-${day}T${hours}:${minutes}`;
+
+    // 设置当前时间戳
+    document.getElementById('timestamp-input').value = Math.floor(now.getTime() / 1000);
+
+    // 更新当前日期
+    updateCurrentDate();
+    updateWeather();
+
+    // 初始化时钟
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // 初始化截屏功能
+    initScreenshot();
+
+    // 初始化汇率转换工具
+    initCurrencyConverter();
+
+    // 初始化COIN金币计算器
+    calculateCoin();
+
+    // 初始化活动查询功能
+    initActivitySearch();
+
+    //初始化模块数据查询功能
+    initModelSearch();
+
+    //初始化弱网功能
+    initNetworkSimulator();
+
+    // 为常见问题部分添加点击事件
+    document.querySelectorAll('[data-tool^="faq"]').forEach(item => {
+        item.addEventListener('click', function() {
+            const toolId = this.getAttribute('data-tool');
+
+            // 更新活动状态
+            navItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+
+            // 显示选中的工具内容
+            document.querySelectorAll('.tool-content').forEach(tool => {
+                tool.classList.remove('active');
+            });
+            document.getElementById(toolId).classList.add('active');
+        });
+    });
+}
+
+// 计算余数
+function calculateRemainder() {
+    const dividend = parseInt(document.getElementById('dividend').value) || 0;
+    const divisor = parseInt(document.getElementById('divisor').value) || 1;
+
+    if(divisor === 0) {
+        alert('除数不能为零！');
+        return;
+    }
+
+    const remainder = dividend % divisor;
+    const quotient = Math.floor(dividend / divisor);
+
+    const resultBox = document.getElementById('remainder-result');
+    resultBox.innerHTML = `
+        <div style="margin-bottom: 10px;">${dividend} ÷ ${divisor} = ${quotient} ... ${remainder}</div>
+        <div>计算结果: <strong>${remainder}</strong></div>
+        <div style="margin-top: 10px; color: #a0aec0;">
+            ${dividend} 除以 ${divisor} 的余数是 ${remainder}
+        </div>
+    `;
+}
+
+// 网络模拟功能
+function initNetworkSimulator() {
+    // 获取DOM元素
+    const latencySlider = document.getElementById('latency');
+    const uploadLatencySlider = document.getElementById('upload-latency');
+    const downloadLatencySlider = document.getElementById('download-latency');
+    const packetLossSlider = document.getElementById('packet-loss');
+    const randomPacketLossSlider = document.getElementById('random-packet-loss');
+    const latencyValue = document.getElementById('latency-value');
+    const uploadLatencyValue = document.getElementById('upload-latency-value');
+    const downloadLatencyValue = document.getElementById('download-latency-value');
+    const lossValue = document.getElementById('loss-value');
+    const randomLossValue = document.getElementById('random-loss-value');
+    const applyBtn = document.getElementById('apply-settings');
+    const resetBtn = document.getElementById('reset-settings');
+    const networkResult = document.getElementById('network-result');
+    const networkStatus = document.getElementById('network-status');
+    const networkStats = document.getElementById('network-stats');
+    const networkIndicator = document.getElementById('network-simulation-indicator');
+    const presetItems = document.querySelectorAll('.preset-item');
+    const latencyBar = document.getElementById('latency-bar');
+    const lossBar = document.getElementById('loss-bar');
+    const latencyGraph = document.getElementById('latency-graph');
+
+    // 存储历史数据
+    const latencyHistory = [];
+    const maxHistoryItems = 20;
+
+    // 初始值显示
+    latencyValue.textContent = latencySlider.value + 'ms';
+    uploadLatencyValue.textContent = uploadLatencySlider.value + 'ms';
+    downloadLatencyValue.textContent = downloadLatencySlider.value + 'ms';
+    lossValue.textContent = packetLossSlider.value + '%';
+    randomLossValue.textContent = randomPacketLossSlider.value + '%';
+
+    // 更新图表
+    function updateGraph() {
+        // 更新条形图
+        const totalLatency = parseInt(latencySlider.value) +
+            parseInt(uploadLatencySlider.value) +
+            parseInt(downloadLatencySlider.value);
+        const totalLoss = parseInt(packetLossSlider.value) +
+            parseInt(randomPacketLossSlider.value);
+
+        // 更新条形图宽度
+        latencyBar.style.width = Math.min(100, totalLatency / 20) + '%';
+        lossBar.style.width = Math.min(100, totalLoss * 2) + '%';
+
+        // 更新条形图颜色
+        if (totalLatency < 100) {
+            latencyBar.style.background = 'var(--network-good)';
+        } else if (totalLatency < 500) {
+            latencyBar.style.background = 'var(--network-medium)';
+        } else if (totalLatency < 1000) {
+            latencyBar.style.background = 'var(--network-poor)';
+        } else {
+            latencyBar.style.background = 'var(--network-severe)';
+        }
+
+        if (totalLoss < 5) {
+            lossBar.style.background = 'var(--network-good)';
+        } else if (totalLoss < 15) {
+            lossBar.style.background = 'var(--network-medium)';
+        } else if (totalLoss < 25) {
+            lossBar.style.background = 'var(--network-poor)';
+        } else {
+            lossBar.style.background = 'var(--network-severe)';
+        }
+
+        // 更新折线图数据
+        latencyHistory.push(totalLatency);
+        if (latencyHistory.length > maxHistoryItems) {
+            latencyHistory.shift();
+        }
+
+        // 清空图表
+        latencyGraph.innerHTML = '';
+
+        // 计算最大值用于缩放
+        const maxValue = Math.max(...latencyHistory, 100);
+
+        // 绘制折线
+        latencyHistory.forEach((value, index) => {
+            const height = (value / maxValue) * 100;
+            const bar = document.createElement('div');
+            bar.className = 'graph-line';
+            bar.style.left = `${(index / maxHistoryItems) * 100}%`;
+            bar.style.height = `${height}%`;
+            bar.style.width = `${100 / maxHistoryItems}%`;
+            bar.style.opacity = 0.3 + (0.7 * (height / 100));
+            latencyGraph.appendChild(bar);
+        });
+    }
+
+    // 滑块事件监听
+    latencySlider.addEventListener('input', function() {
+        latencyValue.textContent = this.value + 'ms';
+        updateNetworkStatus();
+        updateGraph();
+    });
+
+    uploadLatencySlider.addEventListener('input', function() {
+        uploadLatencyValue.textContent = this.value + 'ms';
+        updateNetworkStatus();
+        updateGraph();
+    });
+
+    downloadLatencySlider.addEventListener('input', function() {
+        downloadLatencyValue.textContent = this.value + 'ms';
+        updateNetworkStatus();
+        updateGraph();
+    });
+
+    packetLossSlider.addEventListener('input', function() {
+        lossValue.textContent = this.value + '%';
+        updateNetworkStatus();
+        updateGraph();
+    });
+
+    randomPacketLossSlider.addEventListener('input', function() {
+        randomLossValue.textContent = this.value + '%';
+        updateNetworkStatus();
+        updateGraph();
+    });
+
+    // 更新网络状态显示
+    function updateNetworkStatus() {
+        const latency = parseInt(latencySlider.value);
+        const uploadLatency = parseInt(uploadLatencySlider.value);
+        const downloadLatency = parseInt(downloadLatencySlider.value);
+        const packetLoss = parseInt(packetLossSlider.value);
+        const randomLoss = parseInt(randomPacketLossSlider.value);
+
+        const totalLatency = latency + uploadLatency + downloadLatency;
+        const totalLoss = packetLoss + randomLoss;
+
+        // 更新状态标签
+        networkStats.textContent = `延迟: ${totalLatency}ms | 丢包: ${totalLoss}%`;
+
+        // 更新网络状态文字
+        if (totalLatency === 0 && totalLoss === 0) {
+            networkStatus.textContent = "良好";
+            networkStatus.style.color = "var(--network-good)";
+        } else if (totalLatency < 100 && totalLoss < 5) {
+            networkStatus.textContent = "一般";
+            networkStatus.style.color = "var(--network-medium)";
+        } else if (totalLatency < 500 && totalLoss < 20) {
+            networkStatus.textContent = "较差";
+            networkStatus.style.color = "var(--network-poor)";
+        } else {
+            networkStatus.textContent = "极差";
+            networkStatus.style.color = "var(--network-severe)";
+        }
+    }
+
+    // 应用网络设置
+    applyBtn.addEventListener('click', function() {
+        const latency = parseInt(latencySlider.value);
+        const uploadLatency = parseInt(uploadLatencySlider.value);
+        const downloadLatency = parseInt(downloadLatencySlider.value);
+        const packetLoss = parseInt(packetLossSlider.value);
+        const randomLoss = parseInt(randomPacketLossSlider.value);
+
+        // 计算总延迟和丢包率
+        const totalLatency = latency + uploadLatency + downloadLatency;
+        const totalLoss = packetLoss + randomLoss;
+
+        // 模拟应用网络设置
+        applyNetworkSettings(latency, uploadLatency, downloadLatency, packetLoss, randomLoss);
+
+        // 显示网络模拟指示器
+        networkIndicator.style.display = 'block';
+
+        // 更新结果框
+        const now = new Date();
+        networkResult.innerHTML = `
+                <div><strong>网络设置已应用 (${now.toLocaleTimeString()}):</strong></div>
+                <div>基本延迟: ${latency}ms</div>
+                <div>上行延时: ${uploadLatency}ms</div>
+                <div>下行延时: ${downloadLatency}ms</div>
+                <div>丢包率: ${packetLoss}%</div>
+                <div>随机丢包率: ${randomLoss}%</div>
+                <div style="margin-top: 10px; color: var(--neon-blue);">
+                    <i class="fas fa-info-circle"></i> 总延迟: ${totalLatency}ms | 总丢包率: ${totalLoss}%
+                </div>
+            `;
+
+        // 开始模拟网络请求
+        simulateNetworkRequests(totalLatency, totalLoss);
+    });
+
+    // 恢复网络状态
+    resetBtn.addEventListener('click', function() {
+        // 重置滑块
+        latencySlider.value = 0;
+        uploadLatencySlider.value = 0;
+        downloadLatencySlider.value = 0;
+        packetLossSlider.value = 0;
+        randomPacketLossSlider.value = 0;
+
+        // 更新显示
+        latencyValue.textContent = '0ms';
+        uploadLatencyValue.textContent = '0ms';
+        downloadLatencyValue.textContent = '0ms';
+        lossValue.textContent = '0%';
+        randomLossValue.textContent = '0%';
+
+        // 恢复网络设置
+        resetNetworkSettings();
+
+        // 隐藏网络模拟指示器
+        networkIndicator.style.display = 'none';
+
+        // 更新结果框
+        const now = new Date();
+        networkResult.innerHTML = `
+                <div><strong>网络设置已恢复 (${now.toLocaleTimeString()}):</strong></div>
+                <div style="color: var(--network-good); margin-top: 10px;">
+                    <i class="fas fa-check-circle"></i> 网络状态已恢复正常
+                </div>
+            `;
+
+        // 更新网络状态
+        updateNetworkStatus();
+        updateGraph();
+    });
+
+    // 预设场景点击事件
+    presetItems.forEach(item => {
+        item.addEventListener('click', function() {
+            // 移除其他预设的active状态
+            presetItems.forEach(i => i.classList.remove('active'));
+            // 添加当前预设的active状态
+            this.classList.add('active');
+
+            // 根据预设设置值
+            const preset = this.getAttribute('data-preset');
+            applyPreset(preset);
+        });
+    });
+
+    // 应用预设
+    function applyPreset(preset) {
+        let latency = 0;
+        let uploadLatency = 0;
+        let downloadLatency = 0;
+        let packetLoss = 0;
+        let randomLoss = 0;
+
+        switch(preset) {
+            case 'elevator':
+                latency = 500;
+                uploadLatency = 300;
+                downloadLatency = 300;
+                packetLoss = 10;
+                randomLoss = 5;
+                break;
+            case 'subway':
+                latency = 300;
+                uploadLatency = 200;
+                downloadLatency = 200;
+                packetLoss = 8;
+                randomLoss = 4;
+                break;
+            case 'tunnel':
+                latency = 1000;
+                uploadLatency = 500;
+                downloadLatency = 500;
+                packetLoss = 15;
+                randomLoss = 10;
+                break;
+            case 'rural':
+                latency = 800;
+                uploadLatency = 400;
+                downloadLatency = 400;
+                packetLoss = 12;
+                randomLoss = 8;
+                break;
+            case 'stadium':
+                latency = 200;
+                uploadLatency = 100;
+                downloadLatency = 100;
+                packetLoss = 10;
+                randomLoss = 5;
+                break;
+            case 'conference':
+                latency = 150;
+                uploadLatency = 80;
+                downloadLatency = 80;
+                packetLoss = 8;
+                randomLoss = 4;
+                break;
+        }
+
+        // 设置滑块值
+        latencySlider.value = latency;
+        uploadLatencySlider.value = uploadLatency;
+        downloadLatencySlider.value = downloadLatency;
+        packetLossSlider.value = packetLoss;
+        randomPacketLossSlider.value = randomLoss;
+
+        // 更新显示
+        latencyValue.textContent = latency + 'ms';
+        uploadLatencyValue.textContent = uploadLatency + 'ms';
+        downloadLatencyValue.textContent = downloadLatency + 'ms';
+        lossValue.textContent = packetLoss + '%';
+        randomLossValue.textContent = randomLoss + '%';
+
+        // 更新网络状态
+        updateNetworkStatus();
+        updateGraph();
+
+        // 显示预设信息
+        networkResult.innerHTML = `
+                <div><strong>已应用${document.querySelector(`[data-preset="${preset}"] .preset-name`).textContent} 预设</strong></div>
+                <div>点击"应用网络设置"按钮启用此配置</div>
+            `;
+    }
+
+    // 模拟应用网络设置
+    function applyNetworkSettings(latency, uploadLatency, downloadLatency, packetLoss, randomLoss) {
+        console.log(`应用网络设置:
+              基本延迟: ${latency}ms
+              上行延时: ${uploadLatency}ms
+              下行延时: ${downloadLatency}ms
+              丢包率: ${packetLoss}%
+              随机丢包率: ${randomLoss}%`);
+    }
+
+    // 模拟恢复网络设置
+    function resetNetworkSettings() {
+        console.log('网络设置已重置');
+    }
+
+    // 模拟网络请求
+    function simulateNetworkRequests(latency, lossRate) {
+        // 清除之前的模拟
+        clearInterval(window.simulationInterval);
+
+        // 开始新的模拟
+        window.simulationInterval = setInterval(() => {
+            // 随机决定是否丢包
+            const isPacketLoss = Math.random() * 100 < lossRate;
+
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString();
+
+            if (isPacketLoss) {
+                // 模拟丢包
+                networkResult.innerHTML += `
+                        <div style="color: var(--danger); margin-top: 5px;">
+                            <i class="fas fa-times-circle"></i> ${timeStr}: 网络请求失败 (丢包)
+                        </div>
+                    `;
+            } else {
+                // 模拟成功请求
+                networkResult.innerHTML += `
+                        <div style="color: var(--success); margin-top: 5px;">
+                            <i class="fas fa-check-circle"></i> ${timeStr}: 请求成功 (延迟: ${latency}ms)
+                        </div>
+                    `;
+            }
+
+            // 滚动到底部
+            networkResult.scrollTop = networkResult.scrollHeight;
+
+            // 限制最多显示20条记录
+            const entries = networkResult.querySelectorAll('div');
+            if (entries.length > 20) {
+                for (let i = 0; i < entries.length - 20; i++) {
+                    entries[i].remove();
+                }
+            }
+        }, 2000);
+    }
+
+    // 初始更新网络状态
+    updateNetworkStatus();
+    updateGraph();
+}
+
+// 注册Service Worker
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            console.log('ServiceWorker 注册成功: ', registration.scope);
+        }, function(err) {
+            console.log('ServiceWorker 注册失败: ', err);
+        });
+    });
+}
+
+// 翻译截图
+function translateScreenshot() {
+    const preview = document.getElementById('screenshot-preview');
+    if (!preview.src) {
+        alert('请先上传截图或捕获屏幕');
+        return;
+    }
+
+    const language = document.getElementById('target-language').value;
+    const languages = {
+        en: '英语',
+        ja: '日语',
+        ko: '韩语',
+        fr: '法语',
+        de: '德语',
+        es: '西班牙语'
+    };
+
+    const resultBox = document.getElementById('translation-result');
+    resultBox.innerHTML = `
+        <div style="margin-bottom: 15px;">
+            <strong>翻译结果 (${languages[language]}):</strong>
+        </div>
+        <div style="line-height: 1.6;">
+            <p>"功能暂时无法使用！"</p>
+        </div>
+        <div style="margin-top: 15px; color: #a0aec0; font-size: 0.9rem;">
+            翻译完成时间: ${new Date().toLocaleTimeString()}
+        </div>
+    `;
+}
+// 时间戳转换
+function convertTimestampToDate() {
+    const timestamp = document.getElementById('timestamp-input').value;
+    if (!timestamp) {
+        alert('请输入时间戳');
+        return;
+    }
+
+    // 获取选中的时间戳单位
+    const unit = document.querySelector('.timestamp-unit-option.active').getAttribute('data-unit');
+    let milliseconds;
+
+    if (unit === 'seconds') {
+        milliseconds = timestamp * 1000;
+    } else {
+        milliseconds = parseInt(timestamp);
+    }
+
+    const date = new Date(milliseconds);
+    const resultBox = document.getElementById('timestamp-result');
+
+    // 隐藏天数结果，显示时间戳结果
+    document.getElementById('days-result').style.display = 'none';
+    resultBox.style.display = 'block';
+
+    // 计算时区差
+    const localOffset = -date.getTimezoneOffset(); // 本地与UTC的分钟差（东区为正）
+    const utcMinus8Offset = -480; // 西八区固定偏移（UTC-8）
+    const hourDiff = (localOffset - utcMinus8Offset) / 60; // 转换为小时差
+
+    // 格式化时间差描述
+    let diffDescription;
+    if (hourDiff > 0) {
+        diffDescription = `${hourDiff} 小时`;
+    } else if (hourDiff < 0) {
+        diffDescription = `${-hourDiff} 小时`;
+    } else {
+        diffDescription = "本地时间与西八区相同";
+    }
+
+    // 美国时区转换
+    const options = {
+        timeZone: 'America/New_York',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+    };
+
+    // 西八区时间计算
+    const utcMinus8Date = new Date(milliseconds - 8 * 3600000);
+    const utcMinus8Time = utcMinus8Date.toISOString().replace('T', ' ').substring(0, 19) + " (UTC-8)";
+
+    const etTime = date.toLocaleString('zh-CN', { ...options, timeZone: 'America/New_York' });
+
+
+    resultBox.innerHTML = `
+        <div><strong>转换结果 (${unit === 'seconds' ? '秒' : '毫秒'} 转日期):</strong></div>
+        <div>北京时间: ${date.toLocaleString()}</div>
+        <div>美国东部时间(ET): ${etTime}</div>
+        <div>西八区时间(UTC-8): ${utcMinus8Time}</div>
+        <div>北京与西八区时差: ${diffDescription}</div>
+    `;
+}
+
+// 时间戳转天数功能
+function convertTimestampToDays() {
+    const timestamp = document.getElementById('timestamp-input').value;
+    if (!timestamp) {
+        alert('请输入时间戳');
+        return;
+    }
+
+    // 获取选中的时间戳单位
+    const unit = document.querySelector('.timestamp-unit-option.active').getAttribute('data-unit');
+    let seconds;
+
+    if (unit === 'seconds') {
+        seconds = timestamp;
+    } else {
+        seconds = timestamp / 1000;
+    }
+
+    const days = seconds / 86400;
+    const daysBox = document.getElementById('days-result');
+    const resultBox = document.getElementById('timestamp-result');
+
+    // 隐藏时间戳结果，显示天数结果
+    resultBox.style.display = 'none';
+    daysBox.style.display = 'block';
+
+    document.getElementById('days-value').textContent = days.toFixed(6);
+}
+
+function convertDateToTimestamp() {
+    const dateString = document.getElementById('datetime-input').value;
+    if (!dateString) {
+        alert('请选择日期时间');
+        return;
+    }
+
+    const date = new Date(dateString);
+    const timestampSeconds = Math.floor(date.getTime() / 1000);
+    const timestampMilliseconds = date.getTime();
+
+    const resultBox = document.getElementById('timestamp-result');
+
+    // 隐藏天数结果，显示时间戳结果
+    document.getElementById('days-result').style.display = 'none';
+    resultBox.style.display = 'block';
+
+    resultBox.innerHTML = `
+        <div><strong>转换结果:</strong></div>
+        <div>秒时间戳: ${timestampSeconds}</div>
+        <div>毫秒时间戳: ${timestampMilliseconds}</div>
+    `;
+}
+
+// CD转换功能
+function convertCD() {
+    const value = parseFloat(document.getElementById('cd-value').value) || 0;
+    const unit = document.querySelector('.unit-option.active').getAttribute('data-unit');
+
+    if (value < 0) {
+        alert("请输入有效的数值");
+        return;
+    }
+
+    // 首先转换为毫秒
+    let milliseconds = 0;
+    switch(unit) {
+        case 'milliseconds':
+            milliseconds = value;
+            break;
+        case 'seconds':
+            milliseconds = value * 1000;
+            break;
+        case 'minutes':
+            milliseconds = value * 60 * 1000;
+            break;
+        case 'hours':
+            milliseconds = value * 60 * 60 * 1000;
+            break;
+        case 'days':
+            milliseconds = value * 24 * 60 * 60 * 1000;
+            break;
+    }
+
+    // 计算各个时间单位
+    const secondsTotal = milliseconds / 1000;
+    const days = Math.floor(secondsTotal / 86400);
+    const hours = Math.floor((secondsTotal % 86400) / 3600);
+    const minutes = Math.floor((secondsTotal % 3600) / 60);
+    const seconds = Math.floor(secondsTotal % 60);
+    const remainingMilliseconds = Math.floor(milliseconds % 1000);
+
+    // 更新结果框
+    const resultBox = document.getElementById('cd-result');
+    resultBox.innerHTML = `
+        <div><strong>转换结果:</strong></div>
+        <div>${value} ${getUnitName(unit)} = </div>
+        <div>${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒 ${remainingMilliseconds}毫秒</div>
+        <div style="margin-top: 10px; color: #a0aec0;">
+            总计: ${secondsTotal.toFixed(3)} 秒 (${milliseconds} 毫秒)
+        </div>
+    `;
+
+    // 更新单元显示
+    document.querySelectorAll('.cd-unit .cd-value')[0].textContent = days;
+    document.querySelectorAll('.cd-unit .cd-value')[1].textContent = hours;
+    document.querySelectorAll('.cd-unit .cd-value')[2].textContent = minutes;
+    document.querySelectorAll('.cd-unit .cd-value')[3].textContent = seconds;
+    document.querySelectorAll('.cd-unit .cd-value')[4].textContent = remainingMilliseconds;
+}
+
+function getUnitName(unit) {
+    const units = {
+        'milliseconds': '毫秒',
+        'seconds': '秒',
+        'minutes': '分钟',
+        'hours': '小时',
+        'days': '天'
+    };
+    return units[unit] || '';
+}
+
+// 更新当前日期
+function updateCurrentDate() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth() + 1;
+    const day = now.getDate();
+    const weekdays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+    const weekday = weekdays[now.getDay()];
+
+    const dateStr = `${year}年${month}月${day}日 ${weekday}`;
+    document.getElementById('weather-date').textContent = dateStr;
+}
+
+// 更新天气信息
+function updateWeather() {
+    const now = new Date();
+    const weatherIndex = Math.floor(Math.random() * weatherData.length);
+    const weather = weatherData[weatherIndex];
+
+    document.getElementById('weather-temp').textContent = `${weather.temp}°C`;
+    document.getElementById('weather-location').textContent = weather.city;
+
+    const weatherIcon = document.getElementById('weather-icon');
+    weatherIcon.className = `weather-icon ${weather.condition}`;
+    weatherIcon.innerHTML = `<i class="fas ${weather.icon}"></i>`;
+}
+
+// 时钟功能
+function updateClock() {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const seconds = String(now.getSeconds()).padStart(2, '0');
+
+    const clockTimeElement = document.getElementById('clock-time');
+    const clockSecondsElement = document.getElementById('clock-seconds');
+    const clockDateElement = document.getElementById('clock-date');
+
+    if (clockTimeElement && clockSecondsElement && clockDateElement) {
+        clockTimeElement.textContent = `${hours}:${minutes}:${seconds}`;
+        clockSecondsElement.textContent = `${seconds}秒`;
+
+        // 更新日期
+        const year = now.getFullYear();
+        const month = now.getMonth() + 1;
+        const day = now.getDate();
+        const weekdays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        const weekday = weekdays[now.getDay()];
+        clockDateElement.textContent = `${year}年${month}月${day}日 ${weekday}`;
+    }
+}
+
+// 截屏功能
+function initScreenshot() {
+    const screenshotArea = document.getElementById('screenshot-area');
+    const fileInput = document.getElementById('screenshot-upload');
+    const preview = document.getElementById('screenshot-preview');
+
+    // 点击区域触发文件选择
+    screenshotArea.addEventListener('click', function() {
+        // PC端尝试使用屏幕捕获API
+        if(navigator.mediaDevices && navigator.mediaDevices.getDisplayMedia) {
+            captureScreen();
+        } else {
+            // 移动端或浏览器不支持时使用文件上传
+            fileInput.click();
+        }
+    });
+
+    // 文件上传处理
+    fileInput.addEventListener('change', function(e) {
+        if (e.target.files && e.target.files[0]) {
+            const reader = new FileReader();
+
+            reader.onload = function(event) {
+                preview.src = event.target.result;
+                preview.style.display = 'block';
+            }
+
+            reader.readAsDataURL(e.target.files[0]);
+        }
+    });
+}
+
+// 屏幕捕获功能
+async function captureScreen() {
+    try {
+        const stream = await navigator.mediaDevices.getDisplayMedia({
+            video: true
+        });
+
+        const video = document.createElement('video');
+        video.srcObject = stream;
+        video.onloadedmetadata = () => {
+            video.play();
+
+            // 创建canvas捕获视频帧
+            const canvas = document.createElement('canvas');
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+
+            setTimeout(() => {
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+                // 停止所有轨道
+                stream.getTracks().forEach(track => track.stop());
+
+                // 显示预览
+                const preview = document.getElementById('screenshot-preview');
+                preview.src = canvas.toDataURL('image/png');
+                preview.style.display = 'block';
+
+            }, 500);
+        };
+    } catch (err) {
+        console.error("屏幕捕获失败:", err);
+        // 捕获失败时使用文件上传
+        document.getElementById('screenshot-upload').click();
+    }
+}
+
+//抽签功能
+document.addEventListener('DOMContentLoaded', function() {
+    const fortuneBtn = document.getElementById('fortune-btn');
+    const fortuneAnimation = document.getElementById('fortune-animation');
+    const fortuneResult = document.getElementById('fortune-result');
+    const fortuneTitle = document.getElementById('fortune-title');
+    const fortuneContent = document.getElementById('fortune-content');
+    const fortuneExplanation = document.getElementById('fortune-explanation');
+    const fortuneClose = document.getElementById('fortune-close');
+
+    // 抽签按钮点击事件
+    fortuneBtn.addEventListener('click', function() {
+        fortuneBtn.style.display = 'none';
+        fortuneAnimation.style.display = 'flex';
+
+        setTimeout(function() {
+            fortuneAnimation.style.display = 'none';
+
+            // 使用外部数据 DrawLotsData
+            const randomIndex = Math.floor(Math.random() * DrawLotsData.length);
+            const fortune = DrawLotsData[randomIndex];
+
+            fortuneTitle.textContent = fortune.title;
+            fortuneTitle.className = "fortune-title " + fortune.class;
+            fortuneContent.textContent = fortune.content;
+            fortuneExplanation.textContent = fortune.explanation;
+
+            fortuneResult.style.display = 'block';
+        }, 3000);
+    });
+
+    // 关闭按钮事件保持不变
+    fortuneClose.addEventListener('click', function() {
+        fortuneResult.style.display = 'none';
+        fortuneBtn.style.display = 'block';
+    });
+});
+
+// AI助手功能
+function clearAIChat() {
+    aiConversation = [];
+    document.getElementById('ai-messages').innerHTML = `
+        <div class="message ai-message">
+            <div class="message-header">
+                <div class="message-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <strong>Super Test AI助手</strong>
+            </div>
+            <div class="message-content">
+                您好！我是Super Test AI助手助手，我可以帮助您解决测试相关的问题。请告诉我您需要什么帮助？
+            </div>
+        </div>
+    `;
+}
+
+// 调用Super Test AI助手
+async function getAIResponse(question) {
+    try {
+        const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+                'HTTP-Referer': 'https://xcyy1234.github.io/Web_Tools_Test/',
+                'X-Title': 'NewTestTool' // 使用纯英文标题
+            },
+            body: JSON.stringify({
+                model: 'mistralai/mistral-7b-instruct:free', // 改用免费模型
+                messages: [
+                    { role: 'system', content: '你是一个专业的游戏测试助手，帮助测试人员解决各种技术问题' },
+                    ...aiConversation.map(msg => ({
+                        role: msg.sender === 'user' ? 'user' : 'assistant',
+                        content: msg.content
+                    })),
+                    { role: 'user', content: question }
+                ],
+                temperature: 0.7,
+                max_tokens: 1000
+            })
+        });
+
+        // 检查HTTP状态
+        if (!response.ok) {
+            const errorData = await response.json();
+            return `API错误: ${response.status} - ${errorData.error?.message || '未知错误'}`;
+        }
+
+        const data = await response.json();
+        return data.choices[0]?.message?.content || '未能获取回答';
+    } catch (error) {
+        console.error('API调用错误:', error);
+        return '服务暂时不可用，请稍后再试';
+    }
+}
+
+// 发送问题到Super Test AI助手
+async function askDeepSeek() {
+    const question = document.getElementById('ai-question').value.trim();
+    if (!question) {
+        alert('请输入问题');
+        return;
+    }
+
+    // 添加用户消息
+    addAIMessage('user', question);
+    aiConversation.push({ sender: 'user', content: question });
+
+    // 清空输入框
+    document.getElementById('ai-question').value = '';
+
+    // 显示正在输入状态
+    showTypingIndicator();
+
+    try {
+        // 获取AI回复
+        const response = await getAIResponse(question);
+        // 添加AI回复
+        addAIMessage('ai', response);
+        // 添加到对话历史
+        aiConversation.push({ sender: 'ai', content: response });
+    } catch (error) {
+        addAIMessage('ai', '请求AI服务时出错：' + error.message);
+    } finally {
+        // 移除输入状态
+        hideTypingIndicator();
+    }
+
+    // 滚动到底部
+    scrollToBottom();
+}
+
+function addAIMessage(sender, content) {
+    const messagesContainer = document.getElementById('ai-messages');
+
+    // 创建消息元素
+    const messageElement = document.createElement('div');
+    messageElement.className = `message ${sender === 'user' ? 'user-message' : 'ai-message'}`;
+
+    // 创建消息头部
+    const messageHeader = document.createElement('div');
+    messageHeader.className = 'message-header';
+
+    // 根据发送者设置图标和名称
+    if (sender === 'user') {
+        messageHeader.innerHTML = `
+            <div class="message-icon" style="background: var(--neon-purple);">
+                <i class="fas fa-user"></i>
+            </div>
+            <strong>您</strong>
+        `;
+    } else {
+        messageHeader.innerHTML = `
+            <div class="message-icon">
+                <i class="fas fa-robot"></i>
+            </div>
+            <strong>super Test AI助手</strong>
+        `;
+    }
+
+    // 创建消息内容
+    const messageContent = document.createElement('div');
+    messageContent.className = 'message-content';
+    messageContent.textContent = content;
+
+    // 组装消息
+    messageElement.appendChild(messageHeader);
+    messageElement.appendChild(messageContent);
+
+    // 添加到消息容器
+    messagesContainer.appendChild(messageElement);
+
+    // 滚动到底部
+    scrollToBottom();
+}
+
+function showTypingIndicator() {
+    const messagesContainer = document.getElementById('ai-messages');
+
+    const typingElement = document.createElement('div');
+    typingElement.className = 'ai-typing';
+    typingElement.id = 'typing-indicator';
+    typingElement.innerHTML = `
+        <div class="message-icon">
+            <i class="fas fa-robot"></i>
+        </div>
+        <div>
+            <strong>Super Test AI助手</strong> 正在思考...
+            <div style="margin-top: 5px;">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    `;
+
+    messagesContainer.appendChild(typingElement);
+    scrollToBottom();
+}
+
+function hideTypingIndicator() {
+    const typingElement = document.getElementById('typing-indicator');
+    if (typingElement) {
+        typingElement.remove();
+    }
+}
+
+function scrollToBottom() {
+    const messagesContainer = document.getElementById('ai-messages');
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+}
+
+// 汇率转换功能
+function initCurrencyConverter() {
+    // 获取DOM元素
+    const amountInput = document.getElementById('currency-amount');
+    const sourceCurrency = document.getElementById('source-currency');
+    const targetCurrencyOptions = document.querySelectorAll('.currency-option');
+    const convertBtn = document.getElementById('convert-currency');
+    const resultsContainer = document.getElementById('currency-results');
+    const updateTime = document.getElementById('currency-update-time');
+
+    // 设置更新时间
+    updateTime.textContent = new Date().toLocaleString('zh-CN');
+
+    // 目标货币选择器
+    targetCurrencyOptions.forEach(option => {
+        option.addEventListener('click', function() {
+            // 移除所有active类
+            targetCurrencyOptions.forEach(opt => opt.classList.remove('active'));
+            // 添加active类到当前选项
+            this.classList.add('active');
+            // 触发转换
+            convertCurrency();
+        });
+    });
+
+    // 转换按钮事件
+    convertBtn.addEventListener('click', convertCurrency);
+
+    // 初始转换
+    convertCurrency();
+
+    // 输入框和下拉菜单变化时自动转换
+    amountInput.addEventListener('input', convertCurrency);
+    sourceCurrency.addEventListener('change', convertCurrency);
+
+    function convertCurrency() {
+        const amount = parseFloat(amountInput.value) || 0;
+        const source = sourceCurrency.value;
+        const activeTarget = document.querySelector('.currency-option.active');
+        const target = activeTarget ? activeTarget.dataset.currency : 'CNY';
+
+        // 清空结果容器
+        resultsContainer.innerHTML = '';
+
+        // 获取选中的目标货币
+        const targetCurrencies = [target];
+
+        // 添加其他主要货币作为参考
+        if (target !== 'CNY') targetCurrencies.push('CNY');
+        if (target !== 'USD') targetCurrencies.push('USD');
+        if (target !== 'EUR') targetCurrencies.push('EUR');
+
+        // 计算并显示结果
+        targetCurrencies.forEach(currency => {
+            const convertedAmount = calculateConversion(amount, source, currency);
+            const currencyData = exchangeRates[currency];
+
+            const resultItem = document.createElement('div');
+            resultItem.className = 'currency-result-item';
+            resultItem.innerHTML = `
+                <div class="currency-flag-lg">${currencyData.flag}</div>
+                <div class="currency-value">${convertedAmount.toFixed(2)}</div>
+                <div class="currency-name">${currencyData.name} (${currency})</div>
+            `;
+
+            resultsContainer.appendChild(resultItem);
+        });
+
+        // 更新显示时间
+        updateTime.textContent = new Date().toLocaleString('zh-CN');
+    }
+
+    function calculateConversion(amount, from, to) {
+        // 转换为人民币
+        const cnyAmount = amount / exchangeRates[from].rate;
+        // 转换为目标货币
+        return cnyAmount * exchangeRates[to].rate;
+    }
+}
+// COIN金币计算器功能
+function calculateCoin() {
+    // 获取输入值
+    const usdBase = parseFloat(document.getElementById('usd-base').value) || 0;
+    const vipInflation = parseFloat(document.getElementById('vip-inflation').value) || 0;
+    const levelInflation = parseFloat(document.getElementById('level-inflation').value) || 0;
+    const petInflation = parseFloat(document.getElementById('pet-inflation').value) || 0;
+    const coinFactor = parseFloat(document.getElementById('coin-factor').value) || 1;
+    const otherParam = parseFloat(document.getElementById('other-param').value) || 0;
+
+    // 获取操作符
+    const vipOperator = document.getElementById('vip-operator').value;
+    const levelOperator = document.getElementById('level-operator').value;
+    const petOperator = document.getElementById('pet-operator').value;
+    const factorOperator = document.getElementById('factor-operator').value;
+    const otherOperator = document.getElementById('other-operator').value;
+
+    // 初始化计算公式
+    let formula = `(${usdBase})`;
+    let result = usdBase;
+
+    // 处理VIP膨胀
+    result = applyOperation(result, vipOperator, vipInflation);
+    formula += ` ${getSymbol(vipOperator)} ${vipInflation}`;
+
+    // 处理等级膨胀
+    result = applyOperation(result, levelOperator, levelInflation);
+    formula += ` ${getSymbol(levelOperator)} ${levelInflation}`;
+
+    // 处理宠物膨胀
+    result = applyOperation(result, petOperator, petInflation);
+    formula += ` ${getSymbol(petOperator)} ${petInflation}`;
+
+    // 处理金币系数
+    result = applyOperation(result, factorOperator, coinFactor);
+    formula += ` ${getSymbol(factorOperator)} ${coinFactor}`;
+
+    // 处理其他参数
+    result = applyOperation(result, otherOperator, otherParam);
+    formula += ` ${getSymbol(otherOperator)} ${otherParam}`;
+
+    // 显示结果
+    const coinValue = document.querySelector('.coin-value');
+    coinValue.textContent = result.toFixed(2);
+
+    // 显示计算公式
+    const coinFormula = document.querySelector('.coin-formula');
+    coinFormula.textContent = `计算公式: ${formula} = ${result.toFixed(2)}`;
+}
+
+// 应用运算
+function applyOperation(value, operator, operand) {
+    switch(operator) {
+        case '+': return value + operand;
+        case '-': return value - operand;
+        case '*': return value * operand;
+        case '/': return operand !== 0 ? value / operand : value;
+        default: return value;
+    }
+}
+
+// 获取操作符符号
+function getSymbol(operator) {
+    switch(operator) {
+        case '+': return '+';
+        case '-': return '-';
+        case '*': return '×';
+        case '/': return '÷';
+        default: return '';
+    }
+}
+
+// 活动查询功能
+function initActivitySearch() {
+    const searchInput = document.getElementById('activity-search');
+    const resultsContainer = document.getElementById('activity-results');
+    const detailContainer = document.getElementById('activity-detail');
+
+    // 输入事件处理
+    searchInput.addEventListener('input', function() {
+        const keyword = this.value.trim();
+        resultsContainer.innerHTML = '';
+
+        if (keyword.length === 0) {
+            resultsContainer.style.display = 'none';
+            detailContainer.style.display = 'none';
+            return;
+        }
+
+        // 模糊搜索匹配
+        const matchedActivities = activityData.filter(activity =>
+            activity.description.includes(keyword) ||
+            activity.activity_name.toLowerCase().includes(keyword.toLowerCase())
+        );
+
+        if (matchedActivities.length > 0) {
+            resultsContainer.style.display = 'block';
+
+            matchedActivities.forEach(activity => {
+                const item = document.createElement('div');
+                item.className = 'activity-item';
+                item.innerHTML = `
+                    <div class="activity-name">${activity.activity_name}</div>
+                    <div class="activity-description">${activity.description}</div>
+                `;
+
+                item.addEventListener('click', function() {
+                    showActivityDetail(activity);
+                    resultsContainer.style.display = 'none';
+                });
+
+                resultsContainer.appendChild(item);
+            });
+        } else {
+            resultsContainer.style.display = 'block';
+            resultsContainer.innerHTML = `
+                <div class="activity-item">
+                    <div style="text-align: center; padding: 15px; color: #a0aec0;">
+                        未找到匹配的活动
+                    </div>
+                </div>
+            `;
+        }
+    });
+
+    // 点击页面其他区域关闭搜索结果
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.activity-search-container')) {
+            resultsContainer.style.display = 'none';
+        }
+    });
+}
+
+// 显示活动详情
+function showActivityDetail(activity) {
+    const detailContainer = document.getElementById('activity-detail');
+    document.getElementById('detail-name').textContent = activity.activity_name;
+    document.getElementById('detail-description').textContent = activity.description;
+//    document.getElementById('detail-type').textContent = activity.type;
+//    document.getElementById('detail-status').textContent = activity.status;
+//    document.getElementById('detail-start').textContent = activity.start_date;
+//    document.getElementById('detail-end').textContent = activity.end_date;
+
+    detailContainer.style.display = 'block';
+}
+
+//新增数据模块查询功能
+function initModelSearch() {
+    const searchInput = document.getElementById('model-search');
+    const resultsContainer = document.getElementById('model-results');
+    const detailContainer = document.getElementById('model-detail');
+
+    // 初始隐藏详情容器
+    detailContainer.style.display = 'none';
+
+    searchInput.addEventListener('input', function() {
+        const keyword = this.value.trim();
+        resultsContainer.innerHTML = '';
+
+        if (keyword.length === 0) {
+            resultsContainer.style.display = 'none';
+            detailContainer.style.display = 'none';
+            return;
+        }
+
+        // 模糊搜索匹配
+        const matchedModels = ModelData.filter(model =>
+            model.model_key.includes(keyword) ||
+            model.model_value.toLowerCase().includes(keyword.toLowerCase())
+        );
+
+        if (matchedModels.length > 0) {
+            resultsContainer.style.display = 'block';
+
+            matchedModels.forEach(model => {
+                const item = document.createElement('div');
+                item.className = 'model-item';
+
+                // 更安全的HTML插入方式
+                const name = document.createElement('div');
+                name.className = 'model-name';
+                name.textContent = model.model_value;
+
+                const desc = document.createElement('div');
+                desc.className = 'model-description';
+                desc.textContent = model.model_key;
+
+                item.appendChild(name);
+                item.appendChild(desc);
+
+                item.addEventListener('click', function() {
+                    showModelDetail(model);
+                    resultsContainer.style.display = 'none';
+                });
+
+                resultsContainer.appendChild(item);
+            });
+        } else {
+            resultsContainer.style.display = 'block';
+            const noResult = document.createElement('div');
+            noResult.className = 'model-item';
+            noResult.innerHTML = `
+                <div style="text-align: center; padding: 15px; color: #a0aec0;">
+                    未找到匹配的模型
+                </div>
+            `;
+            resultsContainer.appendChild(noResult);
+        }
+    });
+
+    // 改进的点击关闭逻辑
+    document.addEventListener('click', function(e) {
+        if (!resultsContainer.contains(e.target) && e.target !== searchInput) {
+            resultsContainer.style.display = 'none';
+        }
+    });
+}
+
+function showModelDetail(model) {
+    const detailContainer = document.getElementById('model-detail');
+    document.getElementById('model-name').textContent = model.model_key;
+    document.getElementById('model-description').textContent = model.model_value;
+    detailContainer.style.display = 'block';
+}
+
+
+
+// DOM加载完成后初始化
+document.addEventListener('DOMContentLoaded', init)
+
+

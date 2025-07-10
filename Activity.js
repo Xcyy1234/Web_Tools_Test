@@ -1,1 +1,2306 @@
-const _0x46960e=_0x42fc;(function(_0x8f7e7c,_0x52c6c9){const _0x14cc3f=_0x42fc,_0x55a187=_0x8f7e7c();while(!![]){try{const _0x545596=-parseInt(_0x14cc3f(0x3c1))/0x1+parseInt(_0x14cc3f(0x10f))/0x2+-parseInt(_0x14cc3f(0x367))/0x3*(parseInt(_0x14cc3f(0x16e))/0x4)+-parseInt(_0x14cc3f(0x119))/0x5+parseInt(_0x14cc3f(0x2eb))/0x6*(-parseInt(_0x14cc3f(0x3e0))/0x7)+parseInt(_0x14cc3f(0x166))/0x8+parseInt(_0x14cc3f(0x2ab))/0x9;if(_0x545596===_0x52c6c9)break;else _0x55a187['push'](_0x55a187['shift']());}catch(_0x3fff39){_0x55a187['push'](_0x55a187['shift']());}}}(_0x321b,0x3bbfd));function _0x321b(){const _0x3a72bd=['Activity_Monster_FreeCoin','CandyBingo挑成任务','Activity_BucksBack','Activity_4BdayDraw','Activity\u00a0LuckyChallenge','Activity\u00a0Redecor','Promotion_DiyFeatureNormal','Activity_\u00a0Zombie_rule','Activity_\u00a0Monster_Album','Activity_Lottery_Open_source','童话quest进度加成','Activity\u00a0Zombie','Activity_TwoGemCoupons','宠物规则宣传','Activity_ChipPiggy_CountDown','Activity_Minz\u00a0Loading','聚合额外付费','乐透来源','合成周卡','Activity_BingoWildBall','黑曜卡册付费转盘','Activity_CardObsidianJackpot','连续充值','Activity_SeaStoryMission','红蓝对决规则','Activity_PinBallGo_loading','NEWSIDEKICKS2','剁手上线发优惠券','quest2','指定档位送指定优惠券','新年送礼','Activity_NewPass\u00a0_CountDown','Activity_Poker','Activity_SeaStory_Loading','Activity_SaleTicket','Promotion_DiningRoom','PipeConnect活动','Activity_\u00a0BartenderAction','公共JACKPOT','Activity\u00a0HolidayStore\u00a0Newltem','EventTeam','推币机','Activity_GemCoupon_GemMiner','Activity_BingoTask','Activity_\u00a0Petseason2\u00a0preheat','Activity_TeamDueL\u00a0loading','会员中心宣传','广告宣传','涂色游戏','行尸走肉预约','Activity_BlastShowTop','Activity_\x20SpecialAlbum','Activity_DallyMission_Christmas2024','Activity_Blast_boom','Activity_GemChallenge','PIGGEMS','Activity_\u00a0Holiday\u00a0Wheel','Activity_WordShowTop','Activity_ChipPiggyRule','Promotion_\u00a0NewCoinPusher','Activity_EchoWin','Promotion\x20Leagues','Activity_CashBlast','Activity_LevelDashPlus','装修促销','Activity_WorldTripTask','1047390jnOnTB','独立日付费宣传','Activity_PayRank','DIYfeature新手任务','黑五代币宣传','Activity_BigBang\u00a0Merge','Activity\u00a0BattleMatch','word本体','扑克促销','VIP3倍点数','EchoWinsi','膨胀CashBonus宣传','TeamUnesti','BigBang合成','ZOMBIE','2周年签到','Promotion_\x20RichMan','Activity_\u00a0BigWin_Challenge','Activity\u00a0Super\u00a0Value','金戳宣传图','Activity_OutsideCave','Activity_KeepRecharge','Activity\u00a0_CardGame_Sale','Activity_MineFortune','Activity_NewDiamondChallenge_Loading','巫师之战玩法宣传','圣帕7日寻物','Activity_WildChallenge','Activity_CoinPusherMissionNew','Activity_Blast','Word挑战','Activity_BattlePass','付费排行榜','Activity_TimeLimitExpansion_loading','Activity_ItemMania','聚合保险箱','Activity_Inflation_Album','连线促销','Activity_FishyFortune','FrostFlame','Activity\u00a0Teaminto','Activity_CoinExpand_Store','Activity_CardMythic\u00a0Loading','Activity\u00a0GameCrazeMission','Promotion_BingoLinkV2','Activity_\u00a0NewCoinPusher','OuestMinz宣传','Activity_TeamSeasonInfo','Activity_BFDraw','社区粉丝宣','Activity_MegaWin_BigActivity\u00a0Loading','七日签到（第一周）','Activity_HolidayNewChallenge\u00a0','LuckyWinner','新quest倍数排行榜最后一天','圣诞合历','新二选一促销','Activity\u00a0FreegamesFiesta','Activity_\u00a0Zombie_WarmUp','Blast排行榜','Activity_CardOpen3','Activity_BFCarnival','Activity_BattleShootTask','MINZ结束宣传图','搜集邮箱','FAQ引导','开启圣诞交换礼物','QUEST促销','6个箱子','刮刮卡购买位置','Activity_7DaysRank','Activity_NewDC_WarmUp','Activity_GrandFinale','Activity_QuestMinz\u00a0Intro','圣诞付费分奖','Activity_EventTeam_Rankloading','PASS双倍积分','促销聚合','Activity_Allpay','Activity_OpenNewLevel','Activity_Mermaid','双倍公会积分','付费返代币','多档促销','Activity_CoinExpand\u00a0_Loading','PIGCHIP','膨胀总宣传','Activity_KeepRecharge4','Promotion_TornadoMagicStore','5周年视频','195902VMnQrq','埃及推币机奖励增加','Activity_FAQ_Guide','Activity_LuckySpinDash','Activity_VipPrivilege','圣诞树','公会红包','Activity_NewStickers_loading','newVersion','Activity\u00a0NewPass\u00a0DoubleMedal','头像框更换','Activity_HolidayLastDav','全服累充','Activity_DiamondMania','Quest奖励加成','Activity_LostRuins','周年攒道具分奖最后一天','年终总结','LuckyFish宣传页','Activity_Lottery_Open\u00a0','Activity_CommonJackpot','Activity\u00a0LotteryChallenge\u00a0','Activity_FactionFight','乐透挑战','Activity\u00a0VipPoints_Boost','Activity_WebPurchaseEvent','Activity_BattleMatch_Rule','乐透商城推荐','Activity_Redecor\u00a0ShowTop','高级版luckyspin送缺卡','圣诞送礼','496636WesKwb','大活动限时强化V2','Activity_OutsideCavelask','新手期6个箱子','2024膨胀放水活动','Activity_PetMission','BINGOLINK结束促销','新圣诞聚合聚合页','新版餐厅大厅弹板','新手期商城优惠券','Activity_TripleStamp','quest倍数排行榜广告位','Activity_LuckyChallengeOver','MVP报名','个人累充Plus','Activity_DeluxeClub_\u00a0Merge_StoreCoupon','黑曜卡册倒计时','FEATURE促销','大活动道具活跃任务','Activity_BucksCarnival','Activity_SuperSaleLuckyChoose','Activity_BingoFirstRound','Activity_CakeCraft','劳动节优惠券','luckyspin25倍活动','Activity_DeluxeClub_Merge_WayloGet','Activity_\u00a0MergeWeek','公会RUSH','BigBang集卡','Activity_CardOpen_NewUser','炸船活动排行榜','炸船活动宣传','Activity_EventBoost_OutsideCave','自选任务','Farm\u00a0Rule2','新quest预热','新圣诞聚合商店','Activity_\u00a0DiyFeature_\u00a0Loading','新版黑五分大奖','巅峰赛','巫师BET+预热','Activity\u00a0Bucks_New\u00a0','周年庆做蛋糕活动','NOVICEALBUM','装修排行宣传','Activity_TeamRankInfo','Activity_\u00a0Novice\u00a0Trail','Activity_BigBang_\u00a0Start','Promotion_Poker','Activity_Pet_Limit','Activity_CoinPusher','Activity_HolidayNewRank','集卡开启3','Activity_PurchaseDraw','Activity_ShopGemCoupon','Activity_GemPiggyRule','Activity_Wanted','Activity_CardEnd\u00a0Special','Promotion\u00a0Word','Bingo\u00a0Link\u00a0Mission','WTTASK\u00a0','合图游戏','大富翁奖励增加','Activity\u00a0FrameChallenge','Activity_GoldenDayOpen','黑曜卡册Jackpot','Translation','保底wild转盘','MONSTER合成','大赢派对','Activity_SelectChipsMissions','Promotion_\u00a0OnePlusOne','Activity\u00a0XmasAdventCalendar','Activity_DuckShot_Loading','Activity_Translation_Loading','Activity_BucksPayExtraGifts','Activity\u00a0_CouponRewards','接水管B00M','限时膨胀','每日任务','BLAST促销','Activity_PokerShowTop','工会宣传','Activity_QuestFantasySale','Activity_FrostFlameClash_loading','Activity_BingoLink','第二条任务线开启宣传','Activity_ClothChallenge','完成任务DIY','Activity_WorldTrip','Activity_Lottery_Sale','Activity_ChristmasAdventCalendar','minz任务','Activity_PetLegendClothLoading','Jackpotsurge','Activity_\u00a0VIPResetRule\u00a0','商城停留送优惠券','bingo比赛新规则','集卡商店宣传','登陆送免费道具','Activity_LimitedOffer','WORD促销','Activity_DiamondChallengeOpen','629304vngorl','赛季任务额外奖励','Activity_NewCoinPusherShowTop','Activity_GetBucksChallenge','Activity_FunctionSale_Pass','Activity_PokerTask','Group宣传页','第二货币抽奖','刮刮卡规则','代币破冰专属礼包','1271690GdAHaf','品质头像框挑战','Activity_WordTaskNew','新赛季特殊卡册小游戏宣传','BINGO','PinBalGo宣传','Activity\u00a0CoinExpand\u00a0CashBonus\u00a0','典藏卡小聚合','Activity_DeluxeClub_Cat','代币小猪Loading','Activity_LoginToFree','Activity_\u00a0Inflation_FreeCoins','Activity_BonusHuntCoin','MESSAGE\x20PUSH','BucksFirstPay','Activity_PigChallenge','Activity\u00a0DoubleCard','工会赛季规则2','Activity_NewCoinPusherlask','商城投放blast炸弹','Activity_\u00a0HolidayRank','Activity_\u00a0PetStart\u00a0','Activity_\u00a0Bingo','Activity_\u00a0VipCenterEvent','QUEST活动','Activity_Leagues','Activity_Pig\u00a0RandomCard','Activity_\u00a0LimitedOffer','PipeConnect活动促销','Promotion\u00a0Quest','Monster免费金币','Activity_PiggyGoodies','商城付费大活动道具增加','Activity_VIPDoublePoint','BINGO首次奖励翻倍','Activity_BingoRush_Loading\u00a0','Activity_PushNotifications','BLASTBOOM','FB登陆奖励弹版','海的女儿关卡挑战','大活动道具膨胀','聚合排行榜','Activity_DinnerLandShowTop','CaveMission','Activity_RedecorTask','GameCraze','金卡日渠道','BINGOLINK本体','slingo挑战','Activity_BattleShoot_loading','失落遗迹','超级碗个人累充','刮刮卡倒计时','Activity_ChipPiggy_loading','Activity_PetRule','Activity_\u00a0Pressy\u00a0ourLuck','Activity_\x20HolidayChallenge','头像框挑战','PIGGEMS\u00a0*','挖宝石聚合','Activity\u00a0QuestProgressBoost','Activity_Entrance','Activity_PrizeGame','合成商店上新','Activity_QuestShowTop','膨胀预热','QuestRush','Activity_CoinExpand\u00a0Merge','BLAST','Activity_BigBang_FreeCoin','QUEST排行榜','Promotion_Divination','Activity_\u00a0BlastBomb','Activity_PetCloth_loading2','Activity_GemPiggy_CountDown','Activity_5thPrizePool','Activity_GiftExchange','2861816iXNccA','Activity_QuestBonusRankLastDay','Promotion\u00a0DIYComboDeal','DoublePouches','邮件抽奖','PetCloth2','Activity_YouTube\u00a0loading','Activity\u00a0MergePassLayer','4UcHKtf','SpinBonus','bingo比赛规则','代币预热','Activity_LuckySpinSpecial','RepeatJackpot','工会赛季规则','餐厅促销','Activity_GemMayWin','乐透开启','Activity_Farm_Rule_Loading2','Activity_FactionFightRule','Activity_AllGamesUnlocked','工会赛季','Activity_PipeConnectShowTop','luckyspin给卡活动','Activity_EgyptCoinPusherTask','Activity_Notification','新圣诞聚合签到','Activity_Flamingolackpot','巫师之战开启宣传','luckyspin送任意卡','Bingo活动促销','Activity_Minz\u00a0Extra','三合一优惠券','公会排行榜','Activity_QuestBonusRankOpen','二选一','VIP特权','Activity_EventBoost_BlastBlossoom','CASHBACK','BINGOWILD','Activity_\u00a0RogueQuestV2\u00a0Starpromotion','FarmRulel','Roguequest','Activity_BattleShoot','QUESFantasy','商城改版宣传','黑曜卡册来源','Activity_DoubleCatFood','比赛聚合','ZOMBIE现则','Activity_FBShare','VIP重置','OutsideCave','情人节挑战','Activity_QuestHuntMission','鲨鱼游戏特殊轮次','代币上新','Activity_AvatarFrameLoading','Activity_WizardingWar_Loading','Activity_LightingBoost','季卡赛季倒计时','Activity_ChaseForChips','Activity_CollectEmail','钓鱼活动','Activity\u00a0JackpotSurge','FB加好友，','三线奖励增加','ZOCoinStoreLayer','VP点数池','LevelUoPasser','Activity_HolidayPass','充值抽奖','LevelDash额外奖励','三倍盖戳','Promotion_PiggyVault','Activity\u00a0KeepRecharge','好友亲密关系','新版小猪挑战','Activity_LevelBoom','Activity_BlastNoviceTask','小猪轮盘','DIYFEATURE开启宣传','Promotion_BingoLinkV2Over','Promotion_\u00a0EgyptCoinPusher','Activity_\u00a0HC_WarmUp','Activity_StayCoupon','Activity_Quest_5Win3','星球大战','圣诞交换礼物','Activity\u00a0BucksPre','拉新宣传','Activity_GiftLoading','疯狂购物车','MINZ宣传图-','接水管BOOM','Activity_PigGoldCard','多倍盖戳','独立日最后一天','Activity_CouponChallenge\u00a010M','周年抽奖','Activity_MagicGame_\u00a0Guarantee','帆船比赛','无限砸蛋','LuckyMission','EchoWins','钻石挑战开启','Blast挑战','Activity_CardObsidianCountDown','luckyspin收益提升活动','刮刮卡开启','Activity_LuckyRace','Activity_PickTask','Activity\u00a0SwimPool\u00a0Cara','Activity_FBVideo','第4个任务','最后一天圣诞交换礼物','Activity_CardStar','Activity_DailyMissionRush','Activity_TeamSeasonInfo2','Activity_CardOpen2','Promotion_MultiSpan','新圣诞聚合pass','Activity_CashBackNovice','Activity_Spin_item','Activity_WorldTripShowTop','Bingo活动','Activity\u00a0CardSelection\u00a0Rule','每日任务送优惠券','Activity_AdChallenge_loading','Activity_QuestBonusRank','Activity_SurveyinGame','集卡开启2','Activity_Starlnvaders','黑曜卡册开启','Activity_CardMythic_SourceLoading','CaveRank','Activity_LuckyFish','Activity_EgyptCoinPusher_boom','推币机挑战','Activity_BalloonRush','新推币机排行榜','Activity_RippleDash','典藏卡付费抽卡','Activity_XmasSplit2023','MIP重置规则','word排行榜','新推币机','Activity_LuckySpinUpgrade','聚合转盘','CashBlast','Activity_BonusHunt','乐透送大奖','Activity_MegaWinParty_Loading','Activity_DailyMission_\u00a0Christmas2023','FB分享送优惠券','Activity_EventTeam','Activity_DeluxeClub_Merge_StoreCoupon_Buck','Activity_OutsideCaveShowTop','WildChallenge','集卡预热','Activity_ScratchCards\u00a0loading','钻石挑战rush开启','Activity_GetMorePayLess','Activity_7\u00a0DaySign_ThanksGiving','Activity_BingoRush_Foreshow','资格赛','集卡小聚合','FBReward','Promotion_Blast','Activity_ScratchCards\u00a0Rule','Activity_EndlessPromotion','LEVELBOOM','Activity_EggHunt','Activity_BingoShowlop','Activity_Coupon','Activity_Farm_Loading','独立日额外一星','Quest转盘','PASS开肩','Activity_7\u00a0DaySign','Activity\u00a0RogueQuest','Quest关掉Nado卡','Activity_DiningRoomTask','NEWSIDEKICKSI\u00a0','神话卡开启','盖戳宣传图','三线收集排行榜宣传','FB200K粉丝','Activity_\u00a0HolidayStore','BINGORANK','新手期多档促销','Activity_NewPass','Activity_Inflation_Merge','Activity_EventBoost_PipeConnect','膨胀小猪宣传','钻石挑战关闭','Activity_DeluxeClub_Merge_Loading','Activity_UserInfomation','新圣诞聚合商店最后一天宣传','Activity_TimeLimitExpansion','游戏内调查问卷','YOUTBE','Activity_LuckySpin_Loading','Novice\u00a0Trail','头像框规则','Activity_LevelUpPass','装修开启宣传','典藏卡星数收集挑战','Activity\u00a0PoolCara\u00a0Store','LS送金卡','双倍猫粮','Activity_DeluxeClub_Merge_CountDown','Promotion_PipeConnect','Promotion\u00a0_OutsideCave','Activity\u00a0HolidayStore\u00a0FinalDay','Activity_BingoLinkV2_Mission','Activity\u00a05thRoll','RippleDash','Activity_NewDiamondChallenge_End','KeepRecharge','Activity_\u00a0ScratchCards_CountDown','Activity_CyberMonday','Monster金币商城','Activity_BucksPack','万圣节整合界面','Activity_FBGift200K','火烈鸟JACKPOT','膨胀宣传','Activity\u00a0OpenNewLevel\u00a0Ea','Activity\u00a0SelectChipsMissions','Activity_DiyRank','Activity_PipeConnect','无限促销','Activity_RepartJackpot','MONSTER预热','Activity_NewYearGift','WTBUFF','集卡赛季倒计时','Activity_LuckySpinGoldenCard','三线收集促销','大富翁挑战','Activity_GiftExchange_Loading','Activity_\u00a0NewPass_CountDown\u00a0','Promotion_MemoryFlying','Activity_LeaguesSummit\u00a0','推币机开启宣传','Promotion_NewDouble','BigBang预热','疯狂模式宣传','REPEATWIN\u00a0','Activity_Inflation','Activity_ObsidianWheel','Promotion\u00a0Bingo','Activity_\u00a0DiyFeature_Rule','Activity_\u00a0legendary-win','聚合付费反点数','Activity_\u00a0EgyptCoinPusherShowTop','代币消耗挑战','Activity\u00a0LightingBoostV2','Activity_Monster_Start','Activity_Friend_Loading','Promotion\u00a0Blast','VIP体验','Legendary_Win宣传图','Activity_QuestNewRush','新推币机挑战','Activity_\u00a0FlowerLoading','Monster」猪','宠物任务','Activity_InviteLoading','Activity_CardEnd_Countdown','0U5Fantasy\u00a0Rush','BasicSaleLayer','PASS开启','Activity_\u00a0SpiritStrike_Loading','Activity_\u00a0Sale\u00a0Ticket','四张优惠券','Activity_LuckySpinRandomCard','Activity_7DaysPurchase','FunctionSale\u00a0Pass','大R礼包','Promotion_BingoLinkOver','Activity_\u00a0JewelMania','限时膨胀宣传','Activity_QuestHuntPre','商城促销','膨胀合成宣传','Activity_MissionsToDIY','钻石luckeyspin宣传图','Activity_DiningRoomShowTop','付费挑战','黑曜卡册规则宣传','膨胀免费金币','三周年分享挑战','Promotion_WorldTrip','新关弹板','Activity_RichMan\x20Task','Activity_Holiday7DayHunt','Activity_EventBoost','Activity_PiggyVault_boom','Activity_LeaguesQualified','集卡赛季末收益提升','推币机排行榜宣传','扭蛋机','LuckyMissionPlus','1+1礼包','Balloon','LUCKYCHOOSE','MythicGameSale','小猪挑战','新推币机促销','Activity_NewDiamondChallenge_Rule','宠物皮肤挑战','集卡送卡宣传','Activity_MonthlyCard_Bucks','Activity_CoinPusherTask','商城卡包双倍','ALBUMRACE发放新赛季卡册奖励','圣诞节签到','Activity_NewPass_Buy','Activity_AvatarFrame_changeWay','第二货币商城折扣','新版钻石挑战规则','膨胀商城宣传','Diy高等级buff促销','5261112jBQRIu','PigSaleBooster','Activity_CoinExpand_FreeCoin','多指针转盘','Activity_HelloweenTotal','FB提醒推送','黑五代市分大奖','diy排行榜','PIPECONNECT','典藏卡规则','第二货币商城折扣送道具','superspin挑战','Activity_VIPResetOpen','Activity_LuckyStampRule','个人信息变化','BINGOLINKETH','Activity_\u00a0NewProfile_loading','Monster开启','Activity_WeeklyRewards','Activity\u00a0_Inflation\u00a0_CoinStore','Activity\u00a0EgyptCoinPusher庐','炸船活动本体','SpiritStrike','金卡日宣传','Promotion_CoinPusher','Activity_GemPiggy_loading','工会小猪折扣','FreeGamesFever','PASS结束倒数','比赛促销','MONSTERE\u00a0F','Activity_ClanDoublePoints','炸船促销','PASS购买','代币月卡宣传','Activity\u00a0CrystalBack','Activity_Quest_EpicWheel','新关挑战','新quest倍数排行榜','Activity_Shop_Loading','Activity_CollectPhone','常规促销','Activity_QuestNewShow.\u00a0op','Activity_NadoParty','coinpushersale','SEASTORY任务','罗马膨胀宣传','小猪送卡','Activity_GiftExchange_LastDay','新手商城折扣','Activity_LuckyChallengeRule','BigWin挑战','第二货币消耗挑战','新版餐厅促销','Activity_Lottery_Statistics','泳池新规则集卡','superspin送道具','每日任务浇花','乐透趋势','Activity_Preheat','Activity_CommonJackpot\u00a0loading','Activity\u00a0TeamRushinto','Activity_CrazyCart','WTRANK','18uIKPOS','Activity_CashBack','Activity_Total','版本更新奖励弹版','指定档位充值送道具','第二条任务线玩法说明','餐厅活动','Activity_WebSale\u00a0SideGameltem','Activity_TopUpBonusLast','Activity_BigBang_WarmUp','Activity_LuckyStampCard','PETPREHEAT','全新个人信息','Activity_CoinExpand\u00a0Start','Activity_MvpSignUp','Activity_DeluxeClub_Merge_Rule','Activity\u00a0Monster\u00a0Piggy','Promotion\u00a0Redecor','PIPECONNECTRANK','DIY常驻促销','Activity\u00a0PreheatDash\u00a0','Activity.\u00a0LineSale','新Quest任务中心','钻石商城','Activity_Xmas24Countdown','BINGO挑战','Activity_AlbumRaceNewChips','Activity_CardOpen','Activity_DragonChallenge_warning','Activity\u00a0BlindBox','鏊合界面','大赢宝箱大活动版本宣传','Activity_QuestRush','VIP双倍','Cavepromotion','CashBack','BINGOLINK促销','SEASTORY宣传图','PigSale','收集手机号','炸船活动挑战','大富翁促销','Activity_FBAddFriend','Activity_Quest','节日预热','Activity_FireLuckySpinRandomCard','Activity_DiamondChallenge_CountDown','Activity_HallBonusRank','Activity_XmasCraze2023','Activity_StoreSaleRandomCard','每日任务额外奖励','4档连续充值','Activity_SpinBonus','PiggyBankLayer','Activity_QuestNado','LvDash','个人信息页','装修任务宣传'];_0x321b=function(){return _0x3a72bd;};return _0x321b();}function _0x42fc(_0x2a0bc3,_0x1c36ef){const _0x321b6a=_0x321b();return _0x42fc=function(_0x42fc7a,_0x48f85e){_0x42fc7a=_0x42fc7a-0xf2;let _0x449ec7=_0x321b6a[_0x42fc7a];return _0x449ec7;},_0x42fc(_0x2a0bc3,_0x1c36ef);}export const activityData=[{'description':_0x46960e(0x2d4),'activity_name':_0x46960e(0x276)},{'description':_0x46960e(0x184),'activity_name':_0x46960e(0x262)},{'description':_0x46960e(0x2ee),'activity_name':_0x46960e(0x3c9)},{'description':_0x46960e(0x13f),'activity_name':_0x46960e(0x20d)},{'description':_0x46960e(0x3ba),'activity_name':_0x46960e(0x1de)},{'description':_0x46960e(0x26c),'activity_name':'Activity_VipBoost'},{'description':_0x46960e(0x311),'activity_name':'Activity_PigSale'},{'description':_0x46960e(0x2ac),'activity_name':'Activity\u00a0PigSaleBooster\u00a0'},{'description':'连续充值','activity_name':_0x46960e(0x37c)},{'description':_0x46960e(0x3f8),'activity_name':'Activity\u00a0LuckySpinSale\u00a0'},{'description':_0x46960e(0x17d),'activity_name':'Activity_LuckySpinCard'},{'description':_0x46960e(0x2a2),'activity_name':_0x46960e(0x129)},{'description':'商城卡包星级提升','activity_name':_0x46960e(0x1da)},{'description':_0x46960e(0x322),'activity_name':'Promotion_LevelDash'},{'description':_0x46960e(0x25f),'activity_name':'Promotion\u00a0RepartWin'},{'description':_0x46960e(0x18c),'activity_name':_0x46960e(0x2ec)},{'description':_0x46960e(0x1d8),'activity_name':'Activity\u00a0Power\u00a0Mission'},{'description':_0x46960e(0x16f),'activity_name':_0x46960e(0x31f)},{'description':_0x46960e(0x211),'activity_name':_0x46960e(0x1b4)},{'description':_0x46960e(0x1e3),'activity_name':_0x46960e(0x262)},{'description':_0x46960e(0x13b),'activity_name':_0x46960e(0x3f5)},{'description':'BINGO商店购买翻倍','activity_name':'Activity_BingoDoubleBall'},{'description':'BINGO商店购买翻倍','activity_name':'Activity_BingoCollectBall'},{'description':_0x46960e(0x205),'activity_name':'Activity_PreCard'},{'description':'集卡开启1','activity_name':_0x46960e(0x306)},{'description':_0x46960e(0x1e9),'activity_name':_0x46960e(0x1dd)},{'description':_0x46960e(0x414),'activity_name':_0x46960e(0x3a3)},{'description':'常规促销','activity_name':'BasicSaleLayer'},{'description':_0x46960e(0x3aa),'activity_name':_0x46960e(0x136)},{'description':_0x46960e(0x28d),'activity_name':_0x46960e(0x3b6)},{'description':'商城','activity_name':_0x46960e(0x1a9)},{'description':_0x46960e(0x3ba),'activity_name':_0x46960e(0x1de)},{'description':'小猪','activity_name':_0x46960e(0x320)},{'description':_0x46960e(0x33b),'activity_name':_0x46960e(0x1b1)},{'description':'ClassicRapid挑战任务','activity_name':_0x46960e(0x1fc)},{'description':_0x46960e(0x326),'activity_name':_0x46960e(0x125)},{'description':_0x46960e(0x11d),'activity_name':_0x46960e(0x12f)},{'description':_0x46960e(0x18d),'activity_name':_0x46960e(0x338)},{'description':_0x46960e(0x223),'activity_name':_0x46960e(0x213)},{'description':_0x46960e(0x146),'activity_name':_0x46960e(0x392)},{'description':_0x46960e(0x2f0),'activity_name':_0x46960e(0x2dd)},{'description':_0x46960e(0xfe),'activity_name':_0x46960e(0x329)},{'description':'第二条任务线即将结束','activity_name':_0x46960e(0x3ec)},{'description':_0x46960e(0x175),'activity_name':'Promotion\u00a0DinnerLand'},{'description':'餐厅排行榜','activity_name':_0x46960e(0x143)},{'description':_0x46960e(0x2f1),'activity_name':'Activity_DinnerLand'},{'description':_0x46960e(0x15d),'activity_name':_0x46960e(0x384)},{'description':_0x46960e(0xf8),'activity_name':_0x46960e(0x26b)},{'description':_0x46960e(0x39a),'activity_name':_0x46960e(0x219)},{'description':_0x46960e(0x27a),'activity_name':_0x46960e(0x279)},{'description':_0x46960e(0x283),'activity_name':_0x46960e(0x214)},{'description':_0x46960e(0x27a),'activity_name':_0x46960e(0x347)},{'description':_0x46960e(0x2c6),'activity_name':'Activity_RepeatFreeSpin'},{'description':'JackpotReturn','activity_name':_0x46960e(0x24f)},{'description':_0x46960e(0x323),'activity_name':_0x46960e(0x22b)},{'description':'七日签到（感恩节）','activity_name':_0x46960e(0x209)},{'description':_0x46960e(0x29b),'activity_name':_0x46960e(0x128)},{'description':_0x46960e(0x340),'activity_name':_0x46960e(0x243)},{'description':'活动入口','activity_name':_0x46960e(0x156)},{'description':_0x46960e(0x36e),'activity_name':'Activity_Word'},{'description':_0x46960e(0x1f7),'activity_name':_0x46960e(0x35e)},{'description':_0x46960e(0x10d),'activity_name':_0x46960e(0x41a)},{'description':'Battle\u00a0Pass','activity_name':_0x46960e(0x386)},{'description':_0x46960e(0x18a),'activity_name':_0x46960e(0x3c5)},{'description':_0x46960e(0x131),'activity_name':'Activity_Quest'},{'description':'QUEST排行榜','activity_name':'Activity_QuestShowTop'},{'description':_0x46960e(0x1cd),'activity_name':'Activity_DailyMissionRush'},{'description':_0x46960e(0x296),'activity_name':_0x46960e(0x1db)},{'description':_0x46960e(0x3c6),'activity_name':'Activity_ChristmasMagicTour'},{'description':_0x46960e(0x34e),'activity_name':_0x46960e(0x412)},{'description':'推币机促销','activity_name':_0x46960e(0x2c3)},{'description':_0x46960e(0x183),'activity_name':_0x46960e(0x27b)},{'description':_0x46960e(0x2da),'activity_name':_0x46960e(0x133)},{'description':_0x46960e(0x15b),'activity_name':_0x46960e(0x30b)},{'description':'高倍场小游戏','activity_name':_0x46960e(0x121)},{'description':_0x46960e(0x1a7),'activity_name':_0x46960e(0x315)},{'description':_0x46960e(0x398),'activity_name':'Activity_FBCommunity'},{'description':_0x46960e(0x1c6),'activity_name':'Activity_MulLuckyStamp'},{'description':_0x46960e(0x302),'activity_name':'Activity_GemStoreOpen'},{'description':_0x46960e(0x1f0),'activity_name':_0x46960e(0x2a1)},{'description':_0x46960e(0x304),'activity_name':_0x46960e(0x350)},{'description':_0x46960e(0x189),'activity_name':'Activity\x20Between\x20Two'},{'description':_0x46960e(0x19b),'activity_name':_0x46960e(0x151)},{'description':_0x46960e(0x299),'activity_name':_0x46960e(0x3f4)},{'description':_0x46960e(0x1d0),'activity_name':'Activity_BlastTask'},{'description':'比赛','activity_name':_0x46960e(0x132)},{'description':_0x46960e(0x2c8),'activity_name':_0x46960e(0x362)},{'description':_0x46960e(0x256),'activity_name':_0x46960e(0x28e)},{'description':_0x46960e(0x131),'activity_name':_0x46960e(0x316)},{'description':_0x46960e(0x15f),'activity_name':_0x46960e(0x159)},{'description':'QUEST活动','activity_name':'Activity_Quest'},{'description':_0x46960e(0x385),'activity_name':'Activity_WordTask'},{'description':'NADOPARTY','activity_name':_0x46960e(0x2d6)},{'description':_0x46960e(0x115),'activity_name':'Activity_-BGroup'},{'description':_0x46960e(0x2d0),'activity_name':'Activity_\x20SlotChallenge'},{'description':_0x46960e(0x238),'activity_name':_0x46960e(0x195)},{'description':_0x46960e(0x1a2),'activity_name':_0x46960e(0x274)},{'description':_0x46960e(0x3d3),'activity_name':_0x46960e(0x1ee)},{'description':'商店充值送缺卡','activity_name':_0x46960e(0x31c)},{'description':_0x46960e(0x11c),'activity_name':'Activity_SpecialAlbumGame'},{'description':'新赛季特殊卡册宣传','activity_name':_0x46960e(0x358)},{'description':_0x46960e(0x237),'activity_name':_0x46960e(0x254)},{'description':_0x46960e(0x314),'activity_name':_0x46960e(0x377)},{'description':_0x46960e(0x1ce),'activity_name':_0x46960e(0x361)},{'description':_0x46960e(0x3b4),'activity_name':'Activity_SaleGroup'},{'description':'第二货币优惠券','activity_name':_0x46960e(0x416)},{'description':_0x46960e(0x1ad),'activity_name':'Activity_PurchaseDraw'},{'description':'充值抽奖豪华版','activity_name':_0x46960e(0x415)},{'description':_0x46960e(0x2e0),'activity_name':_0x46960e(0x348)},{'description':_0x46960e(0x3e8),'activity_name':'Activity_DiningRoom'},{'description':'新版餐厅任务大厅宣传','activity_name':_0x46960e(0x21c)},{'description':'新版餐厅排行榜','activity_name':_0x46960e(0x287)},{'description':'盖章送卡','activity_name':_0x46960e(0x2f5)},{'description':'独立日聚合挑战','activity_name':'Activity_HolidayChallenge'},{'description':_0x46960e(0x368),'activity_name':'Activity_HolidayPay'},{'description':_0x46960e(0x216),'activity_name':'Activity_HolidayExtraStar'},{'description':_0x46960e(0x1c7),'activity_name':_0x46960e(0x3cc)},{'description':_0x46960e(0x23f),'activity_name':_0x46960e(0x1f3)},{'description':_0x46960e(0x234),'activity_name':_0x46960e(0x32a)},{'description':_0x46960e(0x324),'activity_name':_0x46960e(0x145)},{'description':_0x46960e(0x40c),'activity_name':_0x46960e(0x3dd)},{'description':_0x46960e(0x365),'activity_name':_0x46960e(0x2fc)},{'description':_0x46960e(0x218),'activity_name':_0x46960e(0x225)},{'description':_0x46960e(0x3b3),'activity_name':_0x46960e(0x3ca)},{'description':_0x46960e(0x2cc),'activity_name':_0x46960e(0x2a5)},{'description':_0x46960e(0x2c7),'activity_name':_0x46960e(0x258)},{'description':'集卡一键回收大厅弹板','activity_name':'Activity_CardsOneKeyRecover'},{'description':_0x46960e(0x376),'activity_name':'Activity\u00a02YearsRegister'},{'description':_0x46960e(0x2a7),'activity_name':'Activity_GemStoreSale'},{'description':_0x46960e(0x3ab),'activity_name':_0x46960e(0x259)},{'description':_0x46960e(0x3a7),'activity_name':_0x46960e(0x1a4)},{'description':_0x46960e(0x3a2),'activity_name':_0x46960e(0x357)},{'description':_0x46960e(0x221),'activity_name':_0x46960e(0x247)},{'description':_0x46960e(0xfa),'activity_name':_0x46960e(0x38f)},{'description':_0x46960e(0x41d),'activity_name':_0x46960e(0x22a)},{'description':_0x46960e(0x41d),'activity_name':_0x46960e(0x239)},{'description':_0x46960e(0x41d),'activity_name':_0x46960e(0x2fa)},{'description':_0x46960e(0x41d),'activity_name':_0x46960e(0x3f9)},{'description':_0x46960e(0x2c5),'activity_name':'Activity_PigSaleTeam'},{'description':_0x46960e(0x335),'activity_name':'Activity\u00a0HolidayLastSale'},{'description':_0x46960e(0x169),'activity_name':'Activity_Merge_DoublePouches'},{'description':'关卡全开放','activity_name':_0x46960e(0x17a)},{'description':_0x46960e(0x336),'activity_name':_0x46960e(0x32e)},{'description':_0x46960e(0x177),'activity_name':_0x46960e(0x3d4)},{'description':'新商城宣传','activity_name':_0x46960e(0x2d2)},{'description':_0x46960e(0x337),'activity_name':_0x46960e(0x3fa)},{'description':'占卜','activity_name':_0x46960e(0x160)},{'description':'扑克任务','activity_name':_0x46960e(0x114)},{'description':'扑克排行榜','activity_name':_0x46960e(0xf9)},{'description':_0x46960e(0x36f),'activity_name':_0x46960e(0x410)},{'description':'扑克主游戏','activity_name':_0x46960e(0x345)},{'description':_0x46960e(0x2da),'activity_name':_0x46960e(0x1c5)},{'description':_0x46960e(0x3d8),'activity_name':_0x46960e(0x3d6)},{'description':_0x46960e(0x1fd),'activity_name':'Activity_Lottery_Jackpot'},{'description':'bingo比赛','activity_name':_0x46960e(0x13c)},{'description':'bingo比赛预热','activity_name':_0x46960e(0x20a)},{'description':_0x46960e(0x170),'activity_name':'Activity_BingoRush_Rule'},{'description':'duckShot宣传','activity_name':_0x46960e(0x429)},{'description':_0x46960e(0x187),'activity_name':_0x46960e(0x40d)},{'description':_0x46960e(0x1b6),'activity_name':'Activity_GoodWheelPiggy'},{'description':_0x46960e(0x1cc),'activity_name':'Promotion_Infinity\u00a0Easter22'},{'description':_0x46960e(0x2b0),'activity_name':_0x46960e(0x13d)},{'description':'NiceDice','activity_name':'Activity_NiceDice'},{'description':_0x46960e(0x288),'activity_name':'Activity_WildChallenge'},{'description':_0x46960e(0x200),'activity_name':_0x46960e(0x198)},{'description':_0x46960e(0x355),'activity_name':'Activity_Coloring'},{'description':_0x46960e(0x1e5),'activity_name':_0x46960e(0x1c8)},{'description':_0x46960e(0x295),'activity_name':'Activity_Gashapon'},{'description':_0x46960e(0x3dc),'activity_name':_0x46960e(0x102)},{'description':_0x46960e(0x2e5),'activity_name':_0x46960e(0x2e1)},{'description':_0x46960e(0x196),'activity_name':_0x46960e(0x36d)},{'description':_0x46960e(0x196),'activity_name':_0x46960e(0x3db)},{'description':'头像框开启','activity_name':_0x46960e(0x19f)},{'description':_0x46960e(0x232),'activity_name':'Activity_\u00a0AvatarFrameRule'},{'description':_0x46960e(0x3cb),'activity_name':_0x46960e(0x2a6)},{'description':_0x46960e(0x2f7),'activity_name':_0x46960e(0x2bb)},{'description':_0x46960e(0x2b9),'activity_name':'Activity\u00a0NewProfile_change'},{'description':_0x46960e(0x39f),'activity_name':_0x46960e(0x25c)},{'description':_0x46960e(0x354),'activity_name':_0x46960e(0x1e6)},{'description':_0x46960e(0x1c0),'activity_name':_0x46960e(0x273)},{'description':_0x46960e(0x22e),'activity_name':_0x46960e(0x1e8)},{'description':_0x46960e(0x109),'activity_name':'Activity_BingoRush_NewRule'},{'description':_0x46960e(0x293),'activity_name':_0x46960e(0x419)},{'description':_0x46960e(0x2e4),'activity_name':_0x46960e(0x270)},{'description':_0x46960e(0x10a),'activity_name':'Activity_PoolCard\u00a0Store'},{'description':_0x46960e(0x29f),'activity_name':_0x46960e(0x236)},{'description':_0x46960e(0x2e2),'activity_name':_0x46960e(0x1d6)},{'description':_0x46960e(0x1d3),'activity_name':_0x46960e(0x206)},{'description':_0x46960e(0x14d),'activity_name':_0x46960e(0x242)},{'description':_0x46960e(0x117),'activity_name':_0x46960e(0x20f)},{'description':_0x46960e(0x3ac),'activity_name':'Activity_ScratchCards\u00a0Buy'},{'description':'公共JACKPOT','activity_name':_0x46960e(0x3d5)},{'description':_0x46960e(0x28b),'activity_name':'Activity_\u00a0MemoryLane'},{'description':_0x46960e(0x11e),'activity_name':_0x46960e(0x33e)},{'description':_0x46960e(0x38a),'activity_name':'Activity\u00a0HolidayBox'},{'description':'spin送道具，','activity_name':_0x46960e(0x1e1)},{'description':_0x46960e(0x3fb),'activity_name':_0x46960e(0x2e8)},{'description':_0x46960e(0x284),'activity_name':_0x46960e(0x15c)},{'description':_0x46960e(0x2a9),'activity_name':_0x46960e(0x390)},{'description':_0x46960e(0x372),'activity_name':_0x46960e(0x11f)},{'description':_0x46960e(0x28a),'activity_name':_0x46960e(0x2ad)},{'description':_0x46960e(0x228),'activity_name':'Activity\u00a0CoinExpand_Pig'},{'description':'膨胀预热','activity_name':_0x46960e(0x3bb)},{'description':_0x46960e(0x3bd),'activity_name':_0x46960e(0x2f8)},{'description':_0x46960e(0x298),'activity_name':_0x46960e(0x1f1)},{'description':'FB真人视频','activity_name':_0x46960e(0x1d7)},{'description':_0x46960e(0x11a),'activity_name':'Activity_SpecialFrame_Challenge'},{'description':_0x46960e(0x152),'activity_name':_0x46960e(0x41f)},{'description':_0x46960e(0x3f7),'activity_name':'Activity_TwoCoupons_LaborDay'},{'description':_0x46960e(0x1ae),'activity_name':_0x46960e(0x364)},{'description':'二选一礼包促销','activity_name':_0x46960e(0x3bf)},{'description':_0x46960e(0x186),'activity_name':_0x46960e(0x243)},{'description':_0x46960e(0x31d),'activity_name':'Activity_\u00a0MissionRush'},{'description':_0x46960e(0x2ef),'activity_name':'Activity_\u00a0PurchaseGift'},{'description':_0x46960e(0x110),'activity_name':'Activity_SeasonMission\u00a0Dash.'},{'description':_0x46960e(0x1f8),'activity_name':_0x46960e(0x394)},{'description':_0x46960e(0x26f),'activity_name':_0x46960e(0x12b)},{'description':_0x46960e(0x1f2),'activity_name':_0x46960e(0x111)},{'description':_0x46960e(0x29c),'activity_name':_0x46960e(0x360)},{'description':'单日特殊任务','activity_name':_0x46960e(0x418)},{'description':_0x46960e(0x34b),'activity_name':_0x46960e(0x2e7)},{'description':_0x46960e(0x19d),'activity_name':_0x46960e(0x1ca)},{'description':_0x46960e(0x1e5),'activity_name':'Activity_DailySprint_Coupon'},{'description':_0x46960e(0x297),'activity_name':_0x46960e(0x427)},{'description':_0x46960e(0x21b),'activity_name':_0x46960e(0x321)},{'description':_0x46960e(0x2c2),'activity_name':_0x46960e(0x420)},{'description':_0x46960e(0x147),'activity_name':'Activity_GoldenDayRule'},{'description':_0x46960e(0x407),'activity_name':_0x46960e(0x25a)},{'description':_0x46960e(0x20b),'activity_name':_0x46960e(0x292)},{'description':'WT','activity_name':_0x46960e(0x101)},{'description':_0x46960e(0x41c),'activity_name':_0x46960e(0x366)},{'description':_0x46960e(0x2ea),'activity_name':_0x46960e(0x1e2)},{'description':_0x46960e(0x252),'activity_name':_0x46960e(0x28c)},{'description':_0x46960e(0x21f),'activity_name':'Activity_LuckyStamp'},{'description':_0x46960e(0x37a),'activity_name':_0x46960e(0x2b8)},{'description':_0x46960e(0x3f0),'activity_name':_0x46960e(0x1d1)},{'description':_0x46960e(0x1eb),'activity_name':'Activity_CardObsidianOpen'},{'description':_0x46960e(0x194),'activity_name':'Activity_CardObsidianRule'},{'description':_0x46960e(0x289),'activity_name':'Activity_CardObsidianRule\u00a0Publicize'},{'description':_0x46960e(0x33d),'activity_name':_0x46960e(0x179)},{'description':'红蓝对决开启','activity_name':_0x46960e(0x3d7)},{'description':_0x46960e(0x1c2),'activity_name':_0x46960e(0x2e9)},{'description':_0x46960e(0x36b),'activity_name':'Activity_GrandPrizeStart'},{'description':_0x46960e(0x2b1),'activity_name':'Activity_GrandPrize'},{'description':'黑五代币抽奖','activity_name':_0x46960e(0x397)},{'description':_0x46960e(0x39e),'activity_name':_0x46960e(0x103)},{'description':_0x46960e(0x30c),'activity_name':_0x46960e(0x13a)},{'description':_0x46960e(0x199),'activity_name':_0x46960e(0x2b7)},{'description':_0x46960e(0x1f6),'activity_name':_0x46960e(0x107)},{'description':'Blast挑战','activity_name':'Activity_BlastTaskNew'},{'description':_0x46960e(0x3cd),'activity_name':_0x46960e(0x3b5)},{'description':_0x46960e(0x3c7),'activity_name':_0x46960e(0x1c1)},{'description':_0x46960e(0x3d2),'activity_name':'Activity_YearEndSummary'},{'description':_0x46960e(0x343),'activity_name':_0x46960e(0x251)},{'description':_0x46960e(0x192),'activity_name':'Activity_QuestNew'},{'description':_0x46960e(0x275),'activity_name':_0x46960e(0x26e)},{'description':'QUESTFantasyShow\u00a0Top','activity_name':_0x46960e(0x2d5)},{'description':_0x46960e(0x3aa),'activity_name':_0x46960e(0xfb)},{'description':_0x46960e(0x229),'activity_name':'Activity_DiamondChallengeClose'},{'description':'推币机排行榜','activity_name':'Activity_CoinPusherShowTop'},{'description':'FarmOpen','activity_name':_0x46960e(0x215)},{'description':_0x46960e(0x18f),'activity_name':'Activity_Farm_Rule_Loading1'},{'description':_0x46960e(0x402),'activity_name':_0x46960e(0x178)},{'description':_0x46960e(0x135),'activity_name':'Promotion_PipeConnect'},{'description':_0x46960e(0x349),'activity_name':_0x46960e(0x23a)},{'description':_0x46960e(0x2b3),'activity_name':_0x46960e(0x24d)},{'description':_0x46960e(0x2fd),'activity_name':_0x46960e(0x17c)},{'description':'PIPECONNECT挑战','activity_name':'Activity_PipeConnectTask'},{'description':_0x46960e(0x14c),'activity_name':'Activity_AddPay'},{'description':_0x46960e(0x1cf),'activity_name':_0x46960e(0x10e)},{'description':_0x46960e(0x277),'activity_name':_0x46960e(0x225)},{'description':_0x46960e(0x2cc),'activity_name':_0x46960e(0x2a5)},{'description':_0x46960e(0x2c7),'activity_name':_0x46960e(0x344)},{'description':_0x46960e(0x15d),'activity_name':_0x46960e(0x384)},{'description':'BLAST促销','activity_name':_0x46960e(0x20e)},{'description':'新手个人累充','activity_name':_0x46960e(0x27c)},{'description':_0x46960e(0x40b),'activity_name':_0x46960e(0x3fd)},{'description':_0x46960e(0x2dc),'activity_name':_0x46960e(0x214)},{'description':_0x46960e(0x1af),'activity_name':_0x46960e(0x3ea)},{'description':_0x46960e(0x421),'activity_name':_0x46960e(0x33a)},{'description':_0x46960e(0x1fa),'activity_name':_0x46960e(0x35d)},{'description':_0x46960e(0x401),'activity_name':_0x46960e(0x1d5)},{'description':'合成返宝石','activity_name':_0x46960e(0x2ce)},{'description':_0x46960e(0x339),'activity_name':_0x46960e(0x261)},{'description':_0x46960e(0x1aa),'activity_name':_0x46960e(0x3d9)},{'description':_0x46960e(0x370),'activity_name':'Activity\u00a03xVip'},{'description':'限时限购礼包','activity_name':_0x46960e(0x134)},{'description':_0x46960e(0x2de),'activity_name':_0x46960e(0x378)},{'description':_0x46960e(0x142),'activity_name':_0x46960e(0x12d)},{'description':_0x46960e(0x265),'activity_name':'Activity_HolidaySpecial'},{'description':_0x46960e(0x38c),'activity_name':_0x46960e(0x300)},{'description':_0x46960e(0x423),'activity_name':'Activity\u00a0WildDraw'},{'description':_0x46960e(0x20c),'activity_name':_0x46960e(0x1a3)},{'description':_0x46960e(0x2a3),'activity_name':_0x46960e(0x305)},{'description':_0x46960e(0x3ee),'activity_name':'Activity_TopUpBonus'},{'description':'个人累充PIus最后一天','activity_name':_0x46960e(0x2f3)},{'description':'BigBang免费金币','activity_name':_0x46960e(0x15e)},{'description':_0x46960e(0x3fc),'activity_name':'Activity_BigBang_Album'},{'description':_0x46960e(0x25d),'activity_name':_0x46960e(0x2f4)},{'description':'BigBang商城','activity_name':'Activity_BigBang_CoinStore'},{'description':_0x46960e(0x374),'activity_name':_0x46960e(0x36c)},{'description':'BigBang总开启','activity_name':_0x46960e(0x40f)},{'description':_0x46960e(0x116),'activity_name':_0x46960e(0x176)},{'description':_0x46960e(0x26d),'activity_name':_0x46960e(0x264)},{'description':_0x46960e(0x193),'activity_name':'Activity_ShopUp'},{'description':_0x46960e(0x241),'activity_name':_0x46960e(0x37c)},{'description':'付费目标','activity_name':_0x46960e(0x208)},{'description':_0x46960e(0x2d4),'activity_name':'BasicSaleLayer'},{'description':_0x46960e(0x298),'activity_name':_0x46960e(0x1f1)},{'description':_0x46960e(0x3e9),'activity_name':'Activity_CyberMonday'},{'description':'新手期限时促销','activity_name':_0x46960e(0x10c)},{'description':_0x46960e(0x3e3),'activity_name':_0x46960e(0x259)},{'description':_0x46960e(0x224),'activity_name':'Promotion_\u00a0MultiSpan'},{'description':_0x46960e(0x356),'activity_name':_0x46960e(0x3a1)},{'description':'合成促销转盘','activity_name':'Activity_MagicGarden'},{'description':_0x46960e(0x1c3),'activity_name':_0x46960e(0x334)},{'description':'MINZ玩法宣传图','activity_name':'Activity_Minz_Rule'},{'description':'自选礼包促销','activity_name':_0x46960e(0x168)},{'description':_0x46960e(0x375),'activity_name':_0x46960e(0x330)},{'description':_0x46960e(0x197),'activity_name':_0x46960e(0x32c)},{'description':'充值抽奖池','activity_name':_0x46960e(0x157)},{'description':_0x46960e(0x2df),'activity_name':_0x46960e(0x35b)},{'description':_0x46960e(0x1f0),'activity_name':_0x46960e(0x383)},{'description':'工会限时比赛','activity_name':_0x46960e(0x352)},{'description':'钻石挑战活跃活动','activity_name':_0x46960e(0x3ce)},{'description':_0x46960e(0x385),'activity_name':_0x46960e(0x11b)},{'description':'BlastNoviceTask','activity_name':_0x46960e(0x1b5)},{'description':_0x46960e(0x2c6),'activity_name':'Activity_RepeatFreeSpin'},{'description':_0x46960e(0x173),'activity_name':_0x46960e(0x24f)},{'description':_0x46960e(0x371),'activity_name':_0x46960e(0x361)},{'description':_0x46960e(0x30e),'activity_name':_0x46960e(0x1e0)},{'description':_0x46960e(0x39c),'activity_name':'Promotion_RepartWin'},{'description':_0x46960e(0x229),'activity_name':_0x46960e(0x319)},{'description':_0x46960e(0x373),'activity_name':'Activity_TeamChest_Loading1'},{'description':'组队BOSS开启','activity_name':'Activity_DragonChallenge'},{'description':_0x46960e(0x3a6),'activity_name':_0x46960e(0x185)},{'description':_0x46960e(0x395),'activity_name':_0x46960e(0x3b0)},{'description':_0x46960e(0x387),'activity_name':_0x46960e(0x369)},{'description':_0x46960e(0x248),'activity_name':_0x46960e(0x181)},{'description':_0x46960e(0x204),'activity_name':_0x46960e(0x382)},{'description':_0x46960e(0x108),'activity_name':_0x46960e(0x1bb)},{'description':_0x46960e(0x2ae),'activity_name':'Activity\u00a0DIYWheel'},{'description':'表情包宣传','activity_name':_0x46960e(0x3c8)},{'description':_0x46960e(0x231),'activity_name':_0x46960e(0x40e)},{'description':'组队BOSS预告','activity_name':_0x46960e(0x307)},{'description':'赛季没返还新赛季卡','activity_name':_0x46960e(0x3af)},{'description':_0x46960e(0x3bc),'activity_name':_0x46960e(0x14e)},{'description':'PIGCHIP','activity_name':_0x46960e(0x35f)},{'description':_0x46960e(0x3bc),'activity_name':_0x46960e(0x333)},{'description':_0x46960e(0x31e),'activity_name':_0x46960e(0x3be)},{'description':_0x46960e(0x21e),'activity_name':_0x46960e(0x391)},{'description':'神话卡宣传','activity_name':_0x46960e(0x1ec)},{'description':'4周年抽奖分大奖','activity_name':_0x46960e(0x328)},{'description':_0x46960e(0xf6),'activity_name':_0x46960e(0x22d)},{'description':_0x46960e(0x281),'activity_name':_0x46960e(0x388)},{'description':_0x46960e(0x153),'activity_name':_0x46960e(0x2c4)},{'description':_0x46960e(0x35c),'activity_name':_0x46960e(0x417)},{'description':'PIGGEMS','activity_name':_0x46960e(0x163)},{'description':'blast炸弹','activity_name':'Activity_BlastBlossomBomb\u00a0loading'},{'description':'三联优惠券','activity_name':_0x46960e(0xf4)},{'description':_0x46960e(0x1ab),'activity_name':_0x46960e(0x233)},{'description':_0x46960e(0x29a),'activity_name':_0x46960e(0x37d)},{'description':_0x46960e(0x3b8),'activity_name':_0x46960e(0x2ca)},{'description':_0x46960e(0x27e),'activity_name':_0x46960e(0x379)},{'description':'luckyspin宣传图','activity_name':_0x46960e(0x230)},{'description':_0x46960e(0x1b3),'activity_name':_0x46960e(0x138)},{'description':'合成商店折扣','activity_name':_0x46960e(0x3ef)},{'description':_0x46960e(0x2aa),'activity_name':'Activity\u00a0DiySale'},{'description':_0x46960e(0x36a),'activity_name':'Activity_\u00a0DIYFeatureMission'},{'description':_0x46960e(0x1b7),'activity_name':_0x46960e(0x405)},{'description':'DIMGEATURE玩法宣传','activity_name':_0x46960e(0x263)},{'description':_0x46960e(0x154),'activity_name':_0x46960e(0x280)},{'description':'集装箱大言','activity_name':_0x46960e(0x308)},{'description':'Balloon','activity_name':_0x46960e(0x16d)},{'description':_0x46960e(0x253),'activity_name':_0x46960e(0x274)},{'description':_0x46960e(0x250),'activity_name':'Activity_Monster_WarmUp'},{'description':_0x46960e(0x424),'activity_name':'Activity\u00a0Monster\u00a0Merge'},{'description':_0x46960e(0x2c9),'activity_name':_0x46960e(0x32d)},{'description':_0x46960e(0x2bc),'activity_name':_0x46960e(0x269)},{'description':_0x46960e(0x244),'activity_name':'Activity_Monster_CoinStore'},{'description':_0x46960e(0x271),'activity_name':_0x46960e(0x2fb)},{'description':_0x46960e(0x137),'activity_name':_0x46960e(0x325)},{'description':_0x46960e(0x38e),'activity_name':_0x46960e(0xfc)},{'description':_0x46960e(0x2e3),'activity_name':_0x46960e(0x172)},{'description':_0x46960e(0x27d),'activity_name':_0x46960e(0x113)},{'description':'第二货币两张优惠券','activity_name':_0x46960e(0x331)},{'description':_0x46960e(0x19a),'activity_name':_0x46960e(0x37b)},{'description':_0x46960e(0x1ed),'activity_name':_0x46960e(0x203)},{'description':_0x46960e(0x30d),'activity_name':_0x46960e(0x23b)},{'description':_0x46960e(0x144),'activity_name':'Activity_OutsideCaveMissionNew'},{'description':'CaveTask','activity_name':_0x46960e(0x3e2)},{'description':'金币抽奖转盘','activity_name':'Activity_CrazyWheel'},{'description':_0x46960e(0x2b5),'activity_name':_0x46960e(0x34f)},{'description':_0x46960e(0x342),'activity_name':_0x46960e(0x214)},{'description':'钻石挑战预热','activity_name':_0x46960e(0x3ae)},{'description':_0x46960e(0x406),'activity_name':_0x46960e(0x3a4)},{'description':_0x46960e(0x3de),'activity_name':_0x46960e(0x318)},{'description':_0x46960e(0x16a),'activity_name':'Activity\u00a0MailLottery'},{'description':_0x46960e(0x3e7),'activity_name':_0x46960e(0x39b)},{'description':_0x46960e(0x180),'activity_name':_0x46960e(0x428)},{'description':_0x46960e(0x404),'activity_name':_0x46960e(0x222)},{'description':_0x46960e(0x126),'activity_name':_0x46960e(0x17f)},{'description':_0x46960e(0x25b),'activity_name':_0x46960e(0x2bf)},{'description':_0x46960e(0x294),'activity_name':_0x46960e(0x266)},{'description':_0x46960e(0x1f0),'activity_name':_0x46960e(0x17e)},{'description':_0x46960e(0x2d7),'activity_name':_0x46960e(0x1b9)},{'description':_0x46960e(0x100),'activity_name':_0x46960e(0x285)},{'description':_0x46960e(0x207),'activity_name':'Activity_NewDiamondChallenge\u00a0Rush\u00a0\u00a0'},{'description':'新版钻石挑战结束倒计时','activity_name':_0x46960e(0x240)},{'description':_0x46960e(0x2a8),'activity_name':_0x46960e(0x29d)},{'description':'新版钻石挑战活动开启','activity_name':_0x46960e(0x37f)},{'description':_0x46960e(0x1df),'activity_name':_0x46960e(0x1ac)},{'description':'新圣诞聚合排行榜','activity_name':_0x46960e(0x413)},{'description':'新圣诞聚合商店上新','activity_name':_0x46960e(0x34c)},{'description':_0x46960e(0x22c),'activity_name':_0x46960e(0x23c)},{'description':_0x46960e(0x171),'activity_name':_0x46960e(0x1bf)},{'description':_0x46960e(0xf7),'activity_name':_0x46960e(0x1ff)},{'description':_0x46960e(0x3b1),'activity_name':_0x46960e(0x31b)},{'description':'代市宣传','activity_name':'Activity_\u00a0Bucks\u00a0Loading\u00a0'},{'description':'2023圣诞累充分奖','activity_name':_0x46960e(0x1f5)},{'description':_0x46960e(0x3b9),'activity_name':_0x46960e(0x327)},{'description':_0x46960e(0x312),'activity_name':_0x46960e(0x2d3)},{'description':_0x46960e(0x2fe),'activity_name':_0x46960e(0x32b)},{'description':_0x46960e(0x1d2),'activity_name':_0x46960e(0x1f9)},{'description':_0x46960e(0x19e),'activity_name':_0x46960e(0x409)},{'description':'宠物预热宣传','activity_name':'Activity_PetLoading'},{'description':'宠物开启宣传','activity_name':_0x46960e(0x12e)},{'description':_0x46960e(0x332),'activity_name':_0x46960e(0x14f)},{'description':_0x46960e(0x272),'activity_name':_0x46960e(0x3e5)},{'description':_0x46960e(0x425),'activity_name':'Activity_MegaWin'},{'description':'大赢派对-宠物','activity_name':_0x46960e(0x1fe)},{'description':'PetLimit','activity_name':_0x46960e(0x411)},{'description':_0x46960e(0x104),'activity_name':'Activity_MinzChallenge'},{'description':_0x46960e(0x2b2),'activity_name':_0x46960e(0x24c)},{'description':_0x46960e(0x3a8),'activity_name':_0x46960e(0x3c3)},{'description':_0x46960e(0x381),'activity_name':_0x46960e(0x28f)},{'description':'收集彩蛋','activity_name':_0x46960e(0x212)},{'description':_0x46960e(0x22f),'activity_name':_0x46960e(0x16c)},{'description':_0x46960e(0x17b),'activity_name':'Activity_TeamSeason'},{'description':'7日锦标赛','activity_name':_0x46960e(0x3ad)},{'description':_0x46960e(0x174),'activity_name':_0x46960e(0x396)},{'description':_0x46960e(0x12a),'activity_name':_0x46960e(0x1dc)},{'description':_0x46960e(0x267),'activity_name':_0x46960e(0x3f3)},{'description':'网页商店累充','activity_name':_0x46960e(0x3da)},{'description':'三线收集开启宣传','activity_name':'Activity_PiggyVault'},{'description':_0x46960e(0x220),'activity_name':'Activity_PiggyVaultShowTop'},{'description':'三线收集任务','activity_name':'Activity_PiggyVaultTask'},{'description':_0x46960e(0x255),'activity_name':_0x46960e(0x1b0)},{'description':_0x46960e(0x10b),'activity_name':_0x46960e(0x123)},{'description':'膨胀宣传','activity_name':_0x46960e(0x124)},{'description':_0x46960e(0x15a),'activity_name':'Activity_Inflation_WarmUp'},{'description':_0x46960e(0x249),'activity_name':_0x46960e(0x2be)},{'description':_0x46960e(0x2d9),'activity_name':_0x46960e(0x260)},{'description':_0x46960e(0x2d9),'activity_name':_0x46960e(0x38b)},{'description':'罗马膨胀宣传','activity_name':_0x46960e(0x226)},{'description':_0x46960e(0x30f),'activity_name':'Promotion\u00a0_BingoLink'},{'description':_0x46960e(0x148),'activity_name':_0x46960e(0xfd)},{'description':_0x46960e(0x3e6),'activity_name':_0x46960e(0x27f)},{'description':_0x46960e(0x140),'activity_name':_0x46960e(0x3b7)},{'description':_0x46960e(0x3cf),'activity_name':'Activity_\u00a0QuestBoost'},{'description':'获取代币挑战','activity_name':_0x46960e(0x112)},{'description':_0x46960e(0x3c2),'activity_name':_0x46960e(0x290)},{'description':'接水管奖励增加','activity_name':_0x46960e(0x227)},{'description':_0x46960e(0x139),'activity_name':_0x46960e(0x389)},{'description':_0x46960e(0x286),'activity_name':'Activity_GemLuckySpin_Loading'},{'description':_0x46960e(0x353),'activity_name':'Activity_VipCenterOn'},{'description':'代币买商城多折扣','activity_name':'Activity_BucksMoreCoinSale'},{'description':'Blast奖励增加','activity_name':_0x46960e(0x18b)},{'description':_0x46960e(0x13e),'activity_name':_0x46960e(0x35a)},{'description':'代币首充礼包','activity_name':_0x46960e(0x127)},{'description':_0x46960e(0x41e),'activity_name':_0x46960e(0x400)},{'description':'代币支付获得额外礼物','activity_name':_0x46960e(0xf3)},{'description':_0x46960e(0x122),'activity_name':'Activity_PiggyBank_Buck\u00a0Loading'},{'description':'PetCloth1','activity_name':'Activity_PetCloth_loading1'},{'description':_0x46960e(0x16b),'activity_name':_0x46960e(0x162)},{'description':_0x46960e(0x29e),'activity_name':_0x46960e(0xff)},{'description':'outsideBOOM','activity_name':'Activity_OutsideCave_boom'},{'description':_0x46960e(0x2d8),'activity_name':_0x46960e(0x33c)},{'description':_0x46960e(0x310),'activity_name':_0x46960e(0x346)},{'description':_0x46960e(0x32f),'activity_name':_0x46960e(0x155)},{'description':_0x46960e(0x1a8),'activity_name':'Activity\u00a0EventBoost_PiggyVault'},{'description':_0x46960e(0x317),'activity_name':_0x46960e(0x1ba)},{'description':_0x46960e(0x149),'activity_name':'Activity_FullHouseChallenge'},{'description':_0x46960e(0x30a),'activity_name':_0x46960e(0x399)},{'description':_0x46960e(0x24e),'activity_name':_0x46960e(0x210)},{'description':'大活动限时强化','activity_name':_0x46960e(0x1a1)},{'description':_0x46960e(0x1c4),'activity_name':_0x46960e(0x1ef)},{'description':'新关弹板提前体验','activity_name':_0x46960e(0x24a)},{'description':_0x46960e(0xf5),'activity_name':_0x46960e(0x291)},{'description':_0x46960e(0x2c1),'activity_name':_0x46960e(0x278)},{'description':_0x46960e(0x2f6),'activity_name':_0x46960e(0x351)},{'description':_0x46960e(0x353),'activity_name':_0x46960e(0x130)},{'description':'典藏卡开启','activity_name':'Activity\u00a0CardOpenSelection'},{'description':_0x46960e(0x2b4),'activity_name':_0x46960e(0x1e4)},{'description':_0x46960e(0x21d),'activity_name':'Activity_\u00a0Petseason2\u00a0loading1'},{'description':_0x46960e(0x33f),'activity_name':'Activity_Petseason2\u00a0loading2'},{'description':_0x46960e(0x1c9),'activity_name':_0x46960e(0x23e)},{'description':'周年抽奖最后一天','activity_name':'Activity_5thRollLastDay'},{'description':_0x46960e(0x2ba),'activity_name':_0x46960e(0x393)},{'description':_0x46960e(0x148),'activity_name':'Activity_BingoLinkV2'},{'description':_0x46960e(0x3e6),'activity_name':_0x46960e(0x1b8)},{'description':_0x46960e(0x41b),'activity_name':_0x46960e(0x23d)},{'description':'调酒','activity_name':_0x46960e(0x34a)},{'description':'周年攒道具分奖','activity_name':_0x46960e(0x164)},{'description':_0x46960e(0x3d1),'activity_name':'Activity_5thPrizePool_LastDay'},{'description':'五周年整合界面','activity_name':'Activity_5thTotal'},{'description':_0x46960e(0x3e1),'activity_name':_0x46960e(0x268)},{'description':_0x46960e(0x3c0),'activity_name':'Activity_SyearsVideo'},{'description':_0x46960e(0x40a),'activity_name':_0x46960e(0x3f6)},{'description':_0x46960e(0x106),'activity_name':_0x46960e(0x1a6)},{'description':_0x46960e(0x1fb),'activity_name':_0x46960e(0x363)},{'description':'Quest五选三','activity_name':_0x46960e(0x1bc)},{'description':_0x46960e(0x217),'activity_name':_0x46960e(0x2cf)},{'description':_0x46960e(0x158),'activity_name':_0x46960e(0x202)},{'description':_0x46960e(0x235),'activity_name':'Activity_SelectChipsStars'},{'description':'挖宝BLAST，','activity_name':_0x46960e(0x384)},{'description':_0x46960e(0x403),'activity_name':_0x46960e(0x282)},{'description':_0x46960e(0x3aa),'activity_name':'Activity\u00a0RogueQuest\u00a0Rewardboost'},{'description':'quest排行榜','activity_name':'Activity_QuestRank_Common'},{'description':_0x46960e(0x190),'activity_name':_0x46960e(0x21a)},{'description':_0x46960e(0x2d1),'activity_name':_0x46960e(0x1e7)},{'description':'新quest倍数排行榜开启','activity_name':_0x46960e(0x188)},{'description':_0x46960e(0x39d),'activity_name':_0x46960e(0x167)},{'description':_0x46960e(0x301),'activity_name':_0x46960e(0x19c)},{'description':_0x46960e(0x12c),'activity_name':_0x46960e(0x161)},{'description':_0x46960e(0x120),'activity_name':_0x46960e(0x24b)},{'description':_0x46960e(0x1f4),'activity_name':'Activity_SelectChipsDraw'},{'description':_0x46960e(0x408),'activity_name':_0x46960e(0x2e6)},{'description':'万圣节调魔药','activity_name':'Activity_ChurningCharms'},{'description':_0x46960e(0x140),'activity_name':'Activity\u00a0NewSlot'},{'description':_0x46960e(0x246),'activity_name':_0x46960e(0x2af)},{'description':_0x46960e(0x182),'activity_name':_0x46960e(0x1a0)},{'description':_0x46960e(0x380),'activity_name':'Activity_Wizarding\u00a0War_Rule'},{'description':_0x46960e(0x3e4),'activity_name':'Activity_\u00a0MultipleFireballs'},{'description':'PRESS\u00a0YOUR\u00a0LUCK','activity_name':_0x46960e(0x150)},{'description':_0x46960e(0x3ed),'activity_name':_0x46960e(0x2f9)},{'description':_0x46960e(0x141),'activity_name':'Activity\u00a0BucKsBoost'},{'description':'LegendCloth','activity_name':_0x46960e(0x105)},{'description':_0x46960e(0x2a4),'activity_name':_0x46960e(0x303)},{'description':_0x46960e(0x3df),'activity_name':'Activity_Merry\u00a0Gift'},{'description':_0x46960e(0x309),'activity_name':_0x46960e(0x2ed)},{'description':_0x46960e(0x3ff),'activity_name':_0x46960e(0x14a)},{'description':_0x46960e(0x2c0),'activity_name':_0x46960e(0x191)},{'description':_0x46960e(0x3fe),'activity_name':'Activity_BattleShootShowTop'},{'description':_0x46960e(0x313),'activity_name':_0x46960e(0x3a5)},{'description':_0x46960e(0x2cb),'activity_name':'Promotion\u00a0BattleShoot'},{'description':'freegamesfiesta','activity_name':_0x46960e(0x3a0)},{'description':'每日任务','activity_name':_0x46960e(0x359)},{'description':_0x46960e(0x1be),'activity_name':_0x46960e(0x165)},{'description':_0x46960e(0x1d9),'activity_name':_0x46960e(0x2db)},{'description':_0x46960e(0x3a9),'activity_name':_0x46960e(0x257)},{'description':_0x46960e(0x34d),'activity_name':_0x46960e(0x201)},{'description':'EventTeamRank','activity_name':_0x46960e(0x3b2)},{'description':_0x46960e(0x2cd),'activity_name':_0x46960e(0x2a0)},{'description':_0x46960e(0x25e),'activity_name':'Activity_CrazySurge_loading'},{'description':_0x46960e(0x1b2),'activity_name':_0x46960e(0x26a)},{'description':_0x46960e(0x3f1),'activity_name':'Activity_FeatureSale'},{'description':_0x46960e(0x283),'activity_name':_0x46960e(0x214)},{'description':'百人挑战','activity_name':'Activity\u00a0LavaTrial'},{'description':'挖矿预热bet+','activity_name':_0x46960e(0x2ff)},{'description':'MINEFORTUNE宣传','activity_name':_0x46960e(0x37e)},{'description':'MineFortune促销','activity_name':'Promotion\u00a0MineFortunel'},{'description':_0x46960e(0x14b),'activity_name':_0x46960e(0x3d0)},{'description':_0x46960e(0x3f2),'activity_name':_0x46960e(0x426)},{'description':_0x46960e(0x341),'activity_name':'Activity_RogueQuestV2'},{'description':_0x46960e(0x3eb),'activity_name':_0x46960e(0x31a)},{'description':'每周福利','activity_name':_0x46960e(0x2bd)},{'description':_0x46960e(0x1a5),'activity_name':_0x46960e(0x38d)},{'description':'星星促销','activity_name':_0x46960e(0x18e)},{'description':_0x46960e(0x1cb),'activity_name':_0x46960e(0x1d4)},{'description':_0x46960e(0x422),'activity_name':_0x46960e(0xf2)},{'description':_0x46960e(0x2b6),'activity_name':_0x46960e(0x3c4)},{'description':'三方出售大活动道具','activity_name':_0x46960e(0x2f2)},{'description':_0x46960e(0x118),'activity_name':_0x46960e(0x245)},{'description':_0x46960e(0x1bd),'activity_name':_0x46960e(0x1ea)}];
+export const activityData = [
+  {
+    "description": "常规促销",
+    "activity_name": "BasicSaleLayer"
+  },
+  {
+    "description": "Bingo活动促销",
+    "activity_name": "Promotion Bingo"
+  },
+  {
+    "description": "版本更新奖励弹版",
+    "activity_name": "newVersion"
+  },
+  {
+    "description": "FB登陆奖励弹版",
+    "activity_name": "FBReward"
+  },
+  {
+    "description": "多档促销",
+    "activity_name": "Promotion_MultiSpan"
+  },
+  {
+    "description": "VIP体验",
+    "activity_name": "Activity_VipBoost"
+  },
+  {
+    "description": "PigSale",
+    "activity_name": "Activity_PigSale"
+  },
+  {
+    "description": "PigSaleBooster",
+    "activity_name": "Activity PigSaleBooster "
+  },
+  {
+    "description": "连续充值",
+    "activity_name": "Activity_KeepRecharge"
+  },
+  {
+    "description": "luckyspin25倍活动",
+    "activity_name": "Activity LuckySpinSale "
+  },
+  {
+    "description": "luckyspin给卡活动",
+    "activity_name": "Activity_LuckySpinCard"
+  },
+  {
+    "description": "商城卡包双倍",
+    "activity_name": "Activity DoubleCard"
+  },
+  {
+    "description": "商城卡包星级提升",
+    "activity_name": "Activity_CardStar"
+  },
+  {
+    "description": "LvDash",
+    "activity_name": "Promotion_LevelDash"
+  },
+  {
+    "description": "REPEATWIN ",
+    "activity_name": "Promotion RepartWin"
+  },
+  {
+    "description": "CASHBACK",
+    "activity_name": "Activity_CashBack"
+  },
+  {
+    "description": "第4个任务",
+    "activity_name": "Activity Power Mission"
+  },
+  {
+    "description": "SpinBonus",
+    "activity_name": "Activity_SpinBonus"
+  },
+  {
+    "description": "LEVELBOOM",
+    "activity_name": "Activity_LevelBoom"
+  },
+  {
+    "description": "Bingo活动",
+    "activity_name": "Promotion Bingo"
+  },
+  {
+    "description": "BINGO首次奖励翻倍",
+    "activity_name": "Activity_BingoFirstRound"
+  },
+  {
+    "description": "BINGO商店购买翻倍",
+    "activity_name": "Activity_BingoDoubleBall"
+  },
+  {
+    "description": "BINGO商店购买翻倍",
+    "activity_name": "Activity_BingoCollectBall"
+  },
+  {
+    "description": "集卡预热",
+    "activity_name": "Activity_PreCard"
+  },
+  {
+    "description": "集卡开启1",
+    "activity_name": "Activity_CardOpen"
+  },
+  {
+    "description": "集卡开启2",
+    "activity_name": "Activity_CardOpen2"
+  },
+  {
+    "description": "集卡开启3",
+    "activity_name": "Activity_CardOpen3"
+  },
+  {
+    "description": "常规促销",
+    "activity_name": "BasicSaleLayer"
+  },
+  {
+    "description": "QUEST促销",
+    "activity_name": "Promotion Quest"
+  },
+  {
+    "description": "新关弹板",
+    "activity_name": "Activity_OpenNewLevel"
+  },
+  {
+    "description": "商城",
+    "activity_name": "ZOCoinStoreLayer"
+  },
+  {
+    "description": "多档促销",
+    "activity_name": "Promotion_MultiSpan"
+  },
+  {
+    "description": "小猪",
+    "activity_name": "PiggyBankLayer"
+  },
+  {
+    "description": "连续充值",
+    "activity_name": "Activity KeepRecharge"
+  },
+  {
+    "description": "ClassicRapid挑战任务",
+    "activity_name": "Activity_BonusHunt"
+  },
+  {
+    "description": "CandyBingo挑成任务",
+    "activity_name": "Activity_BonusHuntCoin"
+  },
+  {
+    "description": "BINGO",
+    "activity_name": "Activity_ Bingo"
+  },
+  {
+    "description": "BINGOWILD",
+    "activity_name": "Activity_BingoWildBall"
+  },
+  {
+    "description": "BINGORANK",
+    "activity_name": "Activity_BingoShowlop"
+  },
+  {
+    "description": "GameCraze",
+    "activity_name": "Activity GameCrazeMission"
+  },
+  {
+    "description": "第二条任务线玩法说明",
+    "activity_name": "Activity_LuckyChallengeRule"
+  },
+  {
+    "description": "第二条任务线开启宣传",
+    "activity_name": "Activity LuckyChallenge"
+  },
+  {
+    "description": "第二条任务线即将结束",
+    "activity_name": "Activity_LuckyChallengeOver"
+  },
+  {
+    "description": "餐厅促销",
+    "activity_name": "Promotion DinnerLand"
+  },
+  {
+    "description": "餐厅排行榜",
+    "activity_name": "Activity_DinnerLandShowTop"
+  },
+  {
+    "description": "餐厅活动",
+    "activity_name": "Activity_DinnerLand"
+  },
+  {
+    "description": "BLAST",
+    "activity_name": "Activity_Blast"
+  },
+  {
+    "description": "BLAST促销",
+    "activity_name": "Promotion Blast"
+  },
+  {
+    "description": "七日签到（第一周）",
+    "activity_name": "Activity_7 DaySign"
+  },
+  {
+    "description": "四张优惠券",
+    "activity_name": "Activity_ Sale Ticket"
+  },
+  {
+    "description": "商城促销",
+    "activity_name": "Activity_Coupon"
+  },
+  {
+    "description": "四张优惠券",
+    "activity_name": "Activity_SaleTicket"
+  },
+  {
+    "description": "FreeGamesFever",
+    "activity_name": "Activity_RepeatFreeSpin"
+  },
+  {
+    "description": "JackpotReturn",
+    "activity_name": "Activity_RepartJackpot"
+  },
+  {
+    "description": "个人信息页",
+    "activity_name": "Activity_UserInfomation"
+  },
+  {
+    "description": "七日签到（感恩节）",
+    "activity_name": "Activity_7 DaySign_ThanksGiving"
+  },
+  {
+    "description": "小猪挑战",
+    "activity_name": "Activity_PigChallenge"
+  },
+  {
+    "description": "剁手上线发优惠券",
+    "activity_name": "Activity_CyberMonday"
+  },
+  {
+    "description": "活动入口",
+    "activity_name": "Activity_Entrance"
+  },
+  {
+    "description": "word本体",
+    "activity_name": "Activity_Word"
+  },
+  {
+    "description": "word排行榜",
+    "activity_name": "Activity_WordShowTop"
+  },
+  {
+    "description": "WORD促销",
+    "activity_name": "Promotion Word"
+  },
+  {
+    "description": "Battle Pass",
+    "activity_name": "Activity_BattlePass"
+  },
+  {
+    "description": "VIP特权",
+    "activity_name": "Activity_VipPrivilege"
+  },
+  {
+    "description": "QUEST活动",
+    "activity_name": "Activity_Quest"
+  },
+  {
+    "description": "QUEST排行榜",
+    "activity_name": "Activity_QuestShowTop"
+  },
+  {
+    "description": "LuckyMission",
+    "activity_name": "Activity_DailyMissionRush"
+  },
+  {
+    "description": "LuckyMissionPlus",
+    "activity_name": "Activity_DailyMissionRush"
+  },
+  {
+    "description": "圣诞树",
+    "activity_name": "Activity_ChristmasMagicTour"
+  },
+  {
+    "description": "推币机",
+    "activity_name": "Activity_CoinPusher"
+  },
+  {
+    "description": "推币机促销",
+    "activity_name": "Promotion_CoinPusher"
+  },
+  {
+    "description": "luckyspin送任意卡",
+    "activity_name": "Activity_LuckySpinRandomCard"
+  },
+  {
+    "description": "小猪送卡",
+    "activity_name": "Activity_Pig RandomCard"
+  },
+  {
+    "description": "QuestRush",
+    "activity_name": "Activity_QuestRush"
+  },
+  {
+    "description": "高倍场小游戏",
+    "activity_name": "Activity_DeluxeClub_Cat"
+  },
+  {
+    "description": "FB加好友，",
+    "activity_name": "Activity_FBAddFriend"
+  },
+  {
+    "description": "社区粉丝宣",
+    "activity_name": "Activity_FBCommunity"
+  },
+  {
+    "description": "多倍盖戳",
+    "activity_name": "Activity_MulLuckyStamp"
+  },
+  {
+    "description": "钻石商城",
+    "activity_name": "Activity_GemStoreOpen"
+  },
+  {
+    "description": "推币机挑战",
+    "activity_name": "Activity_CoinPusherTask"
+  },
+  {
+    "description": "BINGO挑战",
+    "activity_name": "Activity_BingoTask"
+  },
+  {
+    "description": "二选一",
+    "activity_name": "Activity Between Two"
+  },
+  {
+    "description": "情人节挑战",
+    "activity_name": "Activity_ HolidayChallenge"
+  },
+  {
+    "description": "LUCKYCHOOSE",
+    "activity_name": "Activity_SuperSaleLuckyChoose"
+  },
+  {
+    "description": "Blast挑战",
+    "activity_name": "Activity_BlastTask"
+  },
+  {
+    "description": "比赛",
+    "activity_name": "Activity_Leagues"
+  },
+  {
+    "description": "比赛促销",
+    "activity_name": "Promotion Leagues"
+  },
+  {
+    "description": "大富翁挑战",
+    "activity_name": "Activity_RichMan Task"
+  },
+  {
+    "description": "QUEST活动",
+    "activity_name": "Activity_Quest"
+  },
+  {
+    "description": "QUEST排行榜",
+    "activity_name": "Activity_QuestShowTop"
+  },
+  {
+    "description": "QUEST活动",
+    "activity_name": "Activity_Quest"
+  },
+  {
+    "description": "Word挑战",
+    "activity_name": "Activity_WordTask"
+  },
+  {
+    "description": "NADOPARTY",
+    "activity_name": "Activity_NadoParty"
+  },
+  {
+    "description": "Group宣传页",
+    "activity_name": "Activity_-BGroup"
+  },
+  {
+    "description": "新关挑战",
+    "activity_name": "Activity_ SlotChallenge"
+  },
+  {
+    "description": "双倍猫粮",
+    "activity_name": "Activity_DoubleCatFood"
+  },
+  {
+    "description": "季卡赛季倒计时",
+    "activity_name": "Activity_CardEnd_Countdown"
+  },
+  {
+    "description": "LuckyFish宣传页",
+    "activity_name": "Activity_LuckyFish"
+  },
+  {
+    "description": "商店充值送缺卡",
+    "activity_name": "Activity_StoreSaleRandomCard"
+  },
+  {
+    "description": "新赛季特殊卡册小游戏宣传",
+    "activity_name": "Activity_SpecialAlbumGame"
+  },
+  {
+    "description": "新赛季特殊卡册宣传",
+    "activity_name": "Activity_ SpecialAlbum"
+  },
+  {
+    "description": "LS送金卡",
+    "activity_name": "Activity_LuckySpinGoldenCard"
+  },
+  {
+    "description": "大富翁促销",
+    "activity_name": "Promotion_ RichMan"
+  },
+  {
+    "description": "EchoWins",
+    "activity_name": "Activity_EchoWin"
+  },
+  {
+    "description": "促销聚合",
+    "activity_name": "Activity_SaleGroup"
+  },
+  {
+    "description": "第二货币优惠券",
+    "activity_name": "Activity_ShopGemCoupon"
+  },
+  {
+    "description": "充值抽奖",
+    "activity_name": "Activity_PurchaseDraw"
+  },
+  {
+    "description": "充值抽奖豪华版",
+    "activity_name": "Activity_PurchaseDraw"
+  },
+  {
+    "description": "新版餐厅促销",
+    "activity_name": "Promotion_DiningRoom"
+  },
+  {
+    "description": "新版餐厅大厅弹板",
+    "activity_name": "Activity_DiningRoom"
+  },
+  {
+    "description": "新版餐厅任务大厅宣传",
+    "activity_name": "Activity_DiningRoomTask"
+  },
+  {
+    "description": "新版餐厅排行榜",
+    "activity_name": "Activity_DiningRoomShowTop"
+  },
+  {
+    "description": "盖章送卡",
+    "activity_name": "Activity_LuckyStampCard"
+  },
+  {
+    "description": "独立日聚合挑战",
+    "activity_name": "Activity_HolidayChallenge"
+  },
+  {
+    "description": "独立日付费宣传",
+    "activity_name": "Activity_HolidayPay"
+  },
+  {
+    "description": "独立日额外一星",
+    "activity_name": "Activity_HolidayExtraStar"
+  },
+  {
+    "description": "独立日最后一天",
+    "activity_name": "Activity_HolidayLastDav"
+  },
+  {
+    "description": "RippleDash",
+    "activity_name": "Activity_RippleDash"
+  },
+  {
+    "description": "装修开启宣传",
+    "activity_name": "Activity Redecor"
+  },
+  {
+    "description": "装修任务宣传",
+    "activity_name": "Activity_RedecorTask"
+  },
+  {
+    "description": "装修排行宣传",
+    "activity_name": "Activity_Redecor ShowTop"
+  },
+  {
+    "description": "装修促销",
+    "activity_name": "Promotion Redecor"
+  },
+  {
+    "description": "PASS开肩",
+    "activity_name": "Activity_NewPass"
+  },
+  {
+    "description": "PASS双倍积分",
+    "activity_name": "Activity NewPass DoubleMedal"
+  },
+  {
+    "description": "PASS购买",
+    "activity_name": "Activity_NewPass_Buy"
+  },
+  {
+    "description": "PASS结束倒数",
+    "activity_name": "Activity_ NewPass_CountDown "
+  },
+  {
+    "description": "集卡一键回收大厅弹板",
+    "activity_name": "Activity_CardsOneKeyRecover"
+  },
+  {
+    "description": "2周年签到",
+    "activity_name": "Activity 2YearsRegister"
+  },
+  {
+    "description": "第二货币商城折扣",
+    "activity_name": "Activity_GemStoreSale"
+  },
+  {
+    "description": "6个箱子",
+    "activity_name": "Promotion_MemoryFlying"
+  },
+  {
+    "description": "搜集邮箱",
+    "activity_name": "Activity_CollectEmail"
+  },
+  {
+    "description": "Blast排行榜",
+    "activity_name": "Activity_BlastShowTop"
+  },
+  {
+    "description": "FB200K粉丝",
+    "activity_name": "Activity_FBGift200K"
+  },
+  {
+    "description": "工会宣传",
+    "activity_name": "Activity Teaminto"
+  },
+  {
+    "description": "合图游戏",
+    "activity_name": "Activity_DeluxeClub_Merge_Loading"
+  },
+  {
+    "description": "合图游戏",
+    "activity_name": "Activity_DeluxeClub_Merge_CountDown"
+  },
+  {
+    "description": "合图游戏",
+    "activity_name": "Activity_DeluxeClub_Merge_Rule"
+  },
+  {
+    "description": "合图游戏",
+    "activity_name": "Activity_DeluxeClub_Merge_WayloGet"
+  },
+  {
+    "description": "工会小猪折扣",
+    "activity_name": "Activity_PigSaleTeam"
+  },
+  {
+    "description": "聚合额外付费",
+    "activity_name": "Activity HolidayLastSale"
+  },
+  {
+    "description": "DoublePouches",
+    "activity_name": "Activity_Merge_DoublePouches"
+  },
+  {
+    "description": "关卡全开放",
+    "activity_name": "Activity_AllGamesUnlocked"
+  },
+  {
+    "description": "乐透来源",
+    "activity_name": "Activity_Lottery_Open_source"
+  },
+  {
+    "description": "乐透开启",
+    "activity_name": "Activity_Lottery_Open "
+  },
+  {
+    "description": "新商城宣传",
+    "activity_name": "Activity_Shop_Loading"
+  },
+  {
+    "description": "合成周卡",
+    "activity_name": "Activity_ MergeWeek"
+  },
+  {
+    "description": "占卜",
+    "activity_name": "Promotion_Divination"
+  },
+  {
+    "description": "扑克任务",
+    "activity_name": "Activity_PokerTask"
+  },
+  {
+    "description": "扑克排行榜",
+    "activity_name": "Activity_PokerShowTop"
+  },
+  {
+    "description": "扑克促销",
+    "activity_name": "Promotion_Poker"
+  },
+  {
+    "description": "扑克主游戏",
+    "activity_name": "Activity_Poker"
+  },
+  {
+    "description": "小猪送卡",
+    "activity_name": "Activity_PigGoldCard"
+  },
+  {
+    "description": "乐透挑战",
+    "activity_name": "Activity LotteryChallenge "
+  },
+  {
+    "description": "乐透送大奖",
+    "activity_name": "Activity_Lottery_Jackpot"
+  },
+  {
+    "description": "bingo比赛",
+    "activity_name": "Activity_BingoRush_Loading "
+  },
+  {
+    "description": "bingo比赛预热",
+    "activity_name": "Activity_BingoRush_Foreshow"
+  },
+  {
+    "description": "bingo比赛规则",
+    "activity_name": "Activity_BingoRush_Rule"
+  },
+  {
+    "description": "duckShot宣传",
+    "activity_name": "Activity_DuckShot_Loading"
+  },
+  {
+    "description": "公会排行榜",
+    "activity_name": "Activity_TeamRankInfo"
+  },
+  {
+    "description": "小猪轮盘",
+    "activity_name": "Activity_GoodWheelPiggy"
+  },
+  {
+    "description": "无限砸蛋",
+    "activity_name": "Promotion_Infinity Easter22"
+  },
+  {
+    "description": "FB提醒推送",
+    "activity_name": "Activity_PushNotifications"
+  },
+  {
+    "description": "NiceDice",
+    "activity_name": "Activity_NiceDice"
+  },
+  {
+    "description": "付费挑战",
+    "activity_name": "Activity_WildChallenge"
+  },
+  {
+    "description": "FB分享送优惠券",
+    "activity_name": "Activity_FBShare"
+  },
+  {
+    "description": "涂色游戏",
+    "activity_name": "Activity_Coloring"
+  },
+  {
+    "description": "每日任务送优惠券",
+    "activity_name": "Activity_CouponChallenge 10M"
+  },
+  {
+    "description": "扭蛋机",
+    "activity_name": "Activity_Gashapon"
+  },
+  {
+    "description": "乐透商城推荐",
+    "activity_name": "Activity_Lottery_Sale"
+  },
+  {
+    "description": "乐透趋势",
+    "activity_name": "Activity_Lottery_Statistics"
+  },
+  {
+    "description": "比赛聚合",
+    "activity_name": "Activity BattleMatch"
+  },
+  {
+    "description": "比赛聚合",
+    "activity_name": "Activity_BattleMatch_Rule"
+  },
+  {
+    "description": "头像框开启",
+    "activity_name": "Activity_AvatarFrameLoading"
+  },
+  {
+    "description": "头像框规则",
+    "activity_name": "Activity_ AvatarFrameRule"
+  },
+  {
+    "description": "头像框更换",
+    "activity_name": "Activity_AvatarFrame_changeWay"
+  },
+  {
+    "description": "全新个人信息",
+    "activity_name": "Activity_ NewProfile_loading"
+  },
+  {
+    "description": "个人信息变化",
+    "activity_name": "Activity NewProfile_change"
+  },
+  {
+    "description": "新二选一促销",
+    "activity_name": "Promotion_NewDouble"
+  },
+  {
+    "description": "广告宣传",
+    "activity_name": "Activity_AdChallenge_loading"
+  },
+  {
+    "description": "拉新宣传",
+    "activity_name": "Activity_InviteLoading"
+  },
+  {
+    "description": "游戏内调查问卷",
+    "activity_name": "Activity_SurveyinGame"
+  },
+  {
+    "description": "bingo比赛新规则",
+    "activity_name": "Activity_BingoRush_NewRule"
+  },
+  {
+    "description": "集卡赛季末收益提升",
+    "activity_name": "Activity_CardEnd Special"
+  },
+  {
+    "description": "每日任务浇花",
+    "activity_name": "Activity_ FlowerLoading"
+  },
+  {
+    "description": "集卡商店宣传",
+    "activity_name": "Activity_PoolCard Store"
+  },
+  {
+    "description": "集卡送卡宣传",
+    "activity_name": "Activity PoolCara Store"
+  },
+  {
+    "description": "泳池新规则集卡",
+    "activity_name": "Activity SwimPool Cara"
+  },
+  {
+    "description": "刮刮卡开启",
+    "activity_name": "Activity_ScratchCards loading"
+  },
+  {
+    "description": "刮刮卡倒计时",
+    "activity_name": "Activity_ ScratchCards_CountDown"
+  },
+  {
+    "description": "刮刮卡规则",
+    "activity_name": "Activity_ScratchCards Rule"
+  },
+  {
+    "description": "刮刮卡购买位置",
+    "activity_name": "Activity_ScratchCards Buy"
+  },
+  {
+    "description": "公共JACKPOT",
+    "activity_name": "Activity_CommonJackpot"
+  },
+  {
+    "description": "三周年分享挑战",
+    "activity_name": "Activity_ MemoryLane"
+  },
+  {
+    "description": "PinBalGo宣传",
+    "activity_name": "Activity_PinBallGo_loading"
+  },
+  {
+    "description": "聚合保险箱",
+    "activity_name": "Activity HolidayBox"
+  },
+  {
+    "description": "spin送道具，",
+    "activity_name": "Activity_Spin_item"
+  },
+  {
+    "description": "公会RUSH",
+    "activity_name": "Activity TeamRushinto"
+  },
+  {
+    "description": "膨胀合成宣传",
+    "activity_name": "Activity_CoinExpand Merge"
+  },
+  {
+    "description": "膨胀商城宣传",
+    "activity_name": "Activity_CoinExpand_Store"
+  },
+  {
+    "description": "膨胀CashBonus宣传",
+    "activity_name": "Activity CoinExpand CashBonus "
+  },
+  {
+    "description": "膨胀免费金币",
+    "activity_name": "Activity_CoinExpand_FreeCoin"
+  },
+  {
+    "description": "膨胀小猪宣传",
+    "activity_name": "Activity CoinExpand_Pig"
+  },
+  {
+    "description": "膨胀预热",
+    "activity_name": "Activity_CoinExpand _Loading"
+  },
+  {
+    "description": "膨胀总宣传",
+    "activity_name": "Activity_CoinExpand Start"
+  },
+  {
+    "description": "Balloon",
+    "activity_name": "Activity_BalloonRush"
+  },
+  {
+    "description": "FB真人视频",
+    "activity_name": "Activity_FBVideo"
+  },
+  {
+    "description": "品质头像框挑战",
+    "activity_name": "Activity_SpecialFrame_Challenge"
+  },
+  {
+    "description": "头像框挑战",
+    "activity_name": "Activity FrameChallenge"
+  },
+  {
+    "description": "劳动节优惠券",
+    "activity_name": "Activity_TwoCoupons_LaborDay"
+  },
+  {
+    "description": "LevelDash额外奖励",
+    "activity_name": "Activity_LevelDashPlus"
+  },
+  {
+    "description": "二选一礼包促销",
+    "activity_name": "Promotion_TornadoMagicStore"
+  },
+  {
+    "description": "三合一优惠券",
+    "activity_name": "Activity_CyberMonday"
+  },
+  {
+    "description": "每日任务额外奖励",
+    "activity_name": "Activity_ MissionRush"
+  },
+  {
+    "description": "指定档位充值送道具",
+    "activity_name": "Activity_ PurchaseGift"
+  },
+  {
+    "description": "赛季任务额外奖励",
+    "activity_name": "Activity_SeasonMission Dash."
+  },
+  {
+    "description": "新推币机",
+    "activity_name": "Activity_ NewCoinPusher"
+  },
+  {
+    "description": "新推币机挑战",
+    "activity_name": "Activity_NewCoinPusherlask"
+  },
+  {
+    "description": "新推币机排行榜",
+    "activity_name": "Activity_NewCoinPusherShowTop"
+  },
+  {
+    "description": "新推币机促销",
+    "activity_name": "Promotion_ NewCoinPusher"
+  },
+  {
+    "description": "单日特殊任务",
+    "activity_name": "Activity_Wanted"
+  },
+  {
+    "description": "公共JACKPOT",
+    "activity_name": "Activity_CommonJackpot loading"
+  },
+  {
+    "description": "鲨鱼游戏特殊轮次",
+    "activity_name": "Activity_MagicGame_ Guarantee"
+  },
+  {
+    "description": "每日任务送优惠券",
+    "activity_name": "Activity_DailySprint_Coupon"
+  },
+  {
+    "description": "1+1礼包",
+    "activity_name": "Promotion_ OnePlusOne"
+  },
+  {
+    "description": "Quest关掉Nado卡",
+    "activity_name": "Activity_QuestNado"
+  },
+  {
+    "description": "金卡日宣传",
+    "activity_name": "Activity_GoldenDayOpen"
+  },
+  {
+    "description": "金卡日渠道",
+    "activity_name": "Activity_GoldenDayRule"
+  },
+  {
+    "description": "巅峰赛",
+    "activity_name": "Activity_LeaguesSummit "
+  },
+  {
+    "description": "资格赛",
+    "activity_name": "Activity_LeaguesQualified"
+  },
+  {
+    "description": "WT",
+    "activity_name": "Activity_WorldTrip"
+  },
+  {
+    "description": "WTTASK ",
+    "activity_name": "Activity_WorldTripTask"
+  },
+  {
+    "description": "WTRANK",
+    "activity_name": "Activity_WorldTripShowTop"
+  },
+  {
+    "description": "WTBUFF",
+    "activity_name": "Promotion_WorldTrip"
+  },
+  {
+    "description": "盖戳宣传图",
+    "activity_name": "Activity_LuckyStamp"
+  },
+  {
+    "description": "金戳宣传图",
+    "activity_name": "Activity_LuckyStampRule"
+  },
+  {
+    "description": "黑曜卡册倒计时",
+    "activity_name": "Activity_CardObsidianCountDown"
+  },
+  {
+    "description": "黑曜卡册开启",
+    "activity_name": "Activity_CardObsidianOpen"
+  },
+  {
+    "description": "黑曜卡册来源",
+    "activity_name": "Activity_CardObsidianRule"
+  },
+  {
+    "description": "黑曜卡册规则宣传",
+    "activity_name": "Activity_CardObsidianRule Publicize"
+  },
+  {
+    "description": "红蓝对决规则",
+    "activity_name": "Activity_FactionFightRule"
+  },
+  {
+    "description": "红蓝对决开启",
+    "activity_name": "Activity_FactionFight"
+  },
+  {
+    "description": "疯狂购物车",
+    "activity_name": "Activity_CrazyCart"
+  },
+  {
+    "description": "黑五代币宣传",
+    "activity_name": "Activity_GrandPrizeStart"
+  },
+  {
+    "description": "黑五代市分大奖",
+    "activity_name": "Activity_GrandPrize"
+  },
+  {
+    "description": "黑五代币抽奖",
+    "activity_name": "Activity_BFDraw"
+  },
+  {
+    "description": "圣诞合历",
+    "activity_name": "Activity_ChristmasAdventCalendar"
+  },
+  {
+    "description": "VIP双倍",
+    "activity_name": "Activity_VIPDoublePoint"
+  },
+  {
+    "description": "VIP重置",
+    "activity_name": "Activity_VIPResetOpen"
+  },
+  {
+    "description": "MIP重置规则",
+    "activity_name": "Activity_ VIPResetRule "
+  },
+  {
+    "description": "Blast挑战",
+    "activity_name": "Activity_BlastTaskNew"
+  },
+  {
+    "description": "全服累充",
+    "activity_name": "Activity_Allpay"
+  },
+  {
+    "description": "公会红包",
+    "activity_name": "Activity_GiftLoading"
+  },
+  {
+    "description": "年终总结",
+    "activity_name": "Activity_YearEndSummary"
+  },
+  {
+    "description": "新年送礼",
+    "activity_name": "Activity_NewYearGift"
+  },
+  {
+    "description": "QUESFantasy",
+    "activity_name": "Activity_QuestNew"
+  },
+  {
+    "description": "0U5Fantasy Rush",
+    "activity_name": "Activity_QuestNewRush"
+  },
+  {
+    "description": "QUESTFantasyShow Top",
+    "activity_name": "Activity_QuestNewShow. op"
+  },
+  {
+    "description": "QUEST促销",
+    "activity_name": "Activity_QuestFantasySale"
+  },
+  {
+    "description": "钻石挑战关闭",
+    "activity_name": "Activity_DiamondChallengeClose"
+  },
+  {
+    "description": "推币机排行榜",
+    "activity_name": "Activity_CoinPusherShowTop"
+  },
+  {
+    "description": "FarmOpen",
+    "activity_name": "Activity_Farm_Loading"
+  },
+  {
+    "description": "FarmRulel",
+    "activity_name": "Activity_Farm_Rule_Loading1"
+  },
+  {
+    "description": "Farm Rule2",
+    "activity_name": "Activity_Farm_Rule_Loading2"
+  },
+  {
+    "description": "PipeConnect活动促销",
+    "activity_name": "Promotion_PipeConnect"
+  },
+  {
+    "description": "PipeConnect活动",
+    "activity_name": "Promotion_PipeConnect"
+  },
+  {
+    "description": "PIPECONNECT",
+    "activity_name": "Activity_PipeConnect"
+  },
+  {
+    "description": "PIPECONNECTRANK",
+    "activity_name": "Activity_PipeConnectShowTop"
+  },
+  {
+    "description": "PIPECONNECT挑战",
+    "activity_name": "Activity_PipeConnectTask"
+  },
+  {
+    "description": "超级碗个人累充",
+    "activity_name": "Activity_AddPay"
+  },
+  {
+    "description": "钻石挑战开启",
+    "activity_name": "Activity_DiamondChallengeOpen"
+  },
+  {
+    "description": "PASS开启",
+    "activity_name": "Activity_NewPass"
+  },
+  {
+    "description": "PASS购买",
+    "activity_name": "Activity_NewPass_Buy"
+  },
+  {
+    "description": "PASS结束倒数",
+    "activity_name": "Activity_NewPass _CountDown"
+  },
+  {
+    "description": "BLAST",
+    "activity_name": "Activity_Blast"
+  },
+  {
+    "description": "BLAST促销",
+    "activity_name": "Promotion_Blast"
+  },
+  {
+    "description": "新手个人累充",
+    "activity_name": "Activity_7DaysPurchase"
+  },
+  {
+    "description": "NOVICEALBUM",
+    "activity_name": "Activity_CardOpen_NewUser"
+  },
+  {
+    "description": "新手商城折扣",
+    "activity_name": "Activity_Coupon"
+  },
+  {
+    "description": "三倍盖戳",
+    "activity_name": "Activity_TripleStamp"
+  },
+  {
+    "description": "黑曜卡册Jackpot",
+    "activity_name": "Activity_CardObsidianJackpot"
+  },
+  {
+    "description": "聚合转盘",
+    "activity_name": "Activity_ Holiday Wheel"
+  },
+  {
+    "description": "自选任务",
+    "activity_name": "Activity_PickTask"
+  },
+  {
+    "description": "合成返宝石",
+    "activity_name": "Activity CrystalBack"
+  },
+  {
+    "description": "黑曜卡册付费转盘",
+    "activity_name": "Activity_ObsidianWheel"
+  },
+  {
+    "description": "VP点数池",
+    "activity_name": "Activity VipPoints_Boost"
+  },
+  {
+    "description": "VIP3倍点数",
+    "activity_name": "Activity 3xVip"
+  },
+  {
+    "description": "限时限购礼包",
+    "activity_name": "Activity_ LimitedOffer"
+  },
+  {
+    "description": "BigWin挑战",
+    "activity_name": "Activity_ BigWin_Challenge"
+  },
+  {
+    "description": "聚合排行榜",
+    "activity_name": "Activity_ HolidayRank"
+  },
+  {
+    "description": "聚合付费反点数",
+    "activity_name": "Activity_HolidaySpecial"
+  },
+  {
+    "description": "连线促销",
+    "activity_name": "Activity. LineSale"
+  },
+  {
+    "description": "保底wild转盘",
+    "activity_name": "Activity WildDraw"
+  },
+  {
+    "description": "集卡小聚合",
+    "activity_name": "Activity_ChaseForChips"
+  },
+  {
+    "description": "ALBUMRACE发放新赛季卡册奖励",
+    "activity_name": "Activity_AlbumRaceNewChips"
+  },
+  {
+    "description": "个人累充Plus",
+    "activity_name": "Activity_TopUpBonus"
+  },
+  {
+    "description": "个人累充PIus最后一天",
+    "activity_name": "Activity_TopUpBonusLast"
+  },
+  {
+    "description": "BigBang免费金币",
+    "activity_name": "Activity_BigBang_FreeCoin"
+  },
+  {
+    "description": "BigBang集卡",
+    "activity_name": "Activity_BigBang_Album"
+  },
+  {
+    "description": "BigBang预热",
+    "activity_name": "Activity_BigBang_WarmUp"
+  },
+  {
+    "description": "BigBang商城",
+    "activity_name": "Activity_BigBang_CoinStore"
+  },
+  {
+    "description": "BigBang合成",
+    "activity_name": "Activity_BigBang Merge"
+  },
+  {
+    "description": "BigBang总开启",
+    "activity_name": "Activity_BigBang_ Start"
+  },
+  {
+    "description": "第二货币抽奖",
+    "activity_name": "Activity_GemMayWin"
+  },
+  {
+    "description": "Legendary_Win宣传图",
+    "activity_name": "Activity_ legendary-win"
+  },
+  {
+    "description": "商城改版宣传",
+    "activity_name": "Activity_ShopUp"
+  },
+  {
+    "description": "KeepRecharge",
+    "activity_name": "Activity_KeepRecharge"
+  },
+  {
+    "description": "付费目标",
+    "activity_name": "Activity_GetMorePayLess"
+  },
+  {
+    "description": "常规促销",
+    "activity_name": "BasicSaleLayer"
+  },
+  {
+    "description": "Balloon",
+    "activity_name": "Activity_BalloonRush"
+  },
+  {
+    "description": "新手期商城优惠券",
+    "activity_name": "Activity_CyberMonday"
+  },
+  {
+    "description": "新手期限时促销",
+    "activity_name": "Activity_LimitedOffer"
+  },
+  {
+    "description": "新手期6个箱子",
+    "activity_name": "Promotion_MemoryFlying"
+  },
+  {
+    "description": "新手期多档促销",
+    "activity_name": "Promotion_ MultiSpan"
+  },
+  {
+    "description": "行尸走肉预约",
+    "activity_name": "Activity_ Zombie_WarmUp"
+  },
+  {
+    "description": "合成促销转盘",
+    "activity_name": "Activity_MagicGarden"
+  },
+  {
+    "description": "MINZ宣传图-",
+    "activity_name": "Activity_Minz Loading"
+  },
+  {
+    "description": "MINZ玩法宣传图",
+    "activity_name": "Activity_Minz_Rule"
+  },
+  {
+    "description": "自选礼包促销",
+    "activity_name": "Promotion DIYComboDeal"
+  },
+  {
+    "description": "ZOMBIE",
+    "activity_name": "Activity Zombie"
+  },
+  {
+    "description": "ZOMBIE现则",
+    "activity_name": "Activity_ Zombie_rule"
+  },
+  {
+    "description": "充值抽奖池",
+    "activity_name": "Activity_PrizeGame"
+  },
+  {
+    "description": "第二货币消耗挑战",
+    "activity_name": "Activity_GemChallenge"
+  },
+  {
+    "description": "推币机挑战",
+    "activity_name": "Activity_CoinPusherMissionNew"
+  },
+  {
+    "description": "工会限时比赛",
+    "activity_name": "Activity_TeamDueL loading"
+  },
+  {
+    "description": "钻石挑战活跃活动",
+    "activity_name": "Activity_DiamondMania"
+  },
+  {
+    "description": "Word挑战",
+    "activity_name": "Activity_WordTaskNew"
+  },
+  {
+    "description": "BlastNoviceTask",
+    "activity_name": "Activity_BlastNoviceTask"
+  },
+  {
+    "description": "FreeGamesFever",
+    "activity_name": "Activity_RepeatFreeSpin"
+  },
+  {
+    "description": "RepeatJackpot",
+    "activity_name": "Activity_RepartJackpot"
+  },
+  {
+    "description": "EchoWinsi",
+    "activity_name": "Activity_EchoWin"
+  },
+  {
+    "description": "CashBack",
+    "activity_name": "Activity_CashBackNovice"
+  },
+  {
+    "description": "LuckyWinner",
+    "activity_name": "Promotion_RepartWin"
+  },
+  {
+    "description": "钻石挑战关闭",
+    "activity_name": "Activity_DiamondChallenge_CountDown"
+  },
+  {
+    "description": "TeamUnesti",
+    "activity_name": "Activity_TeamChest_Loading1"
+  },
+  {
+    "description": "组队BOSS开启",
+    "activity_name": "Activity_DragonChallenge"
+  },
+  {
+    "description": "MINZ结束宣传图",
+    "activity_name": "Activity_Minz Extra"
+  },
+  {
+    "description": "OuestMinz宣传",
+    "activity_name": "Activity_QuestMinz Intro"
+  },
+  {
+    "description": "付费排行榜",
+    "activity_name": "Activity_PayRank"
+  },
+  {
+    "description": "火烈鸟JACKPOT",
+    "activity_name": "Activity_Flamingolackpot"
+  },
+  {
+    "description": "WildChallenge",
+    "activity_name": "Activity_WildChallenge"
+  },
+  {
+    "description": "商城停留送优惠券",
+    "activity_name": "Activity_StayCoupon"
+  },
+  {
+    "description": "多指针转盘",
+    "activity_name": "Activity DIYWheel"
+  },
+  {
+    "description": "表情包宣传",
+    "activity_name": "Activity_NewStickers_loading"
+  },
+  {
+    "description": "Novice Trail",
+    "activity_name": "Activity_ Novice Trail"
+  },
+  {
+    "description": "组队BOSS预告",
+    "activity_name": "Activity_DragonChallenge_warning"
+  },
+  {
+    "description": "赛季没返还新赛季卡",
+    "activity_name": "Activity_GrandFinale"
+  },
+  {
+    "description": "PIGCHIP",
+    "activity_name": "Activity_ChipPiggy_loading"
+  },
+  {
+    "description": "PIGCHIP",
+    "activity_name": "Activity_ChipPiggyRule"
+  },
+  {
+    "description": "PIGCHIP",
+    "activity_name": "Activity_ChipPiggy_CountDown"
+  },
+  {
+    "description": "4档连续充值",
+    "activity_name": "Activity_KeepRecharge4"
+  },
+  {
+    "description": "神话卡开启",
+    "activity_name": "Activity_CardMythic Loading"
+  },
+  {
+    "description": "神话卡宣传",
+    "activity_name": "Activity_CardMythic_SourceLoading"
+  },
+  {
+    "description": "4周年抽奖分大奖",
+    "activity_name": "Activity_4BdayDraw"
+  },
+  {
+    "description": "限时膨胀",
+    "activity_name": "Activity_TimeLimitExpansion"
+  },
+  {
+    "description": "限时膨胀宣传",
+    "activity_name": "Activity_TimeLimitExpansion_loading"
+  },
+  {
+    "description": "PIGGEMS *",
+    "activity_name": "Activity_GemPiggy_loading"
+  },
+  {
+    "description": "PIGGEMS",
+    "activity_name": "Activity_GemPiggyRule"
+  },
+  {
+    "description": "PIGGEMS",
+    "activity_name": "Activity_GemPiggy_CountDown"
+  },
+  {
+    "description": "blast炸弹",
+    "activity_name": "Activity_BlastBlossomBomb loading"
+  },
+  {
+    "description": "三联优惠券",
+    "activity_name": "Activity _CouponRewards"
+  },
+  {
+    "description": "LevelUoPasser",
+    "activity_name": "Activity_LevelUpPass"
+  },
+  {
+    "description": "MythicGameSale",
+    "activity_name": "Activity _CardGame_Sale"
+  },
+  {
+    "description": "双倍公会积分",
+    "activity_name": "Activity_ClanDoublePoints"
+  },
+  {
+    "description": "大R礼包",
+    "activity_name": "Activity Super Value"
+  },
+  {
+    "description": "luckyspin宣传图",
+    "activity_name": "Activity_LuckySpin_Loading"
+  },
+  {
+    "description": "新版小猪挑战",
+    "activity_name": "Activity_PiggyGoodies"
+  },
+  {
+    "description": "合成商店折扣",
+    "activity_name": "Activity_DeluxeClub_ Merge_StoreCoupon"
+  },
+  {
+    "description": "Diy高等级buff促销",
+    "activity_name": "Activity DiySale"
+  },
+  {
+    "description": "DIYfeature新手任务",
+    "activity_name": "Activity_ DIYFeatureMission"
+  },
+  {
+    "description": "DIYFEATURE开启宣传",
+    "activity_name": "Activity_ DiyFeature_ Loading"
+  },
+  {
+    "description": "DIMGEATURE玩法宣传",
+    "activity_name": "Activity_ DiyFeature_Rule"
+  },
+  {
+    "description": "挖宝石聚合",
+    "activity_name": "Activity_ JewelMania"
+  },
+  {
+    "description": "集装箱大言",
+    "activity_name": "Activity BlindBox"
+  },
+  {
+    "description": "Balloon",
+    "activity_name": "Activity MergePassLayer"
+  },
+  {
+    "description": "集卡赛季倒计时",
+    "activity_name": "Activity_CardEnd_Countdown"
+  },
+  {
+    "description": "MONSTER预热",
+    "activity_name": "Activity_Monster_WarmUp"
+  },
+  {
+    "description": "MONSTER合成",
+    "activity_name": "Activity Monster Merge"
+  },
+  {
+    "description": "MONSTERE F",
+    "activity_name": "Activity_ Monster_Album"
+  },
+  {
+    "description": "Monster开启",
+    "activity_name": "Activity_Monster_Start"
+  },
+  {
+    "description": "Monster金币商城",
+    "activity_name": "Activity_Monster_CoinStore"
+  },
+  {
+    "description": "Monster」猪",
+    "activity_name": "Activity Monster Piggy"
+  },
+  {
+    "description": "Monster免费金币",
+    "activity_name": "Activity_Monster_FreeCoin"
+  },
+  {
+    "description": "FrostFlame",
+    "activity_name": "Activity_FrostFlameClash_loading"
+  },
+  {
+    "description": "superspin送道具",
+    "activity_name": "Activity_LuckySpinSpecial"
+  },
+  {
+    "description": "FunctionSale Pass",
+    "activity_name": "Activity_FunctionSale_Pass"
+  },
+  {
+    "description": "第二货币两张优惠券",
+    "activity_name": "Activity_TwoGemCoupons"
+  },
+  {
+    "description": "OutsideCave",
+    "activity_name": "Activity_OutsideCave"
+  },
+  {
+    "description": "CaveRank",
+    "activity_name": "Activity_OutsideCaveShowTop"
+  },
+  {
+    "description": "Cavepromotion",
+    "activity_name": "Promotion _OutsideCave"
+  },
+  {
+    "description": "CaveMission",
+    "activity_name": "Activity_OutsideCaveMissionNew"
+  },
+  {
+    "description": "CaveTask",
+    "activity_name": "Activity_OutsideCavelask"
+  },
+  {
+    "description": "金币抽奖转盘",
+    "activity_name": "Activity_CrazyWheel"
+  },
+  {
+    "description": "第二货币商城折扣送道具",
+    "activity_name": "Activity_GemCoupon_GemMiner"
+  },
+  {
+    "description": "指定档位送指定优惠券",
+    "activity_name": "Activity_Coupon"
+  },
+  {
+    "description": "钻石挑战预热",
+    "activity_name": "Activity_NewDC_WarmUp"
+  },
+  {
+    "description": "新版黑五分大奖",
+    "activity_name": "Activity_BFCarnival"
+  },
+  {
+    "description": "高级版luckyspin送缺卡",
+    "activity_name": "Activity_FireLuckySpinRandomCard"
+  },
+  {
+    "description": "邮件抽奖",
+    "activity_name": "Activity MailLottery"
+  },
+  {
+    "description": "新圣诞聚合聚合页",
+    "activity_name": "Activity_HolidayNewChallenge "
+  },
+  {
+    "description": "新圣诞聚合签到",
+    "activity_name": "Activity XmasAdventCalendar"
+  },
+  {
+    "description": "新圣诞聚合商店",
+    "activity_name": "Activity_ HolidayStore"
+  },
+  {
+    "description": "MESSAGE PUSH",
+    "activity_name": "Activity_Notification"
+  },
+  {
+    "description": "推币机开启宣传",
+    "activity_name": "Activity EgyptCoinPusher庐"
+  },
+  {
+    "description": "推币机排行榜宣传",
+    "activity_name": "Activity_ EgyptCoinPusherShowTop"
+  },
+  {
+    "description": "推币机挑战",
+    "activity_name": "Activity_EgyptCoinPusherTask"
+  },
+  {
+    "description": "coinpushersale",
+    "activity_name": "Promotion_ EgyptCoinPusher"
+  },
+  {
+    "description": "完成任务DIY",
+    "activity_name": "Activity_MissionsToDIY"
+  },
+  {
+    "description": "钻石挑战rush开启",
+    "activity_name": "Activity_NewDiamondChallenge Rush  "
+  },
+  {
+    "description": "新版钻石挑战结束倒计时",
+    "activity_name": "Activity_NewDiamondChallenge_End"
+  },
+  {
+    "description": "新版钻石挑战规则",
+    "activity_name": "Activity_NewDiamondChallenge_Rule"
+  },
+  {
+    "description": "新版钻石挑战活动开启",
+    "activity_name": "Activity_NewDiamondChallenge_Loading"
+  },
+  {
+    "description": "新圣诞聚合pass",
+    "activity_name": "Activity_HolidayPass"
+  },
+  {
+    "description": "新圣诞聚合排行榜",
+    "activity_name": "Activity_HolidayNewRank"
+  },
+  {
+    "description": "新圣诞聚合商店上新",
+    "activity_name": "Activity HolidayStore Newltem"
+  },
+  {
+    "description": "新圣诞聚合商店最后一天宣传",
+    "activity_name": "Activity HolidayStore FinalDay"
+  },
+  {
+    "description": "代币预热",
+    "activity_name": "Activity BucksPre"
+  },
+  {
+    "description": "每日任务",
+    "activity_name": "Activity_DailyMission_ Christmas2023"
+  },
+  {
+    "description": "圣诞付费分奖",
+    "activity_name": "Activity_XmasCraze2023"
+  },
+  {
+    "description": "代市宣传",
+    "activity_name": "Activity_ Bucks Loading "
+  },
+  {
+    "description": "2023圣诞累充分奖",
+    "activity_name": "Activity_XmasSplit2023"
+  },
+  {
+    "description": "付费返代币",
+    "activity_name": "Activity_BucksBack"
+  },
+  {
+    "description": "收集手机号",
+    "activity_name": "Activity_CollectPhone"
+  },
+  {
+    "description": "DIY常驻促销",
+    "activity_name": "Promotion_DiyFeatureNormal"
+  },
+  {
+    "description": "luckyspin收益提升活动",
+    "activity_name": "Activity_LuckySpinUpgrade"
+  },
+  {
+    "description": "代币上新",
+    "activity_name": "Activity Bucks_New "
+  },
+  {
+    "description": "宠物预热宣传",
+    "activity_name": "Activity_PetLoading"
+  },
+  {
+    "description": "宠物开启宣传",
+    "activity_name": "Activity_ PetStart "
+  },
+  {
+    "description": "宠物规则宣传",
+    "activity_name": "Activity_PetRule"
+  },
+  {
+    "description": "宠物任务",
+    "activity_name": "Activity_PetMission"
+  },
+  {
+    "description": "大赢派对",
+    "activity_name": "Activity_MegaWin"
+  },
+  {
+    "description": "大赢派对-宠物",
+    "activity_name": "Activity_MegaWinParty_Loading"
+  },
+  {
+    "description": "PetLimit",
+    "activity_name": "Activity_Pet_Limit"
+  },
+  {
+    "description": "minz任务",
+    "activity_name": "Activity_MinzChallenge"
+  },
+  {
+    "description": "diy排行榜",
+    "activity_name": "Activity_DiyRank"
+  },
+  {
+    "description": "FAQ引导",
+    "activity_name": "Activity_FAQ_Guide"
+  },
+  {
+    "description": "圣帕7日寻物",
+    "activity_name": "Activity_Holiday7DayHunt"
+  },
+  {
+    "description": "收集彩蛋",
+    "activity_name": "Activity_EggHunt"
+  },
+  {
+    "description": "YOUTBE",
+    "activity_name": "Activity_YouTube loading"
+  },
+  {
+    "description": "工会赛季",
+    "activity_name": "Activity_TeamSeason"
+  },
+  {
+    "description": "7日锦标赛",
+    "activity_name": "Activity_7DaysRank"
+  },
+  {
+    "description": "工会赛季规则",
+    "activity_name": "Activity_TeamSeasonInfo"
+  },
+  {
+    "description": "工会赛季规则2",
+    "activity_name": "Activity_TeamSeasonInfo2"
+  },
+  {
+    "description": "代币消耗挑战",
+    "activity_name": "Activity_BucksCarnival"
+  },
+  {
+    "description": "网页商店累充",
+    "activity_name": "Activity_WebPurchaseEvent"
+  },
+  {
+    "description": "三线收集开启宣传",
+    "activity_name": "Activity_PiggyVault"
+  },
+  {
+    "description": "三线收集排行榜宣传",
+    "activity_name": "Activity_PiggyVaultShowTop"
+  },
+  {
+    "description": "三线收集任务",
+    "activity_name": "Activity_PiggyVaultTask"
+  },
+  {
+    "description": "三线收集促销",
+    "activity_name": "Promotion_PiggyVault"
+  },
+  {
+    "description": "登陆送免费道具",
+    "activity_name": "Activity_LoginToFree"
+  },
+  {
+    "description": "膨胀宣传",
+    "activity_name": "Activity_ Inflation_FreeCoins"
+  },
+  {
+    "description": "膨胀预热",
+    "activity_name": "Activity_Inflation_WarmUp"
+  },
+  {
+    "description": "膨胀宣传",
+    "activity_name": "Activity _Inflation _CoinStore"
+  },
+  {
+    "description": "罗马膨胀宣传",
+    "activity_name": "Activity_Inflation"
+  },
+  {
+    "description": "罗马膨胀宣传",
+    "activity_name": "Activity_Inflation_Album"
+  },
+  {
+    "description": "罗马膨胀宣传",
+    "activity_name": "Activity_Inflation_Merge"
+  },
+  {
+    "description": "BINGOLINK促销",
+    "activity_name": "Promotion _BingoLink"
+  },
+  {
+    "description": "BINGOLINK本体",
+    "activity_name": "Activity_BingoLink"
+  },
+  {
+    "description": "BINGOLINK结束促销",
+    "activity_name": "Promotion_BingoLinkOver"
+  },
+  {
+    "description": "海的女儿关卡挑战",
+    "activity_name": "Activity_Mermaid"
+  },
+  {
+    "description": "Quest奖励加成",
+    "activity_name": "Activity_ QuestBoost"
+  },
+  {
+    "description": "获取代币挑战",
+    "activity_name": "Activity_GetBucksChallenge"
+  },
+  {
+    "description": "埃及推币机奖励增加",
+    "activity_name": "Activity_EventBoost"
+  },
+  {
+    "description": "接水管奖励增加",
+    "activity_name": "Activity_EventBoost_PipeConnect"
+  },
+  {
+    "description": "商城付费大活动道具增加",
+    "activity_name": "Activity_ItemMania"
+  },
+  {
+    "description": "钻石luckeyspin宣传图",
+    "activity_name": "Activity_GemLuckySpin_Loading"
+  },
+  {
+    "description": "会员中心宣传",
+    "activity_name": "Activity_VipCenterOn"
+  },
+  {
+    "description": "代币买商城多折扣",
+    "activity_name": "Activity_BucksMoreCoinSale"
+  },
+  {
+    "description": "Blast奖励增加",
+    "activity_name": "Activity_EventBoost_BlastBlossoom"
+  },
+  {
+    "description": "BLASTBOOM",
+    "activity_name": "Activity_Blast_boom"
+  },
+  {
+    "description": "代币首充礼包",
+    "activity_name": "BucksFirstPay"
+  },
+  {
+    "description": "大富翁奖励增加",
+    "activity_name": "Activity_EventBoost_OutsideCave"
+  },
+  {
+    "description": "代币支付获得额外礼物",
+    "activity_name": "Activity_BucksPayExtraGifts"
+  },
+  {
+    "description": "代币小猪Loading",
+    "activity_name": "Activity_PiggyBank_Buck Loading"
+  },
+  {
+    "description": "PetCloth1",
+    "activity_name": "Activity_PetCloth_loading1"
+  },
+  {
+    "description": "PetCloth2",
+    "activity_name": "Activity_PetCloth_loading2"
+  },
+  {
+    "description": "宠物皮肤挑战",
+    "activity_name": "Activity_ClothChallenge"
+  },
+  {
+    "description": "outsideBOOM",
+    "activity_name": "Activity_OutsideCave_boom"
+  },
+  {
+    "description": "SEASTORY任务",
+    "activity_name": "Activity_SeaStoryMission"
+  },
+  {
+    "description": "SEASTORY宣传图",
+    "activity_name": "Activity_SeaStory_Loading"
+  },
+  {
+    "description": "童话quest进度加成",
+    "activity_name": "Activity QuestProgressBoost"
+  },
+  {
+    "description": "三线奖励增加",
+    "activity_name": "Activity EventBoost_PiggyVault"
+  },
+  {
+    "description": "节日预热",
+    "activity_name": "Activity_ HC_WarmUp"
+  },
+  {
+    "description": "slingo挑战",
+    "activity_name": "Activity_FullHouseChallenge"
+  },
+  {
+    "description": "大赢宝箱大活动版本宣传",
+    "activity_name": "Activity_MegaWin_BigActivity Loading"
+  },
+  {
+    "description": "无限促销",
+    "activity_name": "Activity_EndlessPromotion"
+  },
+  {
+    "description": "大活动限时强化",
+    "activity_name": "Activity_LightingBoost"
+  },
+  {
+    "description": "接水管BOOM",
+    "activity_name": "Activity_EgyptCoinPusher_boom"
+  },
+  {
+    "description": "新关弹板提前体验",
+    "activity_name": "Activity OpenNewLevel Ea"
+  },
+  {
+    "description": "接水管B00M",
+    "activity_name": "Activity_PiggyVault_boom"
+  },
+  {
+    "description": "SpiritStrike",
+    "activity_name": "Activity_ SpiritStrike_Loading"
+  },
+  {
+    "description": "PETPREHEAT",
+    "activity_name": "Activity_ Petseason2 preheat"
+  },
+  {
+    "description": "会员中心宣传",
+    "activity_name": "Activity_ VipCenterEvent"
+  },
+  {
+    "description": "典藏卡开启",
+    "activity_name": "Activity CardOpenSelection"
+  },
+  {
+    "description": "典藏卡规则",
+    "activity_name": "Activity CardSelection Rule"
+  },
+  {
+    "description": "NEWSIDEKICKSI ",
+    "activity_name": "Activity_ Petseason2 loading1"
+  },
+  {
+    "description": "NEWSIDEKICKS2",
+    "activity_name": "Activity_Petseason2 loading2"
+  },
+  {
+    "description": "周年抽奖",
+    "activity_name": "Activity 5thRoll"
+  },
+  {
+    "description": "周年抽奖最后一天",
+    "activity_name": "Activity_5thRollLastDay"
+  },
+  {
+    "description": "BINGOLINKETH",
+    "activity_name": "Promotion_BingoLinkV2"
+  },
+  {
+    "description": "BINGOLINK本体",
+    "activity_name": "Activity_BingoLinkV2"
+  },
+  {
+    "description": "BINGOLINK结束促销",
+    "activity_name": "Promotion_BingoLinkV2Over"
+  },
+  {
+    "description": "Bingo Link Mission",
+    "activity_name": "Activity_BingoLinkV2_Mission"
+  },
+  {
+    "description": "调酒",
+    "activity_name": "Activity_ BartenderAction"
+  },
+  {
+    "description": "周年攒道具分奖",
+    "activity_name": "Activity_5thPrizePool"
+  },
+  {
+    "description": "周年攒道具分奖最后一天",
+    "activity_name": "Activity_5thPrizePool_LastDay"
+  },
+  {
+    "description": "五周年整合界面",
+    "activity_name": "Activity_5thTotal"
+  },
+  {
+    "description": "大活动限时强化V2",
+    "activity_name": "Activity LightingBoostV2"
+  },
+  {
+    "description": "5周年视频",
+    "activity_name": "Activity_SyearsVideo"
+  },
+  {
+    "description": "周年庆做蛋糕活动",
+    "activity_name": "Activity_CakeCraft"
+  },
+  {
+    "description": "Jackpotsurge",
+    "activity_name": "Activity JackpotSurge"
+  },
+  {
+    "description": "CashBlast",
+    "activity_name": "Activity_CashBlast"
+  },
+  {
+    "description": "Quest五选三",
+    "activity_name": "Activity_Quest_5Win3"
+  },
+  {
+    "description": "Quest转盘",
+    "activity_name": "Activity_Quest_EpicWheel"
+  },
+  {
+    "description": "合成商店上新",
+    "activity_name": "Activity_DeluxeClub_Merge_StoreCoupon_Buck"
+  },
+  {
+    "description": "典藏卡星数收集挑战",
+    "activity_name": "Activity_SelectChipsStars"
+  },
+  {
+    "description": "挖宝BLAST，",
+    "activity_name": "Activity_Blast"
+  },
+  {
+    "description": "新quest预热",
+    "activity_name": "Activity_QuestHuntPre"
+  },
+  {
+    "description": "QUEST促销",
+    "activity_name": "Activity RogueQuest Rewardboost"
+  },
+  {
+    "description": "quest排行榜",
+    "activity_name": "Activity_QuestRank_Common"
+  },
+  {
+    "description": "Roguequest",
+    "activity_name": "Activity RogueQuest"
+  },
+  {
+    "description": "新quest倍数排行榜",
+    "activity_name": "Activity_QuestBonusRank"
+  },
+  {
+    "description": "新quest倍数排行榜开启",
+    "activity_name": "Activity_QuestBonusRankOpen"
+  },
+  {
+    "description": "新quest倍数排行榜最后一天",
+    "activity_name": "Activity_QuestBonusRankLastDay"
+  },
+  {
+    "description": "新Quest任务中心",
+    "activity_name": "Activity_QuestHuntMission"
+  },
+  {
+    "description": "商城投放blast炸弹",
+    "activity_name": "Activity_ BlastBomb"
+  },
+  {
+    "description": "典藏卡小聚合",
+    "activity_name": "Activity SelectChipsMissions"
+  },
+  {
+    "description": "典藏卡付费抽卡",
+    "activity_name": "Activity_SelectChipsDraw"
+  },
+  {
+    "description": "巫师BET+预热",
+    "activity_name": "Activity_Preheat"
+  },
+  {
+    "description": "万圣节调魔药",
+    "activity_name": "Activity_ChurningCharms"
+  },
+  {
+    "description": "海的女儿关卡挑战",
+    "activity_name": "Activity NewSlot"
+  },
+  {
+    "description": "万圣节整合界面",
+    "activity_name": "Activity_HelloweenTotal"
+  },
+  {
+    "description": "巫师之战开启宣传",
+    "activity_name": "Activity_WizardingWar_Loading"
+  },
+  {
+    "description": "巫师之战玩法宣传",
+    "activity_name": "Activity_Wizarding War_Rule"
+  },
+  {
+    "description": "2024膨胀放水活动",
+    "activity_name": "Activity_ MultipleFireballs"
+  },
+  {
+    "description": "PRESS YOUR LUCK",
+    "activity_name": "Activity_ Pressy ourLuck"
+  },
+  {
+    "description": "MVP报名",
+    "activity_name": "Activity_MvpSignUp"
+  },
+  {
+    "description": "大活动道具膨胀",
+    "activity_name": "Activity BucKsBoost"
+  },
+  {
+    "description": "LegendCloth",
+    "activity_name": "Activity_PetLegendClothLoading"
+  },
+  {
+    "description": "圣诞节签到",
+    "activity_name": "Activity_Xmas24Countdown"
+  },
+  {
+    "description": "圣诞送礼",
+    "activity_name": "Activity_Merry Gift"
+  },
+  {
+    "description": "鏊合界面",
+    "activity_name": "Activity_Total"
+  },
+  {
+    "description": "炸船活动宣传",
+    "activity_name": "Activity_BattleShoot_loading"
+  },
+  {
+    "description": "炸船活动本体",
+    "activity_name": "Activity_BattleShoot"
+  },
+  {
+    "description": "炸船活动排行榜",
+    "activity_name": "Activity_BattleShootShowTop"
+  },
+  {
+    "description": "炸船活动挑战",
+    "activity_name": "Activity_BattleShootTask"
+  },
+  {
+    "description": "炸船促销",
+    "activity_name": "Promotion BattleShoot"
+  },
+  {
+    "description": "freegamesfiesta",
+    "activity_name": "Activity FreegamesFiesta"
+  },
+  {
+    "description": "每日任务",
+    "activity_name": "Activity_DallyMission_Christmas2024"
+  },
+  {
+    "description": "圣诞交换礼物",
+    "activity_name": "Activity_GiftExchange"
+  },
+  {
+    "description": "最后一天圣诞交换礼物",
+    "activity_name": "Activity_GiftExchange_LastDay"
+  },
+  {
+    "description": "开启圣诞交换礼物",
+    "activity_name": "Activity_GiftExchange_Loading"
+  },
+  {
+    "description": "EventTeam",
+    "activity_name": "Activity_EventTeam"
+  },
+  {
+    "description": "EventTeamRank",
+    "activity_name": "Activity_EventTeam_Rankloading"
+  },
+  {
+    "description": "代币月卡宣传",
+    "activity_name": "Activity_MonthlyCard_Bucks"
+  },
+  {
+    "description": "疯狂模式宣传",
+    "activity_name": "Activity_CrazySurge_loading"
+  },
+  {
+    "description": "好友亲密关系",
+    "activity_name": "Activity_Friend_Loading"
+  },
+  {
+    "description": "FEATURE促销",
+    "activity_name": "Activity_FeatureSale"
+  },
+  {
+    "description": "商城促销",
+    "activity_name": "Activity_Coupon"
+  },
+  {
+    "description": "百人挑战",
+    "activity_name": "Activity LavaTrial"
+  },
+  {
+    "description": "挖矿预热bet+",
+    "activity_name": "Activity PreheatDash "
+  },
+  {
+    "description": "MINEFORTUNE宣传",
+    "activity_name": "Activity_MineFortune"
+  },
+  {
+    "description": "MineFortune促销",
+    "activity_name": "Promotion MineFortunel"
+  },
+  {
+    "description": "失落遗迹",
+    "activity_name": "Activity_LostRuins"
+  },
+  {
+    "description": "大活动道具活跃任务",
+    "activity_name": "Activity_SelectChipsMissions"
+  },
+  {
+    "description": "quest2",
+    "activity_name": "Activity_RogueQuestV2"
+  },
+  {
+    "description": "quest倍数排行榜广告位",
+    "activity_name": "Activity_HallBonusRank"
+  },
+  {
+    "description": "每周福利",
+    "activity_name": "Activity_WeeklyRewards"
+  },
+  {
+    "description": "钓鱼活动",
+    "activity_name": "Activity_FishyFortune"
+  },
+  {
+    "description": "星星促销",
+    "activity_name": "Activity_ RogueQuestV2 Starpromotion"
+  },
+  {
+    "description": "帆船比赛",
+    "activity_name": "Activity_LuckyRace"
+  },
+  {
+    "description": "Translation",
+    "activity_name": "Activity_Translation_Loading"
+  },
+  {
+    "description": "superspin挑战",
+    "activity_name": "Activity_LuckySpinDash"
+  },
+  {
+    "description": "三方出售大活动道具",
+    "activity_name": "Activity_WebSale SideGameltem"
+  },
+  {
+    "description": "代币破冰专属礼包",
+    "activity_name": "Activity_BucksPack"
+  },
+  {
+    "description": "星球大战",
+    "activity_name": "Activity_Starlnvaders"
+  },
+  {
+    "description": "bet+挑战",
+    "activity_name": "Activity_MasterChallenge"
+  }
+]

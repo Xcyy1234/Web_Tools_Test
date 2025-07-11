@@ -1,1 +1,132 @@
-const _0x40d33a=_0x34a5;(function(_0x581133,_0x4e555e){const _0xb0f9c2=_0x34a5,_0x2fbdaa=_0x581133();while(!![]){try{const _0x237402=-parseInt(_0xb0f9c2(0x200))/0x1*(parseInt(_0xb0f9c2(0x1ec))/0x2)+-parseInt(_0xb0f9c2(0x214))/0x3*(parseInt(_0xb0f9c2(0x203))/0x4)+parseInt(_0xb0f9c2(0x1ed))/0x5+parseInt(_0xb0f9c2(0x204))/0x6*(-parseInt(_0xb0f9c2(0x21c))/0x7)+-parseInt(_0xb0f9c2(0x21d))/0x8*(parseInt(_0xb0f9c2(0x20e))/0x9)+-parseInt(_0xb0f9c2(0x1fe))/0xa+parseInt(_0xb0f9c2(0x1fc))/0xb;if(_0x237402===_0x4e555e)break;else _0x2fbdaa['push'](_0x2fbdaa['shift']());}catch(_0x573d49){_0x2fbdaa['push'](_0x2fbdaa['shift']());}}}(_0x59be,0x3f465));const CACHE_NAME='network-simulator-v1',urlsToCache=['/',_0x40d33a(0x216),'/styles.css'];function _0x34a5(_0xbc2476,_0x246b5e){const _0x59be02=_0x59be();return _0x34a5=function(_0x34a5be,_0x850b09){_0x34a5be=_0x34a5be-0x1eb;let _0x3b4a2b=_0x59be02[_0x34a5be];return _0x3b4a2b;},_0x34a5(_0xbc2476,_0x246b5e);}let networkConfig={'baseLatency':0x0,'uploadLatency':0x0,'downloadLatency':0x0,'packetLoss':0x0,'randomLoss':0x0,'enabled':![]};self[_0x40d33a(0x1f3)](_0x40d33a(0x1ff),_0x3fa05a=>{const _0x47448a=_0x40d33a;_0x3fa05a[_0x47448a(0x1fb)](caches[_0x47448a(0x1f6)](CACHE_NAME)[_0x47448a(0x20d)](_0x44a3e8=>{const _0x5067c4=_0x47448a;return console[_0x5067c4(0x1f1)](_0x5067c4(0x217)),_0x44a3e8[_0x5067c4(0x1f8)](urlsToCache);}));}),self[_0x40d33a(0x1f3)]('activate',_0x5d672d=>{const _0x1a829e=_0x40d33a;_0x5d672d[_0x1a829e(0x1fb)](caches[_0x1a829e(0x20c)]()['then'](_0x4ac135=>{const _0x480342=_0x1a829e;return Promise[_0x480342(0x20a)](_0x4ac135[_0x480342(0x21a)](_0x1093bf=>{const _0x3bc0b1=_0x480342;if(_0x1093bf!==CACHE_NAME)return console[_0x3bc0b1(0x1f1)](_0x3bc0b1(0x1f4),_0x1093bf),caches[_0x3bc0b1(0x208)](_0x1093bf);}));})[_0x1a829e(0x20d)](()=>self[_0x1a829e(0x1ef)][_0x1a829e(0x201)]()));}),self[_0x40d33a(0x1f3)](_0x40d33a(0x1f0),_0x485592=>{const _0x3464df=_0x40d33a;if(_0x485592[_0x3464df(0x207)][_0x3464df(0x1f9)]===_0x3464df(0x1fa))networkConfig={..._0x485592[_0x3464df(0x207)]['config'],'enabled':!![]},console['log'](_0x3464df(0x1eb),networkConfig);else _0x485592[_0x3464df(0x207)]['type']===_0x3464df(0x206)&&(networkConfig={'baseLatency':0x0,'uploadLatency':0x0,'downloadLatency':0x0,'packetLoss':0x0,'randomLoss':0x0,'enabled':![]},console[_0x3464df(0x1f1)](_0x3464df(0x202)));}),self[_0x40d33a(0x1f3)](_0x40d33a(0x21b),_0x5dce0a=>{const _0x5c2d2c=_0x40d33a;if(_0x5dce0a[_0x5c2d2c(0x218)]['url'][_0x5c2d2c(0x209)](_0x5c2d2c(0x212)))return;if(!networkConfig['enabled']){_0x5dce0a[_0x5c2d2c(0x1f7)](fetch(_0x5dce0a['request']));return;}const _0x5ad650=networkConfig[_0x5c2d2c(0x1f5)]+networkConfig[_0x5c2d2c(0x20f)];if(Math['random']()*0x64<_0x5ad650){console['log']('[SW]\x20模拟丢包:\x20'+_0x5dce0a[_0x5c2d2c(0x218)][_0x5c2d2c(0x210)]),_0x5dce0a['respondWith'](new Response(null,{'status':0x1f8,'statusText':_0x5c2d2c(0x219)}));return;}const _0x113b82=networkConfig[_0x5c2d2c(0x20b)]+networkConfig[_0x5c2d2c(0x211)]+networkConfig[_0x5c2d2c(0x1fd)];_0x5dce0a[_0x5c2d2c(0x1f7)](new Promise(_0x1fda7a=>{const _0x253194=_0x5c2d2c;setTimeout(()=>{const _0x350c20=_0x34a5;fetch(_0x5dce0a[_0x350c20(0x218)])['then'](_0x4003c9=>{const _0x426d63=_0x350c20,_0x13e90d=_0x4003c9[_0x426d63(0x215)]();setTimeout(()=>{_0x1fda7a(_0x13e90d);},networkConfig[_0x426d63(0x1fd)]);})[_0x350c20(0x1ee)](_0x266f3f=>{setTimeout(()=>_0x1fda7a(new Response('Network\x20error',{'status':0x1f4})),_0x113b82);});},networkConfig[_0x253194(0x20b)]+networkConfig[_0x253194(0x211)]);}));}),setInterval(()=>{const _0x35cc6b=_0x40d33a;networkConfig['enabled']&&self[_0x35cc6b(0x1ef)]['matchAll']()[_0x35cc6b(0x20d)](_0x24e56d=>{const _0x32b566=_0x35cc6b;_0x24e56d[_0x32b566(0x213)](_0xcd4c38=>{const _0x91cde0=_0x32b566;_0xcd4c38[_0x91cde0(0x205)]({'type':_0x91cde0(0x1f2),'latency':networkConfig[_0x91cde0(0x20b)]+networkConfig[_0x91cde0(0x211)]+networkConfig[_0x91cde0(0x1fd)],'loss':networkConfig[_0x91cde0(0x1f5)]+networkConfig['randomLoss']});});});},0x1388);function _0x59be(){const _0x352407=['then','18hcnIqb','randomLoss','url','uploadLatency','/sw.js','forEach','3DWdMLI','clone','/index.html','缓存已打开','request','Network\x20Packet\x20Loss','map','fetch','623BraxgC','978720VMAhID','SW收到网络配置:','6StVXUk','41605PKblPB','catch','clients','message','log','NETWORK_STATUS','addEventListener','删除旧缓存:','packetLoss','open','respondWith','addAll','type','SET_NETWORK_CONFIG','waitUntil','14377880FvQEAM','downloadLatency','3432010kAGahK','install','33833hGQKuV','claim','SW网络配置已重置','1122072IoFYIx','5820Ipuzzz','postMessage','RESET_NETWORK','data','delete','includes','all','baseLatency','keys'];_0x59be=function(){return _0x352407;};return _0x59be();}
+// 缓存名称和版本
+const CACHE_NAME = 'network-simulator-v1';
+// 需要缓存的资源列表
+const urlsToCache = [
+    '/',
+    '/index.html',
+    '/styles.css'
+];
+
+// 网络模拟配置 (默认值)
+
+
+// 安装Service Worker
+self.addEventListener('install', event => {
+    event.waitUntil(
+        caches.open(CACHE_NAME)
+            .then(cache => {
+                console.log('缓存已打开');
+                return cache.addAll(urlsToCache);
+            })
+    );
+});
+
+// 激活Service Worker
+self.addEventListener('activate', event => {
+    event.waitUntil(
+        caches.keys().then(cacheNames => {
+            return Promise.all(
+                cacheNames.map(cache => {
+                    if (cache !== CACHE_NAME) {
+                        console.log('删除旧缓存:', cache);
+                        return caches.delete(cache);
+                    }
+                })
+            );
+        }).then(() => self.clients.claim())
+    );
+});
+
+// 监听主线程的消息 (接收网络配置)
+self.addEventListener('message', event => {
+    if (event.data.type === 'SET_NETWORK_CONFIG') {
+        networkConfig = {
+            ...event.data.config,
+            enabled: true
+        };
+        console.log('SW收到网络配置:', networkConfig);
+    } else if (event.data.type === 'RESET_NETWORK') {
+        networkConfig = {
+            baseLatency: 0,
+            uploadLatency: 0,
+            downloadLatency: 0,
+            packetLoss: 0,
+            randomLoss: 0,
+            enabled: false
+        };
+        console.log('SW网络配置已重置');
+    }
+});
+
+// 拦截和处理网络请求
+self.addEventListener('fetch', event => {
+    // 排除Service Worker自身的请求
+    if (event.request.url.includes('/sw.js')) return;
+
+    // 如果网络模拟未启用，直接返回请求
+    if (!networkConfig.enabled) {
+        event.respondWith(fetch(event.request));
+        return;
+    }
+
+    // 计算总丢包率
+    const totalLoss = networkConfig.packetLoss + networkConfig.randomLoss;
+
+    // 模拟丢包
+    if (Math.random() * 100 < totalLoss) {
+        console.log(`[SW] 模拟丢包: ${event.request.url}`);
+        event.respondWith(
+            new Response(null, {
+                status: 504,
+                statusText: 'Network Packet Loss'
+            })
+        );
+        return;
+    }
+
+    // 计算总延迟 = 基础延迟 + 上行延迟 + 下行延迟
+    const totalLatency = networkConfig.baseLatency +
+        networkConfig.uploadLatency +
+        networkConfig.downloadLatency;
+
+    // 模拟网络延迟
+    event.respondWith(
+        new Promise(resolve => {
+            // 添加上行延迟
+            setTimeout(() => {
+                fetch(event.request)
+                    .then(response => {
+                        // 克隆响应，因为响应是流，只能使用一次
+                        const clonedResponse = response.clone();
+
+                        // 添加下行延迟
+                        setTimeout(() => {
+                            resolve(clonedResponse);
+                        }, networkConfig.downloadLatency);
+                    })
+                    .catch(error => {
+                        setTimeout(() => resolve(new Response('Network error', {
+                            status: 500
+                        })), totalLatency);
+                    });
+            }, networkConfig.baseLatency + networkConfig.uploadLatency);
+        })
+    );
+});
+
+// 定时报告状态
+setInterval(() => {
+    if (networkConfig.enabled) {
+        self.clients.matchAll().then(clients => {
+            clients.forEach(client => {
+                client.postMessage({
+                    type: 'NETWORK_STATUS',
+                    latency: networkConfig.baseLatency +
+                        networkConfig.uploadLatency +
+                        networkConfig.downloadLatency,
+                    loss: networkConfig.packetLoss + networkConfig.randomLoss
+                });
+            });
+        });
+    }
+}, 5000);

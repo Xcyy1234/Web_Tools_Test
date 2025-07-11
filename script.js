@@ -1,1 +1,1403 @@
-const _0x5877c2=_0x2be1;(function(_0xd017ab,_0x1053be){const _0x46289=_0x2be1,_0x4e095b=_0xd017ab();while(!![]){try{const _0x3e3e93=parseInt(_0x46289(0x2b5))/0x1+parseInt(_0x46289(0x230))/0x2*(-parseInt(_0x46289(0x231))/0x3)+parseInt(_0x46289(0x2d6))/0x4*(-parseInt(_0x46289(0x255))/0x5)+parseInt(_0x46289(0x1dd))/0x6*(-parseInt(_0x46289(0x1e0))/0x7)+-parseInt(_0x46289(0x2f4))/0x8*(parseInt(_0x46289(0x1f7))/0x9)+parseInt(_0x46289(0x222))/0xa+parseInt(_0x46289(0x239))/0xb*(parseInt(_0x46289(0x208))/0xc);if(_0x3e3e93===_0x1053be)break;else _0x4e095b['push'](_0x4e095b['shift']());}catch(_0x504e2b){_0x4e095b['push'](_0x4e095b['shift']());}}}(_0x24c4,0x9c541));function detectDevTools(){const _0x37774a=_0x2be1,_0x33d57a=new Image();Object[_0x37774a(0x1f0)](_0x33d57a,'id',{'get':()=>{const _0x27fbc5=_0x37774a;document['body'][_0x27fbc5(0x2b2)]='<h1\x20style=\x22color:red;text-align:center;margin-top:100px;\x22>禁止检查源代码</h1>',window[_0x27fbc5(0x2db)]();}}),console[_0x37774a(0x2b0)](_0x33d57a);}const weatherData=[{'city':'北京','temp':0x1c,'condition':_0x5877c2(0x2f1),'icon':_0x5877c2(0x204)},{'city':'北京','temp':0x55,'condition':'sunny','icon':_0x5877c2(0x204)}];let aiConversation=[];const OPENROUTER_API_KEY=_0x5877c2(0x21f);import{activityData}from'./Activity.js';import{ModelData}from'./model.js';import{DrawLotsData}from'./Drawlots.js';const exchangeRates={'CNY':{'name':_0x5877c2(0x2ac),'rate':0x1,'flag':_0x5877c2(0x22d)},'USD':{'name':'美元','rate':7.27,'flag':'🇺🇸'},'EUR':{'name':'欧元','rate':7.81,'flag':'🇪🇺'},'JPY':{'name':'日元','rate':0.049,'flag':_0x5877c2(0x1da)},'GBP':{'name':'英镑','rate':8.91,'flag':'🇬🇧'},'HKD':{'name':'港币','rate':0.93,'flag':_0x5877c2(0x22e)},'KRW':{'name':'韩元','rate':0.0055,'flag':_0x5877c2(0x242)},'AUD':{'name':'澳元','rate':4.71,'flag':_0x5877c2(0x26e)},'CAD':{'name':'加元','rate':5.36,'flag':_0x5877c2(0x20e)}};function init(){const _0x4d6193=_0x5877c2;detectDevTools(),document[_0x4d6193(0x2bf)]('latency')[_0x4d6193(0x1b2)](_0x4d6193(0x243),function(){const _0x418826=_0x4d6193;document[_0x418826(0x2bf)](_0x418826(0x2e7))[_0x418826(0x1d9)]=this[_0x418826(0x2d5)]+'ms';}),document['getElementById'](_0x4d6193(0x2ad))[_0x4d6193(0x1b2)](_0x4d6193(0x243),function(){const _0x4e5fd6=_0x4d6193;document[_0x4e5fd6(0x2bf)](_0x4e5fd6(0x2be))[_0x4e5fd6(0x1d9)]=this[_0x4e5fd6(0x2d5)]+'%';});const _0x943182=document['querySelectorAll'](_0x4d6193(0x1e9));_0x943182[_0x4d6193(0x268)](_0x459bf0=>{const _0x4abaa5=_0x4d6193;_0x459bf0[_0x4abaa5(0x1b2)](_0x4abaa5(0x22c),function(){const _0x331e0d=_0x4abaa5;_0x943182[_0x331e0d(0x268)](_0x1f3052=>_0x1f3052[_0x331e0d(0x260)]['remove'](_0x331e0d(0x2ae))),this[_0x331e0d(0x260)][_0x331e0d(0x284)](_0x331e0d(0x2ae));if(this['id']===_0x331e0d(0x27e))document['getElementById'](_0x331e0d(0x26d))[_0x331e0d(0x2d5)]=0x32,document[_0x331e0d(0x2bf)](_0x331e0d(0x2ad))['value']=0x0;else{if(this['id']==='network-medium')document[_0x331e0d(0x2bf)](_0x331e0d(0x26d))['value']=0xc8,document['getElementById'](_0x331e0d(0x2ad))['value']=0x8;else this['id']===_0x331e0d(0x2ed)&&(document['getElementById'](_0x331e0d(0x26d))[_0x331e0d(0x2d5)]=0x320,document[_0x331e0d(0x2bf)](_0x331e0d(0x2ad))[_0x331e0d(0x2d5)]=0x1e);}document[_0x331e0d(0x2bf)](_0x331e0d(0x2e7))[_0x331e0d(0x1d9)]=document[_0x331e0d(0x2bf)]('latency')[_0x331e0d(0x2d5)]+'ms',document[_0x331e0d(0x2bf)]('loss-value')[_0x331e0d(0x1d9)]=document['getElementById'](_0x331e0d(0x2ad))[_0x331e0d(0x2d5)]+'%';});});const _0x3795e8=document[_0x4d6193(0x229)](_0x4d6193(0x2a7)),_0x3e62a2=document[_0x4d6193(0x25c)](_0x4d6193(0x259)),_0x2317f3=document['querySelector'](_0x4d6193(0x293)),_0x2048ba=document['querySelector'](_0x4d6193(0x1c0));_0x3795e8['forEach'](_0xd6389=>{const _0x413abb=_0x4d6193;_0xd6389[_0x413abb(0x1b2)](_0x413abb(0x22c),function(){const _0x59f6a9=_0x413abb,_0x2e076e=this[_0x59f6a9(0x2eb)]('data-tool');_0x3795e8['forEach'](_0x4a7a07=>_0x4a7a07[_0x59f6a9(0x260)][_0x59f6a9(0x22b)](_0x59f6a9(0x2d4))),this[_0x59f6a9(0x260)][_0x59f6a9(0x284)]('active'),document[_0x59f6a9(0x229)](_0x59f6a9(0x2ee))['forEach'](_0x110cc7=>{const _0x221e4c=_0x59f6a9;_0x110cc7[_0x221e4c(0x260)][_0x221e4c(0x22b)](_0x221e4c(0x2d4));}),document[_0x59f6a9(0x2bf)](_0x2e076e)[_0x59f6a9(0x260)][_0x59f6a9(0x284)](_0x59f6a9(0x2d4)),window[_0x59f6a9(0x2f5)]<0x300&&(_0x2317f3[_0x59f6a9(0x260)][_0x59f6a9(0x22b)](_0x59f6a9(0x2d4)),_0x3e62a2['classList'][_0x59f6a9(0x22b)](_0x59f6a9(0x2d4)),_0x2048ba[_0x59f6a9(0x260)]['remove'](_0x59f6a9(0x2d4)));});}),_0x3e62a2[_0x4d6193(0x1b2)](_0x4d6193(0x22c),function(){const _0x4f9b13=_0x4d6193;this['classList'][_0x4f9b13(0x2c2)](_0x4f9b13(0x2d4)),_0x2317f3[_0x4f9b13(0x260)][_0x4f9b13(0x2c2)](_0x4f9b13(0x2d4)),_0x2048ba[_0x4f9b13(0x260)][_0x4f9b13(0x2c2)](_0x4f9b13(0x2d4));}),_0x2048ba[_0x4d6193(0x1b2)](_0x4d6193(0x22c),function(){const _0x4e54fe=_0x4d6193;_0x3e62a2[_0x4e54fe(0x260)][_0x4e54fe(0x22b)]('active'),_0x2317f3[_0x4e54fe(0x260)][_0x4e54fe(0x22b)](_0x4e54fe(0x2d4)),this[_0x4e54fe(0x260)][_0x4e54fe(0x22b)](_0x4e54fe(0x2d4));});const _0x10e811=document[_0x4d6193(0x229)](_0x4d6193(0x24e));_0x10e811['forEach'](_0x443e56=>{const _0x3f1c6d=_0x4d6193;_0x443e56[_0x3f1c6d(0x1b2)](_0x3f1c6d(0x22c),function(){const _0x41e066=_0x3f1c6d;document[_0x41e066(0x229)](_0x41e066(0x24e))['forEach'](_0x59ab8a=>{const _0x55ba18=_0x41e066;_0x59ab8a[_0x55ba18(0x260)]['remove'](_0x55ba18(0x2d4));}),this['classList'][_0x41e066(0x284)](_0x41e066(0x2d4));});});const _0x151776=document[_0x4d6193(0x229)](_0x4d6193(0x212));_0x151776[_0x4d6193(0x268)](_0x2679f6=>{const _0x5a64ac=_0x4d6193;_0x2679f6[_0x5a64ac(0x1b2)](_0x5a64ac(0x22c),function(){const _0x4016ee=_0x5a64ac;document['querySelectorAll'](_0x4016ee(0x212))[_0x4016ee(0x268)](_0x37c499=>{const _0xec7a9d=_0x4016ee;_0x37c499['classList'][_0xec7a9d(0x22b)](_0xec7a9d(0x2d4));}),this[_0x4016ee(0x260)][_0x4016ee(0x284)](_0x4016ee(0x2d4));});}),document[_0x4d6193(0x2bf)]('calculate-remainder')['addEventListener'](_0x4d6193(0x22c),calculateRemainder),document[_0x4d6193(0x2bf)](_0x4d6193(0x254))['addEventListener'](_0x4d6193(0x22c),initNetworkSimulator),document[_0x4d6193(0x2bf)](_0x4d6193(0x26a))[_0x4d6193(0x1b2)]('click',translateScreenshot),document[_0x4d6193(0x2bf)](_0x4d6193(0x1fc))['addEventListener'](_0x4d6193(0x22c),convertTimestampToDate),document[_0x4d6193(0x2bf)](_0x4d6193(0x274))[_0x4d6193(0x1b2)]('click',convertTimestampToDays),document['getElementById'](_0x4d6193(0x27b))[_0x4d6193(0x1b2)](_0x4d6193(0x22c),convertDateToTimestamp),document[_0x4d6193(0x2bf)](_0x4d6193(0x2c4))[_0x4d6193(0x1b2)]('click',convertCD),document[_0x4d6193(0x2bf)](_0x4d6193(0x228))[_0x4d6193(0x1b2)](_0x4d6193(0x22c),askDeepSeek),document['getElementById'](_0x4d6193(0x2cc))[_0x4d6193(0x1b2)](_0x4d6193(0x22c),clearAIChat),document['getElementById'](_0x4d6193(0x2f7))['addEventListener'](_0x4d6193(0x22c),()=>window[_0x4d6193(0x24d)](_0x4d6193(0x29b),_0x4d6193(0x1c5))),document[_0x4d6193(0x2bf)]('package-download-btn-ct')[_0x4d6193(0x1b2)]('click',()=>window[_0x4d6193(0x24d)]('http://192.168.1.150/down/beta/',_0x4d6193(0x1c5))),document['getElementById'](_0x4d6193(0x1d7))['addEventListener']('click',()=>window[_0x4d6193(0x24d)]('http://192.168.1.119/download/',_0x4d6193(0x1c5))),document[_0x4d6193(0x2bf)]('bugly-link-btn')[_0x4d6193(0x1b2)](_0x4d6193(0x22c),()=>window[_0x4d6193(0x24d)]('https://bugly.qq.com/v2/','_blank')),document[_0x4d6193(0x2bf)](_0x4d6193(0x2b3))[_0x4d6193(0x1b2)]('click',()=>window[_0x4d6193(0x24d)](_0x4d6193(0x236),'_blank')),document['getElementById'](_0x4d6193(0x2c0))[_0x4d6193(0x1b2)]('click',()=>window[_0x4d6193(0x24d)]('https://yunduanxin.net/',_0x4d6193(0x1c5))),document[_0x4d6193(0x229)](_0x4d6193(0x2f8))[_0x4d6193(0x268)](_0x9aede8=>{const _0x33a7ae=_0x4d6193;_0x9aede8[_0x33a7ae(0x1b2)](_0x33a7ae(0x22c),function(){const _0x2fccc8=_0x33a7ae,_0x5088c3=this[_0x2fccc8(0x2eb)](_0x2fccc8(0x26f));document[_0x2fccc8(0x2bf)]('ai-question')[_0x2fccc8(0x2d5)]=_0x5088c3;});}),document[_0x4d6193(0x229)](_0x4d6193(0x1eb))[_0x4d6193(0x268)](_0xa620bd=>{const _0x1e0fdb=_0x4d6193;_0xa620bd[_0x1e0fdb(0x1b2)](_0x1e0fdb(0x22c),function(){const _0x4b6f72=_0x1e0fdb,_0x3c4fb1=this[_0x4b6f72(0x2eb)](_0x4b6f72(0x2a8)),_0xcf1497=this['getAttribute'](_0x4b6f72(0x1b5));document[_0x4b6f72(0x2bf)](_0x4b6f72(0x276))[_0x4b6f72(0x2d5)]=_0x3c4fb1,document['querySelectorAll'](_0x4b6f72(0x24e))[_0x4b6f72(0x268)](_0x5297e9=>{const _0x371568=_0x4b6f72;_0x5297e9['classList'][_0x371568(0x22b)]('active'),_0x5297e9['getAttribute'](_0x371568(0x1b5))===_0xcf1497&&_0x5297e9[_0x371568(0x260)]['add'](_0x371568(0x2d4));}),convertCD();});}),document[_0x4d6193(0x2bf)]('network-status')[_0x4d6193(0x22c)]();const _0xd91291=new Date(),_0x3d40a9=_0xd91291[_0x4d6193(0x2f6)](),_0x5b1a60=String(_0xd91291[_0x4d6193(0x29d)]()+0x1)['padStart'](0x2,'0'),_0x401979=String(_0xd91291[_0x4d6193(0x209)]())[_0x4d6193(0x266)](0x2,'0'),_0x3bc7c4=String(_0xd91291[_0x4d6193(0x2e5)]())[_0x4d6193(0x266)](0x2,'0'),_0x2e1f60=String(_0xd91291[_0x4d6193(0x23f)]())[_0x4d6193(0x266)](0x2,'0');document[_0x4d6193(0x2bf)](_0x4d6193(0x1e8))[_0x4d6193(0x2d5)]=_0x3d40a9+'-'+_0x5b1a60+'-'+_0x401979+'T'+_0x3bc7c4+':'+_0x2e1f60,document[_0x4d6193(0x2bf)](_0x4d6193(0x28a))[_0x4d6193(0x2d5)]=Math[_0x4d6193(0x1b0)](_0xd91291[_0x4d6193(0x237)]()/0x3e8),updateCurrentDate(),updateWeather(),updateClock(),setInterval(updateClock,0x3e8),initScreenshot(),initCurrencyConverter(),calculateCoin(),initActivitySearch(),initModelSearch(),initNetworkSimulator(),document[_0x4d6193(0x229)](_0x4d6193(0x219))[_0x4d6193(0x268)](_0x23f150=>{const _0x2d3106=_0x4d6193;_0x23f150[_0x2d3106(0x1b2)](_0x2d3106(0x22c),function(){const _0x4ba715=_0x2d3106,_0x9976b2=this[_0x4ba715(0x2eb)](_0x4ba715(0x28c));_0x3795e8[_0x4ba715(0x268)](_0x584b2a=>_0x584b2a[_0x4ba715(0x260)][_0x4ba715(0x22b)](_0x4ba715(0x2d4))),this[_0x4ba715(0x260)][_0x4ba715(0x284)](_0x4ba715(0x2d4)),document[_0x4ba715(0x229)](_0x4ba715(0x2ee))[_0x4ba715(0x268)](_0x82d819=>{const _0x369922=_0x4ba715;_0x82d819[_0x369922(0x260)][_0x369922(0x22b)]('active');}),document['getElementById'](_0x9976b2)[_0x4ba715(0x260)][_0x4ba715(0x284)]('active');});});}function calculateRemainder(){const _0x19ba52=_0x5877c2,_0x283dee=parseInt(document[_0x19ba52(0x2bf)](_0x19ba52(0x2a9))[_0x19ba52(0x2d5)])||0x0,_0x5d304e=parseInt(document[_0x19ba52(0x2bf)]('divisor')[_0x19ba52(0x2d5)])||0x1;if(_0x5d304e===0x0){alert('除数不能为零！');return;}const _0x26eaf5=_0x283dee%_0x5d304e,_0x86081c=Math['floor'](_0x283dee/_0x5d304e),_0x49a778=document[_0x19ba52(0x2bf)](_0x19ba52(0x24c));_0x49a778[_0x19ba52(0x2b2)]=_0x19ba52(0x2d9)+_0x283dee+_0x19ba52(0x226)+_0x5d304e+_0x19ba52(0x2fb)+_0x86081c+_0x19ba52(0x1d5)+_0x26eaf5+_0x19ba52(0x302)+_0x26eaf5+_0x19ba52(0x2fa)+_0x283dee+_0x19ba52(0x1b6)+_0x5d304e+_0x19ba52(0x24b)+_0x26eaf5+_0x19ba52(0x1d2);}function initNetworkSimulator(){const _0x5aef05=_0x5877c2,_0x15f1c4=document[_0x5aef05(0x2bf)](_0x5aef05(0x26d)),_0x4543e8=document[_0x5aef05(0x2bf)](_0x5aef05(0x1d8)),_0x20d940=document[_0x5aef05(0x2bf)](_0x5aef05(0x1d3)),_0x2abe44=document[_0x5aef05(0x2bf)](_0x5aef05(0x2ad)),_0x184d36=document[_0x5aef05(0x2bf)](_0x5aef05(0x299)),_0x555bae=document[_0x5aef05(0x2bf)](_0x5aef05(0x2e7)),_0x5b0d4e=document['getElementById'](_0x5aef05(0x1fd)),_0x5040d5=document[_0x5aef05(0x2bf)](_0x5aef05(0x1bd)),_0x23407a=document[_0x5aef05(0x2bf)](_0x5aef05(0x2be)),_0xfb8b5a=document[_0x5aef05(0x2bf)]('random-loss-value'),_0x25ad17=document[_0x5aef05(0x2bf)]('apply-settings'),_0x34fac0=document[_0x5aef05(0x2bf)]('reset-settings'),_0x5f2a17=document[_0x5aef05(0x2bf)](_0x5aef05(0x245)),_0x24f323=document['getElementById'](_0x5aef05(0x292)),_0x389ff6=document[_0x5aef05(0x2bf)](_0x5aef05(0x1bf)),_0xdd6d78=document[_0x5aef05(0x2bf)](_0x5aef05(0x2a3)),_0x419871=document[_0x5aef05(0x229)]('.preset-item'),_0x271879=document[_0x5aef05(0x2bf)]('latency-bar'),_0x5b5fd3=document[_0x5aef05(0x2bf)](_0x5aef05(0x267)),_0x31621e=document[_0x5aef05(0x2bf)]('latency-graph'),_0x33a417=[],_0x337bf9=0x14;_0x555bae[_0x5aef05(0x1d9)]=_0x15f1c4[_0x5aef05(0x2d5)]+'ms',_0x5b0d4e[_0x5aef05(0x1d9)]=_0x4543e8[_0x5aef05(0x2d5)]+'ms',_0x5040d5[_0x5aef05(0x1d9)]=_0x20d940[_0x5aef05(0x2d5)]+'ms',_0x23407a[_0x5aef05(0x1d9)]=_0x2abe44['value']+'%',_0xfb8b5a['textContent']=_0x184d36[_0x5aef05(0x2d5)]+'%';function _0x106c31(){const _0x10d467=_0x5aef05,_0x480736=parseInt(_0x15f1c4['value'])+parseInt(_0x4543e8[_0x10d467(0x2d5)])+parseInt(_0x20d940[_0x10d467(0x2d5)]),_0x396c0a=parseInt(_0x2abe44['value'])+parseInt(_0x184d36[_0x10d467(0x2d5)]);_0x271879[_0x10d467(0x1e4)][_0x10d467(0x2b4)]=Math[_0x10d467(0x1af)](0x64,_0x480736/0x14)+'%',_0x5b5fd3[_0x10d467(0x1e4)]['width']=Math[_0x10d467(0x1af)](0x64,_0x396c0a*0x2)+'%';if(_0x480736<0x64)_0x271879[_0x10d467(0x1e4)][_0x10d467(0x2c5)]=_0x10d467(0x21b);else{if(_0x480736<0x1f4)_0x271879['style'][_0x10d467(0x2c5)]=_0x10d467(0x2cf);else _0x480736<0x3e8?_0x271879['style'][_0x10d467(0x2c5)]=_0x10d467(0x287):_0x271879[_0x10d467(0x1e4)]['background']=_0x10d467(0x215);}if(_0x396c0a<0x5)_0x5b5fd3[_0x10d467(0x1e4)][_0x10d467(0x2c5)]=_0x10d467(0x21b);else{if(_0x396c0a<0xf)_0x5b5fd3[_0x10d467(0x1e4)]['background']=_0x10d467(0x2cf);else _0x396c0a<0x19?_0x5b5fd3[_0x10d467(0x1e4)][_0x10d467(0x2c5)]=_0x10d467(0x287):_0x5b5fd3[_0x10d467(0x1e4)][_0x10d467(0x2c5)]=_0x10d467(0x215);}_0x33a417[_0x10d467(0x1d1)](_0x480736);_0x33a417[_0x10d467(0x2c1)]>_0x337bf9&&_0x33a417[_0x10d467(0x1f9)]();_0x31621e['innerHTML']='';const _0x7339de=Math[_0x10d467(0x1d6)](..._0x33a417,0x64);_0x33a417[_0x10d467(0x268)]((_0x2a112d,_0x2cce9d)=>{const _0x4feda7=_0x10d467,_0x101b29=_0x2a112d/_0x7339de*0x64,_0x5c6b47=document['createElement']('div');_0x5c6b47[_0x4feda7(0x28b)]=_0x4feda7(0x221),_0x5c6b47[_0x4feda7(0x1e4)][_0x4feda7(0x1ee)]=_0x2cce9d/_0x337bf9*0x64+'%',_0x5c6b47[_0x4feda7(0x1e4)][_0x4feda7(0x27f)]=_0x101b29+'%',_0x5c6b47[_0x4feda7(0x1e4)]['width']=0x64/_0x337bf9+'%',_0x5c6b47[_0x4feda7(0x1e4)][_0x4feda7(0x2f3)]=0.3+0.7*(_0x101b29/0x64),_0x31621e['appendChild'](_0x5c6b47);});}_0x15f1c4[_0x5aef05(0x1b2)](_0x5aef05(0x243),function(){const _0x5063ee=_0x5aef05;_0x555bae[_0x5063ee(0x1d9)]=this[_0x5063ee(0x2d5)]+'ms',_0x29a042(),_0x106c31();}),_0x4543e8[_0x5aef05(0x1b2)](_0x5aef05(0x243),function(){const _0xe87222=_0x5aef05;_0x5b0d4e['textContent']=this[_0xe87222(0x2d5)]+'ms',_0x29a042(),_0x106c31();}),_0x20d940[_0x5aef05(0x1b2)](_0x5aef05(0x243),function(){const _0x1dafd1=_0x5aef05;_0x5040d5[_0x1dafd1(0x1d9)]=this['value']+'ms',_0x29a042(),_0x106c31();}),_0x2abe44[_0x5aef05(0x1b2)](_0x5aef05(0x243),function(){const _0x108367=_0x5aef05;_0x23407a[_0x108367(0x1d9)]=this[_0x108367(0x2d5)]+'%',_0x29a042(),_0x106c31();}),_0x184d36[_0x5aef05(0x1b2)](_0x5aef05(0x243),function(){const _0x3421a2=_0x5aef05;_0xfb8b5a[_0x3421a2(0x1d9)]=this[_0x3421a2(0x2d5)]+'%',_0x29a042(),_0x106c31();});function _0x29a042(){const _0x4a28a9=_0x5aef05,_0x5c6bc8=parseInt(_0x15f1c4[_0x4a28a9(0x2d5)]),_0x4bd7b0=parseInt(_0x4543e8[_0x4a28a9(0x2d5)]),_0x23f694=parseInt(_0x20d940[_0x4a28a9(0x2d5)]),_0x23a6d8=parseInt(_0x2abe44[_0x4a28a9(0x2d5)]),_0x1b3add=parseInt(_0x184d36[_0x4a28a9(0x2d5)]),_0x283b61=_0x5c6bc8+_0x4bd7b0+_0x23f694,_0x2a4a08=_0x23a6d8+_0x1b3add;_0x389ff6[_0x4a28a9(0x1d9)]='延迟:\x20'+_0x283b61+'ms\x20|\x20丢包:\x20'+_0x2a4a08+'%';if(_0x283b61===0x0&&_0x2a4a08===0x0)_0x24f323['textContent']='良好',_0x24f323[_0x4a28a9(0x1e4)][_0x4a28a9(0x2a2)]=_0x4a28a9(0x21b);else{if(_0x283b61<0x64&&_0x2a4a08<0x5)_0x24f323[_0x4a28a9(0x1d9)]='一般',_0x24f323['style'][_0x4a28a9(0x2a2)]=_0x4a28a9(0x2cf);else _0x283b61<0x1f4&&_0x2a4a08<0x14?(_0x24f323[_0x4a28a9(0x1d9)]='较差',_0x24f323['style']['color']='var(--network-poor)'):(_0x24f323[_0x4a28a9(0x1d9)]='极差',_0x24f323['style'][_0x4a28a9(0x2a2)]='var(--network-severe)');}}_0x25ad17[_0x5aef05(0x1b2)](_0x5aef05(0x22c),function(){const _0x1b1e03=_0x5aef05,_0x5c1203=parseInt(_0x15f1c4[_0x1b1e03(0x2d5)]),_0x3c4c22=parseInt(_0x4543e8['value']),_0x5a5ef4=parseInt(_0x20d940[_0x1b1e03(0x2d5)]),_0x4bf844=parseInt(_0x2abe44[_0x1b1e03(0x2d5)]),_0x4968eb=parseInt(_0x184d36[_0x1b1e03(0x2d5)]),_0x414c78=_0x5c1203+_0x3c4c22+_0x5a5ef4,_0x16ef13=_0x4bf844+_0x4968eb;_0x110563(_0x5c1203,_0x3c4c22,_0x5a5ef4,_0x4bf844,_0x4968eb),_0xdd6d78[_0x1b1e03(0x1e4)]['display']=_0x1b1e03(0x1ad);const _0x5bd778=new Date();_0x5f2a17[_0x1b1e03(0x2b2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>网络设置已应用\x20('+_0x5bd778[_0x1b1e03(0x1b8)]()+'):</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>基本延迟:\x20'+_0x5c1203+_0x1b1e03(0x291)+_0x3c4c22+_0x1b1e03(0x258)+_0x5a5ef4+_0x1b1e03(0x2c8)+_0x4bf844+_0x1b1e03(0x1e6)+_0x4968eb+_0x1b1e03(0x2ea)+_0x414c78+_0x1b1e03(0x25e)+_0x16ef13+_0x1b1e03(0x1c1),_0x1362c6(_0x414c78,_0x16ef13);}),_0x34fac0[_0x5aef05(0x1b2)](_0x5aef05(0x22c),function(){const _0x5b8dd4=_0x5aef05;_0x15f1c4[_0x5b8dd4(0x2d5)]=0x0,_0x4543e8[_0x5b8dd4(0x2d5)]=0x0,_0x20d940[_0x5b8dd4(0x2d5)]=0x0,_0x2abe44[_0x5b8dd4(0x2d5)]=0x0,_0x184d36[_0x5b8dd4(0x2d5)]=0x0,_0x555bae[_0x5b8dd4(0x1d9)]=_0x5b8dd4(0x2a1),_0x5b0d4e[_0x5b8dd4(0x1d9)]=_0x5b8dd4(0x2a1),_0x5040d5[_0x5b8dd4(0x1d9)]=_0x5b8dd4(0x2a1),_0x23407a[_0x5b8dd4(0x1d9)]='0%',_0xfb8b5a[_0x5b8dd4(0x1d9)]='0%',_0x312b06(),_0xdd6d78[_0x5b8dd4(0x1e4)]['display']=_0x5b8dd4(0x275);const _0x2f4b15=new Date();_0x5f2a17[_0x5b8dd4(0x2b2)]=_0x5b8dd4(0x2bb)+_0x2f4b15[_0x5b8dd4(0x1b8)]()+_0x5b8dd4(0x241),_0x29a042(),_0x106c31();}),_0x419871[_0x5aef05(0x268)](_0x58170d=>{const _0x434108=_0x5aef05;_0x58170d[_0x434108(0x1b2)](_0x434108(0x22c),function(){const _0x4e6e96=_0x434108;_0x419871[_0x4e6e96(0x268)](_0x3582f1=>_0x3582f1[_0x4e6e96(0x260)]['remove'](_0x4e6e96(0x2d4))),this[_0x4e6e96(0x260)][_0x4e6e96(0x284)](_0x4e6e96(0x2d4));const _0x338fd5=this[_0x4e6e96(0x2eb)](_0x4e6e96(0x2b1));_0x3507e3(_0x338fd5);});});function _0x3507e3(_0x12b154){const _0x33ad9e=_0x5aef05;let _0x2514bc=0x0,_0x9cb9e=0x0,_0x1970df=0x0,_0x57ac51=0x0,_0xca1376=0x0;switch(_0x12b154){case _0x33ad9e(0x296):_0x2514bc=0x1f4,_0x9cb9e=0x12c,_0x1970df=0x12c,_0x57ac51=0xa,_0xca1376=0x5;break;case _0x33ad9e(0x1bc):_0x2514bc=0x12c,_0x9cb9e=0xc8,_0x1970df=0xc8,_0x57ac51=0x8,_0xca1376=0x4;break;case _0x33ad9e(0x1e1):_0x2514bc=0x3e8,_0x9cb9e=0x1f4,_0x1970df=0x1f4,_0x57ac51=0xf,_0xca1376=0xa;break;case _0x33ad9e(0x25a):_0x2514bc=0x320,_0x9cb9e=0x190,_0x1970df=0x190,_0x57ac51=0xc,_0xca1376=0x8;break;case'stadium':_0x2514bc=0xc8,_0x9cb9e=0x64,_0x1970df=0x64,_0x57ac51=0xa,_0xca1376=0x5;break;case'conference':_0x2514bc=0x96,_0x9cb9e=0x50,_0x1970df=0x50,_0x57ac51=0x8,_0xca1376=0x4;break;}_0x15f1c4[_0x33ad9e(0x2d5)]=_0x2514bc,_0x4543e8['value']=_0x9cb9e,_0x20d940[_0x33ad9e(0x2d5)]=_0x1970df,_0x2abe44[_0x33ad9e(0x2d5)]=_0x57ac51,_0x184d36[_0x33ad9e(0x2d5)]=_0xca1376,_0x555bae[_0x33ad9e(0x1d9)]=_0x2514bc+'ms',_0x5b0d4e[_0x33ad9e(0x1d9)]=_0x9cb9e+'ms',_0x5040d5[_0x33ad9e(0x1d9)]=_0x1970df+'ms',_0x23407a['textContent']=_0x57ac51+'%',_0xfb8b5a[_0x33ad9e(0x1d9)]=_0xca1376+'%',_0x29a042(),_0x106c31(),_0x5f2a17[_0x33ad9e(0x2b2)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>已应用'+document[_0x33ad9e(0x25c)](_0x33ad9e(0x262)+_0x12b154+_0x33ad9e(0x1c9))[_0x33ad9e(0x1d9)]+_0x33ad9e(0x2b7);}function _0x110563(_0x3d529e,_0x44cc5b,_0x55492e,_0x18afad,_0xe958b1){const _0x543473=_0x5aef05;console[_0x543473(0x2b0)](_0x543473(0x2b6)+_0x3d529e+_0x543473(0x1ca)+_0x44cc5b+_0x543473(0x1db)+_0x55492e+'ms\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20丢包率:\x20'+_0x18afad+_0x543473(0x252)+_0xe958b1+'%');}function _0x312b06(){const _0x36ac2e=_0x5aef05;console[_0x36ac2e(0x2b0)](_0x36ac2e(0x2e2));}function _0x1362c6(_0x42dbe4,_0x24d3d3){const _0x3a45a2=_0x5aef05;clearInterval(window['simulationInterval']),window[_0x3a45a2(0x2fc)]=setInterval(()=>{const _0x3aaffa=_0x3a45a2,_0x503c8d=Math[_0x3aaffa(0x251)]()*0x64<_0x24d3d3,_0x3dcdff=new Date(),_0x2c7932=_0x3dcdff[_0x3aaffa(0x1b8)]();_0x503c8d?_0x5f2a17[_0x3aaffa(0x2b2)]+=_0x3aaffa(0x1dc)+_0x2c7932+_0x3aaffa(0x2a0):_0x5f2a17[_0x3aaffa(0x2b2)]+=_0x3aaffa(0x27c)+_0x2c7932+':\x20请求成功\x20(延迟:\x20'+_0x42dbe4+'ms)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20';_0x5f2a17[_0x3aaffa(0x24a)]=_0x5f2a17[_0x3aaffa(0x1f6)];const _0x3737e6=_0x5f2a17[_0x3aaffa(0x229)](_0x3aaffa(0x2b9));if(_0x3737e6[_0x3aaffa(0x2c1)]>0x14)for(let _0x313554=0x0;_0x313554<_0x3737e6[_0x3aaffa(0x2c1)]-0x14;_0x313554++){_0x3737e6[_0x313554][_0x3aaffa(0x22b)]();}},0x7d0);}_0x29a042(),_0x106c31();}function _0x2be1(_0x441e9d,_0x1aa2a1){const _0x24c4bd=_0x24c4();return _0x2be1=function(_0x2be148,_0x1d1feb){_0x2be148=_0x2be148-0x1ab;let _0x4776e6=_0x24c4bd[_0x2be148];return _0x4776e6;},_0x2be1(_0x441e9d,_0x1aa2a1);}'serviceWorker'in navigator&&window[_0x5877c2(0x1b2)]('load',function(){const _0x25ed6f=_0x5877c2;navigator[_0x25ed6f(0x2ca)][_0x25ed6f(0x1cd)](_0x25ed6f(0x2ff))[_0x25ed6f(0x235)](function(_0x208b75){const _0x336de0=_0x25ed6f;console['log'](_0x336de0(0x1ac),_0x208b75['scope']);},function(_0x1c6bb1){const _0x30d79d=_0x25ed6f;console['log'](_0x30d79d(0x1ba),_0x1c6bb1);});});function translateScreenshot(){const _0x371fbb=_0x5877c2,_0x304ccf=document['getElementById'](_0x371fbb(0x2ef));if(!_0x304ccf['src']){alert(_0x371fbb(0x301));return;}const _0x1b97e7=document[_0x371fbb(0x2bf)](_0x371fbb(0x2d8))[_0x371fbb(0x2d5)],_0x289c28={'en':'英语','ja':'日语','ko':'韩语','fr':'法语','de':'德语','es':'西班牙语'},_0x1774e7=document[_0x371fbb(0x2bf)](_0x371fbb(0x2c3));_0x1774e7[_0x371fbb(0x2b2)]=_0x371fbb(0x224)+_0x289c28[_0x1b97e7]+_0x371fbb(0x2e0)+new Date()['toLocaleTimeString']()+_0x371fbb(0x1d2);}function convertTimestampToDate(){const _0x4c1ab8=_0x5877c2,_0x385356=document['getElementById'](_0x4c1ab8(0x28a))[_0x4c1ab8(0x2d5)];if(!_0x385356){alert('请输入时间戳');return;}const _0x439e6b=document['querySelector'](_0x4c1ab8(0x21e))['getAttribute'](_0x4c1ab8(0x1b5));let _0x5e6086;_0x439e6b==='seconds'?_0x5e6086=_0x385356*0x3e8:_0x5e6086=parseInt(_0x385356);const _0x32df06=new Date(_0x5e6086),_0x24a82d=document['getElementById'](_0x4c1ab8(0x25d));document[_0x4c1ab8(0x2bf)](_0x4c1ab8(0x1e5))[_0x4c1ab8(0x1e4)][_0x4c1ab8(0x2c7)]=_0x4c1ab8(0x275),_0x24a82d[_0x4c1ab8(0x1e4)][_0x4c1ab8(0x2c7)]=_0x4c1ab8(0x1ad);const _0x42fa10=-_0x32df06['getTimezoneOffset'](),_0x23d45d=-0x1e0,_0x1bfd2f=(_0x42fa10-_0x23d45d)/0x3c;let _0x340c26;if(_0x1bfd2f>0x0)_0x340c26=_0x1bfd2f+_0x4c1ab8(0x21a);else _0x1bfd2f<0x0?_0x340c26=-_0x1bfd2f+_0x4c1ab8(0x21a):_0x340c26=_0x4c1ab8(0x247);const _0x15ec09={'timeZone':'America/New_York','year':_0x4c1ab8(0x29f),'month':'2-digit','day':_0x4c1ab8(0x288),'hour':_0x4c1ab8(0x288),'minute':_0x4c1ab8(0x288),'second':_0x4c1ab8(0x288),'hour12':![]},_0x346f87=new Date(_0x5e6086-0x8*0x36ee80),_0x22fe8a=_0x346f87[_0x4c1ab8(0x1ce)]()[_0x4c1ab8(0x27d)]('T','\x20')[_0x4c1ab8(0x283)](0x0,0x13)+_0x4c1ab8(0x264),_0x45763f=_0x32df06['toLocaleString'](_0x4c1ab8(0x20c),{..._0x15ec09,'timeZone':_0x4c1ab8(0x25f)});_0x24a82d[_0x4c1ab8(0x2b2)]=_0x4c1ab8(0x2f9)+(_0x439e6b===_0x4c1ab8(0x2e1)?'秒':'毫秒')+'\x20转日期):</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>北京时间:\x20'+_0x32df06[_0x4c1ab8(0x25b)]()+_0x4c1ab8(0x20d)+_0x45763f+_0x4c1ab8(0x1d4)+_0x22fe8a+_0x4c1ab8(0x256)+_0x340c26+'</div>\x0a\x20\x20\x20\x20';}function convertTimestampToDays(){const _0x26d13a=_0x5877c2,_0x394975=document['getElementById']('timestamp-input')[_0x26d13a(0x2d5)];if(!_0x394975){alert(_0x26d13a(0x217));return;}const _0x36b0cd=document['querySelector'](_0x26d13a(0x21e))[_0x26d13a(0x2eb)]('data-unit');let _0x14e46c;_0x36b0cd===_0x26d13a(0x2e1)?_0x14e46c=_0x394975:_0x14e46c=_0x394975/0x3e8;const _0x3b18be=_0x14e46c/0x15180,_0x26be3=document[_0x26d13a(0x2bf)](_0x26d13a(0x1e5)),_0x23665c=document[_0x26d13a(0x2bf)](_0x26d13a(0x25d));_0x23665c[_0x26d13a(0x1e4)][_0x26d13a(0x2c7)]=_0x26d13a(0x275),_0x26be3['style'][_0x26d13a(0x2c7)]=_0x26d13a(0x1ad),document[_0x26d13a(0x2bf)](_0x26d13a(0x298))[_0x26d13a(0x1d9)]=_0x3b18be['toFixed'](0x6);}function convertDateToTimestamp(){const _0x4c5264=_0x5877c2,_0x9201de=document[_0x4c5264(0x2bf)](_0x4c5264(0x1e8))[_0x4c5264(0x2d5)];if(!_0x9201de){alert(_0x4c5264(0x1e7));return;}const _0x4d925c=new Date(_0x9201de),_0x3aa0bd=Math['floor'](_0x4d925c[_0x4c5264(0x237)]()/0x3e8),_0x43fc6c=_0x4d925c['getTime'](),_0x1a99df=document['getElementById'](_0x4c5264(0x25d));document[_0x4c5264(0x2bf)](_0x4c5264(0x1e5))[_0x4c5264(0x1e4)]['display']=_0x4c5264(0x275),_0x1a99df[_0x4c5264(0x1e4)][_0x4c5264(0x2c7)]=_0x4c5264(0x1ad),_0x1a99df[_0x4c5264(0x2b2)]=_0x4c5264(0x1fb)+_0x3aa0bd+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>毫秒时间戳:\x20'+_0x43fc6c+_0x4c5264(0x1ec);}function convertCD(){const _0x1751c9=_0x5877c2,_0x2bfa20=parseFloat(document[_0x1751c9(0x2bf)](_0x1751c9(0x276))[_0x1751c9(0x2d5)])||0x0,_0x26ebf3=document['querySelector'](_0x1751c9(0x248))[_0x1751c9(0x2eb)](_0x1751c9(0x1b5));if(_0x2bfa20<0x0){alert('请输入有效的数值');return;}let _0x8150f6=0x0;switch(_0x26ebf3){case _0x1751c9(0x282):_0x8150f6=_0x2bfa20;break;case _0x1751c9(0x2e1):_0x8150f6=_0x2bfa20*0x3e8;break;case _0x1751c9(0x2a4):_0x8150f6=_0x2bfa20*0x3c*0x3e8;break;case'hours':_0x8150f6=_0x2bfa20*0x3c*0x3c*0x3e8;break;case _0x1751c9(0x1b3):_0x8150f6=_0x2bfa20*0x18*0x3c*0x3c*0x3e8;break;}const _0x407f1b=_0x8150f6/0x3e8,_0x395784=Math['floor'](_0x407f1b/0x15180),_0x9f0c78=Math['floor'](_0x407f1b%0x15180/0xe10),_0x31206a=Math[_0x1751c9(0x1b0)](_0x407f1b%0xe10/0x3c),_0x4f93fd=Math[_0x1751c9(0x1b0)](_0x407f1b%0x3c),_0x53ed31=Math[_0x1751c9(0x1b0)](_0x8150f6%0x3e8),_0x518b2d=document[_0x1751c9(0x2bf)](_0x1751c9(0x2cb));_0x518b2d[_0x1751c9(0x2b2)]=_0x1751c9(0x225)+_0x2bfa20+'\x20'+getUnitName(_0x26ebf3)+'\x20=\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>'+_0x395784+'天\x20'+_0x9f0c78+'小时\x20'+_0x31206a+_0x1751c9(0x201)+_0x4f93fd+'秒\x20'+_0x53ed31+_0x1751c9(0x2de)+_0x407f1b[_0x1751c9(0x257)](0x3)+_0x1751c9(0x1c6)+_0x8150f6+'\x20毫秒)\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document['querySelectorAll']('.cd-unit\x20.cd-value')[0x0][_0x1751c9(0x1d9)]=_0x395784,document['querySelectorAll']('.cd-unit\x20.cd-value')[0x1]['textContent']=_0x9f0c78,document[_0x1751c9(0x229)](_0x1751c9(0x206))[0x2][_0x1751c9(0x1d9)]=_0x31206a,document['querySelectorAll'](_0x1751c9(0x206))[0x3]['textContent']=_0x4f93fd,document['querySelectorAll'](_0x1751c9(0x206))[0x4][_0x1751c9(0x1d9)]=_0x53ed31;}function getUnitName(_0x47e5dc){const _0x31a079={'milliseconds':'毫秒','seconds':'秒','minutes':'分钟','hours':'小时','days':'天'};return _0x31a079[_0x47e5dc]||'';}function updateCurrentDate(){const _0x1a8286=_0x5877c2,_0x42b720=new Date(),_0x31be6d=_0x42b720[_0x1a8286(0x2f6)](),_0x442ac3=_0x42b720[_0x1a8286(0x29d)]()+0x1,_0x283506=_0x42b720[_0x1a8286(0x209)](),_0xfad22a=[_0x1a8286(0x289),_0x1a8286(0x261),_0x1a8286(0x1ff),'星期三',_0x1a8286(0x214),_0x1a8286(0x1cc),_0x1a8286(0x2ec)],_0x543ee5=_0xfad22a[_0x42b720[_0x1a8286(0x249)]()],_0x534106=_0x31be6d+'年'+_0x442ac3+'月'+_0x283506+'日\x20'+_0x543ee5;document['getElementById'](_0x1a8286(0x1d0))[_0x1a8286(0x1d9)]=_0x534106;}function updateWeather(){const _0x44d3e0=_0x5877c2,_0x5acec3=new Date(),_0x2cc6a6=Math[_0x44d3e0(0x1b0)](Math[_0x44d3e0(0x251)]()*weatherData[_0x44d3e0(0x2c1)]),_0x2c3350=weatherData[_0x2cc6a6];document[_0x44d3e0(0x2bf)](_0x44d3e0(0x1b4))['textContent']=_0x2c3350[_0x44d3e0(0x223)]+'°C',document[_0x44d3e0(0x2bf)](_0x44d3e0(0x22f))[_0x44d3e0(0x1d9)]=_0x2c3350[_0x44d3e0(0x290)];const _0x4489c5=document[_0x44d3e0(0x2bf)](_0x44d3e0(0x1c8));_0x4489c5[_0x44d3e0(0x28b)]='weather-icon\x20'+_0x2c3350[_0x44d3e0(0x1b7)],_0x4489c5[_0x44d3e0(0x2b2)]=_0x44d3e0(0x271)+_0x2c3350[_0x44d3e0(0x2d7)]+'\x22></i>';}function updateClock(){const _0x5d76b5=_0x5877c2,_0x54908d=new Date(),_0x3d6b3f=String(_0x54908d[_0x5d76b5(0x2e5)]())[_0x5d76b5(0x266)](0x2,'0'),_0x1c3e7b=String(_0x54908d['getMinutes']())[_0x5d76b5(0x266)](0x2,'0'),_0x2440ce=String(_0x54908d['getSeconds']())['padStart'](0x2,'0'),_0x1442a7=document['getElementById'](_0x5d76b5(0x1f8)),_0x22a201=document[_0x5d76b5(0x2bf)]('clock-seconds'),_0x301317=document[_0x5d76b5(0x2bf)](_0x5d76b5(0x2b8));if(_0x1442a7&&_0x22a201&&_0x301317){_0x1442a7[_0x5d76b5(0x1d9)]=_0x3d6b3f+':'+_0x1c3e7b+':'+_0x2440ce,_0x22a201[_0x5d76b5(0x1d9)]=_0x2440ce+'秒';const _0x3a51fa=_0x54908d[_0x5d76b5(0x2f6)](),_0x746487=_0x54908d[_0x5d76b5(0x29d)]()+0x1,_0x4dd7a4=_0x54908d[_0x5d76b5(0x209)](),_0xa027f8=['星期日',_0x5d76b5(0x261),'星期二','星期三',_0x5d76b5(0x214),_0x5d76b5(0x1cc),_0x5d76b5(0x2ec)],_0x3acf70=_0xa027f8[_0x54908d['getDay']()];_0x301317[_0x5d76b5(0x1d9)]=_0x3a51fa+'年'+_0x746487+'月'+_0x4dd7a4+'日\x20'+_0x3acf70;}}function initScreenshot(){const _0x3741a3=_0x5877c2,_0x1a033d=document[_0x3741a3(0x2bf)](_0x3741a3(0x280)),_0xef12ab=document[_0x3741a3(0x2bf)](_0x3741a3(0x2e6)),_0x1798ff=document[_0x3741a3(0x2bf)](_0x3741a3(0x2ef));_0x1a033d[_0x3741a3(0x1b2)](_0x3741a3(0x22c),function(){const _0x445407=_0x3741a3;navigator['mediaDevices']&&navigator[_0x445407(0x2a6)][_0x445407(0x2c9)]?captureScreen():_0xef12ab[_0x445407(0x22c)]();}),_0xef12ab[_0x3741a3(0x1b2)]('change',function(_0x43a744){const _0x3a577f=_0x3741a3;if(_0x43a744[_0x3a577f(0x2ce)][_0x3a577f(0x1f4)]&&_0x43a744[_0x3a577f(0x2ce)][_0x3a577f(0x1f4)][0x0]){const _0x10c394=new FileReader();_0x10c394[_0x3a577f(0x1ae)]=function(_0x2406cb){const _0x5f4aae=_0x3a577f;_0x1798ff[_0x5f4aae(0x227)]=_0x2406cb[_0x5f4aae(0x2ce)][_0x5f4aae(0x20f)],_0x1798ff[_0x5f4aae(0x1e4)]['display']=_0x5f4aae(0x1ad);},_0x10c394[_0x3a577f(0x200)](_0x43a744[_0x3a577f(0x2ce)][_0x3a577f(0x1f4)][0x0]);}});}async function captureScreen(){const _0x2eb644=_0x5877c2;try{const _0x4fbb3f=await navigator[_0x2eb644(0x2a6)]['getDisplayMedia']({'video':!![]}),_0x527128=document[_0x2eb644(0x2cd)](_0x2eb644(0x285));_0x527128[_0x2eb644(0x1ea)]=_0x4fbb3f,_0x527128['onloadedmetadata']=()=>{const _0x99d2cc=_0x2eb644;_0x527128[_0x99d2cc(0x234)]();const _0x5dd26c=document[_0x99d2cc(0x2cd)]('canvas');_0x5dd26c[_0x99d2cc(0x2b4)]=_0x527128[_0x99d2cc(0x297)],_0x5dd26c[_0x99d2cc(0x27f)]=_0x527128['videoHeight'],setTimeout(()=>{const _0x2294fe=_0x99d2cc,_0x332197=_0x5dd26c[_0x2294fe(0x203)]('2d');_0x332197[_0x2294fe(0x210)](_0x527128,0x0,0x0,_0x5dd26c[_0x2294fe(0x2b4)],_0x5dd26c[_0x2294fe(0x27f)]),_0x4fbb3f[_0x2294fe(0x2d3)]()[_0x2294fe(0x268)](_0x4ae12a=>_0x4ae12a['stop']());const _0x8b9334=document[_0x2294fe(0x2bf)](_0x2294fe(0x2ef));_0x8b9334[_0x2294fe(0x227)]=_0x5dd26c['toDataURL'](_0x2294fe(0x270)),_0x8b9334[_0x2294fe(0x1e4)][_0x2294fe(0x2c7)]=_0x2294fe(0x1ad);},0x1f4);};}catch(_0x356a22){console[_0x2eb644(0x23b)]('屏幕捕获失败:',_0x356a22),document['getElementById'](_0x2eb644(0x2e6))[_0x2eb644(0x22c)]();}}document[_0x5877c2(0x1b2)](_0x5877c2(0x263),function(){const _0x290192=_0x5877c2,_0x438124=document[_0x290192(0x2bf)](_0x290192(0x2d1)),_0x2ec71c=document[_0x290192(0x2bf)]('fortune-animation'),_0x5eb581=document[_0x290192(0x2bf)](_0x290192(0x278)),_0x3f3eb0=document[_0x290192(0x2bf)](_0x290192(0x1fa)),_0x1b5cc4=document[_0x290192(0x2bf)]('fortune-content'),_0x321d85=document[_0x290192(0x2bf)](_0x290192(0x1df)),_0x5dc719=document[_0x290192(0x2bf)]('fortune-close');_0x438124[_0x290192(0x1b2)](_0x290192(0x22c),function(){const _0x1a73a7=_0x290192;_0x438124[_0x1a73a7(0x1e4)]['display']='none',_0x2ec71c['style'][_0x1a73a7(0x2c7)]=_0x1a73a7(0x2ba),setTimeout(function(){const _0x595937=_0x1a73a7;_0x2ec71c['style'][_0x595937(0x2c7)]='none';const _0x25e406=Math[_0x595937(0x1b0)](Math['random']()*DrawLotsData[_0x595937(0x2c1)]),_0x531462=DrawLotsData[_0x25e406];_0x3f3eb0[_0x595937(0x1d9)]=_0x531462[_0x595937(0x218)],_0x3f3eb0[_0x595937(0x28b)]=_0x595937(0x20b)+_0x531462[_0x595937(0x29a)],_0x1b5cc4[_0x595937(0x1d9)]=_0x531462[_0x595937(0x2d0)],_0x321d85[_0x595937(0x1d9)]=_0x531462[_0x595937(0x21d)],_0x5eb581[_0x595937(0x1e4)]['display']='block';},0xbb8);}),_0x5dc719[_0x290192(0x1b2)](_0x290192(0x22c),function(){const _0x1c6f18=_0x290192;_0x5eb581[_0x1c6f18(0x1e4)][_0x1c6f18(0x2c7)]=_0x1c6f18(0x275),_0x438124[_0x1c6f18(0x1e4)][_0x1c6f18(0x2c7)]=_0x1c6f18(0x1ad);});});function clearAIChat(){const _0x2e1e8e=_0x5877c2;aiConversation=[],document[_0x2e1e8e(0x2bf)](_0x2e1e8e(0x277))[_0x2e1e8e(0x2b2)]=_0x2e1e8e(0x23a);}async function getAIResponse(_0x46f8bf){const _0x1607ee=_0x5877c2;try{const _0x2f1da5=await fetch('https://openrouter.ai/api/v1/chat/completions',{'method':'POST','headers':{'Content-Type':_0x1607ee(0x26c),'Authorization':_0x1607ee(0x1ed)+OPENROUTER_API_KEY,'HTTP-Referer':_0x1607ee(0x273),'X-Title':_0x1607ee(0x1f3)},'body':JSON[_0x1607ee(0x1e2)]({'model':_0x1607ee(0x1e3),'messages':[{'role':_0x1607ee(0x23e),'content':_0x1607ee(0x1c4)},...aiConversation[_0x1607ee(0x1c7)](_0x4831e3=>({'role':_0x4831e3['sender']==='user'?_0x1607ee(0x216):_0x1607ee(0x2d2),'content':_0x4831e3[_0x1607ee(0x2d0)]})),{'role':_0x1607ee(0x216),'content':_0x46f8bf}],'temperature':0.7,'max_tokens':0x3e8})});if(!_0x2f1da5['ok']){const _0x2b4185=await _0x2f1da5[_0x1607ee(0x1be)]();return _0x1607ee(0x281)+_0x2f1da5[_0x1607ee(0x2fd)]+_0x1607ee(0x27a)+(_0x2b4185[_0x1607ee(0x23b)]?.[_0x1607ee(0x1cb)]||'未知错误');}const _0x4d182d=await _0x2f1da5['json']();return _0x4d182d['choices'][0x0]?.[_0x1607ee(0x1cb)]?.[_0x1607ee(0x2d0)]||'未能获取回答';}catch(_0xb8c89d){return console[_0x1607ee(0x23b)]('API调用错误:',_0xb8c89d),'服务暂时不可用，请稍后再试';}}async function askDeepSeek(){const _0x26f3e8=_0x5877c2,_0x19539c=document[_0x26f3e8(0x2bf)]('ai-question')[_0x26f3e8(0x2d5)]['trim']();if(!_0x19539c){alert(_0x26f3e8(0x1bb));return;}addAIMessage(_0x26f3e8(0x216),_0x19539c),aiConversation['push']({'sender':_0x26f3e8(0x216),'content':_0x19539c}),document[_0x26f3e8(0x2bf)]('ai-question')['value']='',showTypingIndicator();try{const _0x4b29dc=await getAIResponse(_0x19539c);addAIMessage('ai',_0x4b29dc),aiConversation[_0x26f3e8(0x1d1)]({'sender':'ai','content':_0x4b29dc});}catch(_0xc99ea7){addAIMessage('ai','请求AI服务时出错：'+_0xc99ea7[_0x26f3e8(0x1cb)]);}finally{hideTypingIndicator();}scrollToBottom();}function addAIMessage(_0x1cf240,_0x38393d){const _0x5936de=_0x5877c2,_0x2522dc=document[_0x5936de(0x2bf)](_0x5936de(0x277)),_0x4d5ecc=document[_0x5936de(0x2cd)](_0x5936de(0x2b9));_0x4d5ecc[_0x5936de(0x28b)]=_0x5936de(0x21c)+(_0x1cf240==='user'?_0x5936de(0x294):_0x5936de(0x265));const _0x38dd63=document[_0x5936de(0x2cd)](_0x5936de(0x2b9));_0x38dd63[_0x5936de(0x28b)]=_0x5936de(0x213);_0x1cf240==='user'?_0x38dd63[_0x5936de(0x2b2)]=_0x5936de(0x1c3):_0x38dd63[_0x5936de(0x2b2)]=_0x5936de(0x233);const _0x10b9b1=document[_0x5936de(0x2cd)](_0x5936de(0x2b9));_0x10b9b1['className']='message-content',_0x10b9b1[_0x5936de(0x1d9)]=_0x38393d,_0x4d5ecc[_0x5936de(0x2aa)](_0x38dd63),_0x4d5ecc['appendChild'](_0x10b9b1),_0x2522dc[_0x5936de(0x2aa)](_0x4d5ecc),scrollToBottom();}function showTypingIndicator(){const _0x5557c2=_0x5877c2,_0xa02c4b=document['getElementById'](_0x5557c2(0x277)),_0x32c3f3=document['createElement'](_0x5557c2(0x2b9));_0x32c3f3[_0x5557c2(0x28b)]=_0x5557c2(0x2e8),_0x32c3f3['id']=_0x5557c2(0x24f),_0x32c3f3[_0x5557c2(0x2b2)]=_0x5557c2(0x1de),_0xa02c4b[_0x5557c2(0x2aa)](_0x32c3f3),scrollToBottom();}function hideTypingIndicator(){const _0x10bdc2=_0x5877c2,_0x4df7cd=document['getElementById']('typing-indicator');_0x4df7cd&&_0x4df7cd[_0x10bdc2(0x22b)]();}function _0x24c4(){const _0x5ae13c=['max','package-download-btn-jms','upload-latency','textContent','🇯🇵','ms\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20下行延时:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20var(--danger);\x20margin-top:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-times-circle\x22></i>\x20','380694dXISVF','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-robot\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Super\x20Test\x20AI助手</strong>\x20正在思考...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','fortune-explanation','105qKaoFw','tunnel','stringify','mistralai/mistral-7b-instruct:free','style','days-result','%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>随机丢包率:\x20','请选择日期时间','datetime-input','.network-item','srcObject','.cd-example','</div>\x0a\x20\x20\x20\x20','Bearer\x20','left','name','defineProperty','detail-description','convert-currency','NewTestTool','files','activity-results','scrollHeight','10440FqlmNN','clock-time','shift','fortune-title','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>转换结果:</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>秒时间戳:\x20','convert-to-date','upload-latency-value','model-detail','星期二','readAsDataURL','分钟\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22activity-description\x22>','getContext','fa-sun','.activity-search-container','.cd-unit\x20.cd-value','model-search','2724tVLYYf','getDate','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22currency-value\x22>','fortune-title\x20','zh-CN','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>美国东部时间(ET):\x20','🇨🇦','result','drawImage','currency-amount','.timestamp-unit-option','message-header','星期四','var(--network-severe)','user','请输入时间戳','title','[data-tool^=\x22faq\x22]','\x20小时','var(--network-good)','message\x20','explanation','.timestamp-unit-option.active','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','model_value','graph-line','7975070qaYcKp','temp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>翻译结果\x20(','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>转换结果:</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>','\x20÷\x20','src','send-ai-question','querySelectorAll','trim','remove','click','🇨🇳','🇭🇰','weather-location','534182wMItKw','3qKuMMI','计算公式:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-robot\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>super\x20Test\x20AI助手</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','play','then','https://appid.naitu.cc/share/nice','getTime','.currency-option.active','105226rYTMBZ','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message\x20ai-message\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-icon\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-robot\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Super\x20Test\x20AI助手</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-content\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20您好！我是Super\x20Test\x20AI助手助手，我可以帮助您解决测试相关的问题。请告诉我您需要什么帮助？\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','error','description','factor-operator','system','getMinutes','activity-search','):</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20var(--network-good);\x20margin-top:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-check-circle\x22></i>\x20网络状态已恢复正常\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','🇰🇷','input','source-currency','network-result','dataset','本地时间与西八区相同','.unit-option.active','getDay','scrollTop','\x20的余数是\x20','remainder-result','open','.unit-option','typing-indicator','pet-inflation','random','%\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20随机丢包率:\x20','change','network-simulator','235zJtmji','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>北京与西八区时差:\x20','toFixed','ms</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>下行延时:\x20','.menu-toggle','rural','toLocaleString','querySelector','timestamp-result','ms\x20|\x20总丢包率:\x20','America/New_York','classList','星期一','[data-preset=\x22','DOMContentLoaded','\x20(UTC-8)','ai-message','padStart','loss-bar','forEach','model-item','translate-screenshot','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22activity-name\x22>','application/json','latency','🇦🇺','data-question','image/png','<i\x20class=\x22fas\x20','flag','https://xcyy1234.github.io/Web_Tools_Test/','convert-to-days','none','cd-value','ai-messages','fortune-result','model_key','\x20-\x20','convert-to-timestamp','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22color:\x20var(--success);\x20margin-top:\x205px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-check-circle\x22></i>\x20','replace','network-good','height','screenshot-area','API错误:\x20','milliseconds','substring','add','video','model-name','var(--network-poor)','2-digit','星期日','timestamp-input','className','data-tool','activity_name','includes','.currency-option','city','ms</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>上行延时:\x20','network-status','.sidebar','user-message','currency','elevator','videoWidth','days-value','random-packet-loss','class','http://192.168.1.52/zentao/bug-browse-1--assigntome.html','rate','getMonth','other-param','numeric',':\x20网络请求失败\x20(丢包)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','0ms','color','network-simulation-indicator','minutes','model-results','mediaDevices','.tool-nav-item','data-value','dividend','appendChild','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','人民币','packet-loss','network-selected','level-inflation','log','data-preset','innerHTML','appstore-link-btn','width','291147NlATlD','应用网络设置:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20基本延迟:\x20','\x20预设</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>点击\x22应用网络设置\x22按钮启用此配置</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','clock-date','div','flex','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>网络设置已恢复\x20(','model-description','activity-detail','loss-value','getElementById','iphone-link-btn','length','toggle','translation-result','convert-cd','background','CNY','display','ms</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>丢包率:\x20','getDisplayMedia','serviceWorker','cd-result','clear-ai-chat','createElement','target','var(--network-medium)','content','fortune-btn','assistant','getTracks','active','value','31468jvGFHc','icon','target-language','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2010px;\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22activity-item\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20padding:\x2015px;\x20color:\x20#a0aec0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20未找到匹配的活动\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','stop','EUR','activity-item','毫秒</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2010px;\x20color:\x20#a0aec0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20总计:\x20','.coin-value','):</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22line-height:\x201.6;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>\x22功能暂时无法使用！\x22</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2015px;\x20color:\x20#a0aec0;\x20font-size:\x200.9rem;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20翻译完成时间:\x20','seconds','网络设置已重置','filter','pet-operator','getHours','screenshot-upload','latency-value','ai-typing','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22currency-flag-lg\x22>','%</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2010px;\x20color:\x20var(--neon-blue);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-info-circle\x22></i>\x20总延迟:\x20','getAttribute','星期六','network-poor','.tool-content','screenshot-preview','USD','sunny','detail-name','opacity','7112OilJRR','innerWidth','getFullYear','zentao-link-btn','.ai-suggestion','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div><strong>转换结果\x20(','</strong></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-top:\x2010px;\x20color:\x20#a0aec0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20=\x20','simulationInterval','status','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:\x20center;\x20padding:\x2015px;\x20color:\x20#a0aec0;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20未找到匹配的模型\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','/sw.js','currency-result-item','请先上传截图或捕获屏幕','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>计算结果:\x20<strong>','toLowerCase','ServiceWorker\x20注册成功:\x20','block','onload','min','floor','level-operator','addEventListener','days','weather-temp','data-unit','\x20除以\x20','condition','toLocaleTimeString','vip-inflation','ServiceWorker\x20注册失败:\x20','请输入问题','subway','download-latency-value','json','network-stats','.overlay','%\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','coin-factor','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22message-icon\x22\x20style=\x22background:\x20var(--neon-purple);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-user\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>您</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','你是一个专业的游戏测试助手，帮助测试人员解决各种技术问题','_blank','\x20秒\x20(','map','weather-icon','\x22]\x20.preset-name','ms\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20上行延时:\x20','message','星期五','register','toISOString',')</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','weather-date','push','\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20','download-latency','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div>西八区时间(UTC-8):\x20','\x20...\x20'];_0x24c4=function(){return _0x5ae13c;};return _0x24c4();}function scrollToBottom(){const _0x588036=_0x5877c2,_0x442145=document[_0x588036(0x2bf)]('ai-messages');_0x442145['scrollTop']=_0x442145['scrollHeight'];}function initCurrencyConverter(){const _0x23e7ff=_0x5877c2,_0x55dde8=document['getElementById'](_0x23e7ff(0x211)),_0x4b8563=document['getElementById'](_0x23e7ff(0x244)),_0x55e412=document[_0x23e7ff(0x229)](_0x23e7ff(0x28f)),_0x1cc885=document[_0x23e7ff(0x2bf)](_0x23e7ff(0x1f2)),_0x370609=document[_0x23e7ff(0x2bf)]('currency-results'),_0x3c94db=document[_0x23e7ff(0x2bf)]('currency-update-time');_0x3c94db[_0x23e7ff(0x1d9)]=new Date()['toLocaleString'](_0x23e7ff(0x20c)),_0x55e412[_0x23e7ff(0x268)](_0x321212=>{const _0x36925b=_0x23e7ff;_0x321212[_0x36925b(0x1b2)](_0x36925b(0x22c),function(){const _0x5dfc43=_0x36925b;_0x55e412[_0x5dfc43(0x268)](_0x2a5f5d=>_0x2a5f5d[_0x5dfc43(0x260)][_0x5dfc43(0x22b)](_0x5dfc43(0x2d4))),this[_0x5dfc43(0x260)][_0x5dfc43(0x284)](_0x5dfc43(0x2d4)),_0x4dd653();});}),_0x1cc885[_0x23e7ff(0x1b2)](_0x23e7ff(0x22c),_0x4dd653),_0x4dd653(),_0x55dde8[_0x23e7ff(0x1b2)]('input',_0x4dd653),_0x4b8563[_0x23e7ff(0x1b2)](_0x23e7ff(0x253),_0x4dd653);function _0x4dd653(){const _0x52e057=_0x23e7ff,_0x2b6473=parseFloat(_0x55dde8[_0x52e057(0x2d5)])||0x0,_0xd64a4a=_0x4b8563[_0x52e057(0x2d5)],_0x22bd0f=document['querySelector'](_0x52e057(0x238)),_0x22512d=_0x22bd0f?_0x22bd0f[_0x52e057(0x246)][_0x52e057(0x295)]:_0x52e057(0x2c6);_0x370609['innerHTML']='';const _0x2db300=[_0x22512d];if(_0x22512d!==_0x52e057(0x2c6))_0x2db300[_0x52e057(0x1d1)](_0x52e057(0x2c6));if(_0x22512d!==_0x52e057(0x2f0))_0x2db300[_0x52e057(0x1d1)](_0x52e057(0x2f0));if(_0x22512d!==_0x52e057(0x2dc))_0x2db300['push'](_0x52e057(0x2dc));_0x2db300[_0x52e057(0x268)](_0x5c02fd=>{const _0xd57b51=_0x52e057,_0x108689=_0x4cf2d8(_0x2b6473,_0xd64a4a,_0x5c02fd),_0x49c607=exchangeRates[_0x5c02fd],_0x3dbdc0=document[_0xd57b51(0x2cd)](_0xd57b51(0x2b9));_0x3dbdc0['className']=_0xd57b51(0x300),_0x3dbdc0[_0xd57b51(0x2b2)]=_0xd57b51(0x2e9)+_0x49c607[_0xd57b51(0x272)]+_0xd57b51(0x20a)+_0x108689[_0xd57b51(0x257)](0x2)+'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22currency-name\x22>'+_0x49c607[_0xd57b51(0x1ef)]+'\x20('+_0x5c02fd+_0xd57b51(0x1cf),_0x370609[_0xd57b51(0x2aa)](_0x3dbdc0);}),_0x3c94db[_0x52e057(0x1d9)]=new Date()['toLocaleString'](_0x52e057(0x20c));}function _0x4cf2d8(_0x2faa23,_0xeb019e,_0x4536c1){const _0x45498e=_0x23e7ff,_0x3bf5dd=_0x2faa23/exchangeRates[_0xeb019e][_0x45498e(0x29c)];return _0x3bf5dd*exchangeRates[_0x4536c1][_0x45498e(0x29c)];}}function calculateCoin(){const _0x26400c=_0x5877c2,_0x4d7dc6=parseFloat(document['getElementById']('usd-base')[_0x26400c(0x2d5)])||0x0,_0xfe3c2a=parseFloat(document[_0x26400c(0x2bf)](_0x26400c(0x1b9))[_0x26400c(0x2d5)])||0x0,_0x4d1a14=parseFloat(document[_0x26400c(0x2bf)](_0x26400c(0x2af))[_0x26400c(0x2d5)])||0x0,_0x10f017=parseFloat(document[_0x26400c(0x2bf)](_0x26400c(0x250))[_0x26400c(0x2d5)])||0x0,_0x225b7e=parseFloat(document['getElementById'](_0x26400c(0x1c2))[_0x26400c(0x2d5)])||0x1,_0x4b354d=parseFloat(document[_0x26400c(0x2bf)](_0x26400c(0x29e))[_0x26400c(0x2d5)])||0x0,_0x5e6c90=document['getElementById']('vip-operator')[_0x26400c(0x2d5)],_0x5a4bef=document['getElementById'](_0x26400c(0x1b1))[_0x26400c(0x2d5)],_0x1fc846=document[_0x26400c(0x2bf)](_0x26400c(0x2e4))['value'],_0x49061b=document[_0x26400c(0x2bf)](_0x26400c(0x23d))[_0x26400c(0x2d5)],_0x6cc4e6=document[_0x26400c(0x2bf)]('other-operator')['value'];let _0x16dc37='('+_0x4d7dc6+')',_0x1861a4=_0x4d7dc6;_0x1861a4=applyOperation(_0x1861a4,_0x5e6c90,_0xfe3c2a),_0x16dc37+='\x20'+getSymbol(_0x5e6c90)+'\x20'+_0xfe3c2a,_0x1861a4=applyOperation(_0x1861a4,_0x5a4bef,_0x4d1a14),_0x16dc37+='\x20'+getSymbol(_0x5a4bef)+'\x20'+_0x4d1a14,_0x1861a4=applyOperation(_0x1861a4,_0x1fc846,_0x10f017),_0x16dc37+='\x20'+getSymbol(_0x1fc846)+'\x20'+_0x10f017,_0x1861a4=applyOperation(_0x1861a4,_0x49061b,_0x225b7e),_0x16dc37+='\x20'+getSymbol(_0x49061b)+'\x20'+_0x225b7e,_0x1861a4=applyOperation(_0x1861a4,_0x6cc4e6,_0x4b354d),_0x16dc37+='\x20'+getSymbol(_0x6cc4e6)+'\x20'+_0x4b354d;const _0x1b36b5=document[_0x26400c(0x25c)](_0x26400c(0x2df));_0x1b36b5[_0x26400c(0x1d9)]=_0x1861a4[_0x26400c(0x257)](0x2);const _0x361d51=document['querySelector']('.coin-formula');_0x361d51[_0x26400c(0x1d9)]=_0x26400c(0x232)+_0x16dc37+_0x26400c(0x2fb)+_0x1861a4[_0x26400c(0x257)](0x2);}function applyOperation(_0x41b04f,_0x237890,_0xb5ef8c){switch(_0x237890){case'+':return _0x41b04f+_0xb5ef8c;case'-':return _0x41b04f-_0xb5ef8c;case'*':return _0x41b04f*_0xb5ef8c;case'/':return _0xb5ef8c!==0x0?_0x41b04f/_0xb5ef8c:_0x41b04f;default:return _0x41b04f;}}function getSymbol(_0x2991f8){switch(_0x2991f8){case'+':return'+';case'-':return'-';case'*':return'×';case'/':return'÷';default:return'';}}function initActivitySearch(){const _0x506ef1=_0x5877c2,_0x15d0d7=document[_0x506ef1(0x2bf)](_0x506ef1(0x240)),_0x24659b=document[_0x506ef1(0x2bf)](_0x506ef1(0x1f5)),_0x2884fc=document['getElementById'](_0x506ef1(0x2bd));_0x15d0d7['addEventListener'](_0x506ef1(0x243),function(){const _0x329cfe=_0x506ef1,_0x4548bd=this['value'][_0x329cfe(0x22a)]();_0x24659b[_0x329cfe(0x2b2)]='';if(_0x4548bd[_0x329cfe(0x2c1)]===0x0){_0x24659b[_0x329cfe(0x1e4)][_0x329cfe(0x2c7)]=_0x329cfe(0x275),_0x2884fc['style'][_0x329cfe(0x2c7)]=_0x329cfe(0x275);return;}const _0x4f9300=activityData[_0x329cfe(0x2e3)](_0x1cc638=>_0x1cc638[_0x329cfe(0x23c)][_0x329cfe(0x28e)](_0x4548bd)||_0x1cc638[_0x329cfe(0x28d)]['toLowerCase']()['includes'](_0x4548bd[_0x329cfe(0x1ab)]()));_0x4f9300['length']>0x0?(_0x24659b[_0x329cfe(0x1e4)][_0x329cfe(0x2c7)]=_0x329cfe(0x1ad),_0x4f9300[_0x329cfe(0x268)](_0x59a248=>{const _0xbc9e84=_0x329cfe,_0x1410af=document[_0xbc9e84(0x2cd)](_0xbc9e84(0x2b9));_0x1410af[_0xbc9e84(0x28b)]=_0xbc9e84(0x2dd),_0x1410af[_0xbc9e84(0x2b2)]=_0xbc9e84(0x26b)+_0x59a248['activity_name']+_0xbc9e84(0x202)+_0x59a248[_0xbc9e84(0x23c)]+_0xbc9e84(0x2ab),_0x1410af[_0xbc9e84(0x1b2)](_0xbc9e84(0x22c),function(){const _0x4020d5=_0xbc9e84;showActivityDetail(_0x59a248),_0x24659b['style'][_0x4020d5(0x2c7)]='none';}),_0x24659b[_0xbc9e84(0x2aa)](_0x1410af);})):(_0x24659b[_0x329cfe(0x1e4)][_0x329cfe(0x2c7)]=_0x329cfe(0x1ad),_0x24659b[_0x329cfe(0x2b2)]=_0x329cfe(0x2da));}),document[_0x506ef1(0x1b2)](_0x506ef1(0x22c),function(_0x400bc7){const _0x18b5c0=_0x506ef1;!_0x400bc7['target']['closest'](_0x18b5c0(0x205))&&(_0x24659b['style'][_0x18b5c0(0x2c7)]=_0x18b5c0(0x275));});}function showActivityDetail(_0x1d670a){const _0x3917a6=_0x5877c2,_0x1c7735=document[_0x3917a6(0x2bf)]('activity-detail');document[_0x3917a6(0x2bf)](_0x3917a6(0x2f2))[_0x3917a6(0x1d9)]=_0x1d670a[_0x3917a6(0x28d)],document[_0x3917a6(0x2bf)](_0x3917a6(0x1f1))['textContent']=_0x1d670a[_0x3917a6(0x23c)],_0x1c7735[_0x3917a6(0x1e4)]['display']=_0x3917a6(0x1ad);}function initModelSearch(){const _0x3aff8e=_0x5877c2,_0x4c4154=document[_0x3aff8e(0x2bf)](_0x3aff8e(0x207)),_0x39c31d=document[_0x3aff8e(0x2bf)](_0x3aff8e(0x2a5)),_0x2c61a7=document['getElementById'](_0x3aff8e(0x1fe));_0x2c61a7[_0x3aff8e(0x1e4)][_0x3aff8e(0x2c7)]=_0x3aff8e(0x275),_0x4c4154['addEventListener'](_0x3aff8e(0x243),function(){const _0x4f8b26=_0x3aff8e,_0x2341db=this[_0x4f8b26(0x2d5)][_0x4f8b26(0x22a)]();_0x39c31d[_0x4f8b26(0x2b2)]='';if(_0x2341db['length']===0x0){_0x39c31d[_0x4f8b26(0x1e4)][_0x4f8b26(0x2c7)]=_0x4f8b26(0x275),_0x2c61a7['style'][_0x4f8b26(0x2c7)]=_0x4f8b26(0x275);return;}const _0x2d865f=ModelData[_0x4f8b26(0x2e3)](_0x1f3c5e=>_0x1f3c5e[_0x4f8b26(0x279)][_0x4f8b26(0x28e)](_0x2341db)||_0x1f3c5e[_0x4f8b26(0x220)][_0x4f8b26(0x1ab)]()['includes'](_0x2341db['toLowerCase']()));if(_0x2d865f['length']>0x0)_0x39c31d['style'][_0x4f8b26(0x2c7)]=_0x4f8b26(0x1ad),_0x2d865f[_0x4f8b26(0x268)](_0x2bc060=>{const _0x24e12f=_0x4f8b26,_0x15beda=document['createElement'](_0x24e12f(0x2b9));_0x15beda['className']=_0x24e12f(0x269);const _0x2433ea=document[_0x24e12f(0x2cd)](_0x24e12f(0x2b9));_0x2433ea[_0x24e12f(0x28b)]=_0x24e12f(0x286),_0x2433ea[_0x24e12f(0x1d9)]=_0x2bc060[_0x24e12f(0x220)];const _0x12afb5=document[_0x24e12f(0x2cd)](_0x24e12f(0x2b9));_0x12afb5[_0x24e12f(0x28b)]=_0x24e12f(0x2bc),_0x12afb5[_0x24e12f(0x1d9)]=_0x2bc060[_0x24e12f(0x279)],_0x15beda[_0x24e12f(0x2aa)](_0x2433ea),_0x15beda['appendChild'](_0x12afb5),_0x15beda[_0x24e12f(0x1b2)](_0x24e12f(0x22c),function(){const _0x4e090d=_0x24e12f;showModelDetail(_0x2bc060),_0x39c31d[_0x4e090d(0x1e4)]['display']=_0x4e090d(0x275);}),_0x39c31d['appendChild'](_0x15beda);});else{_0x39c31d[_0x4f8b26(0x1e4)]['display']='block';const _0x2f373b=document[_0x4f8b26(0x2cd)](_0x4f8b26(0x2b9));_0x2f373b[_0x4f8b26(0x28b)]=_0x4f8b26(0x269),_0x2f373b[_0x4f8b26(0x2b2)]=_0x4f8b26(0x2fe),_0x39c31d[_0x4f8b26(0x2aa)](_0x2f373b);}}),document[_0x3aff8e(0x1b2)]('click',function(_0x8556c2){const _0x2dfced=_0x3aff8e;!_0x39c31d['contains'](_0x8556c2[_0x2dfced(0x2ce)])&&_0x8556c2[_0x2dfced(0x2ce)]!==_0x4c4154&&(_0x39c31d[_0x2dfced(0x1e4)][_0x2dfced(0x2c7)]=_0x2dfced(0x275));});}function showModelDetail(_0x824040){const _0x5264c8=_0x5877c2,_0x45779d=document[_0x5264c8(0x2bf)](_0x5264c8(0x1fe));document['getElementById']('model-name')['textContent']=_0x824040[_0x5264c8(0x279)],document['getElementById']('model-description')[_0x5264c8(0x1d9)]=_0x824040[_0x5264c8(0x220)],_0x45779d[_0x5264c8(0x1e4)][_0x5264c8(0x2c7)]=_0x5264c8(0x1ad);}document['addEventListener']('DOMContentLoaded',init);
+// 模块数据加载
+let activityData = [];
+let ModelData = [];
+let DrawLotsData = [];
+
+async function loadExternalData() {
+    try {
+        ({ activityData } = await import('./Activity.js'));
+        ({ ModelData } = await import('./model.js'));
+        ({ DrawLotsData } = await import('./Drawlots.js'));
+    } catch (error) {
+        console.error("加载数据失败:", error);
+        // 设置默认数据
+        activityData = [];
+        ModelData = [];
+        DrawLotsData = [];
+    }
+}
+
+// 初始化函数
+async function init() {
+    await loadExternalData();
+
+    // 安全的元素获取函数
+    function getElementSafe(id) {
+        const el = document.getElementById(id);
+        if (!el) console.warn(`元素 #${id} 未找到`);
+        return el;
+    }
+
+    // 开发者工具检测
+    detectDevTools();
+
+    // 初始化滑块值显示
+    const latencySlider = getElementSafe('latency');
+    const packetLossSlider = getElementSafe('packet-loss');
+
+    if (latencySlider) {
+        latencySlider.addEventListener('input', function() {
+            const valueDisplay = getElementSafe('latency-value');
+            if (valueDisplay) valueDisplay.textContent = this.value + 'ms';
+        });
+    }
+
+    if (packetLossSlider) {
+        packetLossSlider.addEventListener('input', function() {
+            const valueDisplay = getElementSafe('loss-value');
+            if (valueDisplay) valueDisplay.textContent = this.value + '%';
+        });
+    }
+
+    // 网络预设选择
+    const networkItems = document.querySelectorAll('.network-item');
+    networkItems.forEach(item => {
+        item.addEventListener('click', function () {
+            networkItems.forEach(i => i.classList.remove('network-selected'));
+            this.classList.add('network-selected');
+
+            const presets = {
+                'network-good': {latency: 50, loss: 0},
+                'network-medium': {latency: 200, loss: 8},
+                'network-poor': {latency: 800, loss: 30}
+            };
+
+            const preset = presets[this.id];
+            if (preset) {
+                document.getElementById('latency').value = preset.latency;
+                document.getElementById('packet-loss').value = preset.loss;
+                document.getElementById('latency-value').textContent = preset.latency + 'ms';
+                document.getElementById('loss-value').textContent = preset.loss + '%';
+            }
+        });
+    });
+
+    // 导航功能
+    const menuToggle = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+    const overlay = document.querySelector('.overlay');
+
+    if(sidebar) {
+        // 修复：只添加一次事件监听
+        sidebar.addEventListener('click', function(e) {
+            const navItem = e.target.closest('.tool-nav-item');
+            if (!navItem) return;
+
+            const toolId = navItem.getAttribute('data-tool');
+            document.querySelectorAll('.tool-nav-item').forEach(i => i.classList.remove('active'));
+            navItem.classList.add('active');
+
+            document.querySelectorAll('.tool-content').forEach(tool => {
+                tool.classList.remove('active');
+            });
+            document.getElementById(toolId).classList.add('active');
+
+            if (window.innerWidth < 768) {
+                sidebar.classList.remove('active');
+                menuToggle.classList.remove('active');
+                overlay.classList.remove('active');
+            }
+        });
+    }
+
+    // 菜单切换
+    if(menuToggle) {
+        menuToggle.addEventListener('click', function () {
+            this.classList.toggle('active');
+            if(sidebar) sidebar.classList.toggle('active');
+            if(overlay) overlay.classList.toggle('active');
+        });
+    }
+
+    // 点击遮罩层关闭菜单
+    if(overlay) {
+        overlay.addEventListener('click', function () {
+            if(menuToggle) menuToggle.classList.remove('active');
+            if(sidebar) sidebar.classList.remove('active');
+            this.classList.remove('active');
+        });
+    }
+
+    // 单位选择器（使用事件委托）
+    const unitSelector = document.querySelector('.unit-selector');
+    if(unitSelector) {
+        unitSelector.addEventListener('click', function (e) {
+            const option = e.target.closest('.unit-option');
+            if (!option) return;
+
+            option.parentNode.querySelectorAll('.unit-option').forEach(opt => {
+                opt.classList.remove('active');
+            });
+            option.classList.add('active');
+        });
+    }
+
+    // 时间戳单位选择器（使用事件委托）
+    const timestampSelector = document.querySelector('.timestamp-unit-selector');
+    if(timestampSelector) {
+        timestampSelector.addEventListener('click', function (e) {
+            const option = e.target.closest('.timestamp-unit-option');
+            if (!option) return;
+
+            option.parentNode.querySelectorAll('.timestamp-unit-option').forEach(opt => {
+                opt.classList.remove('active');
+            });
+            option.classList.add('active');
+        });
+    }
+
+    // 事件监听
+    const eventBindings = [
+        { id: 'calculate-remainder', event: 'click', handler: calculateRemainder },
+        { id: 'network-simulator', event: 'click', handler: initNetworkSimulator },
+        // { id: 'translate-screenshot', event: 'click', handler: translateScreenshot },
+        { id: 'convert-to-date', event: 'click', handler: convertTimestampToDate },
+        { id: 'convert-to-days', event: 'click', handler: convertTimestampToDays },
+        { id: 'convert-to-timestamp', event: 'click', handler: convertDateToTimestamp },
+        { id: 'convert-cd', event: 'click', handler: convertCD },
+        { id: 'send-ai-question', event: 'click', handler: askDeepSeek },
+        { id: 'clear-ai-chat', event: 'click', handler: clearAIChat },
+        { id: 'zentao-link-btn', event: 'click', handler: () => window.open('http://192.168.1.52/zentao/bug-browse-1--assigntome.html', '_blank') },
+        { id: 'package-download-btn-ct', event: 'click', handler: () => window.open('http://192.168.1.150/down/beta/', '_blank') },
+        { id: 'package-download-btn-jms', event: 'click', handler: () => window.open('http://192.168.1.119/download/', '_blank') },
+        { id: 'bugly-link-btn', event: 'click', handler: () => window.open('https://bugly.qq.com/v2/', '_blank') },
+        { id: 'appstore-link-btn', event: 'click', handler: () => window.open('https://appid.naitu.cc/share/nice', '_blank') },
+        { id: 'iphone-link-btn', event: 'click', handler: () => window.open('https://yunduanxin.net/', '_blank') }
+    ];
+
+    eventBindings.forEach(binding => {
+        const element = getElementSafe(binding.id);
+        if (element) {
+            element.addEventListener(binding.event, binding.handler);
+        }
+    });
+
+    // AI建议
+    const aiSuggestions = document.querySelector('.ai-suggestions');
+    if(aiSuggestions) {
+        aiSuggestions.addEventListener('click', function (e) {
+            const suggestion = e.target.closest('.ai-suggestion');
+            if (!suggestion) return;
+
+            const question = suggestion.getAttribute('data-question');
+            document.getElementById('ai-question').value = question;
+        });
+    }
+
+    // CD示例
+    const cdExamples = document.querySelector('.cd-examples');
+    if(cdExamples) {
+        cdExamples.addEventListener('click', function (e) {
+            const example = e.target.closest('.cd-example');
+            if (!example) return;
+
+            const value = example.getAttribute('data-value');
+            const unit = example.getAttribute('data-unit');
+            document.getElementById('cd-value').value = value;
+
+            document.querySelectorAll('.unit-option').forEach(option => {
+                option.classList.remove('active');
+                if (option.getAttribute('data-unit') === unit) {
+                    option.classList.add('active');
+                }
+            });
+            convertCD();
+        });
+    }
+
+    // 默认选择良好网络
+    const networkStatus = getElementSafe('network-status');
+    if(networkStatus) networkStatus.click();
+
+    // 设置当前时间作为默认值
+    const now = new Date();
+    const datetimeInput = getElementSafe('datetime-input');
+    if(datetimeInput) datetimeInput.value = formatDate(now);
+
+    const timestampInput = getElementSafe('timestamp-input');
+    if(timestampInput) timestampInput.value = Math.floor(now.getTime() / 1000);
+
+    // 初始化各功能模块
+    // initScreenshot();
+    initCurrencyConverter();
+    calculateCoin();
+    initActivitySearch();
+    initModelSearch();
+    initNetworkSimulator();
+}
+
+
+
+// =======================================以下是原有完整代码=====================================================//
+
+// 开发者工具检测函数（新增）
+function detectDevTools() {
+    const element = new Image();
+
+    Object.defineProperty(element, 'id', {
+        get: () => {
+            document.body.innerHTML = '<h1 style="color:red;text-align:center;margin-top:100px;">禁止检查源代码</h1>';
+            window.stop();
+        }
+    });
+
+    console.log(element);
+}
+
+
+// AI助手相关变量
+let aiConversation = [];
+
+// DeepSeek API密钥
+const OPENROUTER_API_KEY = "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";
+
+// 汇率数据
+const exchangeRates = {
+    CNY: {name: "人民币", rate: 1, flag: "🇨🇳"},
+    USD: {name: "美元", rate: 7.27, flag: "🇺🇸"},
+    EUR: {name: "欧元", rate: 7.81, flag: "🇪🇺"},
+    JPY: {name: "日元", rate: 0.049, flag: "🇯🇵"},
+    GBP: {name: "英镑", rate: 8.91, flag: "🇬🇧"},
+    HKD: {name: "港币", rate: 0.93, flag: "🇭🇰"},
+    KRW: {name: "韩元", rate: 0.0055, flag: "🇰🇷"},
+    AUD: {name: "澳元", rate: 4.71, flag: "🇦🇺"},
+    CAD: {name: "加元", rate: 5.36, flag: "🇨🇦"}
+};
+
+// 通用日期格式化函数
+function formatDate(date) {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    return `${year}-${month}-${day}T${hours}:${minutes}`;
+}
+
+// 通用结果展示函数
+function showResult(elementId, htmlContent) {
+    const resultBox = document.getElementById(elementId);
+    if (resultBox) {
+        resultBox.innerHTML = htmlContent;
+    }
+}
+
+// 计算余数
+function calculateRemainder() {
+    const dividend = parseInt(document.getElementById('dividend').value) || 0;
+    const divisor = parseInt(document.getElementById('divisor').value) || 1;
+
+    if (divisor === 0) {
+        alert('除数不能为零！');
+        return;
+    }
+
+    const remainder = dividend % divisor;
+    const quotient = Math.floor(dividend / divisor);
+
+    showResult('remainder-result', `
+        <div style="margin-bottom: 10px;">${dividend} ÷ ${divisor} = ${quotient} ... ${remainder}</div>
+        <div>计算结果: <strong>${remainder}</strong></div>
+        <div style="margin-top: 10px; color: #a0aec0;">
+            ${dividend} 除以 ${divisor} 的余数是 ${remainder}
+        </div>
+    `);
+}
+
+// 网络模拟功能
+function initNetworkSimulator() {
+    // 获取DOM元素
+    const latencySlider = document.getElementById('latency');
+    const uploadLatencySlider = document.getElementById('upload-latency');
+    const downloadLatencySlider = document.getElementById('download-latency');
+    const packetLossSlider = document.getElementById('packet-loss');
+    const randomPacketLossSlider = document.getElementById('random-packet-loss');
+    const latencyValue = document.getElementById('latency-value');
+    const uploadLatencyValue = document.getElementById('upload-latency-value');
+    const downloadLatencyValue = document.getElementById('download-latency-value');
+    const lossValue = document.getElementById('loss-value');
+    const randomLossValue = document.getElementById('random-loss-value');
+    const applyBtn = document.getElementById('apply-settings');
+    const resetBtn = document.getElementById('reset-settings');
+    const networkResult = document.getElementById('network-result');
+    const networkStatus = document.getElementById('network-status');
+    const networkStats = document.getElementById('network-stats');
+    const networkIndicator = document.getElementById('network-simulation-indicator');
+    const presetItems = document.querySelectorAll('.preset-item');
+    const latencyBar = document.getElementById('latency-bar');
+    const lossBar = document.getElementById('loss-bar');
+    const latencyGraph = document.getElementById('latency-graph');
+
+    // 存储历史数据
+    const latencyHistory = [];
+    const maxHistoryItems = 20;
+
+    // 初始值显示
+    if (latencyValue) latencyValue.textContent = (latencySlider?.value || 0) + 'ms';
+    if (uploadLatencyValue) uploadLatencyValue.textContent = (uploadLatencySlider?.value || 0) + 'ms';
+    if (downloadLatencyValue) downloadLatencyValue.textContent = (downloadLatencySlider?.value || 0) + 'ms';
+    if (lossValue) lossValue.textContent = (packetLossSlider?.value || 0) + '%';
+    if (randomLossValue) randomLossValue.textContent = (randomPacketLossSlider?.value || 0) + '%';
+
+    // 更新图表
+    function updateGraph() {
+        const totalLatency = parseInt(latencySlider?.value || 0) +
+            parseInt(uploadLatencySlider?.value || 0) +
+            parseInt(downloadLatencySlider?.value || 0);
+        const totalLoss = parseInt(packetLossSlider?.value || 0) +
+            parseInt(randomPacketLossSlider?.value || 0);
+
+        // 更新条形图宽度
+        if (latencyBar) latencyBar.style.width = Math.min(100, totalLatency / 20) + '%';
+        if (lossBar) lossBar.style.width = Math.min(100, totalLoss * 2) + '%';
+
+        // 更新条形图颜色
+        const latencyColor = totalLatency < 100 ? 'var(--network-good)' :
+            totalLatency < 500 ? 'var(--network-medium)' :
+                totalLatency < 1000 ? 'var(--network-poor)' : 'var(--network-severe)';
+
+        const lossColor = totalLoss < 5 ? 'var(--network-good)' :
+            totalLoss < 15 ? 'var(--network-medium)' :
+                totalLoss < 25 ? 'var(--network-poor)' : 'var(--network-severe)';
+
+        if (latencyBar) latencyBar.style.background = latencyColor;
+        if (lossBar) lossBar.style.background = lossColor;
+
+        // 更新折线图数据
+        latencyHistory.push(totalLatency);
+        if (latencyHistory.length > maxHistoryItems) {
+            latencyHistory.shift();
+        }
+
+        if (latencyGraph) {
+            latencyGraph.innerHTML = '';
+            const maxValue = Math.max(...latencyHistory, 100);
+
+            latencyHistory.forEach((value, index) => {
+                const height = (value / maxValue) * 100;
+                const bar = document.createElement('div');
+                bar.className = 'graph-line';
+                bar.style.left = `${(index / maxHistoryItems) * 100}%`;
+                bar.style.height = `${height}%`;
+                bar.style.width = `${100 / maxHistoryItems}%`;
+                bar.style.opacity = 0.3 + (0.7 * (height / 100));
+                latencyGraph.appendChild(bar);
+            });
+        }
+    }
+
+    // 滑块事件监听
+    const sliders = [latencySlider, uploadLatencySlider, downloadLatencySlider, packetLossSlider, randomPacketLossSlider];
+    sliders.forEach(slider => {
+        if (slider) {
+            slider.addEventListener('input', function () {
+                const id = this.id;
+                if (id.includes('latency')) {
+                    const valueElement = document.getElementById(`${id}-value`);
+                    if (valueElement) valueElement.textContent = this.value + 'ms';
+                } else {
+                    const valueElement = document.getElementById(`${id}-value`);
+                    if (valueElement) valueElement.textContent = this.value + '%';
+                }
+                updateNetworkStatus();
+                updateGraph();
+            });
+        }
+    });
+
+    // 更新网络状态显示
+    function updateNetworkStatus() {
+        const latency = parseInt(latencySlider?.value || 0);
+        const uploadLatency = parseInt(uploadLatencySlider?.value || 0);
+        const downloadLatency = parseInt(downloadLatencySlider?.value || 0);
+        const packetLoss = parseInt(packetLossSlider?.value || 0);
+        const randomLoss = parseInt(randomPacketLossSlider?.value || 0);
+
+        const totalLatency = latency + uploadLatency + downloadLatency;
+        const totalLoss = packetLoss + randomLoss;
+
+        if (networkStats) networkStats.textContent = `延迟: ${totalLatency}ms | 丢包: ${totalLoss}%`;
+
+        // 更新网络状态文字
+        let statusText, statusColor;
+        if (totalLatency === 0 && totalLoss === 0) {
+            statusText = "良好";
+            statusColor = "var(--network-good)";
+        } else if (totalLatency < 100 && totalLoss < 5) {
+            statusText = "一般";
+            statusColor = "var(--network-medium)";
+        } else if (totalLatency < 500 && totalLoss < 20) {
+            statusText = "较差";
+            statusColor = "var(--network-poor)";
+        } else {
+            statusText = "极差";
+            statusColor = "var(--network-severe)";
+        }
+
+        if (networkStatus) {
+            networkStatus.textContent = statusText;
+            networkStatus.style.color = statusColor;
+        }
+    }
+
+    // 应用网络设置
+    if (applyBtn) {
+        applyBtn.addEventListener('click', function () {
+            const uploadLatency = parseInt(uploadLatencySlider?.value || 0);
+            const downloadLatency = parseInt(downloadLatencySlider?.value || 0);
+            const packetLoss = parseInt(packetLossSlider?.value || 0);
+            const randomLoss = parseInt(randomPacketLossSlider?.value || 0);
+
+            const totalLatency = latency + uploadLatency + downloadLatency;
+            const totalLoss = packetLoss + randomLoss;
+
+            applyNetworkSettings(latency, uploadLatency, downloadLatency, packetLoss, randomLoss);
+            if (networkIndicator) networkIndicator.style.display = 'block';
+
+            // ServiceWorker 处理请求
+            if (navigator.serviceWorker && navigator.serviceWorker.controller) {
+                navigator.serviceWorker.controller.postMessage({
+                    type: 'SET_NETWORK_CONFIG',
+                    config: {
+                        baseLatency: latency,
+                        uploadLatency: uploadLatency,
+                        downloadLatency: downloadLatency,
+                        packetLoss: packetLoss,
+                        randomLoss: randomLoss
+                    }
+                });
+            }
+
+
+
+            const now = new Date();
+            showResult('network-result', `
+                <div><strong>网络设置已应用 (${now.toLocaleTimeString()}):</strong></div>
+                <div>基本延迟: ${latency}ms</div>
+                <div>上行延时: ${uploadLatency}ms</div>
+                <div>下行延时: ${downloadLatency}ms</div>
+                <div>丢包率: ${packetLoss}%</div>
+                <div>随机丢包率: ${randomLoss}%</div>
+                <div style="margin-top: 10px; color: var(--neon-blue);">
+                    <i class="fas fa-info-circle"></i> 总延迟: ${totalLatency}ms | 总丢包率: ${totalLoss}%
+                </div>
+            `);
+
+            simulateNetworkRequests(totalLatency, totalLoss);
+        });
+    }
+
+    // 恢复网络状态
+    if (resetBtn) {
+        resetBtn.addEventListener('click', function () {
+            sliders.forEach(slider => {
+                if (slider) slider.value = 0;
+            });
+            document.querySelectorAll('.latency-value, .loss-value').forEach(el => {
+                if (el) {
+                    el.textContent = el.classList.contains('latency-value') ? '0ms' : '0%';
+                }
+            });
+
+            resetNetworkSettings();
+            if (networkIndicator) networkIndicator.style.display = 'none';
+
+            // 添加ServiceWorker 请求
+            if (navigator.serviceWorker && navigator.serviceWorker.controller) {
+                navigator.serviceWorker.controller.postMessage({
+                    type: 'RESET_NETWORK'
+                });
+            }
+
+            const now = new Date();
+            showResult('network-result', `
+                <div><strong>网络设置已恢复 (${now.toLocaleTimeString()}):</strong></div>
+                <div style="color: var(--network-good); margin-top: 10px;">
+                    <i class="fas fa-check-circle"></i> 网络状态已恢复正常
+                </div>
+            `);
+
+            updateNetworkStatus();
+            updateGraph();
+        });
+    }
+
+    // 预设场景点击事件
+    if (presetItems) {
+        presetItems.forEach(item => {
+            item.addEventListener('click', function () {
+                presetItems.forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+
+                applyPreset(this.getAttribute('data-preset'));
+            });
+        });
+    }
+
+    // 应用预设
+    function applyPreset(preset) {
+        const presets = {
+            'elevator': {latency: 500, upload: 300, download: 300, loss: 10, random: 5},
+            'subway': {latency: 300, upload: 200, download: 200, loss: 8, random: 4},
+            'tunnel': {latency: 1000, upload: 500, download: 500, loss: 15, random: 10},
+            'rural': {latency: 800, upload: 400, download: 400, loss: 12, random: 8},
+            'stadium': {latency: 200, upload: 100, download: 100, loss: 10, random: 5},
+            'conference': {latency: 150, upload: 80, download: 80, loss: 8, random: 4}
+        };
+
+        const config = presets[preset] || {};
+        if (latencySlider) latencySlider.value = config.latency || 0;
+        if (uploadLatencySlider) uploadLatencySlider.value = config.upload || 0;
+        if (downloadLatencySlider) downloadLatencySlider.value = config.download || 0;
+        if (packetLossSlider) packetLossSlider.value = config.loss || 0;
+        if (randomPacketLossSlider) randomPacketLossSlider.value = config.random || 0;
+
+        if (latencyValue) latencyValue.textContent = (config.latency || 0) + 'ms';
+        if (uploadLatencyValue) uploadLatencyValue.textContent = (config.upload || 0) + 'ms';
+        if (downloadLatencyValue) downloadLatencyValue.textContent = (config.download || 0) + 'ms';
+        if (lossValue) lossValue.textContent = (config.loss || 0) + '%';
+        if (randomLossValue) randomLossValue.textContent = (config.random || 0) + '%';
+
+        updateNetworkStatus();
+        updateGraph();
+
+        if (networkResult) {
+            networkResult.innerHTML = `
+                <div><strong>已应用${document.querySelector(`[data-preset="${preset}"] .preset-name`)?.textContent || ''} 预设</strong></div>
+                <div>点击"应用网络设置"按钮启用此配置</div>
+            `;
+        }
+    }
+
+    // 模拟应用网络设置
+    function applyNetworkSettings(latency, uploadLatency, downloadLatency, packetLoss, randomLoss) {
+        console.log(`应用网络设置:
+              基本延迟: ${latency}ms
+              上行延时: ${uploadLatency}ms
+              下行延时: ${downloadLatency}ms
+              丢包率: ${packetLoss}%
+              随机丢包率: ${randomLoss}%`);
+    }
+
+    // 模拟恢复网络设置
+    function resetNetworkSettings() {
+        console.log('网络设置已重置');
+    }
+
+    // 模拟网络请求
+    function simulateNetworkRequests(latency, lossRate) {
+        clearInterval(window.simulationInterval);
+
+        window.simulationInterval = setInterval(() => {
+            const isPacketLoss = Math.random() * 100 < lossRate;
+            const now = new Date();
+            const timeStr = now.toLocaleTimeString();
+
+            const entry = document.createElement('div');
+            entry.style.marginTop = '5px';
+            entry.style.color = isPacketLoss ? 'var(--danger)' : 'var(--success)';
+            entry.innerHTML = `
+                <i class="fas ${isPacketLoss ? 'fa-times-circle' : 'fa-check-circle'}"></i> 
+                ${timeStr}: ${isPacketLoss ? '网络请求失败 (丢包)' : `请求成功 (延迟: ${latency}ms)`}
+            `;
+
+            if (networkResult) {
+                networkResult.appendChild(entry);
+                networkResult.scrollTop = networkResult.scrollHeight;
+
+                // 限制最多显示20条记录
+                const entries = networkResult.querySelectorAll('div');
+                if (entries.length > 20) {
+                    entries[0].remove();
+                }
+            }
+        }, 2000);
+    }
+
+    // 初始更新网络状态
+    updateNetworkStatus();
+    updateGraph();
+}
+
+// 注册Service Worker
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js').then(function (registration) {
+            console.log('ServiceWorker 注册成功: ', registration.scope);
+        }, function (err) {
+            console.log('ServiceWorker 注册失败: ', err);
+        });
+    });
+}
+
+
+
+// 时间戳转换
+function convertTimestampToDate() {
+    const timestamp = document.getElementById('timestamp-input')?.value;
+    if (!timestamp) {
+        alert('请输入时间戳');
+        return;
+    }
+
+    const unitOption = document.querySelector('.timestamp-unit-option.active');
+    if (!unitOption) return;
+
+    const unit = unitOption.getAttribute('data-unit');
+    const milliseconds = unit === 'seconds' ? timestamp * 1000 : parseInt(timestamp);
+    const date = new Date(milliseconds);
+
+    // 计算时区差
+    const localOffset = -date.getTimezoneOffset();
+    const utcMinus8Offset = -480;
+    const hourDiff = (localOffset - utcMinus8Offset) / 60;
+    const diffDescription = hourDiff > 0 ? `${hourDiff} 小时` :
+        hourDiff < 0 ? `${-hourDiff} 小时` : "本地时间与西八区相同";
+
+    // 美国时区转换
+    const etTime = date.toLocaleString('zh-CN', {
+        timeZone: 'America/New_York',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+    });
+
+    // 西八区时间计算
+    const utcMinus8Date = new Date(milliseconds - 8 * 3600000);
+    const utcMinus8Time = utcMinus8Date.toISOString().replace('T', ' ').substring(0, 19) + " (UTC-8)";
+
+    showResult('timestamp-result', `
+        <div><strong>转换结果 (${unit === 'seconds' ? '秒' : '毫秒'} 转日期):</strong></div>
+        <div>北京时间: ${date.toLocaleString()}</div>
+        <div>美国东部时间(ET): ${etTime}</div>
+        <div>西八区时间(UTC-8): ${utcMinus8Time}</div>
+        <div>北京与西八区时差: ${diffDescription}</div>
+    `);
+
+    const daysResult = document.getElementById('days-result');
+    if (daysResult) daysResult.style.display = 'none';
+
+    const timestampResult = document.getElementById('timestamp-result');
+    if (timestampResult) timestampResult.style.display = 'block';
+}
+
+// 时间戳转天数功能
+function convertTimestampToDays() {
+    const timestamp = document.getElementById('timestamp-input')?.value;
+    if (!timestamp) {
+        alert('请输入时间戳');
+        return;
+    }
+
+    const unitOption = document.querySelector('.timestamp-unit-option.active');
+    if (!unitOption) return;
+
+    const unit = unitOption.getAttribute('data-unit');
+    const seconds = unit === 'seconds' ? timestamp : timestamp / 1000;
+    const days = seconds / 86400;
+
+    const daysValue = document.getElementById('days-value');
+    if (daysValue) daysValue.textContent = days.toFixed(6);
+
+    const timestampResult = document.getElementById('timestamp-result');
+    if (timestampResult) timestampResult.style.display = 'none';
+
+    const daysResult = document.getElementById('days-result');
+    if (daysResult) daysResult.style.display = 'block';
+}
+
+function convertDateToTimestamp() {
+    const dateString = document.getElementById('datetime-input')?.value;
+    if (!dateString) {
+        alert('请选择日期时间');
+        return;
+    }
+
+    const date = new Date(dateString);
+    const timestampSeconds = Math.floor(date.getTime() / 1000);
+    const timestampMilliseconds = date.getTime();
+
+    showResult('timestamp-result', `
+        <div><strong>转换结果:</strong></div>
+        <div>秒时间戳: ${timestampSeconds}</div>
+        <div>毫秒时间戳: ${timestampMilliseconds}</div>
+    `);
+
+    const daysResult = document.getElementById('days-result');
+    if (daysResult) daysResult.style.display = 'none';
+
+    const timestampResult = document.getElementById('timestamp-result');
+    if (timestampResult) timestampResult.style.display = 'block';
+}
+
+// CD转换功能
+function convertCD() {
+    const value = parseFloat(document.getElementById('cd-value')?.value) || 0;
+    const unitOption = document.querySelector('.unit-option.active');
+    if (!unitOption) return;
+
+    const unit = unitOption.getAttribute('data-unit');
+
+    if (value < 0) {
+        alert("请输入有效的数值");
+        return;
+    }
+
+    // 首先转换为毫秒
+    const unitFactors = {
+        'milliseconds': 1,
+        'seconds': 1000,
+        'minutes': 60 * 1000,
+        'hours': 60 * 60 * 1000,
+        'days': 24 * 60 * 60 * 1000
+    };
+
+    const milliseconds = value * (unitFactors[unit] || 0);
+
+    // 计算各个时间单位
+    const secondsTotal = milliseconds / 1000;
+    const days = Math.floor(secondsTotal / 86400);
+    const hours = Math.floor((secondsTotal % 86400) / 3600);
+    const minutes = Math.floor((secondsTotal % 3600) / 60);
+    const seconds = Math.floor(secondsTotal % 60);
+    const remainingMilliseconds = Math.floor(milliseconds % 1000);
+
+    // 更新结果框
+    showResult('cd-result', `
+        <div><strong>转换结果:</strong></div>
+        <div>${value} ${getUnitName(unit)} = </div>
+        <div>${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒 ${remainingMilliseconds}毫秒</div>
+        <div style="margin-top: 10px; color: #a0aec0;">
+            总计: ${secondsTotal.toFixed(3)} 秒 (${milliseconds} 毫秒)
+        </div>
+    `);
+
+    // 更新单元显示
+    const units = [days, hours, minutes, seconds, remainingMilliseconds];
+    document.querySelectorAll('.cd-unit .cd-value').forEach((el, i) => {
+        if (el) el.textContent = units[i];
+    });
+}
+
+function getUnitName(unit) {
+    const units = {
+        'milliseconds': '毫秒',
+        'seconds': '秒',
+        'minutes': '分钟',
+        'hours': '小时',
+        'days': '天'
+    };
+    return units[unit] || '';
+}
+
+// 天气图标映射表
+const weatherIcons = {
+    '01d': {icon: "fa-sun", class: "sunny"},
+    '01n': {icon: "fa-moon", class: "sunny"},
+    '02d': {icon: "fa-cloud-sun", class: "cloudy"},
+    '02n': {icon: "fa-cloud-moon", class: "cloudy"},
+    '03d': {icon: "fa-cloud", class: "cloudy"},
+    '03n': {icon: "fa-cloud", class: "cloudy"},
+    '04d': {icon: "fa-cloud", class: "cloudy"},
+    '04n': {icon: "fa-cloud", class: "cloudy"},
+    '09d': {icon: "fa-cloud-rain", class: "rainy"},
+    '09n': {icon: "fa-cloud-rain", class: "rainy"},
+    '10d': {icon: "fa-cloud-showers-heavy", class: "rainy"},
+    '10n': {icon: "fa-cloud-showers-heavy", class: "rainy"},
+    '11d': {icon: "fa-bolt", class: "thunder"},
+    '11n': {icon: "fa-bolt", class: "thunder"},
+    '13d': {icon: "fa-snowflake", class: "snowy"},
+    '13n': {icon: "fa-snowflake", class: "snowy"},
+    '50d': {icon: "fa-smog", class: "foggy"},
+    '50n': {icon: "fa-smog", class: "foggy"}
+};
+
+// 天气描述映射
+const weatherDescriptions = {
+    '01d': "晴空万里",
+    '01n': "晴朗夜晚",
+    '02d': "少云",
+    '02n': "少云",
+    '03d': "多云",
+    '03n': "多云",
+    '04d': "阴天",
+    '04n': "阴天",
+    '09d': "小雨",
+    '09n': "小雨",
+    '10d': "大雨",
+    '10n': "大雨",
+    '11d': "雷暴",
+    '11n': "雷暴",
+    '13d': "下雪",
+    '13n': "下雪",
+    '50d': "有雾",
+    '50n': "有雾"
+};
+
+// 更新天气信息
+async function updateWeather() {
+    const loadingElement = document.getElementById('weather-loading');
+    if (loadingElement) loadingElement.style.display = 'inline-block';
+
+    const weatherTemp = document.getElementById('weather-temp');
+    if (weatherTemp) weatherTemp.textContent = '--';
+
+    const weatherStatus = document.getElementById('weather-status');
+    if (weatherStatus) weatherStatus.textContent = '获取数据中...';
+
+    try {
+        const apiKey = 'e82041e6d254caae28fd6330b6952586';
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=Beijing&appid=${apiKey}&units=metric&lang=zh_cn`);
+        const data = await response.json();
+
+        if (data.cod === 200) {
+            const temp = Math.round(data.main.temp);
+            const weatherId = data.weather[0].icon;
+            const iconConfig = weatherIcons[weatherId] || weatherIcons['01d'];
+            const status = weatherDescriptions[weatherId] || data.weather[0].description;
+
+            if (weatherTemp) weatherTemp.textContent = `${temp}°C`;
+            if (weatherStatus) weatherStatus.textContent = status;
+
+            const weatherHumidity = document.getElementById('weather-humidity');
+            if (weatherHumidity) weatherHumidity.textContent = data.main.humidity;
+
+            const weatherWind = document.getElementById('weather-wind');
+            if (weatherWind) weatherWind.textContent = data.wind.speed.toFixed(1);
+
+            const weatherPressure = document.getElementById('weather-pressure');
+            if (weatherPressure) weatherPressure.textContent = data.main.pressure;
+
+            const weatherIcon = document.getElementById('weather-icon');
+            if (weatherIcon) {
+                weatherIcon.className = `weather-icon ${iconConfig.class}`;
+                weatherIcon.innerHTML = `<i class="fas ${iconConfig.icon}"></i>`;
+            }
+
+            const updateTime = document.getElementById('update-time');
+            if (updateTime) updateTime.textContent = new Date().toLocaleTimeString();
+        } else {
+            throw new Error(data.message || '无法获取天气数据');
+        }
+    } catch (error) {
+        console.error('获取天气数据失败:', error);
+        if (weatherStatus) weatherStatus.textContent = '获取天气数据失败';
+
+        // 使用默认数据
+        if (weatherTemp) weatherTemp.textContent = '25';
+        if (weatherStatus) weatherStatus.textContent = '晴';
+
+        const weatherHumidity = document.getElementById('weather-humidity');
+        if (weatherHumidity) weatherHumidity.textContent = '45';
+
+        const weatherWind = document.getElementById('weather-wind');
+        if (weatherWind) weatherWind.textContent = '3.5';
+
+        const weatherPressure = document.getElementById('weather-pressure');
+        if (weatherPressure) weatherPressure.textContent = '1015';
+
+        const weatherIcon = document.getElementById('weather-icon');
+        if (weatherIcon) {
+            weatherIcon.className = 'weather-icon sunny';
+            weatherIcon.innerHTML = '<i class="fas fa-sun"></i>';
+        }
+
+        const updateTime = document.getElementById('update-time');
+        if (updateTime) updateTime.textContent = new Date().toLocaleTimeString();
+    } finally {
+        if (loadingElement) loadingElement.style.display = 'none';
+    }
+}
+
+// 更新当前日期
+function updateCurrentDate() {
+    const now = new Date();
+    const weekdays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+    const weatherDate = document.getElementById('weather-date');
+    if (weatherDate) {
+        weatherDate.textContent =
+            `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 ${weekdays[now.getDay()]}`;
+    }
+}
+
+// 时钟功能
+function updateClock() {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const seconds = String(now.getSeconds()).padStart(2, '0');
+
+    const clockTimeElement = document.getElementById('clock-time');
+    const clockSecondsElement = document.getElementById('clock-seconds');
+    const clockDateElement = document.getElementById('clock-date');
+
+    if (clockTimeElement) {
+        clockTimeElement.textContent = `${hours}:${minutes}:${seconds}`;
+        if (clockSecondsElement) clockSecondsElement.textContent = `${seconds}秒`;
+
+        const weekdays = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        if (clockDateElement) {
+            clockDateElement.textContent =
+                `${now.getFullYear()}年${now.getMonth() + 1}月${now.getDate()}日 ${weekdays[now.getDay()]}`;
+        }
+    }
+}
+
+
+//抽签功能
+document.addEventListener('DOMContentLoaded', function () {
+    const fortuneBtn = document.getElementById('fortune-btn');
+    const fortuneAnimation = document.getElementById('fortune-animation');
+    const fortuneResult = document.getElementById('fortune-result');
+    const fortuneTitle = document.getElementById('fortune-title');
+    const fortuneContent = document.getElementById('fortune-content');
+    const fortuneExplanation = document.getElementById('fortune-explanation');
+    const fortuneClose = document.getElementById('fortune-close');
+
+    if (fortuneBtn) {
+        fortuneBtn.addEventListener('click', function () {
+            fortuneBtn.style.display = 'none';
+            if (fortuneAnimation) fortuneAnimation.style.display = 'flex';
+
+            setTimeout(() => {
+                if (fortuneAnimation) fortuneAnimation.style.display = 'none';
+                const randomIndex = Math.floor(Math.random() * DrawLotsData.length);
+                const fortune = DrawLotsData[randomIndex];
+
+                if (fortuneTitle) {
+                    fortuneTitle.textContent = fortune.title;
+                    fortuneTitle.className = "fortune-title " + fortune.class;
+                }
+                if (fortuneContent) fortuneContent.textContent = fortune.content;
+                if (fortuneExplanation) fortuneExplanation.textContent = fortune.explanation;
+
+                if (fortuneResult) fortuneResult.style.display = 'block';
+            }, 3000);
+        });
+    }
+
+    if (fortuneClose && fortuneResult) {
+        fortuneClose.addEventListener('click', function () {
+            fortuneResult.style.display = 'none';
+            if (fortuneBtn) fortuneBtn.style.display = 'block';
+        });
+    }
+});
+
+// AI助手功能
+function clearAIChat() {
+    aiConversation = [];
+    const aiMessages = document.getElementById('ai-messages');
+    if (aiMessages) {
+        aiMessages.innerHTML = `
+            <div class="message ai-message">
+                <div class="message-header">
+                    <div class="message-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <strong>Super Test AI助手</strong>
+                </div>
+                <div class="message-content">
+                    您好！我是Super Test AI助手助手，我可以帮助您解决测试相关的问题。请告诉我您需要什么帮助？
+                </div>
+            </div>
+        `;
+    }
+}
+
+// 调用Super Test AI助手
+async function getAIResponse(question) {
+    try {
+        const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
+                'HTTP-Referer': 'https://xcyy1234.github.io/Web_Tools_Test/',
+                'X-Title': 'NewTestTool'
+            },
+            body: JSON.stringify({
+                model: 'mistralai/mistral-7b-instruct:free',
+                messages: [
+                    {role: 'system', content: '你是一个专业的游戏测试助手，帮助测试人员解决各种技术问题'},
+                    ...aiConversation.map(msg => ({
+                        role: msg.sender === 'user' ? 'user' : 'assistant',
+                        content: msg.content
+                    })),
+                    {role: 'user', content: question}
+                ],
+                temperature: 0.7,
+                max_tokens: 1000
+            })
+        });
+
+        if (!response.ok) {
+            const errorData = await response.json();
+            return `API错误: ${response.status} - ${errorData.error?.message || '未知错误'}`;
+        }
+
+        const data = await response.json();
+        return data.choices[0]?.message?.content || '未能获取回答';
+    } catch (error) {
+        console.error('API调用错误:', error);
+        return '服务暂时不可用，请稍后再试';
+    }
+}
+
+// 发送问题到Super Test AI助手
+async function askDeepSeek() {
+    const aiQuestion = document.getElementById('ai-question');
+    if (!aiQuestion) return;
+
+    const question = aiQuestion.value.trim();
+    if (!question) {
+        alert('请输入问题');
+        return;
+    }
+
+    addAIMessage('user', question);
+    aiConversation.push({sender: 'user', content: question});
+    aiQuestion.value = '';
+    showTypingIndicator();
+
+    try {
+        const response = await getAIResponse(question);
+        addAIMessage('ai', response);
+        aiConversation.push({sender: 'ai', content: response});
+    } catch (error) {
+        addAIMessage('ai', '请求AI服务时出错：' + error.message);
+    } finally {
+        hideTypingIndicator();
+        scrollToBottom();
+    }
+}
+
+function addAIMessage(sender, content) {
+    const messagesContainer = document.getElementById('ai-messages');
+    if (!messagesContainer) return;
+
+    const messageElement = document.createElement('div');
+    messageElement.className = `message ${sender === 'user' ? 'user-message' : 'ai-message'}`;
+
+    const iconColor = sender === 'user' ? 'var(--neon-purple)' : 'initial';
+    messageElement.innerHTML = `
+        <div class="message-header">
+            <div class="message-icon" style="background: ${iconColor};">
+                <i class="fas ${sender === 'user' ? 'fa-user' : 'fa-robot'}"></i>
+            </div>
+            <strong>${sender === 'user' ? '您' : 'super Test AI助手'}</strong>
+        </div>
+        <div class="message-content">${content}</div>
+    `;
+
+    messagesContainer.appendChild(messageElement);
+    scrollToBottom();
+}
+
+function showTypingIndicator() {
+    const messagesContainer = document.getElementById('ai-messages');
+    if (!messagesContainer) return;
+
+    messagesContainer.innerHTML += `
+        <div class="ai-typing" id="typing-indicator">
+            <div class="message-icon">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div>
+                <strong>Super Test AI助手</strong> 正在思考...
+                <div style="margin-top: 5px;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    `;
+    scrollToBottom();
+}
+
+function hideTypingIndicator() {
+    const typingElement = document.getElementById('typing-indicator');
+    typingElement?.remove();
+}
+
+function scrollToBottom() {
+    const messagesContainer = document.getElementById('ai-messages');
+    if (messagesContainer) {
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+}
+
+// 汇率转换功能
+function initCurrencyConverter() {
+    const amountInput = document.getElementById('currency-amount');
+    const sourceCurrency = document.getElementById('source-currency');
+    const targetCurrencyOptions = document.querySelectorAll('.currency-option');
+    const convertBtn = document.getElementById('convert-currency');
+    const resultsContainer = document.getElementById('currency-results');
+    const updateTime = document.getElementById('currency-update-time');
+
+    if (updateTime) updateTime.textContent = new Date().toLocaleString('zh-CN');
+
+    // 目标货币选择器
+    const currencyOptions = document.querySelector('.currency-options');
+    if (currencyOptions) {
+        currencyOptions.addEventListener('click', function (e) {
+            const option = e.target.closest('.currency-option');
+            if (!option) return;
+
+            targetCurrencyOptions.forEach(opt => opt.classList.remove('active'));
+            option.classList.add('active');
+            convertCurrency();
+        });
+    }
+
+    if (convertBtn) convertBtn.addEventListener('click', convertCurrency);
+    if (amountInput) amountInput.addEventListener('input', convertCurrency);
+    if (sourceCurrency) sourceCurrency.addEventListener('change', convertCurrency);
+
+    function convertCurrency() {
+        if (!resultsContainer) return;
+
+        const amount = parseFloat(amountInput?.value) || 0;
+        const source = sourceCurrency?.value || 'CNY';
+        const activeTarget = document.querySelector('.currency-option.active');
+        const target = activeTarget ? activeTarget.dataset.currency : 'CNY';
+
+        resultsContainer.innerHTML = '';
+        const targetCurrencies = [target];
+        if (target !== 'CNY') targetCurrencies.push('CNY');
+        if (target !== 'USD') targetCurrencies.push('USD');
+        if (target !== 'EUR') targetCurrencies.push('EUR');
+
+        targetCurrencies.forEach(currency => {
+            const convertedAmount = calculateConversion(amount, source, currency);
+            const currencyData = exchangeRates[currency];
+
+            resultsContainer.innerHTML += `
+                <div class="currency-result-item">
+                    <div class="currency-flag-lg">${currencyData.flag}</div>
+                    <div class="currency-value">${convertedAmount.toFixed(2)}</div>
+                    <div class="currency-name">${currencyData.name} (${currency})</div>
+                </div>
+            `;
+        });
+
+        if (updateTime) updateTime.textContent = new Date().toLocaleString('zh-CN');
+    }
+
+    function calculateConversion(amount, from, to) {
+        const cnyAmount = amount / exchangeRates[from].rate;
+        return cnyAmount * exchangeRates[to].rate;
+    }
+}
+
+// COIN金币计算器功能
+function calculateCoin() {
+    const usdBase = parseFloat(document.getElementById('usd-base')?.value) || 0;
+    const vipInflation = parseFloat(document.getElementById('vip-inflation')?.value) || 0;
+    const levelInflation = parseFloat(document.getElementById('level-inflation')?.value) || 0;
+    const petInflation = parseFloat(document.getElementById('pet-inflation')?.value) || 0;
+    const coinFactor = parseFloat(document.getElementById('coin-factor')?.value) || 1;
+    const otherParam = parseFloat(document.getElementById('other-param')?.value) || 0;
+
+    const operators = {
+        vip: document.getElementById('vip-operator')?.value || '+',
+        level: document.getElementById('level-operator')?.value || '+',
+        pet: document.getElementById('pet-operator')?.value || '+',
+        factor: document.getElementById('factor-operator')?.value || '*',
+        other: document.getElementById('other-operator')?.value || '+'
+    };
+
+    let result = usdBase;
+    let formula = `(${usdBase})`;
+
+    // 依次应用各个操作
+    const operations = [
+        {value: vipInflation, operator: operators.vip, name: 'vipInflation'},
+        {value: levelInflation, operator: operators.level, name: 'levelInflation'},
+        {value: petInflation, operator: operators.pet, name: 'petInflation'},
+        {value: coinFactor, operator: operators.factor, name: 'coinFactor'},
+        {value: otherParam, operator: operators.other, name: 'otherParam'}
+    ];
+
+    operations.forEach(op => {
+        result = applyOperation(result, op.operator, op.value);
+        formula += ` ${getSymbol(op.operator)} ${op.value}`;
+    });
+
+    const coinValue = document.querySelector('.coin-value');
+    if (coinValue) coinValue.textContent = result.toFixed(2);
+
+    const coinFormula = document.querySelector('.coin-formula');
+    if (coinFormula) coinFormula.textContent = `计算公式: ${formula} = ${result.toFixed(2)}`;
+}
+
+// 应用运算
+function applyOperation(value, operator, operand) {
+    switch (operator) {
+        case '+': return value + operand;
+        case '-': return value - operand;
+        case '*': return value * operand;
+        case '/': return operand !== 0 ? value / operand : value;
+        default: return value;
+    }
+}
+
+// 获取操作符符号
+function getSymbol(operator) {
+    const symbols = {'+': '+', '-': '-', '*': '×', '/': '÷'};
+    return symbols[operator] || '';
+}
+
+
+// 活动查询功能
+function initActivitySearch() {
+    const searchInput = document.getElementById('activity-search');
+    const resultsContainer = document.getElementById('activity-results');
+    const detailContainer = document.getElementById('activity-detail');
+
+    if (!searchInput || !resultsContainer || !detailContainer) return;
+
+    searchInput.addEventListener('input', function () {
+        const keyword = this.value.trim();
+        resultsContainer.innerHTML = '';
+        resultsContainer.style.display = keyword ? 'block' : 'none';
+        detailContainer.style.display = 'none';
+
+        if (!keyword) return;
+
+        const matchedActivities = activityData.filter(activity =>
+            activity.description.includes(keyword) ||
+            activity.activity_name.toLowerCase().includes(keyword.toLowerCase())
+        );
+
+        if (matchedActivities.length > 0) {
+            matchedActivities.forEach(activity => {
+                const item = document.createElement('div');
+                item.className = 'activity-item';
+                item.innerHTML = `
+                    <div class="activity-name">${activity.activity_name}</div>
+                    <div class="activity-description">${activity.description}</div>
+                `;
+
+                item.addEventListener('click', () => {
+                    showActivityDetail(activity);
+                    resultsContainer.style.display = 'none';
+                });
+
+                resultsContainer.appendChild(item);
+            });
+        } else {
+            resultsContainer.innerHTML = `
+                <div class="activity-item">
+                    <div style="text-align: center; padding: 15px; color: #a0aec0;">
+                        未找到匹配的活动
+                    </div>
+                </div>
+            `;
+        }
+    });
+
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('.activity-search-container')) {
+            resultsContainer.style.display = 'none';
+        }
+    });
+}
+
+// 显示活动详情
+function showActivityDetail(activity) {
+    const detailContainer = document.getElementById('activity-detail');
+    if (!detailContainer) return;
+
+    document.getElementById('detail-name').textContent = activity.activity_name;
+    document.getElementById('detail-description').textContent = activity.description;
+    detailContainer.style.display = 'block';
+}
+
+// 模型查询功能
+function initModelSearch() {
+    const searchInput = document.getElementById('model-search');
+    const resultsContainer = document.getElementById('model-results');
+    const detailContainer = document.getElementById('model-detail');
+
+    if (!searchInput || !resultsContainer || !detailContainer) return;
+
+    searchInput.addEventListener('input', function () {
+        const keyword = this.value.trim();
+        resultsContainer.innerHTML = '';
+        resultsContainer.style.display = keyword ? 'block' : 'none';
+        detailContainer.style.display = 'none';
+
+        if (!keyword) return;
+
+        const matchedModels = ModelData.filter(model =>
+            model.model_key.includes(keyword) ||
+            model.model_value.toLowerCase().includes(keyword.toLowerCase())
+        );
+
+        if (matchedModels.length > 0) {
+            matchedModels.forEach(model => {
+                const item = document.createElement('div');
+                item.className = 'model-item';
+                item.innerHTML = `
+                    <div class="model-name">${model.model_value}</div>
+                    <div class="model-description">${model.model_key}</div>
+                `;
+
+                item.addEventListener('click', () => {
+                    showModelDetail(model);
+                    resultsContainer.style.display = 'none';
+                });
+
+                resultsContainer.appendChild(item);
+            });
+        } else {
+            resultsContainer.innerHTML = `
+                <div class="model-item">
+                    <div style="text-align: center; padding: 15px; color: #a0aec0;">
+                        未找到匹配的模型
+                    </div>
+                </div>
+            `;
+        }
+    });
+
+    document.addEventListener('click', function (e) {
+        if (!resultsContainer.contains(e.target) && e.target !== searchInput) {
+            resultsContainer.style.display = 'none';
+        }
+    });
+}
+
+function showModelDetail(model) {
+    const detailContainer = document.getElementById('model-detail');
+    if (!detailContainer) return;
+
+    document.getElementById('model-name').textContent = model.model_key;
+    document.getElementById('model-description').textContent = model.model_value;
+    detailContainer.style.display = 'block';
+}
+
+// DOM加载完成后初始化
+document.addEventListener('DOMContentLoaded', async () => {
+    await init();
+
+    // 安全地更新UI
+    setTimeout(() => {
+        updateWeather();
+        updateCurrentDate();
+        updateClock();
+    }, 100);
+});
+//初始化DOM
+document.addEventListener("DOMContentLoaded", function() {
+    // 添加事件监听器
+    const btn = document.querySelector('.btn-gold');
+    if(btn) btn.addEventListener('click', calculateCoin);
+});

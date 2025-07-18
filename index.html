@@ -94,6 +94,13 @@
                     </div>
                     <div class="tool-nav-title">模拟弱网工具</div>
                 </div>
+                <!-- 文档解析工具入口 -->
+                <div class="tool-nav-item" data-tool="document-parser">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="tool-nav-title">需求分析工具</div>
+                </div>
             </div>
         </div>
 
@@ -208,11 +215,10 @@
                         <h3>更新公告</h3>
                     </div>
                     <div class="announcement-content">
-                        <p></i> 1、优化弱网模拟工具</p>
-                        <p></i> 2、新增新版本活动模块查询</p>
-                        <p></i> 3、优化主页页签</p>
-                        <p></i> 4、添加jms项目安装包</p>
-                        <p></i> 更新时间: 2025年7月09日</p>
+                        <p></i> 1、新增需求解析工具</p>
+                        <p></i> 2、天气取实时天气数据</p>
+                        <p></i> 3、修改汇率转换逻辑</p>
+                        <p></i> 更新时间: 2025年7月18日</p>
                     </div>
                 </div>
 
@@ -861,6 +867,87 @@
             <!-- 网络图表 -->
             <div class="network-graph" id="network-graph">
                 <div class="graph-line" id="latency-graph"></div>
+            </div>
+        </div>
+
+        <!-- 新增文档解析工具 -->
+        <div class="tool-content" id="document-parser">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="tool-header-title">需求分析工具</div>
+            </div>
+
+            <div class="document-upload-area" id="drop-area">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h3>上传需求进行解析</h3>
+                <p>支持 PDF, DOCX, TXT 格式文件</p>
+                <p>拖放文件到此处或点击上传</p>
+                <input type="file" id="file-input" accept=".pdf,.docx,.txt" style="display: none" multiple>
+                <button class="btn" id="upload-btn">
+                    <i class="fas fa-folder-open"></i> 选择文件
+                </button>
+            </div>
+
+            <div class="document-preview" id="file-preview">
+                <!-- 文件预览将在这里显示 -->
+            </div>
+
+            <div class="document-actions">
+                <button class="btn" id="parse-btn">
+                    <i class="fas fa-cogs"></i> 解析需求内容
+                </button>
+                <button class="btn btn-purple" id="clear-btn">
+                    <i class="fas fa-trash-alt"></i> 清除所有文件
+                </button>
+            </div>
+
+            <div class="document-results">
+                <div class="result-section">
+                    <h3><i class="fas fa-list-ol"></i> 需求大纲</h3>
+                    <div class="result-content" id="outline-content">
+                        <div style="text-align: center; padding: 20px; color: #a0aec0;">
+                            解析后将显示文档大纲
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-section">
+                    <h3><i class="fas fa-key"></i> 关键词提取</h3>
+                    <div class="result-content" id="keywords-content">
+                        <div style="text-align: center; padding: 20px; color: #a0aec0;">
+                            解析后将显示关键词
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-section">
+                    <h3><i class="fas fa-file-contract"></i> 摘要总结</h3>
+                    <div class="result-content" id="summary-content">
+                        <div style="text-align: center; padding: 20px; color: #a0aec0;">
+                            解析后将显示摘要
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-section">
+                    <h3><i class="fas fa-download"></i> 导出选项</h3>
+                    <div style="padding: 10px;">
+                        <p>将解析结果导出为不同格式：</p>
+                        <div class="export-options">
+                            <button class="btn" id="export-txt">
+                                <i class="fas fa-file-alt"></i> TXT
+                            </button>
+                            <button class="btn" id="export-json">
+                                <i class="fas fa-file-code"></i> JSON
+                            </button>
+                            <button class="btn" id="export-pdf">
+                                <i class="fas fa-file-pdf"></i> PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

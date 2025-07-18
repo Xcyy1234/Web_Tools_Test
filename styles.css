@@ -2317,3 +2317,174 @@ input:focus, select:focus, textarea:focus {
     text-align: center;
     margin: 10px 0;
 }
+
+/*文件转换功能*/
+.document-upload-area {
+    border: 2px dashed rgba(106, 17, 203, 0.5);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    background: rgba(30, 35, 48, 0.5);
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.document-upload-area:hover {
+    border-color: var(--neon-blue);
+    background: rgba(106, 17, 203, 0.1);
+}
+
+.document-upload-area i {
+    font-size: 3.5rem;
+    color: var(--neon-purple);
+    margin-bottom: 15px;
+}
+
+.document-upload-area h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.document-upload-area p {
+    color: #a0aec0;
+    margin-bottom: 15px;
+}
+
+.document-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+
+.document-preview-card i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.document-preview-card .filename {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0 5px;
+    word-break: break-all;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.document-preview-card .remove-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    background: var(--danger);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.document-preview-card:hover .remove-btn {
+    opacity: 1;
+}
+
+.document-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.document-actions .btn {
+    flex: 1;
+}
+
+.document-results {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+    .document-results {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.result-section {
+    background: rgba(30, 35, 48, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(106, 17, 203, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.result-section h3 {
+    margin-bottom: 15px;
+    color: var(--neon-blue);
+    display: flex;
+    align-items: center;
+}
+
+.result-section h3 i {
+    margin-right: 10px;
+}
+
+.result-content {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.outline-item {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.outline-item:last-child {
+    border-bottom: none;
+}
+
+.outline-item.level-1 {
+    padding-left: 0;
+    font-weight: bold;
+}
+
+.outline-item.level-2 {
+    padding-left: 20px;
+}
+
+.outline-item.level-3 {
+    padding-left: 40px;
+    color: #a0aec0;
+}
+
+.keyword-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.keyword-item {
+    background: rgba(106, 17, 203, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.export-options {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.export-options .btn {
+    flex: 1;
+}

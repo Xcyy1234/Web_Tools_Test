@@ -1,1 +1,1450 @@
-const _0x4925f2=_0x157f;function _0x157f(_0x55df31,_0x22caf0){const _0x16e34d=_0x16e3();return _0x157f=function(_0x157f26,_0x5c52a5){_0x157f26=_0x157f26-0xdd;let _0x5d27bf=_0x16e34d[_0x157f26];return _0x5d27bf;},_0x157f(_0x55df31,_0x22caf0);}function _0x16e3(){const _0x396c26=['bingoLinkChiliAmigos3MissionData','CapsuleToys扭蛋机','saleData','piggyVault','shortCardJackpot','pass','functionSalePass','新版大富翁V2促销','drawCollectionCard','盖戳送卡活动','bingo','bingoLinkChiliSale','mvp\x20Chat','新手保护数据','新手blast','回归保护','PiggyVault三线消除大活动','candleStick','持金控制V2','Blast','鲨鱼游戏促销','限时膨胀','mvpSlotGame','Adjust数据','无尽促销','2682qujhXe','lightingBoost','chaseForChips','三偣盖戳','paySendBuck','通用大活动促销','NewUserLimitedGit新手限时礼包','questRank','合成促销转盘','purchase\x20ProtectNew','collectPhone','商城代币支付折扣弹板','mergePass','sevenDaysRank','activityMissions','HighLimitMerge合图','featureSale','diyFeatureSale','mineFortuneEndSale','holidayNewChallengeRankData','crazyMode','挖矿Bet+预热活动','christmasCheck','甘道夫bet+任务','合成pass','fourBirthdayDraw','大活动能力','最后登录时间','grandFinale','圣诞新聚合签到','tmpRtp','新版常规促销V2','LightingBoost大活动限时强化','pig\x20CoinsData','hotNewsReward','推币机V3coinPusherV3','routineSale','小猪折扣','CashVault','cashVaults','crazyShoppingCart','bigWinChallenge','时元回溯','newUserProtectV2','挖矿Bet+结束促销','CashBack活动数据','minzData','levelFeatureStore','新手商城折扣','Quest挑战','BankruptProtect兜底功能','newUserFreeGamesFever','钻石挑战活跃活动','blackFridayCarnival','NewUserWildChallenge新手期付费挑战','goBrokeSale','bingoLineSale','noticeDialogCommon','10176320fRHAxY','大活动组队-预组队','levelRush','userRank','大富翁','NewUserEchoWins','buckStore\x20','dailyBonus','bucksPay\x20ExtraGifts','311934BeBZTA','等级里程碑','newUser@uest','代币小猪','prizeGame','luckySpinV2','slingoFullHouse任务','inflationData','survey','payRank','wildDraw','mixing\x20WineData','接水管','每日任务浇花','bingoLink结束促销','couponGift','monthlyCard','总Bet','tripleStamp','Farm农场','第二货币商城付费送道具','couponData','seaStoryMission','个人累充Plus','trackerData','组队打boss','vip点数池','商城停留送优惠券','3eIoXgA','superBowlRecharge','付费保护','cardCollectChallenge','mission','vip\x20Reset','大R专属促销','好友关系','VaultBonus小游戏','TomorrowGift次日礼物','集卡赛季末送新卡','birthdayinformationData','组队捉鬼','progressBoom','outsideGaveSale','megaData','JewelMania','starlnvaders','pass宝箱','气球活动','lucky\x20Mission','storeBuckDiscountSale','关卡分类','firstSaleLuckyWheelList','redecorate','freeGamesFeverV2Data','questChallenge','支付相关','Card集卡数据','614835hUYUHH','optionallask','收集手机号','新关卡体验','buckPack','pigChallenge','storeGem\x20Gift','新版freeGamesFever','pickConvertBomb','bingoLinkChiliAmigos3EndSale','gemChallenge','luckyRace','mythicGameSale','newUserRepeatWin','pipeConnect','不活跃','crazyWheel','合成水晶back','luckyEggHunt','周年14天抽奖','Mvp调控','mergeBack','word','FactionFight红蓝对决','复活节彩蛋','大活动限时加成任务v2','NewUserRepeatWin新手RepeatWin','主播调控','holidayNewChallengeAdventCalendar','MvpChat客服对话','commonActivitySale','shopGift','flower','超级碗个人累充','farm','sevenDayHunt','圣诞装饰任务','bingoLink促销','MegaWin大赢宝箱','GrowthFundV3成长基金3.0','AvatarFrame头像框系统','triplexPass','survivalRace','diyFeature@verSaleData','gemMayWin','寻宝之旅treasureHunt','slotChallenge','vaultBonus','endYearReward','临时RTP','ExpandCircle扩圈系统','LevelDash','FreeGame免费游戏','churnProtect','growthFundV3','rogueQuest','流失保护','新手pass','BingoLink辣椒版','all\x20tems','hourDeal','luckySpin','newUserCashBack','甘道夫bet+活动','outsideGave','通用大活动排行榜','wizardingWarSale','lottery\x20Extra','gameStat','superValue','rogueQuestAchievement','couponGift指定用户送优惠券','乐透lottery','首购转盘','anniversaryLotteryData','dragonChallenge','商城折扣券','圣诞节送礼','newserCyberMonday','494372htpRbz','Zombie行尸走肉','twoGemCoupons','pigNormalCard','获取代币挑战','holidayNewChallengeCraze','抽奖转盘','比赛聚合','VegasTrip新手7日目标','bingoLinkEndSale','jackpotReturnV2Data','expandCircle','三指针转盘','Feature倍数控制','第二货币消耗挑战','代币付费送额外礼物','makerOver','fiveBirthdayPrizePoolData','storeCoupon','newUserCharge','自选任务','推市机','megaWinV2','气球活动V2','返回最大持金','dining\x20Room','mvp沟通报名','AD厂告','挖矿Bet+','星球大战','3432SpHNGU','selectionCardPuzzleData','echoWins','LevelRush','diyFeatureMissionData','newUserPass','Quest','周年庆装修活动','storyBonus','buckBoostActivityltem','christmasTour','gemLuckySpin','新手签到','quest','帽子戏法','coinsControlV2','wildChallenge','inflateConsumeV2','背包（促销券）','mineFortuneSale','jackpotReturn','三联优惠券','商店免费礼物','Minz','newUser|\x20riplePass','第二货币两张优惠券','inflateConsume','missionsToDiy','圣诞签到','anchor\x20Rtp','复活节限时锦标赛','freeGamesFever','乐透送奖','四周年抽奖＋分奖','LuckyMission','newUserProtect','levelDash额外奖励','钻石luckySpin','新破产促销','megaWin','新版推币机','1000W每日任务送优惠券','minzMission','BingoLink辣椒版促销','典藏卡收集挑战','smashHammer','hotNews奖励','leveluppass','新版大活动任务','returnProtect','newUserWildChallenge','第二货币小猪','luckyChallengeV2','levelUpPass','好友礼物邮件','pigGemsData','shopCard','GameCrazy','repeatWinData','cashBack','充值抽奖','收集邮件抽奖','mvp沟通引导','timeBack','圣诞新聚合pass','pig集卡小猪','dpPrize','xmasSplit','holidayNewChallenge','限时卡册jackpot','lottery','SeaStory海洋奇缘','MegaWinV2大赢宝箱','万圣节魔药','adjust','fantasyQuest','luckyWinner\x20V2Data','圣诞新聚合商店','eventleam','膨胀消耗1V1比赛','新版新关挑战','五周年做蛋糕','DiningRoom','典藏卡活跃活动','Quest排行榜','rich','wizarding\x20WarMission','新版小猪挑战','限时集卡多倍奖励','Feature促销','levelRoadData','圣诞累充分大奖','单日特殊任务','小猪挑战','商城促销券活动数据','NewUserActMission新手活动任务','petMission','高倍场体验卡促销','holidayNewChallengePass','NewUserInflateConsume#T\x20FARK**E','调研问卷','关卡内成就累计数据','ChaseChips集卡聚合','highClubSale','blackFriday黑五','rogueQuestV2','pigChip','activityMissionV2','passMysteryBox','abtestGroup','betListExpand','evelDash','NewUserJackpotReturn','clothChallenge','挖矿挑战','buckFirstPay','登录获取铃铛','美人鱼系列活动','diyFeature新手任务','inactiveProtect','highLimitMerge','Bingo活动数据','newUserLimitedGift','ABTEST','网页商店','zombieOnslaught','iceBrokenSale','mega活动数据','大活动促销-pass','fishyFortune','superspinsenditem','第二货币抽奖','7cBTZEb','2300244SVCODh','quest2.0','webStoreData','NewUserRepeatWin','NewUserTriplePass新手三行pass','questPass','storeStayCoupon','diyFeatureData','头脑特工队新关任务','holidayNewChallengeSideGame','scratchCard','newSlotChallenge','用户分群','钻石挑战V2限时活动','mermaid','qualityAvatarFrameChallenge','消息推送','coin\x20Pusher\x20V3','mvpControl','sidekicks','代币消耗挑战','合成商店折扣','freeGame','七日寻物','referralData','BingoRush挑战','ClanRush公会Rush个人数据','414868pAlgfz','典藏卡付费','advertisement','BingoLink辣椒版任务','ClothChallenge宠物皮肤挑战','限时礼包','活动通用排行榜','buckConsumeChallenge','vegasTrip','新版每日任务','新年送礼物','rogueQuest成就','superSpin送道具','newserBlast','slingoFullHouse','lotteryChallenge','tomorrowGift','inactive\x20Protect','RogueQuest活跃任务','bingoLink任务','questNado','乐透挑战','minz任务中心','多档首充','Grand调控','pass代币支付双倍奖励','Repeat-freespin','repeatWin活动数据','newUserCoupon','Pig送卡活动','持金控制V3','宠物7日任务','world\x20rip','diamondMania','cashBonus','coinsControlV3','新版luckyWinner','avatarFrameChallenge','fillionJackpot','累充抽奖','bet美刀限制','buffs','diy\x20Wheel','EchoWins','friendship','bankruptProtect','activityCommonRank','gameCrazy','甘道夫bet+预热','mineFortunePreheat','头像框挑战','小游戏数据','magicGarden','mailLottery','新手保护V2','purchase','新版pass','PigNormalCard小猪送金卡','endlessPromotionData','NewUserFreeGamesFever','timeLimitExpansion','活动任务','spin','不活跃保护数据','新关保护V2','gift\x20Exchange','spin送道具','Redecorate装修','圣诞分大奖','userGroup','blast','thirdAnniversaryData','clan','3行pass','付费排行榜','hatTrick','newserInflateConsume','促销数据','SeaStory海洋奇缘任务','storeHotSale','bucksVip','圣诞新聚合小游戏','luckyStampV2','黑曜卡抽奖','NewUserCash\x20Back新手CashBack','生存赛','挖矿Bet+促销','activityEnergy','betplusChallenge','单人限时比赛','rogueQuest/Mission','keepRechargeFour','holidayNew\x20ChallengeStore','fifthAnniversaryMakeCakeData','集装箱大亨','JillionJackpot公\x20共Jackpot','bingoLinkMission','coinPusherV3SaleData','wizardingWar','pigCard','商城购买返代币','megaCash','BattlePass','圣诞台历','大活动金币奖励加成','NewUserCyberMonday新手剁手星期一','AppCharge','status','flamingoJackpot','疯狂购物车','clanRush','coinPusher','CTS-俱乐部绑定手机号','buckMilestone','兑换码领奖','新年总结','slotPuzzle','mineFortune','竞技场','battlePass','novice\x20Check','poker','新版盖戳','bingoLinkSale','bet+挑战','multiFirstSale','BingoLink辣椒版结束促销','VideoPoker扒克','bigWin挑战'];_0x16e3=function(){return _0x396c26;};return _0x16e3();}(function(_0x3b23f6,_0x4bb5c9){const _0x5316ea=_0x157f,_0x214fec=_0x3b23f6();while(!![]){try{const _0xe1895e=parseInt(_0x5316ea(0x268))/0x1+parseInt(_0x5316ea(0x103))/0x2*(parseInt(_0x5316ea(0x1fc))/0x3)+parseInt(_0x5316ea(0xe8))/0x4+parseInt(_0x5316ea(0x219))/0x5+-parseInt(_0x5316ea(0x1e0))/0x6*(-parseInt(_0x5316ea(0xe7))/0x7)+parseInt(_0x5316ea(0x286))/0x8*(-parseInt(_0x5316ea(0x19d))/0x9)+-parseInt(_0x5316ea(0x1d7))/0xa;if(_0xe1895e===_0x4bb5c9)break;else _0x214fec['push'](_0x214fec['shift']());}catch(_0x4b0be6){_0x214fec['push'](_0x214fec['shift']());}}}(_0x16e3,0x4acad));export const ModelData=[{'model_key':_0x4925f2(0x218),'model_value':'cardsData'},{'model_key':_0x4925f2(0x24c),'model_value':_0x4925f2(0x2f5)},{'model_key':_0x4925f2(0x265),'model_value':_0x4925f2(0x27a)},{'model_key':_0x4925f2(0x1f1),'model_value':'amountBet'},{'model_key':'LuckySpin','model_value':_0x4925f2(0x256)},{'model_key':'LuckChallenge','model_value':'challenge'},{'model_key':_0x4925f2(0x196),'model_value':_0x4925f2(0x295)},{'model_key':_0x4925f2(0x121),'model_value':_0x4925f2(0x126)},{'model_key':_0x4925f2(0x11b),'model_value':'grandControl'},{'model_key':'签到','model_value':'dailyBonus'},{'model_key':_0x4925f2(0x283),'model_value':_0x4925f2(0x105)},{'model_key':_0x4925f2(0x1c3),'model_value':_0x4925f2(0x1c4)},{'model_key':'MegaCash','model_value':_0x4925f2(0x168)},{'model_key':_0x4925f2(0x1c7),'model_value':'timeMachine'},{'model_key':'BonusHunt','model_value':'bonus-unt'},{'model_key':'新手Quest','model_value':_0x4925f2(0x1e2)},{'model_key':_0x4925f2(0x252),'model_value':_0x4925f2(0x28b)},{'model_key':_0x4925f2(0x192),'model_value':_0x4925f2(0x110)},{'model_key':'新手个人累充','model_value':_0x4925f2(0x27b)},{'model_key':_0x4925f2(0x292),'model_value':_0x4925f2(0x17b)},{'model_key':_0x4925f2(0x1cd),'model_value':_0x4925f2(0x11f)},{'model_key':_0x4925f2(0x2bf),'model_value':_0x4925f2(0x132)},{'model_key':_0x4925f2(0x2bc),'model_value':'friendGift'},{'model_key':_0x4925f2(0x197),'model_value':_0x4925f2(0x149)},{'model_key':_0x4925f2(0x1db),'model_value':_0x4925f2(0x2db)},{'model_key':_0x4925f2(0x27d),'model_value':_0x4925f2(0x172)},{'model_key':_0x4925f2(0x169),'model_value':_0x4925f2(0x17a)},{'model_key':_0x4925f2(0x24a),'model_value':_0x4925f2(0x1bb)},{'model_key':'圣诞节挑战','model_value':_0x4925f2(0x290)},{'model_key':_0x4925f2(0x140),'model_value':_0x4925f2(0x1ab)},{'model_key':'LuckySpin送卡活动','model_value':'luckySpinCard'},{'model_key':_0x4925f2(0x120),'model_value':_0x4925f2(0x166)},{'model_key':_0x4925f2(0x179),'model_value':'arena'},{'model_key':'SlotChallenge','model_value':_0x4925f2(0x247)},{'model_key':_0x4925f2(0x1ce),'model_value':_0x4925f2(0x216)},{'model_key':_0x4925f2(0x289),'model_value':_0x4925f2(0x1d9)},{'model_key':_0x4925f2(0x2d8),'model_value':_0x4925f2(0x281)},{'model_key':_0x4925f2(0x12e),'model_value':_0x4925f2(0x288)},{'model_key':_0x4925f2(0x193),'model_value':_0x4925f2(0x2b7)},{'model_key':'高倍场数据','model_value':'highLimit'},{'model_key':_0x4925f2(0x19b),'model_value':_0x4925f2(0x2d0)},{'model_key':_0x4925f2(0x26f),'model_value':'compete'},{'model_key':'渠道信息','model_value':_0x4925f2(0x1f8)},{'model_key':_0x4925f2(0x21c),'model_value':'protect'},{'model_key':_0x4925f2(0x139),'model_value':_0x4925f2(0x1c8)},{'model_key':_0x4925f2(0x298),'model_value':_0x4925f2(0x254)},{'model_key':'商城促销折扣','model_value':'coupon'},{'model_key':_0x4925f2(0x2e3),'model_value':_0x4925f2(0x21e)},{'model_key':_0x4925f2(0x1fe),'model_value':_0x4925f2(0x1a6)},{'model_key':'Repeat-jackpot','model_value':_0x4925f2(0x29a)},{'model_key':_0x4925f2(0x11d),'model_value':_0x4925f2(0x2a5)},{'model_key':'GrowthFund成长基金','model_value':'growthFund'},{'model_key':'宇独','model_value':_0x4925f2(0x22f)},{'model_key':'不活跃送奖','model_value':_0x4925f2(0x2c8)},{'model_key':'餐厅','model_value':'dinnerLand'},{'model_key':'状态','model_value':_0x4925f2(0x16e)},{'model_key':_0x4925f2(0x10c),'model_value':'dailyMission'},{'model_key':_0x4925f2(0xde),'model_value':_0x4925f2(0x2f3)},{'model_key':_0x4925f2(0x191),'model_value':_0x4925f2(0x2a9)},{'model_key':_0x4925f2(0x228),'model_value':_0x4925f2(0x114)},{'model_key':_0x4925f2(0x28c),'model_value':_0x4925f2(0x293)},{'model_key':'Spin数据','model_value':_0x4925f2(0x141)},{'model_key':_0x4925f2(0x142),'model_value':_0x4925f2(0x2fd)},{'model_key':_0x4925f2(0x275),'model_value':'featureMultipleRange'},{'model_key':'小猪','model_value':'pigData'},{'model_key':_0x4925f2(0x1c2),'model_value':_0x4925f2(0x1be)},{'model_key':'小猪booster','model_value':'pigBoosterData'},{'model_key':'CashBonus','model_value':_0x4925f2(0x125)},{'model_key':_0x4925f2(0x204),'model_value':_0x4925f2(0x248)},{'model_key':_0x4925f2(0x1ca),'model_value':_0x4925f2(0x2c1)},{'model_key':'每日任务','model_value':_0x4925f2(0x200)},{'model_key':_0x4925f2(0x29c),'model_value':_0x4925f2(0x238)},{'model_key':_0x4925f2(0x217),'model_value':_0x4925f2(0x13a)},{'model_key':'Buff','model_value':_0x4925f2(0x12c)},{'model_key':_0x4925f2(0x150),'model_value':_0x4925f2(0x186)},{'model_key':_0x4925f2(0x11e),'model_value':_0x4925f2(0x2c0)},{'model_key':_0x4925f2(0x2e4),'model_value':_0x4925f2(0x1f5)},{'model_key':'道具','model_value':'items'},{'model_key':_0x4925f2(0xe2),'model_value':_0x4925f2(0x20b)},{'model_key':_0x4925f2(0x2ff),'model_value':_0x4925f2(0x18e)},{'model_key':_0x4925f2(0x146),'model_value':_0x4925f2(0x214)},{'model_key':_0x4925f2(0x18d),'model_value':'luckyStampCard'},{'model_key':'Story','model_value':_0x4925f2(0x28e)},{'model_key':_0x4925f2(0x294),'model_value':_0x4925f2(0x14e)},{'model_key':'leveIRush聚合挑战','model_value':'rippleDash'},{'model_key':_0x4925f2(0x136),'model_value':'miniGame'},{'model_key':_0x4925f2(0x212),'model_value':'gameGroup'},{'model_key':_0x4925f2(0x24d),'model_value':_0x4925f2(0xfe)},{'model_key':'SeasonMission','model_value':'seasonMission'},{'model_key':_0x4925f2(0x2a8),'model_value':_0x4925f2(0x210)},{'model_key':'公会','model_value':_0x4925f2(0x14b)},{'model_key':_0x4925f2(0x1ac),'model_value':_0x4925f2(0x2fe)},{'model_key':'MergeWeek合图周卡','model_value':'mergeWeek'},{'model_key':_0x4925f2(0x101),'model_value':'bingo\x20Rush'},{'model_key':'日常笠到','model_value':_0x4925f2(0x1de)},{'model_key':_0x4925f2(0x13b),'model_value':_0x4925f2(0x189)},{'model_key':_0x4925f2(0x14c),'model_value':_0x4925f2(0x242)},{'model_key':_0x4925f2(0xf4),'model_value':_0x4925f2(0x148)},{'model_key':_0x4925f2(0x261),'model_value':_0x4925f2(0x2cc)},{'model_key':_0x4925f2(0x2a6),'model_value':_0x4925f2(0x25c)},{'model_key':_0x4925f2(0x118),'model_value':_0x4925f2(0x112)},{'model_key':_0x4925f2(0x182),'model_value':_0x4925f2(0x17c)},{'model_key':_0x4925f2(0x13c),'model_value':_0x4925f2(0x26b)},{'model_key':'WildChallenge付费挑战','model_value':_0x4925f2(0x296)},{'model_key':_0x4925f2(0x162),'model_value':_0x4925f2(0x129)},{'model_key':_0x4925f2(0x241),'model_value':'avatarFrame'},{'model_key':_0x4925f2(0x185),'model_value':'capsuleToys'},{'model_key':_0x4925f2(0x102),'model_value':_0x4925f2(0x171)},{'model_key':_0x4925f2(0x270),'model_value':_0x4925f2(0x10b)},{'model_key':_0x4925f2(0x2af),'model_value':_0x4925f2(0x2b3)},{'model_key':_0x4925f2(0x1ed),'model_value':_0x4925f2(0x239)},{'model_key':'三周年分享挑战','model_value':'I\x20memoryLane'},{'model_key':'刮刮卡','model_value':_0x4925f2(0xf2)},{'model_key':'品质头像框挑战','model_value':_0x4925f2(0xf7)},{'model_key':_0x4925f2(0x135),'model_value':_0x4925f2(0x128)},{'model_key':_0x4925f2(0x2aa),'model_value':'levelDashPlus\x20purchase\x20Gift'},{'model_key':_0x4925f2(0x2ae),'model_value':'newCoinPusher'},{'model_key':_0x4925f2(0x2e2),'model_value':'oneDaySpecialMission'},{'model_key':_0x4925f2(0x251),'model_value':_0x4925f2(0x24e)},{'model_key':'','model_value':''},{'model_key':_0x4925f2(0x2e9),'model_value':_0x4925f2(0x14f)},{'model_key':_0x4925f2(0x16c),'model_value':_0x4925f2(0x267)},{'model_key':_0x4925f2(0x1a3),'model_value':_0x4925f2(0xdd)},{'model_key':_0x4925f2(0x13e),'model_value':_0x4925f2(0x1d0)},{'model_key':_0x4925f2(0x2f6),'model_value':'newUserJackpotReturn'},{'model_key':_0x4925f2(0x1dc),'model_value':'newUserEchoWins'},{'model_key':'NewUserCashBack','model_value':'newUserCashBack'},{'model_key':_0x4925f2(0xeb),'model_value':_0x4925f2(0x226)},{'model_key':'quest关卡掉nado木','model_value':_0x4925f2(0x117)},{'model_key':_0x4925f2(0x230),'model_value':'factionFight'},{'model_key':'新版大富翁','model_value':_0x4925f2(0x123)},{'model_key':_0x4925f2(0x17d),'model_value':_0x4925f2(0x155)},{'model_key':_0x4925f2(0x170),'model_value':_0x4925f2(0x1c5)},{'model_key':_0x4925f2(0x1f3),'model_value':_0x4925f2(0x23b)},{'model_key':_0x4925f2(0x16a),'model_value':'christmasCalendar'},{'model_key':'vip重置','model_value':_0x4925f2(0x201)},{'model_key':_0x4925f2(0x2d6),'model_value':_0x4925f2(0xf3)},{'model_key':_0x4925f2(0x2b6),'model_value':_0x4925f2(0x2f1)},{'model_key':'inflation','model_value':_0x4925f2(0x1e7)},{'model_key':_0x4925f2(0xe9),'model_value':_0x4925f2(0x2d1)},{'model_key':_0x4925f2(0x1ec),'model_value':_0x4925f2(0x227)},{'model_key':_0x4925f2(0x23a),'model_value':_0x4925f2(0x1fd)},{'model_key':_0x4925f2(0x1a0),'model_value':_0x4925f2(0x1f2)},{'model_key':_0x4925f2(0x27c),'model_value':_0x4925f2(0x21a)},{'model_key':_0x4925f2(0x2cb),'model_value':_0x4925f2(0x188)},{'model_key':_0x4925f2(0x24b),'model_value':_0x4925f2(0x273)},{'model_key':_0x4925f2(0x22a),'model_value':_0x4925f2(0x22e)},{'model_key':_0x4925f2(0x108),'model_value':'limited\x20Gift'},{'model_key':_0x4925f2(0x1fa),'model_value':'VipPointsPool'},{'model_key':_0x4925f2(0x269),'model_value':_0x4925f2(0xe0)},{'model_key':_0x4925f2(0x2ec),'model_value':_0x4925f2(0x19f)},{'model_key':'月卡','model_value':_0x4925f2(0x1f0)},{'model_key':'集卡赛季末抽卡','model_value':_0x4925f2(0x1ea)},{'model_key':'类bingo连线促销','model_value':_0x4925f2(0x1d5)},{'model_key':'IceBrokenSale新破冰促销','model_value':_0x4925f2(0xe1)},{'model_key':_0x4925f2(0x1f7),'model_value':'topUpBonus'},{'model_key':_0x4925f2(0xe6),'model_value':_0x4925f2(0x245)},{'model_key':'商城热卖','model_value':_0x4925f2(0x152)},{'model_key':'限时抽奖','model_value':_0x4925f2(0x255)},{'model_key':'付费目标','model_value':'getMorePayLess'},{'model_key':_0x4925f2(0xec),'model_value':_0x4925f2(0x29e)},{'model_key':_0x4925f2(0x233),'model_value':_0x4925f2(0x226)},{'model_key':_0x4925f2(0x157),'model_value':_0x4925f2(0x257)},{'model_key':_0x4925f2(0x1d3),'model_value':_0x4925f2(0x2b8)},{'model_key':_0x4925f2(0x2eb),'model_value':_0x4925f2(0x25d)},{'model_key':_0x4925f2(0x1a5),'model_value':_0x4925f2(0x137)},{'model_key':'生日信息收集','model_value':_0x4925f2(0x207)},{'model_key':_0x4925f2(0x2c2),'model_value':_0x4925f2(0x1e4)},{'model_key':_0x4925f2(0x276),'model_value':_0x4925f2(0x223)},{'model_key':_0x4925f2(0x240),'model_value':_0x4925f2(0x24f)},{'model_key':_0x4925f2(0x1d1),'model_value':_0x4925f2(0x124)},{'model_key':_0x4925f2(0x280),'model_value':_0x4925f2(0x2c5)},{'model_key':_0x4925f2(0x1f9),'model_value':_0x4925f2(0x264)},{'model_key':_0x4925f2(0x156),'model_value':'shortCardDraw'},{'model_key':_0x4925f2(0x14d),'model_value':_0x4925f2(0x1e9)},{'model_key':'flamingoJackpot','model_value':_0x4925f2(0x16f)},{'model_key':_0x4925f2(0x1fb),'model_value':_0x4925f2(0xee)},{'model_key':_0x4925f2(0x2e7),'model_value':_0x4925f2(0x2ed)},{'model_key':_0x4925f2(0x274),'model_value':_0x4925f2(0x12d)},{'model_key':_0x4925f2(0x206),'model_value':_0x4925f2(0x1b9)},{'model_key':_0x4925f2(0x2c7),'model_value':_0x4925f2(0x2f0)},{'model_key':'pig三合一促销小猪','model_value':'pigTrioSale'},{'model_key':_0x4925f2(0x183),'model_value':_0x4925f2(0x1c6)},{'model_key':_0x4925f2(0x2a7),'model_value':_0x4925f2(0x1b6)},{'model_key':_0x4925f2(0x199),'model_value':_0x4925f2(0x13f)},{'model_key':_0x4925f2(0x2de),'model_value':'albumMoreAward'},{'model_key':_0x4925f2(0x2b9),'model_value':_0x4925f2(0x2bd)},{'model_key':_0x4925f2(0x29b),'model_value':'couponRewards'},{'model_key':_0x4925f2(0x29d),'model_value':_0x4925f2(0x1cb)},{'model_key':_0x4925f2(0x2b5),'model_value':_0x4925f2(0x2bb)},{'model_key':_0x4925f2(0x198),'model_value':_0x4925f2(0x225)},{'model_key':_0x4925f2(0x205),'model_value':_0x4925f2(0x113)},{'model_key':_0x4925f2(0x1cf),'model_value':_0x4925f2(0x130)},{'model_key':_0x4925f2(0x2ee),'model_value':_0x4925f2(0x1d2)},{'model_key':_0x4925f2(0x15c),'model_value':_0x4925f2(0x224)},{'model_key':_0x4925f2(0xfd),'model_value':'clubStoreCoupon'},{'model_key':_0x4925f2(0x202),'model_value':_0x4925f2(0x25e)},{'model_key':_0x4925f2(0x2dd),'model_value':'piggyGoodies'},{'model_key':_0x4925f2(0x2e5),'model_value':'newUserActiMissions'},{'model_key':_0x4925f2(0x1e1),'model_value':_0x4925f2(0x2e0)},{'model_key':_0x4925f2(0x1e5),'model_value':'luckySpinV2'},{'model_key':'DIYFeature','model_value':_0x4925f2(0xef)},{'model_key':_0x4925f2(0x2fc),'model_value':_0x4925f2(0x28a)},{'model_key':'diyFeature结束促销','model_value':_0x4925f2(0x244)},{'model_key':'diyFeature促销','model_value':_0x4925f2(0x1ae)},{'model_key':_0x4925f2(0x1f4),'model_value':_0x4925f2(0x21f)},{'model_key':_0x4925f2(0x161),'model_value':'blindBox'},{'model_key':_0x4925f2(0x2f8),'model_value':_0x4925f2(0x20c)},{'model_key':_0x4925f2(0x1b5),'model_value':_0x4925f2(0x1a9)},{'model_key':_0x4925f2(0x175),'model_value':'exchangeCode'},{'model_key':_0x4925f2(0x2d5),'model_value':'flameClashData'},{'model_key':'万亿贏家','model_value':'trillionsWinnerChallenge'},{'model_key':_0x4925f2(0x246),'model_value':'treasurerunt'},{'model_key':_0x4925f2(0x260),'model_value':_0x4925f2(0x1ef)},{'model_key':_0x4925f2(0x10f),'model_value':_0x4925f2(0xe5)},{'model_key':_0x4925f2(0xe3),'model_value':_0x4925f2(0x18a)},{'model_key':_0x4925f2(0x16d),'model_value':'appCharge'},{'model_key':_0x4925f2(0x29f),'model_value':_0x4925f2(0x26a)},{'model_key':'新版大富翁V2','model_value':_0x4925f2(0x259)},{'model_key':_0x4925f2(0x25a),'model_value':_0x4925f2(0x1da)},{'model_key':_0x4925f2(0x26e),'model_value':_0x4925f2(0x229)},{'model_key':_0x4925f2(0x1c0),'model_value':_0x4925f2(0xf9)},{'model_key':'Sidekicks宠物系统','model_value':_0x4925f2(0xfb)},{'model_key':_0x4925f2(0x2c3),'model_value':_0x4925f2(0x138)},{'model_key':_0x4925f2(0x1ba),'model_value':_0x4925f2(0x235)},{'model_key':'圣诞新聚合主活动','model_value':_0x4925f2(0x2ca)},{'model_key':_0x4925f2(0x154),'model_value':_0x4925f2(0xf1)},{'model_key':_0x4925f2(0x2c6),'model_value':_0x4925f2(0x2e8)},{'model_key':_0x4925f2(0x2d3),'model_value':_0x4925f2(0x15f)},{'model_key':_0x4925f2(0x143),'model_value':'newGameProtectV2'},{'model_key':_0x4925f2(0xf8),'model_value':'messagePush'},{'model_key':'钻石挑战V2','model_value':_0x4925f2(0x2ba)},{'model_key':_0x4925f2(0xf5),'model_value':'luckyChallengeV2TimeLimitData'},{'model_key':_0x4925f2(0x23d),'model_value':_0x4925f2(0x2a1)},{'model_key':'圣诞新聚合排行榜','model_value':_0x4925f2(0x1b0)},{'model_key':_0x4925f2(0x147),'model_value':_0x4925f2(0x26d)},{'model_key':_0x4925f2(0x2e1),'model_value':_0x4925f2(0x2c9)},{'model_key':'代币','model_value':_0x4925f2(0x1dd)},{'model_key':_0x4925f2(0x167),'model_value':_0x4925f2(0x1a1)},{'model_key':_0x4925f2(0x20e),'model_value':_0x4925f2(0x2f2)},{'model_key':_0x4925f2(0x21b),'model_value':_0x4925f2(0x1a7)},{'model_key':'bet列表拓展赢钱次数','model_value':_0x4925f2(0x2f4)},{'model_key':_0x4925f2(0x23f),'model_value':_0x4925f2(0x2ad)},{'model_key':_0x4925f2(0x2ce),'model_value':_0x4925f2(0x27e)},{'model_key':_0x4925f2(0x122),'model_value':_0x4925f2(0x2e6)},{'model_key':_0x4925f2(0x2b4),'model_value':_0x4925f2(0x1bf)},{'model_key':_0x4925f2(0x234),'model_value':_0x4925f2(0x2a3)},{'model_key':_0x4925f2(0x119),'model_value':_0x4925f2(0x2b0)},{'model_key':_0x4925f2(0x194),'model_value':_0x4925f2(0x187)},{'model_key':_0x4925f2(0xff),'model_value':_0x4925f2(0x23c)},{'model_key':_0x4925f2(0x231),'model_value':_0x4925f2(0x22b)},{'model_key':_0x4925f2(0x2a4),'model_value':_0x4925f2(0x1aa)},{'model_key':_0x4925f2(0xfc),'model_value':_0x4925f2(0x10a)},{'model_key':_0x4925f2(0x2ea),'model_value':_0x4925f2(0x1e8)},{'model_key':_0x4925f2(0x173),'model_value':_0x4925f2(0x195)},{'model_key':_0x4925f2(0x2fa),'model_value':'loginToFree'},{'model_key':_0x4925f2(0x26c),'model_value':'getBucksChallenge'},{'model_key':'bingoLink','model_value':'bingoLink'},{'model_key':_0x4925f2(0x1ee),'model_value':_0x4925f2(0x271)},{'model_key':_0x4925f2(0x116),'model_value':_0x4925f2(0x163)},{'model_key':_0x4925f2(0x23e),'model_value':_0x4925f2(0x17e)},{'model_key':'代币跳转网页商店分组','model_value':'buckRedirectWebStore'},{'model_key':_0x4925f2(0xdf),'model_value':_0x4925f2(0xea)},{'model_key':_0x4925f2(0x2fb),'model_value':_0x4925f2(0xf6)},{'model_key':_0x4925f2(0x2cd),'model_value':'seaStory'},{'model_key':_0x4925f2(0x107),'model_value':_0x4925f2(0x2f7)},{'model_key':_0x4925f2(0x277),'model_value':_0x4925f2(0x1df)},{'model_key':_0x4925f2(0x151),'model_value':_0x4925f2(0x1f6)},{'model_key':_0x4925f2(0x2ab),'model_value':_0x4925f2(0x291)},{'model_key':'大活动收集加成','model_value':_0x4925f2(0x209)},{'model_key':'代币破冰','model_value':_0x4925f2(0x2f9)},{'model_key':_0x4925f2(0x20f),'model_value':_0x4925f2(0x2a0)},{'model_key':_0x4925f2(0x1e3),'model_value':'pigBucksData'},{'model_key':_0x4925f2(0xf0),'model_value':_0x4925f2(0x177)},{'model_key':_0x4925f2(0x1bd),'model_value':_0x4925f2(0x19e)},{'model_key':_0x4925f2(0x1e6),'model_value':_0x4925f2(0x111)},{'model_key':_0x4925f2(0x16b),'model_value':'eventBoost\x20'},{'model_key':_0x4925f2(0x253),'model_value':'bingoLinkChiliAmigos3'},{'model_key':_0x4925f2(0x176),'model_value':'annualSummary'},{'model_key':_0x4925f2(0x181),'model_value':_0x4925f2(0x222)},{'model_key':_0x4925f2(0x19c),'model_value':_0x4925f2(0x13d)},{'model_key':_0x4925f2(0x145),'model_value':_0x4925f2(0x14a)},{'model_key':'MvpSlotGame提前体验新关','model_value':_0x4925f2(0x19a)},{'model_key':_0x4925f2(0x236),'model_value':_0x4925f2(0x190)},{'model_key':_0x4925f2(0x11c),'model_value':'triplexPassDoubleDiamond'},{'model_key':_0x4925f2(0x106),'model_value':_0x4925f2(0x184)},{'model_key':_0x4925f2(0x208),'model_value':'spiritStrike'},{'model_key':_0x4925f2(0x2b1),'model_value':_0x4925f2(0x18f)},{'model_key':_0x4925f2(0x22c),'model_value':_0x4925f2(0x263)},{'model_key':'5周年全服分奖池','model_value':_0x4925f2(0x279)},{'model_key':'调酒','model_value':_0x4925f2(0x1eb)},{'model_key':_0x4925f2(0x232),'model_value':'lighting\x20Boost\x20V2'},{'model_key':_0x4925f2(0x2d7),'model_value':_0x4925f2(0x160)},{'model_key':'jackpot返还V2','model_value':_0x4925f2(0x272)},{'model_key':_0x4925f2(0x127),'model_value':_0x4925f2(0x2d2)},{'model_key':_0x4925f2(0x1a8),'model_value':_0x4925f2(0x211)},{'model_key':_0x4925f2(0x22d),'model_value':_0x4925f2(0xfa)},{'model_key':'RogueQuest','model_value':_0x4925f2(0x250)},{'model_key':_0x4925f2(0x115),'model_value':_0x4925f2(0x15d)},{'model_key':'QuestPass','model_value':_0x4925f2(0xed)},{'model_key':_0x4925f2(0x2da),'model_value':_0x4925f2(0x1a4)},{'model_key':_0x4925f2(0x104),'model_value':_0x4925f2(0x18c)},{'model_key':_0x4925f2(0x133),'model_value':'wizardingWarPreheat'},{'model_key':_0x4925f2(0x2b2),'model_value':_0x4925f2(0x1ff)},{'model_key':_0x4925f2(0x12a),'model_value':'accumulateLottery'},{'model_key':_0x4925f2(0x27f),'model_value':_0x4925f2(0x297)},{'model_key':'pickConvertBomb','model_value':_0x4925f2(0x221)},{'model_key':_0x4925f2(0x2d9),'model_value':_0x4925f2(0x287)},{'model_key':_0x4925f2(0x2cf),'model_value':'makePotion'},{'model_key':_0x4925f2(0x258),'model_value':_0x4925f2(0x165)},{'model_key':'甘道夫bet+促销','model_value':_0x4925f2(0x25b)},{'model_key':_0x4925f2(0x1b4),'model_value':_0x4925f2(0x2dc)},{'model_key':_0x4925f2(0x282),'model_value':'mvpChatApplicationData'},{'model_key':_0x4925f2(0x2c4),'model_value':'mvp\x20ChatGuideData'},{'model_key':'代币购买大活动道具膨胀','model_value':_0x4925f2(0x28f)},{'model_key':'疯狂模式','model_value':_0x4925f2(0x1b1)},{'model_key':_0x4925f2(0x2a2),'model_value':_0x4925f2(0x1b3)},{'model_key':_0x4925f2(0x266),'model_value':'christmasGiver'},{'model_key':'炸船','model_value':'battleShoot'},{'model_key':'多关绑定bet+','model_value':_0x4925f2(0x1cc)},{'model_key':_0x4925f2(0x220),'model_value':_0x4925f2(0x215)},{'model_key':'礼物交换','model_value':_0x4925f2(0x144)},{'model_key':_0x4925f2(0x1d8),'model_value':'eventTeamPre'},{'model_key':'大活动组队','model_value':_0x4925f2(0x2d4)},{'model_key':_0x4925f2(0x10d),'model_value':_0x4925f2(0x249)},{'model_key':'代币终生卡','model_value':_0x4925f2(0x153)},{'model_key':_0x4925f2(0x2df),'model_value':_0x4925f2(0x1ad)},{'model_key':_0x4925f2(0x203),'model_value':_0x4925f2(0x12f)},{'model_key':_0x4925f2(0x12b),'model_value':'betusdLimit'},{'model_key':_0x4925f2(0x158),'model_value':_0x4925f2(0x243)},{'model_key':_0x4925f2(0x1b2),'model_value':_0x4925f2(0x134)},{'model_key':'邮箱绑定验证','model_value':'mailVerificationCode'},{'model_key':'挖矿Bet+任务','model_value':'mineFortuneMission'},{'model_key':_0x4925f2(0x159),'model_value':_0x4925f2(0x299)},{'model_key':_0x4925f2(0x284),'model_value':_0x4925f2(0x178)},{'model_key':_0x4925f2(0x1c9),'model_value':_0x4925f2(0x1af)},{'model_key':'地下城迷雾探索','model_value':'lostRuins'},{'model_key':'rogueQuestV2','model_value':_0x4925f2(0x2ef)},{'model_key':_0x4925f2(0x10e),'model_value':_0x4925f2(0x25f)},{'model_key':'通知弹窗','model_value':_0x4925f2(0x1d6)},{'model_key':_0x4925f2(0x262),'model_value':_0x4925f2(0x213)},{'model_key':'钓鱼','model_value':_0x4925f2(0xe4)},{'model_key':_0x4925f2(0x109),'model_value':_0x4925f2(0x131)},{'model_key':'拉新','model_value':_0x4925f2(0x100)},{'model_key':_0x4925f2(0x1b7),'model_value':_0x4925f2(0x15a)},{'model_key':'商城折扣送缺卡','model_value':_0x4925f2(0x2be)},{'model_key':'feature促销-先付版','model_value':'featureDeal'},{'model_key':'代币礼包','model_value':_0x4925f2(0x21d)},{'model_key':'代币消耗里程碑','model_value':_0x4925f2(0x174)},{'model_key':_0x4925f2(0x28d),'model_value':_0x4925f2(0x278)},{'model_key':'四挡连续充值','model_value':_0x4925f2(0x15e)},{'model_key':_0x4925f2(0x11a),'model_value':_0x4925f2(0x180)},{'model_key':_0x4925f2(0x10f),'model_value':'superSpinSendltem'},{'model_key':_0x4925f2(0x18b),'model_value':_0x4925f2(0x20a)},{'model_key':_0x4925f2(0x2ac),'model_value':_0x4925f2(0x1d4)},{'model_key':_0x4925f2(0x1bc),'model_value':_0x4925f2(0x1c1)},{'model_key':'推币机促销V3','model_value':_0x4925f2(0x164)},{'model_key':_0x4925f2(0x1a2),'model_value':_0x4925f2(0x237)},{'model_key':_0x4925f2(0x1b8),'model_value':'lastLoginTime'},{'model_key':_0x4925f2(0x285),'model_value':_0x4925f2(0x20d)},{'model_key':_0x4925f2(0x17f),'model_value':_0x4925f2(0x15b)}];
+export const ModelData = [
+  {
+    "model_key": "Card集卡数据",
+    "model_value": "cardsData"
+  },
+  {
+    "model_key": "LevelDash",
+    "model_value": "evelDash"
+  },
+  {
+    "model_key": "商城折扣券",
+    "model_value": "storeCoupon"
+  },
+  {
+    "model_key": "总Bet",
+    "model_value": "amountBet"
+  },
+  {
+    "model_key": "LuckySpin",
+    "model_value": "luckySpin"
+  },
+  {
+    "model_key": "LuckChallenge",
+    "model_value": "challenge"
+  },
+  {
+    "model_key": "持金控制V2",
+    "model_value": "coinsControlV2"
+  },
+  {
+    "model_key": "持金控制V3",
+    "model_value": "coinsControlV3"
+  },
+  {
+    "model_key": "Grand调控",
+    "model_value": "grandControl"
+  },
+  {
+    "model_key": "签到",
+    "model_value": "dailyBonus"
+  },
+  {
+    "model_key": "AD厂告",
+    "model_value": "advertisement"
+  },
+  {
+    "model_key": "CashVault",
+    "model_value": "cashVaults"
+  },
+  {
+    "model_key": "MegaCash",
+    "model_value": "megaCash"
+  },
+  {
+    "model_key": "时元回溯",
+    "model_value": "timeMachine"
+  },
+  {
+    "model_key": "BonusHunt",
+    "model_value": "bonus-unt"
+  },
+  {
+    "model_key": "新手Quest",
+    "model_value": "newUser@uest"
+  },
+  {
+    "model_key": "新手pass",
+    "model_value": "newUserPass"
+  },
+  {
+    "model_key": "新手blast",
+    "model_value": "newserBlast"
+  },
+  {
+    "model_key": "新手个人累充",
+    "model_value": "newUserCharge"
+  },
+  {
+    "model_key": "新手签到",
+    "model_value": "novice Check"
+  },
+  {
+    "model_key": "新手商城折扣",
+    "model_value": "newUserCoupon"
+  },
+  {
+    "model_key": "GameCrazy",
+    "model_value": "gameCrazy"
+  },
+  {
+    "model_key": "好友礼物邮件",
+    "model_value": "friendGift"
+  },
+  {
+    "model_key": "Blast",
+    "model_value": "blast"
+  },
+  {
+    "model_key": "大富翁",
+    "model_value": "rich"
+  },
+  {
+    "model_key": "推市机",
+    "model_value": "coinPusher"
+  },
+  {
+    "model_key": "BattlePass",
+    "model_value": "battlePass"
+  },
+  {
+    "model_key": "临时RTP",
+    "model_value": "tmpRtp"
+  },
+  {
+    "model_key": "圣诞节挑战",
+    "model_value": "christmasTour"
+  },
+  {
+    "model_key": "活动任务",
+    "model_value": "activityMissions"
+  },
+  {
+    "model_key": "LuckySpin送卡活动",
+    "model_value": "luckySpinCard"
+  },
+  {
+    "model_key": "Pig送卡活动",
+    "model_value": "pigCard"
+  },
+  {
+    "model_key": "竞技场",
+    "model_value": "arena"
+  },
+  {
+    "model_key": "SlotChallenge",
+    "model_value": "slotChallenge"
+  },
+  {
+    "model_key": "Quest挑战",
+    "model_value": "questChallenge"
+  },
+  {
+    "model_key": "LevelRush",
+    "model_value": "levelRush"
+  },
+  {
+    "model_key": "DiningRoom",
+    "model_value": "dining Room"
+  },
+  {
+    "model_key": "EchoWins",
+    "model_value": "echoWins"
+  },
+  {
+    "model_key": "回归保护",
+    "model_value": "returnProtect"
+  },
+  {
+    "model_key": "高倍场数据",
+    "model_value": "highLimit"
+  },
+  {
+    "model_key": "Adjust数据",
+    "model_value": "adjust"
+  },
+  {
+    "model_key": "比赛聚合",
+    "model_value": "compete"
+  },
+  {
+    "model_key": "渠道信息",
+    "model_value": "trackerData"
+  },
+  {
+    "model_key": "新关卡体验",
+    "model_value": "protect"
+  },
+  {
+    "model_key": "新手保护V2",
+    "model_value": "newUserProtectV2"
+  },
+  {
+    "model_key": "背包（促销券）",
+    "model_value": "all tems"
+  },
+  {
+    "model_key": "商城促销折扣",
+    "model_value": "coupon"
+  },
+  {
+    "model_key": "小猪挑战",
+    "model_value": "pigChallenge"
+  },
+  {
+    "model_key": "付费保护",
+    "model_value": "purchase ProtectNew"
+  },
+  {
+    "model_key": "Repeat-jackpot",
+    "model_value": "jackpotReturn"
+  },
+  {
+    "model_key": "Repeat-freespin",
+    "model_value": "freeGamesFever"
+  },
+  {
+    "model_key": "GrowthFund成长基金",
+    "model_value": "growthFund"
+  },
+  {
+    "model_key": "宇独",
+    "model_value": "word"
+  },
+  {
+    "model_key": "不活跃送奖",
+    "model_value": "dpPrize"
+  },
+  {
+    "model_key": "餐厅",
+    "model_value": "dinnerLand"
+  },
+  {
+    "model_key": "状态",
+    "model_value": "status"
+  },
+  {
+    "model_key": "新版每日任务",
+    "model_value": "dailyMission"
+  },
+  {
+    "model_key": "ABTEST",
+    "model_value": "abtestGroup"
+  },
+  {
+    "model_key": "新手保护数据",
+    "model_value": "newUserProtect"
+  },
+  {
+    "model_key": "不活跃",
+    "model_value": "inactive Protect"
+  },
+  {
+    "model_key": "Quest",
+    "model_value": "quest"
+  },
+  {
+    "model_key": "Spin数据",
+    "model_value": "spin"
+  },
+  {
+    "model_key": "不活跃保护数据",
+    "model_value": "inactiveProtect"
+  },
+  {
+    "model_key": "Feature倍数控制",
+    "model_value": "featureMultipleRange"
+  },
+  {
+    "model_key": "小猪",
+    "model_value": "pigData"
+  },
+  {
+    "model_key": "小猪折扣",
+    "model_value": "pig CoinsData"
+  },
+  {
+    "model_key": "小猪booster",
+    "model_value": "pigBoosterData"
+  },
+  {
+    "model_key": "CashBonus",
+    "model_value": "cashBonus"
+  },
+  {
+    "model_key": "VaultBonus小游戏",
+    "model_value": "vaultBonus"
+  },
+  {
+    "model_key": "CashBack活动数据",
+    "model_value": "cashBack"
+  },
+  {
+    "model_key": "每日任务",
+    "model_value": "mission"
+  },
+  {
+    "model_key": "商店免费礼物",
+    "model_value": "shopGift"
+  },
+  {
+    "model_key": "支付相关",
+    "model_value": "purchase"
+  },
+  {
+    "model_key": "Buff",
+    "model_value": "buffs"
+  },
+  {
+    "model_key": "促销数据",
+    "model_value": "saleData"
+  },
+  {
+    "model_key": "repeatWin活动数据",
+    "model_value": "repeatWinData"
+  },
+  {
+    "model_key": "商城促销券活动数据",
+    "model_value": "couponData"
+  },
+  {
+    "model_key": "道具",
+    "model_value": "items"
+  },
+  {
+    "model_key": "mega活动数据",
+    "model_value": "megaData"
+  },
+  {
+    "model_key": "Bingo活动数据",
+    "model_value": "bingo"
+  },
+  {
+    "model_key": "Redecorate装修",
+    "model_value": "redecorate"
+  },
+  {
+    "model_key": "盖戳送卡活动",
+    "model_value": "luckyStampCard"
+  },
+  {
+    "model_key": "Story",
+    "model_value": "storyBonus"
+  },
+  {
+    "model_key": "帽子戏法",
+    "model_value": "hatTrick"
+  },
+  {
+    "model_key": "leveIRush聚合挑战",
+    "model_value": "rippleDash"
+  },
+  {
+    "model_key": "小游戏数据",
+    "model_value": "miniGame"
+  },
+  {
+    "model_key": "关卡分类",
+    "model_value": "gameGroup"
+  },
+  {
+    "model_key": "FreeGame免费游戏",
+    "model_value": "freeGame"
+  },
+  {
+    "model_key": "SeasonMission",
+    "model_value": "seasonMission"
+  },
+  {
+    "model_key": "LuckyMission",
+    "model_value": "lucky Mission"
+  },
+  {
+    "model_key": "公会",
+    "model_value": "clan"
+  },
+  {
+    "model_key": "HighLimitMerge合图",
+    "model_value": "highLimitMerge"
+  },
+  {
+    "model_key": "MergeWeek合图周卡",
+    "model_value": "mergeWeek"
+  },
+  {
+    "model_key": "BingoRush挑战",
+    "model_value": "bingo Rush"
+  },
+  {
+    "model_key": "日常笠到",
+    "model_value": "dailyBonus"
+  },
+  {
+    "model_key": "新版pass",
+    "model_value": "pass"
+  },
+  {
+    "model_key": "3行pass",
+    "model_value": "triplexPass"
+  },
+  {
+    "model_key": "用户分群",
+    "model_value": "userGroup"
+  },
+  {
+    "model_key": "乐透lottery",
+    "model_value": "lottery"
+  },
+  {
+    "model_key": "乐透送奖",
+    "model_value": "lottery Extra"
+  },
+  {
+    "model_key": "乐透挑战",
+    "model_value": "lotteryChallenge"
+  },
+  {
+    "model_key": "VideoPoker扒克",
+    "model_value": "poker"
+  },
+  {
+    "model_key": "PigNormalCard小猪送金卡",
+    "model_value": "pigNormalCard"
+  },
+  {
+    "model_key": "WildChallenge付费挑战",
+    "model_value": "wildChallenge"
+  },
+  {
+    "model_key": "JillionJackpot公 共Jackpot",
+    "model_value": "fillionJackpot"
+  },
+  {
+    "model_key": "AvatarFrame头像框系统",
+    "model_value": "avatarFrame"
+  },
+  {
+    "model_key": "CapsuleToys扭蛋机",
+    "model_value": "capsuleToys"
+  },
+  {
+    "model_key": "ClanRush公会Rush个人数据",
+    "model_value": "clanRush"
+  },
+  {
+    "model_key": "VegasTrip新手7日目标",
+    "model_value": "vegasTrip"
+  },
+  {
+    "model_key": "1000W每日任务送优惠券",
+    "model_value": "smashHammer"
+  },
+  {
+    "model_key": "每日任务浇花",
+    "model_value": "flower"
+  },
+  {
+    "model_key": "三周年分享挑战",
+    "model_value": "I memoryLane"
+  },
+  {
+    "model_key": "刮刮卡",
+    "model_value": "scratchCard"
+  },
+  {
+    "model_key": "品质头像框挑战",
+    "model_value": "qualityAvatarFrameChallenge"
+  },
+  {
+    "model_key": "头像框挑战",
+    "model_value": "avatarFrameChallenge"
+  },
+  {
+    "model_key": "levelDash额外奖励",
+    "model_value": "levelDashPlus purchase Gift"
+  },
+  {
+    "model_key": "新版推币机",
+    "model_value": "newCoinPusher"
+  },
+  {
+    "model_key": "单日特殊任务",
+    "model_value": "oneDaySpecialMission"
+  },
+  {
+    "model_key": "流失保护",
+    "model_value": "churnProtect"
+  },
+  {
+    "model_key": "",
+    "model_value": ""
+  },
+  {
+    "model_key": "NewUserInflateConsume#T FARK**E",
+    "model_value": "newserInflateConsume"
+  },
+  {
+    "model_key": "NewUserCyberMonday新手剁手星期一",
+    "model_value": "newserCyberMonday"
+  },
+  {
+    "model_key": "NewUserLimitedGit新手限时礼包",
+    "model_value": "newUserLimitedGift"
+  },
+  {
+    "model_key": "NewUserFreeGamesFever",
+    "model_value": "newUserFreeGamesFever"
+  },
+  {
+    "model_key": "NewUserJackpotReturn",
+    "model_value": "newUserJackpotReturn"
+  },
+  {
+    "model_key": "NewUserEchoWins",
+    "model_value": "newUserEchoWins"
+  },
+  {
+    "model_key": "NewUserCashBack",
+    "model_value": "newUserCashBack"
+  },
+  {
+    "model_key": "NewUserRepeatWin",
+    "model_value": "newUserRepeatWin"
+  },
+  {
+    "model_key": "quest关卡掉nado木",
+    "model_value": "questNado"
+  },
+  {
+    "model_key": "FactionFight红蓝对决",
+    "model_value": "factionFight"
+  },
+  {
+    "model_key": "新版大富翁",
+    "model_value": "world rip"
+  },
+  {
+    "model_key": "新版盖戳",
+    "model_value": "luckyStampV2"
+  },
+  {
+    "model_key": "疯狂购物车",
+    "model_value": "crazyShoppingCart"
+  },
+  {
+    "model_key": "Farm农场",
+    "model_value": "farm"
+  },
+  {
+    "model_key": "圣诞台历",
+    "model_value": "christmasCalendar"
+  },
+  {
+    "model_key": "vip重置",
+    "model_value": "vip Reset"
+  },
+  {
+    "model_key": "新版新关挑战",
+    "model_value": "newSlotChallenge"
+  },
+  {
+    "model_key": "新版大活动任务",
+    "model_value": "activityMissionV2"
+  },
+  {
+    "model_key": "inflation",
+    "model_value": "inflationData"
+  },
+  {
+    "model_key": "quest2.0",
+    "model_value": "fantasyQuest"
+  },
+  {
+    "model_key": "接水管",
+    "model_value": "pipeConnect"
+  },
+  {
+    "model_key": "超级碗个人累充",
+    "model_value": "superBowlRecharge"
+  },
+  {
+    "model_key": "三偣盖戳",
+    "model_value": "tripleStamp"
+  },
+  {
+    "model_key": "自选任务",
+    "model_value": "optionallask"
+  },
+  {
+    "model_key": "限时卡册jackpot",
+    "model_value": "shortCardJackpot"
+  },
+  {
+    "model_key": "ExpandCircle扩圈系统",
+    "model_value": "expandCircle"
+  },
+  {
+    "model_key": "合成水晶back",
+    "model_value": "mergeBack"
+  },
+  {
+    "model_key": "限时礼包",
+    "model_value": "limited Gift"
+  },
+  {
+    "model_key": "vip点数池",
+    "model_value": "VipPointsPool"
+  },
+  {
+    "model_key": "Zombie行尸走肉",
+    "model_value": "zombieOnslaught"
+  },
+  {
+    "model_key": "ChaseChips集卡聚合",
+    "model_value": "chaseForChips"
+  },
+  {
+    "model_key": "月卡",
+    "model_value": "monthlyCard"
+  },
+  {
+    "model_key": "集卡赛季末抽卡",
+    "model_value": "wildDraw"
+  },
+  {
+    "model_key": "类bingo连线促销",
+    "model_value": "bingoLineSale"
+  },
+  {
+    "model_key": "IceBrokenSale新破冰促销",
+    "model_value": "iceBrokenSale"
+  },
+  {
+    "model_key": "个人累充Plus",
+    "model_value": "topUpBonus"
+  },
+  {
+    "model_key": "第二货币抽奖",
+    "model_value": "gemMayWin"
+  },
+  {
+    "model_key": "商城热卖",
+    "model_value": "storeHotSale"
+  },
+  {
+    "model_key": "限时抽奖",
+    "model_value": "hourDeal"
+  },
+  {
+    "model_key": "付费目标",
+    "model_value": "getMorePayLess"
+  },
+  {
+    "model_key": "NewUserTriplePass新手三行pass",
+    "model_value": "newUser| riplePass"
+  },
+  {
+    "model_key": "NewUserRepeatWin新手RepeatWin",
+    "model_value": "newUserRepeatWin"
+  },
+  {
+    "model_key": "NewUserCash Back新手CashBack",
+    "model_value": "newUserCashBack"
+  },
+  {
+    "model_key": "NewUserWildChallenge新手期付费挑战",
+    "model_value": "newUserWildChallenge"
+  },
+  {
+    "model_key": "关卡内成就累计数据",
+    "model_value": "gameStat"
+  },
+  {
+    "model_key": "合成促销转盘",
+    "model_value": "magicGarden"
+  },
+  {
+    "model_key": "生日信息收集",
+    "model_value": "birthdayinformationData"
+  },
+  {
+    "model_key": "充值抽奖",
+    "model_value": "prizeGame"
+  },
+  {
+    "model_key": "第二货币消耗挑战",
+    "model_value": "gemChallenge"
+  },
+  {
+    "model_key": "GrowthFundV3成长基金3.0",
+    "model_value": "growthFundV3"
+  },
+  {
+    "model_key": "钻石挑战活跃活动",
+    "model_value": "diamondMania"
+  },
+  {
+    "model_key": "返回最大持金",
+    "model_value": "timeBack"
+  },
+  {
+    "model_key": "组队打boss",
+    "model_value": "dragonChallenge"
+  },
+  {
+    "model_key": "黑曜卡抽奖",
+    "model_value": "shortCardDraw"
+  },
+  {
+    "model_key": "付费排行榜",
+    "model_value": "payRank"
+  },
+  {
+    "model_key": "flamingoJackpot",
+    "model_value": "flamingoJackpot"
+  },
+  {
+    "model_key": "商城停留送优惠券",
+    "model_value": "storeStayCoupon"
+  },
+  {
+    "model_key": "高倍场体验卡促销",
+    "model_value": "highClubSale"
+  },
+  {
+    "model_key": "三指针转盘",
+    "model_value": "diy Wheel"
+  },
+  {
+    "model_key": "集卡赛季末送新卡",
+    "model_value": "grandFinale"
+  },
+  {
+    "model_key": "pig集卡小猪",
+    "model_value": "pigChip"
+  },
+  {
+    "model_key": "pig三合一促销小猪",
+    "model_value": "pigTrioSale"
+  },
+  {
+    "model_key": "bigWin挑战",
+    "model_value": "bigWinChallenge"
+  },
+  {
+    "model_key": "四周年抽奖＋分奖",
+    "model_value": "fourBirthdayDraw"
+  },
+  {
+    "model_key": "限时膨胀",
+    "model_value": "timeLimitExpansion"
+  },
+  {
+    "model_key": "限时集卡多倍奖励",
+    "model_value": "albumMoreAward"
+  },
+  {
+    "model_key": "第二货币小猪",
+    "model_value": "pigGemsData"
+  },
+  {
+    "model_key": "三联优惠券",
+    "model_value": "couponRewards"
+  },
+  {
+    "model_key": "Minz",
+    "model_value": "minzData"
+  },
+  {
+    "model_key": "leveluppass",
+    "model_value": "levelUpPass"
+  },
+  {
+    "model_key": "鲨鱼游戏促销",
+    "model_value": "mythicGameSale"
+  },
+  {
+    "model_key": "TomorrowGift次日礼物",
+    "model_value": "tomorrowGift"
+  },
+  {
+    "model_key": "BankruptProtect兜底功能",
+    "model_value": "bankruptProtect"
+  },
+  {
+    "model_key": "blackFriday黑五",
+    "model_value": "blackFridayCarnival"
+  },
+  {
+    "model_key": "单人限时比赛",
+    "model_value": "luckyRace"
+  },
+  {
+    "model_key": "合成商店折扣",
+    "model_value": "clubStoreCoupon"
+  },
+  {
+    "model_key": "大R专属促销",
+    "model_value": "superValue"
+  },
+  {
+    "model_key": "新版小猪挑战",
+    "model_value": "piggyGoodies"
+  },
+  {
+    "model_key": "NewUserActMission新手活动任务",
+    "model_value": "newUserActiMissions"
+  },
+  {
+    "model_key": "等级里程碑",
+    "model_value": "levelRoadData"
+  },
+  {
+    "model_key": "luckySpinV2",
+    "model_value": "luckySpinV2"
+  },
+  {
+    "model_key": "DIYFeature",
+    "model_value": "diyFeatureData"
+  },
+  {
+    "model_key": "diyFeature新手任务",
+    "model_value": "diyFeatureMissionData"
+  },
+  {
+    "model_key": "diyFeature结束促销",
+    "model_value": "diyFeature@verSaleData"
+  },
+  {
+    "model_key": "diyFeature促销",
+    "model_value": "diyFeatureSale"
+  },
+  {
+    "model_key": "第二货币商城付费送道具",
+    "model_value": "storeGem Gift"
+  },
+  {
+    "model_key": "集装箱大亨",
+    "model_value": "blindBox"
+  },
+  {
+    "model_key": "挖矿挑战",
+    "model_value": "JewelMania"
+  },
+  {
+    "model_key": "合成pass",
+    "model_value": "mergePass"
+  },
+  {
+    "model_key": "兑换码领奖",
+    "model_value": "exchangeCode"
+  },
+  {
+    "model_key": "膨胀消耗1V1比赛",
+    "model_value": "flameClashData"
+  },
+  {
+    "model_key": "万亿贏家",
+    "model_value": "trillionsWinnerChallenge"
+  },
+  {
+    "model_key": "寻宝之旅treasureHunt",
+    "model_value": "treasurerunt"
+  },
+  {
+    "model_key": "couponGift指定用户送优惠券",
+    "model_value": "couponGift"
+  },
+  {
+    "model_key": "superSpin送道具",
+    "model_value": "superspinsenditem"
+  },
+  {
+    "model_key": "大活动促销-pass",
+    "model_value": "functionSalePass"
+  },
+  {
+    "model_key": "AppCharge",
+    "model_value": "appCharge"
+  },
+  {
+    "model_key": "第二货币两张优惠券",
+    "model_value": "twoGemCoupons"
+  },
+  {
+    "model_key": "新版大富翁V2",
+    "model_value": "outsideGave"
+  },
+  {
+    "model_key": "通用大活动排行榜",
+    "model_value": "userRank"
+  },
+  {
+    "model_key": "抽奖转盘",
+    "model_value": "crazyWheel"
+  },
+  {
+    "model_key": "推币机V3coinPusherV3",
+    "model_value": "coin Pusher V3"
+  },
+  {
+    "model_key": "Sidekicks宠物系统",
+    "model_value": "sidekicks"
+  },
+  {
+    "model_key": "收集邮件抽奖",
+    "model_value": "mailLottery"
+  },
+  {
+    "model_key": "圣诞新聚合签到",
+    "model_value": "holidayNewChallengeAdventCalendar"
+  },
+  {
+    "model_key": "圣诞新聚合主活动",
+    "model_value": "holidayNewChallenge"
+  },
+  {
+    "model_key": "圣诞新聚合小游戏",
+    "model_value": "holidayNewChallengeSideGame"
+  },
+  {
+    "model_key": "圣诞新聚合pass",
+    "model_value": "holidayNewChallengePass"
+  },
+  {
+    "model_key": "圣诞新聚合商店",
+    "model_value": "holidayNew ChallengeStore"
+  },
+  {
+    "model_key": "新关保护V2",
+    "model_value": "newGameProtectV2"
+  },
+  {
+    "model_key": "消息推送",
+    "model_value": "messagePush"
+  },
+  {
+    "model_key": "钻石挑战V2",
+    "model_value": "luckyChallengeV2"
+  },
+  {
+    "model_key": "钻石挑战V2限时活动",
+    "model_value": "luckyChallengeV2TimeLimitData"
+  },
+  {
+    "model_key": "圣诞装饰任务",
+    "model_value": "missionsToDiy"
+  },
+  {
+    "model_key": "圣诞新聚合排行榜",
+    "model_value": "holidayNewChallengeRankData"
+  },
+  {
+    "model_key": "圣诞分大奖",
+    "model_value": "holidayNewChallengeCraze"
+  },
+  {
+    "model_key": "圣诞累充分大奖",
+    "model_value": "xmasSplit"
+  },
+  {
+    "model_key": "代币",
+    "model_value": "buckStore "
+  },
+  {
+    "model_key": "商城购买返代币",
+    "model_value": "paySendBuck"
+  },
+  {
+    "model_key": "pass宝箱",
+    "model_value": "passMysteryBox"
+  },
+  {
+    "model_key": "收集手机号",
+    "model_value": "collectPhone"
+  },
+  {
+    "model_key": "bet列表拓展赢钱次数",
+    "model_value": "betListExpand"
+  },
+  {
+    "model_key": "MegaWin大赢宝箱",
+    "model_value": "megaWin"
+  },
+  {
+    "model_key": "MegaWinV2大赢宝箱",
+    "model_value": "megaWinV2"
+  },
+  {
+    "model_key": "宠物7日任务",
+    "model_value": "petMission"
+  },
+  {
+    "model_key": "hotNews奖励",
+    "model_value": "hotNewsReward"
+  },
+  {
+    "model_key": "主播调控",
+    "model_value": "anchor Rtp"
+  },
+  {
+    "model_key": "minz任务中心",
+    "model_value": "minzMission"
+  },
+  {
+    "model_key": "PiggyVault三线消除大活动",
+    "model_value": "piggyVault"
+  },
+  {
+    "model_key": "七日寻物",
+    "model_value": "sevenDayHunt"
+  },
+  {
+    "model_key": "复活节彩蛋",
+    "model_value": "luckyEggHunt"
+  },
+  {
+    "model_key": "复活节限时锦标赛",
+    "model_value": "sevenDaysRank"
+  },
+  {
+    "model_key": "代币消耗挑战",
+    "model_value": "buckConsumeChallenge"
+  },
+  {
+    "model_key": "调研问卷",
+    "model_value": "survey"
+  },
+  {
+    "model_key": "CTS-俱乐部绑定手机号",
+    "model_value": "candleStick"
+  },
+  {
+    "model_key": "登录获取铃铛",
+    "model_value": "loginToFree"
+  },
+  {
+    "model_key": "获取代币挑战",
+    "model_value": "getBucksChallenge"
+  },
+  {
+    "model_key": "bingoLink",
+    "model_value": "bingoLink"
+  },
+  {
+    "model_key": "bingoLink结束促销",
+    "model_value": "bingoLinkEndSale"
+  },
+  {
+    "model_key": "bingoLink任务",
+    "model_value": "bingoLinkMission"
+  },
+  {
+    "model_key": "bingoLink促销",
+    "model_value": "bingoLinkSale"
+  },
+  {
+    "model_key": "代币跳转网页商店分组",
+    "model_value": "buckRedirectWebStore"
+  },
+  {
+    "model_key": "网页商店",
+    "model_value": "webStoreData"
+  },
+  {
+    "model_key": "美人鱼系列活动",
+    "model_value": "mermaid"
+  },
+  {
+    "model_key": "SeaStory海洋奇缘",
+    "model_value": "seaStory"
+  },
+  {
+    "model_key": "ClothChallenge宠物皮肤挑战",
+    "model_value": "clothChallenge"
+  },
+  {
+    "model_key": "代币付费送额外礼物",
+    "model_value": "bucksPay ExtraGifts"
+  },
+  {
+    "model_key": "SeaStory海洋奇缘任务",
+    "model_value": "seaStoryMission"
+  },
+  {
+    "model_key": "钻石luckySpin",
+    "model_value": "gemLuckySpin"
+  },
+  {
+    "model_key": "大活动收集加成",
+    "model_value": "progressBoom"
+  },
+  {
+    "model_key": "代币破冰",
+    "model_value": "buckFirstPay"
+  },
+  {
+    "model_key": "气球活动",
+    "model_value": "inflateConsume"
+  },
+  {
+    "model_key": "代币小猪",
+    "model_value": "pigBucksData"
+  },
+  {
+    "model_key": "头脑特工队新关任务",
+    "model_value": "slotPuzzle"
+  },
+  {
+    "model_key": "LightingBoost大活动限时强化",
+    "model_value": "lightingBoost"
+  },
+  {
+    "model_key": "slingoFullHouse任务",
+    "model_value": "slingoFullHouse"
+  },
+  {
+    "model_key": "大活动金币奖励加成",
+    "model_value": "eventBoost "
+  },
+  {
+    "model_key": "BingoLink辣椒版",
+    "model_value": "bingoLinkChiliAmigos3"
+  },
+  {
+    "model_key": "新年总结",
+    "model_value": "annualSummary"
+  },
+  {
+    "model_key": "BingoLink辣椒版结束促销",
+    "model_value": "bingoLinkChiliAmigos3EndSale"
+  },
+  {
+    "model_key": "无尽促销",
+    "model_value": "endlessPromotionData"
+  },
+  {
+    "model_key": "spin送道具",
+    "model_value": "thirdAnniversaryData"
+  },
+  {
+    "model_key": "MvpSlotGame提前体验新关",
+    "model_value": "mvpSlotGame"
+  },
+  {
+    "model_key": "MvpChat客服对话",
+    "model_value": "mvp Chat"
+  },
+  {
+    "model_key": "pass代币支付双倍奖励",
+    "model_value": "triplexPassDoubleDiamond"
+  },
+  {
+    "model_key": "BingoLink辣椒版任务",
+    "model_value": "bingoLinkChiliAmigos3MissionData"
+  },
+  {
+    "model_key": "组队捉鬼",
+    "model_value": "spiritStrike"
+  },
+  {
+    "model_key": "BingoLink辣椒版促销",
+    "model_value": "bingoLinkChiliSale"
+  },
+  {
+    "model_key": "周年14天抽奖",
+    "model_value": "anniversaryLotteryData"
+  },
+  {
+    "model_key": "5周年全服分奖池",
+    "model_value": "fiveBirthdayPrizePoolData"
+  },
+  {
+    "model_key": "调酒",
+    "model_value": "mixing WineData"
+  },
+  {
+    "model_key": "大活动限时加成任务v2",
+    "model_value": "lighting Boost V2"
+  },
+  {
+    "model_key": "五周年做蛋糕",
+    "model_value": "fifthAnniversaryMakeCakeData"
+  },
+  {
+    "model_key": "jackpot返还V2",
+    "model_value": "jackpotReturnV2Data"
+  },
+  {
+    "model_key": "新版luckyWinner",
+    "model_value": "luckyWinner V2Data"
+  },
+  {
+    "model_key": "商城代币支付折扣弹板",
+    "model_value": "storeBuckDiscountSale"
+  },
+  {
+    "model_key": "Mvp调控",
+    "model_value": "mvpControl"
+  },
+  {
+    "model_key": "RogueQuest",
+    "model_value": "rogueQuest"
+  },
+  {
+    "model_key": "RogueQuest活跃任务",
+    "model_value": "rogueQuest/Mission"
+  },
+  {
+    "model_key": "QuestPass",
+    "model_value": "questPass"
+  },
+  {
+    "model_key": "Quest排行榜",
+    "model_value": "questRank"
+  },
+  {
+    "model_key": "典藏卡付费",
+    "model_value": "drawCollectionCard"
+  },
+  {
+    "model_key": "甘道夫bet+预热",
+    "model_value": "wizardingWarPreheat"
+  },
+  {
+    "model_key": "典藏卡收集挑战",
+    "model_value": "cardCollectChallenge"
+  },
+  {
+    "model_key": "累充抽奖",
+    "model_value": "accumulateLottery"
+  },
+  {
+    "model_key": "气球活动V2",
+    "model_value": "inflateConsumeV2"
+  },
+  {
+    "model_key": "pickConvertBomb",
+    "model_value": "pickConvertBomb"
+  },
+  {
+    "model_key": "典藏卡活跃活动",
+    "model_value": "selectionCardPuzzleData"
+  },
+  {
+    "model_key": "万圣节魔药",
+    "model_value": "makePotion"
+  },
+  {
+    "model_key": "甘道夫bet+活动",
+    "model_value": "wizardingWar"
+  },
+  {
+    "model_key": "甘道夫bet+促销",
+    "model_value": "wizardingWarSale"
+  },
+  {
+    "model_key": "甘道夫bet+任务",
+    "model_value": "wizarding WarMission"
+  },
+  {
+    "model_key": "mvp沟通报名",
+    "model_value": "mvpChatApplicationData"
+  },
+  {
+    "model_key": "mvp沟通引导",
+    "model_value": "mvp ChatGuideData"
+  },
+  {
+    "model_key": "代币购买大活动道具膨胀",
+    "model_value": "buckBoostActivityltem"
+  },
+  {
+    "model_key": "疯狂模式",
+    "model_value": "crazyMode"
+  },
+  {
+    "model_key": "圣诞签到",
+    "model_value": "christmasCheck"
+  },
+  {
+    "model_key": "圣诞节送礼",
+    "model_value": "christmasGiver"
+  },
+  {
+    "model_key": "炸船",
+    "model_value": "battleShoot"
+  },
+  {
+    "model_key": "多关绑定bet+",
+    "model_value": "levelFeatureStore"
+  },
+  {
+    "model_key": "新版freeGamesFever",
+    "model_value": "freeGamesFeverV2Data"
+  },
+  {
+    "model_key": "礼物交换",
+    "model_value": "gift Exchange"
+  },
+  {
+    "model_key": "大活动组队-预组队",
+    "model_value": "eventTeamPre"
+  },
+  {
+    "model_key": "大活动组队",
+    "model_value": "eventleam"
+  },
+  {
+    "model_key": "新年送礼物",
+    "model_value": "endYearReward"
+  },
+  {
+    "model_key": "代币终生卡",
+    "model_value": "bucksVip"
+  },
+  {
+    "model_key": "Feature促销",
+    "model_value": "featureSale"
+  },
+  {
+    "model_key": "好友关系",
+    "model_value": "friendship"
+  },
+  {
+    "model_key": "bet美刀限制",
+    "model_value": "betusdLimit"
+  },
+  {
+    "model_key": "生存赛",
+    "model_value": "survivalRace"
+  },
+  {
+    "model_key": "挖矿Bet+预热活动",
+    "model_value": "mineFortunePreheat"
+  },
+  {
+    "model_key": "邮箱绑定验证",
+    "model_value": "mailVerificationCode"
+  },
+  {
+    "model_key": "挖矿Bet+任务",
+    "model_value": "mineFortuneMission"
+  },
+  {
+    "model_key": "挖矿Bet+促销",
+    "model_value": "mineFortuneSale"
+  },
+  {
+    "model_key": "挖矿Bet+",
+    "model_value": "mineFortune"
+  },
+  {
+    "model_key": "挖矿Bet+结束促销",
+    "model_value": "mineFortuneEndSale"
+  },
+  {
+    "model_key": "地下城迷雾探索",
+    "model_value": "lostRuins"
+  },
+  {
+    "model_key": "rogueQuestV2",
+    "model_value": "rogueQuestV2"
+  },
+  {
+    "model_key": "rogueQuest成就",
+    "model_value": "rogueQuestAchievement"
+  },
+  {
+    "model_key": "通知弹窗",
+    "model_value": "noticeDialogCommon"
+  },
+  {
+    "model_key": "首购转盘",
+    "model_value": "firstSaleLuckyWheelList"
+  },
+  {
+    "model_key": "钓鱼",
+    "model_value": "fishyFortune"
+  },
+  {
+    "model_key": "活动通用排行榜",
+    "model_value": "activityCommonRank"
+  },
+  {
+    "model_key": "拉新",
+    "model_value": "referralData"
+  },
+  {
+    "model_key": "大活动能力",
+    "model_value": "activityEnergy"
+  },
+  {
+    "model_key": "商城折扣送缺卡",
+    "model_value": "shopCard"
+  },
+  {
+    "model_key": "feature促销-先付版",
+    "model_value": "featureDeal"
+  },
+  {
+    "model_key": "代币礼包",
+    "model_value": "buckPack"
+  },
+  {
+    "model_key": "代币消耗里程碑",
+    "model_value": "buckMilestone"
+  },
+  {
+    "model_key": "周年庆装修活动",
+    "model_value": "makerOver"
+  },
+  {
+    "model_key": "四挡连续充值",
+    "model_value": "keepRechargeFour"
+  },
+  {
+    "model_key": "多档首充",
+    "model_value": "multiFirstSale"
+  },
+  {
+    "model_key": "superSpin送道具",
+    "model_value": "superSpinSendltem"
+  },
+  {
+    "model_key": "新版大富翁V2促销",
+    "model_value": "outsideGaveSale"
+  },
+  {
+    "model_key": "新破产促销",
+    "model_value": "goBrokeSale"
+  },
+  {
+    "model_key": "新版常规促销V2",
+    "model_value": "routineSale"
+  },
+  {
+    "model_key": "推币机促销V3",
+    "model_value": "coinPusherV3SaleData"
+  },
+  {
+    "model_key": "通用大活动促销",
+    "model_value": "commonActivitySale"
+  },
+  {
+    "model_key": "最后登录时间",
+    "model_value": "lastLoginTime"
+  },
+  {
+    "model_key": "星球大战",
+    "model_value": "starlnvaders"
+  },
+  {
+    "model_key": "bet+挑战",
+    "model_value": "betplusChallenge"
+  },
+  {
+    "model_key": "通用产出宝箱",
+    "model_value": "commonChest"
+  }
+]

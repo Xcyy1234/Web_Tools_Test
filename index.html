@@ -99,7 +99,7 @@
                     <div class="tool-nav-icon">
                         <i class="fas fa-file-alt"></i>
                     </div>
-                    <div class="tool-nav-title">需求分析工具(看注意事项)</div>
+                    <div class="tool-nav-title">需求分析工具</div>
                 </div>
             </div>
         </div>
@@ -215,10 +215,10 @@
                         <h3>更新公告</h3>
                     </div>
                     <div class="announcement-content">
-                        <p></i> 1、新增需求解析工具</p>
-                        <p></i> 2、天气取实时天气数据</p>
+                        <p></i> 1、优化完成需求解析工具</p>
+                        <p></i> 2、添加需求解析功能压缩包下载</p>
                         <p></i> 3、修改汇率转换逻辑</p>
-                        <p></i> 更新时间: 2025年7月18日</p>
+                        <p></i> 更新时间: 2025年7月29日</p>
                     </div>
                 </div>
 
@@ -876,7 +876,7 @@
                 <div class="tool-header-icon">
                     <i class="fas fa-file-alt"></i>
                 </div>
-                <div class="tool-header-title">需求分析工具(使用的话需要在本地部署服务，后面优化)</div>
+                <div class="tool-header-title">需求分析工具(使用先下载下方的压缩包，见里面的使用方法)</div>
             </div>
 
             <div class="document-upload-area" id="drop-area">
@@ -945,8 +945,28 @@
                             <button class="btn" id="export-pdf">
                                 <i class="fas fa-file-pdf"></i> PDF
                             </button>
+                            <button class="btn btn-green" id="export-zip">
+                                <i class="fas fa-file-archive"></i> ZIP
+                            </button>
                         </div>
                     </div>
+                </div>
+            </div>
+            <!-- 压缩包下载区域 -->
+            <div class="compressed-preview">
+                <div class="compressed-icon">
+                    <i class="fas fa-file-archive"></i>
+                </div>
+                <div class="compressed-details">
+                    <h3>本地服务下载</h3>
+                    <p>用于运行文档解析的本地服务器</p>
+                    <p class="download-info">大小: 179 MB | 版本: v1.1 | 更新: 2025-07-29</p>
+                </div>
+
+                <div class="download-compressed">
+                    <button class="download-btn" id="download-zip-btn">
+                        <i class="fas fa-download"></i> 下载压缩包
+                    </button>
                 </div>
             </div>
         </div>

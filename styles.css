@@ -1790,12 +1790,13 @@ input:focus, select:focus, textarea:focus {
     height: 15px;
     border-radius: 50%;
 }
-
+/* 计算器各个值 */
 .legend-base { background: #6a11cb; }
 .legend-vip { background: #2575fc; }
 .legend-level { background: #00c853; }
 .legend-pet { background: #ff1744; }
 .legend-factor { background: #ffab00; }
+.legend-position { background: #ffffff; }
 .legend-other { background: #9b59b6; }
 
 /* 响应式设计 */

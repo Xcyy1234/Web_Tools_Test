@@ -223,8 +223,8 @@
                         <h3>更新公告</h3>
                     </div>
                     <div class="announcement-content">
-                        <p>1、优化完成需求解析工具</p>
-                        <p>2、添加需求解析功能压缩包下载</p>
+                        <p>1、金币计算结果取整/添加隔位符</p>
+                        <p>2、优化完成需求解析工具</p>
                         <p>3、添加CT关联大活动任务模块</p>
                         <p>4、修改时间转换无法切换到毫秒问题</p>
                         <p>更新时间: 2025年7月30日</p>
@@ -602,6 +602,18 @@
                     <input type="number" id="coin-factor" placeholder="输入金币系数" value="1.5" step="0.1">
                 </div>
             </div>
+            <div class="input-group">
+                <label>档位价格</label>
+                <div class="coin-param-row">
+                    <select class="operator" id="Gear-position">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">×</option>
+                        <option value="/">÷</option>
+                    </select>
+                    <input type="number" id="Position-gear" placeholder="输入当前档位价格" value="150">
+                </div>
+            </div>
 
             <div class="input-group">
                 <label>其他参数</label>
@@ -646,6 +658,10 @@
                 <div class="coin-legend-item">
                     <div class="coin-legend-color legend-factor"></div>
                     <span>金币系数</span>
+                </div>
+                <div class="coin-legend-item">
+                    <div class="coin-legend-color legend-position"></div>
+                    <span>档位价格</span>
                 </div>
                 <div class="coin-legend-item">
                     <div class="coin-legend-color legend-other"></div>

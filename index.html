@@ -6,10 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>新创Test Tools</title>
+    <script src='./xlsx.full.min.js'></script>
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body oncontextmenu="return false;">
 <script>
@@ -174,6 +176,30 @@
                     <div class="tool-nav-title">大活动关联活动</div>
                 </div>
             </div>
+            <div class="sidebar-section-content">
+                <div class="tool-nav-item" data-tool="excel-filter-ct">
+                    <div class="tool-nav-icon">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <div class="tool-nav-title">排期表筛选</div>
+                </div>
+            </div>
+            <div class="sidebar-section-content">
+                <div class="tool-nav-item" data-tool="ad-ct">
+                    <div class="tool-nav-icon">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                    <div class="tool-nav-title">广告相关</div>
+                </div>
+            </div>
+            <div class="sidebar-section-content">
+                <div class="tool-nav-item" data-tool="bucks-ct">
+                    <div class="tool-nav-icon">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                    <div class="tool-nav-title">代币相关</div>
+                </div>
+            </div>
         </div>
         <div class="sidebar-section">
             <div class="sidebar-title">
@@ -223,12 +249,11 @@
                         <h3>更新公告</h3>
                     </div>
                     <div class="announcement-content">
-                        <p>1、去除文档解析导出功能改为说明</p>
-                        <p>2、金币计算结果取整/添加隔位符</p>
-                        <p>3、优化完成需求解析工具</p>
-                        <p>4、添加CT关联大活动任务模块</p>
-                        <p>5、修改时间转换无法切换到毫秒问题</p>
-                        <p>更新时间: 2025年8月8日</p>
+                        <p>1、添加CT排期筛选功能</p>
+                        <p>2、更新活动以及模块查询</p>
+                        <p>3、添加ct广告相关</p>
+                        <p>4、添加ct代币相关(半成品)</p>
+                        <p>更新时间: 2025年12月10日</p>
                     </div>
                 </div>
 
@@ -667,6 +692,72 @@
                 <div class="coin-legend-item">
                     <div class="coin-legend-color legend-other"></div>
                     <span>其他参数</span>
+                </div>
+            </div>
+        </div>
+
+        <!--平均定价计算-->
+        <div class="tool-content" id="avg-price-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-coins"></i>
+                </div>
+                <div class="tool-header-title">平均定价计算</div>
+            </div>
+
+            <div class="input-group">
+                <label>总付费(TotalAmount2)</label>
+                <input type="number" id="avg-pay" placeholder="输入总付费" value="1000">
+            </div>
+
+            <div class="input-group">
+                <label>总付费次数(TotalTimes)</label>
+                <div class="coin-param-row">
+                    <select class="operator" id="avg-number">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">×</option>
+                        <option value="/">÷</option>
+                    </select>
+                    <input type="number" id="avg-number1" placeholder="输入总付费次数" value="200">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>最近7日每笔付费(dayLast7DaysAmount)</label>
+                <div class="coin-param-row">
+                    <select class="operator" id="avg-7-day-price">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">×</option>
+                        <option value="/">÷</option>
+                    </select>
+                    <input type="number" id="avg-7-day-prices" placeholder="输入最近7日付费" value="150">
+                </div>
+            </div>
+
+            <button class="btn btn-gold">
+                <i class="fas fa-calculator"></i> 计算AVG值
+            </button>
+
+            <div class="coin-result" id="avg-result">
+                <div>AVG价格:</div>
+                <div class="coin-value">0</div>
+                <div class="coin-formula">计算公式将显示在这里</div>
+            </div>
+
+            <div class="coin-legend">
+                <div class="coin-legend-item">
+                    <div class="coin-legend-color legend-avg"></div>
+                    <span>总付费</span>
+                </div>
+                <div class="coin-legend-item">
+                    <div class="coin-legend-color legend-number"></div>
+                    <span>总付费次数</span>
+                </div>
+                <div class="coin-legend-item">
+                    <div class="coin-legend-color legend-last7"></div>
+                    <span>最近7日每笔付费</span>
                 </div>
             </div>
         </div>
@@ -1166,7 +1257,70 @@
                 </button>
             </div>
         </div>
-        <!-- CT常见问题页面 -->
+
+        <!-- 排期表筛选 -->
+        <div class="tool-content" id="excel-filter-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fas fa-table"></i>
+                </div>
+                <div class="tool-header-title">排期表筛选工具</div>
+            </div>
+
+            <div class="excel-upload-area" id="excel-drop-area">
+                <i class="fas fa-file-excel"></i>
+                <h3>上传Excel排期表</h3>
+                <p>支持.xlsx和.xls格式文件</p>
+                <input type="file" id="excel-file-input" accept=".xlsx, .xls" style="display: none">
+                <button class="btn" id="excel-upload-btn">
+                    <i class="fas fa-folder-open"></i> 选择文件
+                </button>
+                <p class="excel-tip">提示：点击上方按钮或拖拽文件到此处</p>
+            </div>
+
+            <div class="excel-controls">
+                <input type="text" id="date-filter" class="date-input" placeholder="输入要查询的日期 (例如: 20240601)">
+                <button class="btn" id="apply-filter">
+                    <i class="fas fa-filter"></i> 筛选
+                </button>
+                <button class="btn" id="clear-all" style="background: linear-gradient(90deg, #ff1744, #d50000);">
+                    <i class="fas fa-trash"></i> 清空所有
+                </button>
+            </div>
+
+            <!-- 横向标签区域 -->
+            <div class="results-tabs-horizontal">
+                <div class="tabs-header">
+                    <i class="fas fa-tags"></i> 筛选结果(支持多日期筛选暂存)
+                </div>
+                <div id="tabs-container" class="tabs-container">
+                    <div class="empty-state" style="width: 100%; padding: 15px;">
+                        <i class="fas fa-inbox"></i>
+                        <p>暂无筛选结果</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 表格预览区域 -->
+            <div class="excel-preview">
+                <div class="excel-preview-header">
+                    <div>
+                        <strong>当前显示:</strong> <span id="current-tab-label">无</span>
+                    </div>
+                    <div>
+                        <strong>记录数:</strong> <span id="total-records">0</span>
+                    </div>
+                </div>
+
+                <div id="excel-table-container">
+                    <div class="empty-state">
+                        <i class="fas fa-database"></i>
+                        <p>点击筛选后的文件将显示在这里</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!--常见报错 -->
         <div class="tool-content" id="error-ct">
             <div class="tool-header">
@@ -1178,15 +1332,15 @@
             <div class="info-card">
                 <h3>活动：组队打boss：</h3>
                 <ol style="padding-left: 20px; margin-top: 15px;">
-                    <li>Login Error
-                        HOST:192.168.1.70
-                        ENV:test70
-                        EXCEPTIONS:{java.lang.NullPointerException=2}
-                        ERRORS:2
-                        java.lang.NullPointerException
-                        at com.xcyy.support.business.service.impl.DragonChallengeServiceImpl.
-                        calcBoosTotalHp(DragonChallengeServiceImpl.java:1223)
-                    </li>
+                    Login Error
+                    HOST:192.168.1.70
+                    ENV:test70
+                    EXCEPTIONS:{java.lang.NullPointerException=2}
+                    ERRORS:2
+                    java.lang.NullPointerException
+                    at com.xcyy.support.business.service.impl.DragonChallengeServiceImpl.
+                    calcBoosTotalHp(DragonChallengeServiceImpl.java:1223)
+
 
                 </ol>
                 <h3>问题原因：同步下来的号，只同步了组队打boss的数据，但没有同步龙的血量导致的报错</h3>
@@ -1416,10 +1570,26 @@
                 <h3>问题原因：同步线上的号，好友数据里面的公会列表线上的同步不下来</h3>
                 <h3>解决方法：删下公会数据</h3>
             </div>
+            <div class="info-card">
+                <h3>活动：预组队</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>Login Error
+                        HOST:192.168.1.70
+                        ENV:test70
+                        EXCEPTIONS:{java.util.ConcurrentModificationException=1,
+                        java.lang.NullPointerException=1}
+                        ERRORS:2
+                        java.lang.NullPointerException
+                        at com.xcyy.support.business.service.impl.eventteam.
+                        EventTeamPreServiceImpl.processTeamInfoUserResult(EventTeamPreServiceImpl.java:1522)
+                    </li>
+
+                </ol>
+                <h3>问题原因：同步线上的号，预组队好友数据同步不下来</h3>
+                <h3>解决方法：删下大活动预组队数据</h3>
+            </div>
         </div>
 
-
-        <!-- CT关联大活动界面 -->
         <!--关联大活动 -->
         <div class="tool-content" id="big-activity-ct">
             <div class="tool-header">
@@ -1458,6 +1628,88 @@
                     <li>高价值用户广告</li>
                     <li>网页商店支付界面显示道具内容</li>
                     <li>宠物熊猫能量掉落加成</li>
+                </ol>
+            </div>
+        </div>
+
+        <!--广告相关 -->
+        <div class="tool-content" id="ad-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fa-solid fa-gears"></i>
+                </div>
+                <div class="tool-header-title">广告分组以及分类</div>
+            </div>
+            <div class="info-card">
+                <h3>分组相关：</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>高价值广告用户：11分组</li>
+                    <li>广告用户：7；8；11；12</li>
+                    <li>不同分组对应的不同广告点位看表：ad_config</li>
+                </ol>
+            </div>
+            <div class="info-card">
+                <h3>激励广告：</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>大厅界面左上角</li>
+                    <li>关卡界面激励</li>
+                    <li>每日初次登录轮盘激励</li>
+                    <li>没钱时弹激励</li>
+                    <li>没钱时奖励翻倍</li>
+                    <li>关卡返回大厅</li>
+                    <li>切后台返回</li>
+                    <li>银库加速</li>
+                    <li>任务双倍</li>
+                    <li>inbox内送金币</li>
+                    <li>inbox内送freespin</li>
+                    <li>升级翻倍</li>
+                    <li>集卡商店领卡包</li>
+                    <li>合成游戏送钻石</li>
+                    <li>广告任务</li>
+                    <li>宠物旅行广告</li>
+                    <li>通用宝箱广告</li>
+                    <li>大活动道具</li>
+                    <li>破产</li>
+                    <li>cashback</li>
+                    <li>大赢奖励</li>
+                    <li>宠物轮盘</li>
+                </ol>
+            </div>
+            <div class="info-card">
+                <h3>插屏广告：</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>关卡返回大厅</li>
+                    <li>Freespin结束</li>
+                    <li>关闭每日轮盘</li>
+                    <li>big win结束</li>
+                </ol>
+            </div>
+        </div>
+
+        <!--代币相关 -->
+        <div class="tool-content" id="bucks-ct">
+            <div class="tool-header">
+                <div class="tool-header-icon">
+                    <i class="fa-solid fa-gears"></i>
+                </div>
+                <div class="tool-header-title">代币分组以及答疑</div>
+            </div>
+            <div class="info-card">
+                <h3>代币分组：</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>A：</li>
+                    <li>B：</li>
+                    <li>C：</li>
+                    <li>D：</li>
+                    <li>E：</li>
+                </ol>
+            </div>
+            <div class="info-card">
+                <h3>网页支付账号：</h3>
+                <ol style="padding-left: 20px; margin-top: 15px;">
+                    <li>邮箱输入：1@qq.com</li>
+                    <li>账号：4242424242424242</li>
+                    <li>密码：000000</li>
                 </ol>
             </div>
         </div>
